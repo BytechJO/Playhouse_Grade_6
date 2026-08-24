@@ -1,0 +1,244 @@
+.all_cont{
+    height: 100%;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.screen_elements{
+    width: 90%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.group_elm{
+    width: 90%;
+    /* height: 300px; */
+    display: flex;
+    flex-direction: unset;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.icon_wrap_holder {
+    height: 42px;
+    position: absolute;
+    top: -25px;
+    right: 0;
+}
+
+.activityHeading b {
+    color: #000;
+}
+
+.q_num_space{
+    width: 40px;
+    font-weight: bold;
+}
+
+.fillin_gr {
+    width: 100%;
+}
+
+.img_space {
+    width: fit-content !important;
+    /* margin: 0px auto; */
+}
+  
+.img_space img {
+    height: 308px;
+    width: fit-content !important;
+    object-fit: contain;
+}
+
+.q_order{
+    width: 50px;
+    font-weight: bolder;
+}
+
+/* .txt-audioIcon {
+    color: rgb(0, 185, 242);
+    font-size: 27px;
+} */
+
+.ques{
+    /* width: 775px; */
+    position: relative;
+    row-gap: 100px;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    text-align: center;
+    flex-direction: unset;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.link-imgl {
+    position: absolute;
+    width: 50%;
+    height: 100px;
+    left: 0;
+}
+
+.link-imgr {
+    position: absolute;
+    width: 50%;
+    height: 100px;
+    right: 0;
+}
+
+.q_box{
+    width:  100%;
+    /* height: 70px; */
+}
+
+.fill_in .que {
+    width: 12%;
+    /* height: 142px; */
+        height: 100px;
+    border: solid 2px black;
+    border-radius: 15px;
+}
+
+.que:nth-child(-n + 6) {
+  width: 24%;
+}
+
+.fillin_gr .q_space {
+    position: relative;
+    width: 100%;
+    /* margin-top: -34px; */
+}
+
+.fillin_set {
+    font-family: Arcon;
+    color: black;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fillin_set input:focus{
+    outline: none;
+}
+
+.fillin_set input {
+    /* flex: 2 2 10px; */
+    width: 100%;
+    height: 40px;
+    color: black;
+    /* padding-left: 20px; */
+    text-align: center;
+    border: none;
+    margin: 0px 15px;
+    background: transparent;
+    border-bottom: 2px solid #595a5a;
+}
+
+.icon_wrap {
+    /* position: absolute;
+    margin-top: -35px; 
+    right: 100px; */
+}
+
+.tick,
+.cross {
+    width: 35px;
+}
+
+.tick img,
+.cross img {
+    width: 100%;
+}
+
+.image_wrap {
+    display: none;
+}
+
+.clue_word {
+    width: 106px;
+    /* font-size: 22px; */
+    text-align: left;
+}
+
+.word_options {
+    width: 100%;
+    border-radius: 10px;
+    padding-left: 10px;
+    background-color: #c3f4ff8c;
+}
+
+.word_opt_sticky {
+    width: 88%;
+    margin: 0px auto;
+    position: -webkit-sticky;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 5;
+    border: 2px solid var(--temp);
+    border-radius: 10px;
+}
+
+.words-list li{
+    height: 110px;
+    font-weight: bolder;
+    color: black;
+    border: 1px solid black;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.right-content .p-0{
+    height: 110px;
+    border: 1px solid black;
+}
+
+.tips_content img {
+    height: 30px;
+    width: auto;
+    margin-top: 10px;
+}
+
+.image-container{
+    position: absolute;
+    right: 260px;
+    bottom: 50px;
+    
+}
+
+.image-container img{
+    width: 300px;
+    height: 210px;
+    margin: 0px 70px;
+    object-fit: cover;
+    border-radius: 15px;
+    border: 2px solid #36a0c7;
+}
+
+/* ************************************************* */
+/* ************************************************* */
+@media (max-width: 991.98px) {
+    .fill_in .que {
+        width: 160px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .fill_in .que {
+        width: 200px;
+    }
+}
+
+@media (max-width: 475.98px) {
+    /* .fill_in .que {
+        width: 200px;
+    } */
+}

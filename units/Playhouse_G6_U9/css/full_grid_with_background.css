@@ -1,0 +1,93 @@
+.full_grid_with_background_image .col_grid_container {
+    width: 90%;
+    position: relative;
+}
+
+.full_grid_with_background_image .snap_group_all {
+    width: 92%;
+    /* position: absolute; */
+    top: 46px;
+    left: 48px;
+    padding: 20px 30px;
+    text-align: left;
+    line-height: 45px;
+}
+
+.slide_88 .snap_group_all {
+    position: absolute;
+}
+
+.slide-11 .col_grid_container,.slide-11 .snap_group_all {
+    width: 100%;
+}
+
+.slide-9 .img_l {
+    height: 150px;
+}
+
+.slide-9 .img_l:first-of-type {
+    margin-left: 200px;
+}
+
+.slide-9 .img_l:last-of-type {
+    margin-top: -30px;
+}
+
+.slide-11 .img_l {
+    height: 200px;
+}
+
+.slide-11 .snap_card:last-of-type {
+    width: 100%;
+}
+
+.slide-11 .snap_card:hover {
+    transform: scale(1);
+}
+
+.img_r {
+    height: 240px;
+}
+/* ////////////////////////////////////////////////////////////// */
+.text_input_area {
+    flex: 1;
+    border: none;
+    border-bottom: 1px solid black;
+}
+.textarea-container {
+    background-image: url('../images/pages/activities/BOOKS.jpg');
+    background-size: cover;
+    padding: 20px;
+    width: 80%;
+    height: 250px;
+    border: solid 1px rgb(0, 185, 242);
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 20px;
+}
+#paper-textarea {
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    padding: 0px 3px;
+    /* line-height: 54.7px; */
+    font-size: 24.8px;
+    overflow: hidden;
+
+    background-image: repeating-linear-gradient(to bottom, transparent 0, transparent calc(1.5em - 1px), #000 calc(1.5em - 1px), #000 1.5em);
+    line-height: 1.5em;
+}
+textarea {
+  border: none;
+  outline: none;
+  resize: none;
+  background: transparent;
+  font-family: Arial, sans-serif;
+  overflow: hidden;
+}
+@media (max-width: 768px) {
+    
+    #paper-textarea {
+        line-height: 54.7px;
+}
+}

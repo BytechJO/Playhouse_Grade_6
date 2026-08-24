@@ -1,0 +1,64 @@
+.full_grid_with_background_image .col_grid_container {
+    width: 89%;
+    position: relative;
+}
+
+.full_grid_with_background_image .snap_group_all {
+    width: 92%;
+    position: absolute;
+    top: 46px;
+    left: 48px;
+    text-align: left;
+    line-height: 55px;
+    font-size: 23px;
+}
+
+.img_a {
+    height: 175px;
+    margin: 15px;
+}
+
+/* .full_grid_with_background_image {
+    background-color: #c5e6e5;
+    padding: 25px;
+    border-radius: 25px;
+} */
+/* .grid_col {
+    justify-items: center;
+    align-content: center;
+} */
+
+.slide-10 {
+    width: 80%;
+    font-size: 22px;
+    background-color: transparent;
+}
+
+.intext_input {
+    border: none;
+    border-bottom: solid 2px black;
+    background-color: transparent;
+}
+
+.intext_input:focus {
+  outline: none;
+}
+
+.slide-10 .audioIcon {
+    transform: scale(1);
+    width: 100%;
+}
+
+.top-list {
+    background-color: #ffbca2b0;
+    border: solid 3px orange;
+    padding: 10px 30px;
+}
+
+.bottom-text {
+    padding: 10px 30px;
+    background-color: cornsilk;
+    margin: 30px 0px;
+    border: 10px #fdfdb1;
+    border-style: groove;
+}

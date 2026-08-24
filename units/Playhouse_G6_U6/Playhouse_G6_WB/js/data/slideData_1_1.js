@@ -1,0 +1,91 @@
+var stereo_data = {
+  "audio":"",
+  "exist":true,
+  "bgColor_rgb":"rgb(53, 130, 180)",
+  "type":"text",
+  "playListData" : [
+      {
+        'audiourl': '../audios/p30/1.mp3',
+      },
+      {
+        'url': '',
+      },
+      {
+        'url': '',
+      },
+      {
+        'url': '',
+      }
+  ],
+}
+var reading_data = {
+    "mainTitle": "../images/pages/sb-icons/CONVERSATION.jpg",
+    "mainTitleIcon": "",
+    "mainTitleIconPos": {"right": "90px"},
+    "mainTitleAudio": "../audios/p30/CONVERSATION.mp3",
+    "subTitleTextLeft": "<span class='blue_text'>1</span> Read it and say it! ",
+    "subTitleTextRight": "",
+    "subTitleIcons": [""],
+    "subTitleAudio": "../audios/p30/1_Read_it_and_say_it!.mp3",
+    "slides": [
+        {
+
+            "layout": "grid_columns",
+            
+            "mainImage": [],
+            "top_right_image": [""],
+            "parent_class_name": "grid_with_border",
+            "group_styles": "",
+            "audio": ["../audios/p30/Pg6_2.1_Stella.mp3","../audios/p30/dough.mp3","../audios/p30/sauce.mp3","../audios/p30/sprinkle.mp3","../audios/p30/cheese.mp3","../audios/p30/add.mp3","../audios/p30/pepperoni.mp3","../audios/p30/slice.mp3"],
+            "word": [
+                "Greg:",
+                "Did you see Dad’s new tablet PC?",
+                "Stacy:",
+                "Yes. I can’t wait to use it. I hope he shows us how to use it soon.",
+                "Greg:",
+                "Dad will mainly be using it for work.",
+                "Stacy:",
+                "That reminds me. I have a school report that I need to scan and print.",
+                "Greg:",
+                "I can do that for you. I will scan it using the scanner and have the printer print it for you.",
+                "Stacy:",
+                "Thanks, Greg. It is right next to the desktop PC.",
+                "Greg:",
+                "Do you know where the headphones are? I want to listen to something on the desktop PC in a little while.",
+                "Stacy:",
+                "Yes, they’re right here by the mouse and keyboard on the desk.",
+                "Greg:",
+                "Thanks. I got this new webcam so that I can see and talk to Aunt Sally on the internet. She should be online later.",
+                "Stacy:",
+                "Oh, that’s great. I love all of this technology. It makes it so easy to keep up with family and friends and do school work.",
+                "Greg:",
+                "Yes. Just think, Mum and Dad did not have all this technology when they were at school.",
+                "Stacy:",
+                "I have that new science fiction film on my flash drive. Would you like to watch it with me?",
+                "Greg:",
+                "Yes. I’ll turn on the speakers so that we can watch it together.",
+                "Stacy:",
+                "Sounds like fun!",
+            ],
+
+            // "imagePlacePos":[[0,1,0],[0,1,1,0],[0,1,1,0],[0,1,1,0],[0,1,1,0],[0,1,0],[0,1,0],[0,1,0],[0,1,0]]
+            "imagePlacePos":[
+                // {"colWidth": [12], "colData": [1] },
+                {"colWidth": [1,11], "colData": [1,1] },
+                {"colWidth": [1,11], "colData": [1,1] },
+                {"colWidth": [1,11], "colData": [1,1] },
+                {"colWidth": [1,11], "colData": [1,1] },
+                {"colWidth": [1,11], "colData": [1,1] },
+                {"colWidth": [1,11], "colData": [1,1] },
+                {"colWidth": [1,11], "colData": [1,1] },
+                {"colWidth": [1,11], "colData": [1,1] },
+                {"colWidth": [1,11], "colData": [1,1] },
+                {"colWidth": [1,11], "colData": [1,1] },
+                {"colWidth": [1,11], "colData": [1,1] },
+                {"colWidth": [1,11], "colData": [1,1] },
+                {"colWidth": [1,11], "colData": [1,1] },
+                {"colWidth": [1,11], "colData": [1,1] },
+            ]
+        },
+    ]
+}

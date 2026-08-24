@@ -1,0 +1,97 @@
+var stereo_data = {
+    "audio":"",
+    "exist":true,
+    "bgColor_rgb":"rgb(0, 183, 206)",
+    "playListData" : [
+        {
+          'audiourl': '../audios/p41/1.mp3',
+        },
+        {
+          'url': '',
+        },
+        {
+          'url': '',
+        },
+        {
+          'url': '',
+        }
+    ],
+}
+var reading_data = {
+    "mainTitle": "../images/pages/sb-icons/conv_main_title.png",
+    "mainTitleIcon": "../images/pages/sb-icons/conv_main_title_icon.png",
+    "mainTitleIconPos": {"right": "90px"},
+    "mainTitleAudio": "../audios/p41/CONVERSATION.mp3",
+    "subTitleTextLeft": "<span class='title-order'>1</span> Listen and read. Then act it out with a friend.",
+    "subTitleTextRight": "",
+    "subTitleIcons": [],
+    "subTitleAudio": "../audios/p41/1_Listen_and_read_Then_act_it_out_with_a_friend.mp3",
+    "slides": [
+        {
+
+            "layout": "grid_columns",
+            "haveAudio":true,
+            "mainImage": [],
+            "top_right_image": [],
+            "parent_class_name": "grid_with_border",
+            "group_styles": "padding-top: 20px; padding-bottom: 50px;",
+            "audio": ["../audios/p41/Pg6_2.1_Stella.mp3","../audios/p41/dough.mp3","../audios/p41/sauce.mp3","../audios/p41/sprinkle.mp3","../audios/p41/cheese.mp3","../audios/p41/add.mp3","../audios/p41/pepperoni.mp3","../audios/p41/slice.mp3"],
+            "word": [
+                "<span class='blue_text'>Yoshi</span>: ",
+                "Jake! You dropped your white cane. Here it is.",
+                "<span class='blue_text'>Jake</span>: ",
+                "Oh! Thanks, Yoshi. I'm carrying so many Braille books that <br> I dropped my white cane.",
+                "<span class='blue_text'>Yoshi</span>: ",
+                "Braille? How long have you been reading Braille?",
+                "<span class='blue_text'>Jake</span>: ",
+                "I've been reading Braille since I was in first grade. Blind <br> people use it all the time for school and for reading books. <br> Let's go say hi to Matt.",
+                "<span class='blue_text'>Yoshi</span>: ",
+                "Hi, Matt! What are you doing with your hands?",
+                "<span class='blue_text'>Matt</span>: ",
+                "I'm talking to my friend Brett. I wear a hearing aid to hear better, but Brett is deaf, and he can't hear me at all. I use sign language to talk to him.",
+                "<span class='blue_text'>Yoshi</span>:",
+                "Oh! That's interesting. How do you say 'hello' in sign language?",
+                "<span class='blue_text'>Matt</span>:",
+                "Like this. (gestures with his hands) <br> Hey, Stan is using the wheelchair ramp to get into the hallway. Let's go see if he needs help.",
+                // "<span class='darkBlue_text'>During the school trip ...</span> ",
+                "<span class='blue_text'>Yoshi</span>:",
+                "Hi, Stan. Need some help?",
+                "<span class='blue_text'>Stan</span>:",
+                "No, thank you. I may be paralysed, but I have my wheelchair. I get around well.",
+                "<span class='blue_text'>Yoshi</span>: ",
+                "Well, I'm glad there are people like you who don't let hardships in life get them down. You are not disabled, but very able!",
+                "<span class='blue_text'>Stan</span>:",
+                "Thanks, Yoshi. It's nice to hear words of kindness from friends like you.",
+                
+            ],
+            "imagePlacePos":[
+                {"colWidth": [2,10], "colData": [1,1] },
+                {"colWidth": [2,10], "colData": [1,1] },
+                {"colWidth": [2,10], "colData": [1,1] },
+                {"colWidth": [2,10], "colData": [1,1] },
+                {"colWidth": [2,10], "colData": [1,1] },
+                {"colWidth": [2,10], "colData": [1,1] },
+                {"colWidth": [2,10], "colData": [1,1] },
+                {"colWidth": [2,10], "colData": [1,1] },
+                // {"colWidth": [12], "colData": [1] },
+                {"colWidth": [2,10], "colData": [1,1] },
+                {"colWidth": [2,10], "colData": [1,1] },
+                {"colWidth": [2,10], "colData": [1,1] },
+                {"colWidth": [2,10], "colData": [1,1] },
+                // {"colWidth": [2,10], "colData": [1,1] },
+            ],
+            "bottomImage": ["../images/pages/page-1/1-background-buttom.png"],
+            "bottomAudio": ["../audios/p41/Pg6_2.1_Stella.mp3","../audios/p41/dough.mp3","../audios/p41/sauce.mp3","../audios/p41/sprinkle.mp3"],
+            "bottomWord": [
+                "Useful Expressions",
+                "Like this.",
+                "I get around well.",
+                "... get them down"
+            ],
+            "bottomImagePlacePos":[
+                {"colWidth": [5,5,2], "colData": [0,1,0] },
+                {"colWidth": [1,4,3,4], "colData": [0,1,1,1] },
+            ]
+        },
+    ]
+}

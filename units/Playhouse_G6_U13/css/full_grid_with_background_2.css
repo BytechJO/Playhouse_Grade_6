@@ -1,0 +1,109 @@
+.full_grid_with_background_image .col_grid_container {
+    width: 80%;
+    position: relative;
+}
+
+.full_grid_with_background_image .snap_group_all {
+    width: 92%;
+    position: absolute;
+    top: 46px;
+    left: 48px;
+    text-align: left;
+    line-height: 45px;
+}
+
+/* .full_grid_with_background_image {
+    background-color: #dbeabf;
+    padding: 25px;
+} */
+
+.img_c {
+    height: 300px;
+}
+
+.img_l {
+    height: 200px;
+}
+
+.grid_col {
+    /* justify-items: center; */
+    align-content: center;
+}
+
+.slide-10 {
+    width: 80%;
+    padding: 50px;
+    background-color: transparent;
+    border: solid 4px lightblue;
+    border-radius: 25px;
+}
+
+.top-text {
+    width: 100%;
+    padding: 20px;
+    background-color: lightgreen;
+    border-radius: 25px;
+}
+.inner-text {
+    width: 100%;
+    padding: 10px;
+    background-color: white;
+    border: solid 2px green;
+    border-radius: 25px;
+}
+
+.slide-11 {
+    /* width: 80%;
+    padding: 50px; */
+    background-color: transparent;
+    /* border: solid 4px lightblue;
+    border-radius: 25px; */
+}
+
+.slide-11 .col_grid_container {
+    width: 80%;
+}
+
+.slide-11 .audioIcon {
+    transform: scale(1);
+}
+
+.textarea-container {
+    background-image: url('../images/pages/activities/BOOKS.jpg');
+    background-size: cover;
+    padding: 20px;
+    /* width: 80%; */
+    height: 250px;
+    border: solid 1px rgb(0, 185, 242);
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 20px;
+}
+#paper-textarea {
+    /* margin: 20px; */
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    padding: 0px 3px;
+    /* line-height: 54.7px; */
+    font-size: 22px;
+    overflow: hidden;
+
+    background-image: repeating-linear-gradient(to bottom, transparent 0, transparent calc(1.5em - 1px), #000 calc(1.5em - 1px), #000 1.5em);
+    line-height: 1.5em;
+}
+textarea {
+  border: none;
+  outline: none;
+  resize: none;
+  background: transparent;
+  font-family: Arial, sans-serif;
+  overflow: hidden;
+}
+@media (max-width: 768px) {
+    
+    #paper-textarea {
+        line-height: 54.7px;
+}
+}
+

@@ -1,0 +1,52 @@
+.full_grid_with_background_image .col_grid_container {
+    width: 89%;
+    position: relative;
+}
+
+.full_grid_with_background_image .snap_group_all {
+    width: 92%;
+    position: absolute;
+    top: 46px;
+    left: 48px;
+    text-align: left;
+    line-height: 45px;
+}
+
+.grid_without_background .ss_text img{
+    height: 220px;
+}
+
+/* ====================================== */
+.pulse {
+    animation: pulse 1s infinite ease-in-out alternate;
+  }
+  @keyframes pulse {
+    from { transform: scale(0.95); }
+    to { transform: scale(1.0); }
+  }
+/* ====================================== */
+
+
+.slide-10 .snap_group_all, .slide-10-2 .snap_group_all, .slide-10-3 .snap_group_all {
+  position: static;
+  width: 100%;
+}
+
+.snap_group_all .audioIcon:hover {
+  transform: scale(1);
+}
+
+.f_text {
+  background-color: #f5f4b3;
+  padding: 50px;
+}
+
+.slide-10-2 .col_grid_container{
+  width: 100%;
+}
+
+.slide-10-3 .col_grid_container {
+  background-color: #f7cbb280;
+  border: solid 2px red;
+  padding: 10px 30px;
+}

@@ -1,0 +1,114 @@
+.drag_drop_with_image_activity .drag_drop_questions img.question_image {
+    width: 30%;
+    margin-top: 2%;
+    min-width: 160px;
+}
+
+.drag_drop_with_image_activity .drag_drop_questions input[type="text"] {
+    width: 60%;
+    text-align: center;
+    font-weight: 700;
+}
+
+.activity_container input[type="text"],
+.fill_orders_activity input[type="number"],
+.fill_orders_type2_activity input[type="number"] {
+    border: none;
+    border-bottom: #212529 solid 2px;
+    line-height: 50px;
+}
+
+.drag_drop_questions {
+    font-size: 30px;
+	margin-top: 110px;
+}
+
+.activity_container input[disabled],
+.activity_container input[readonly] {
+    color: #black !important;
+}
+
+.audioIconDrop {
+    width: 47px !important;
+    padding-top: 32px;
+    margin-right: 10px;
+    transform: scaleX(-1);
+	cursor: pointer;
+}
+.drag_drop_options_fixed {
+    z-index: 1;
+}
+/* ====================================================== */
+
+
+/*              Media Queries Start                       */
+
+
+/* ====================================================== */
+
+
+/* ------------------------------------------------ */
+
+
+/*              M Q max-width: 1199.98px */
+
+
+/* ------------------------------------------------*/
+
+
+/* // Large devices (desktops, less than 1200px) */
+
+@media (max-width: 1700.98px) {
+	
+.drag_drop_questions {
+   
+    margin-top: -20px;
+}
+}
+@media (max-width: 767.98px) {
+    .drag_drop_with_image_activity .drag_drop_questions img.question_image {
+    width: 50%;
+    margin-top: 2%;
+    min-width: 160px;
+}
+.drag_drop_with_image_activity .drag_drop_questions ul li {
+    width: 43%;
+}
+}
+/* ------------------------------------------------ */
+/* M Q max-width: 691.98px */
+/* ------------------------------------------------*/
+@media (max-width: 691.98px) {
+    .drag_drop_with_image_activity .drag_drop_questions img.question_image {
+    width: 50%;
+    margin-top: 2%;
+    min-width: 160px;
+}
+
+}
+/* ------------------------------------------------ */
+/* M Q max-width: 575.98px */
+/* ------------------------------------------------*/
+/* // Extra small devices (portrait phones, less than 576px) 476 to 576*/
+@media (max-width: 575.98px) {  
+    
+.drag_drop_with_image_activity .drag_drop_questions img.question_image {
+    width: 50%;
+    margin-top: 2%;
+    min-width: 160px;
+}
+
+.drag_drop_with_image_activity .drag_drop_questions ul li {
+    width: 83%;
+}
+}
+/* ------------------------------------------------ */
+/*              M Q max-width: 475.98px             */
+/* ------------------------------------------------*/
+/* body working fine 320 to 475 */
+@media (max-width: 475.98px) {    
+    .drag_drop_with_image_activity .drag_drop_questions ul li {
+        width: 100%;
+    }
+   
+}

@@ -1,0 +1,41 @@
+.full_grid_with_background_image .col_grid_container {
+    width: 85%;
+    position: relative;
+}
+
+.full_grid_with_background_image .snap_group_all {
+    width: 92%;
+    position: absolute;
+    top: 46px;
+    left: 48px;
+    text-align: left;
+    line-height: 45px;
+}
+
+.slide-9 .col_grid_container {
+    padding: 25px;
+    border: solid 2px lightblue;
+    border-radius: 25px;
+}
+
+.slide-9 .snap_group_all {
+    position: static;
+}
+
+.slide-9 .snap_group_all .audioIcon:hover {
+    transform: scale(1);
+}
+
+.slide-10 .col_grid_container {
+    padding: 25px;
+    border: solid 5px lightgreen;
+    border-radius: 25px;
+}
+
+.slide-10 .snap_group_all {
+    position: static;
+}
+
+.slide-10 .snap_group_all .audioIcon:hover {
+    transform: scale(1);
+}

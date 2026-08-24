@@ -1,0 +1,29 @@
+.full_grid_with_background_image .col_grid_container {
+    width: 95%;
+    position: relative;
+}
+
+.full_grid_with_background_image .snap_group_all {
+    width: 96%;
+    position: absolute;
+    top: 46px;
+    left: 48px;
+    text-align: left;
+    line-height: 45px;
+}
+
+.full_grid_color_background_image {
+    width: 1110px;
+    padding: 30px 40px;
+    background-color: #fbf7b0;
+}
+.full_grid_color_background_image .ss_text img {
+    height: 150px;
+}
+.inner_img {
+    /* width: 200px; */
+}
+
+.white_background {
+    background-color: transparent;
+}

@@ -1,0 +1,74 @@
+.options {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ===================================== */
+
+.full_grid_with_background_image .col_grid_container {
+  width: 80%;
+  position: relative;
+}
+
+.full_grid_with_background_image .snap_group_all {
+  width: 92%;
+  position: absolute;
+  top: 46px;
+  left: 48px;
+  text-align: left;
+  line-height: 42px;
+}
+
+.slide-9 .snap_group_all {
+  width: 92%;
+  position: absolute;
+  top: 13px;
+  left: 48px;
+  text-align: left;
+  line-height: 40px;
+}
+
+.grid_without_background .ss_text img {
+  height: 114px;
+}
+
+
+.grid_without_background .snap_group_2 div:nth-child(2) .snap_card .ss_text img {
+  height: 162px;
+}
+
+.audioIcon:hover {
+  transform: scale(1.03);
+}
+
+/* ======================================== */
+
+.grid_without_background_2 .col_grid_container {
+  position: relative;
+}
+
+.grid_without_background_2 .col_grid_container .snap_group_all {
+  position: absolute;
+  top: 26px;
+  left: 25px;
+  font-size: 30px;
+  line-height: 50px;
+}
+
+/* ====================================== */
+.pulse {
+  animation: pulse 1s infinite ease-in-out alternate;
+}
+
+@keyframes pulse {
+  from {
+    transform: scale(0.9);
+  }
+
+  to {
+    transform: scale(1.0);
+  }
+}
+
+/* ====================================== */

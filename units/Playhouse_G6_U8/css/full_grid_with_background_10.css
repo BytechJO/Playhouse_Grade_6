@@ -1,0 +1,36 @@
+.full_grid_with_background_image .col_grid_container {
+    /* width: 85%; */
+    position: relative;
+}
+
+.full_grid_with_background_image .snap_group_all {
+    width: 92%;
+    /* position: absolute; */
+    top: 46px;
+    left: 48px;
+    padding: 0px 22px;
+    text-align: left;
+    line-height: 45px;
+}
+
+.grid_row {
+    display: flex;
+    align-items: center;
+}
+
+.phonics .snap_group_3 {
+    border-bottom: 1px solid #f49ac1;
+}
+
+.phonics .grid_col{
+    display: flex;
+    justify-content: center;
+}
+
+.l_img {
+    height: 400px;
+}
+
+.r_img {
+    height: 400px;
+}
