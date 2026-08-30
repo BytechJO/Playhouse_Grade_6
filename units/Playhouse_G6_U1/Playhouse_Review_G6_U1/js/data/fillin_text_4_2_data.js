@@ -5,7 +5,7 @@ var fillin_data = {
     "mainTitleIcon"         : "",
     "mainTitleIconPos"      : {"right": "-18px"},
     "mainTitleAudio"        : "../audios/under.mp3",
-    "subTitleTextLeft"      : "<span class='green_text'>2</span> Complete it! Complete each sentence using the prepositions of time below.",
+    "subTitleTextLeft"      : "<span class='green_text'>2</span> Complete it! <span class='blue_text'>Complete each sentence using the prepositions of time below.</span>",
     "subTitleTextRight"     : "",
     "subTitleIcons"         : [""],
     "subTitleAudio"         : "../audios/under.mp3",

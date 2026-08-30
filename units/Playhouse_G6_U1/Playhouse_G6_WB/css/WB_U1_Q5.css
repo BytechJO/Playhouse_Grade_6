@@ -78,7 +78,9 @@ position:-webkit-sticky;
     z-index: 5;
 }
 
-
+.checkBtn{
+    display: none !important;
+}
 /**** popup window ***/
 
 

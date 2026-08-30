@@ -23,7 +23,7 @@ var reading_data = {
     "mainTitleIcon": "../images/pages/sb-icons/phonics_3_icon.png",
     "mainTitleIconPos": {"right": "100px"},
     "mainTitleAudio": "../audios/p10/WRITING.mp3",
-    "subTitleTextLeft": "<span class='title-order'>1</span> Plan it!",
+    "subTitleTextLeft": "<span class='title-order'>2</span> Plan it!",
     "subTitleTextRight": "",
     "subTitleIcons": [],
     "subTitleAudio": "../audios/under.mp3",

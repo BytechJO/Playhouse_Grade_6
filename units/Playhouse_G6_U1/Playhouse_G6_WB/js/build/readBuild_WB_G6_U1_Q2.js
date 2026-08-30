@@ -141,7 +141,7 @@ function buildFillInBody(aObj) {
         
     }
     htmlStmt += '<div class="image_Q2_container">';
-      htmlStmt += '<img src="../images/pages/activities/WB_U1_Q2.png"/>';
+      htmlStmt += '<img src="../images/pages/activities/0.jpg"/>';
     htmlStmt += '</div>';
     console.log('htmlStmt >> fillin Built');
     $(".activity_area").append(htmlStmt);

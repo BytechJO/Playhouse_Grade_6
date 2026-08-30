@@ -67,15 +67,15 @@ var _activityData = {
          'visited'            : 0,
          'score'              : 0,
       },
-      // {
-      //    'file'               : 'slide_5.html',
-      //    'type'               : 'standAlone',
-      //    'subtype'            : '',
-      //    'build'              : 'yes', // yes (or) no
-      //    'activityCtrls'      : 'yes',
-      //    'layout'             : 3,
-      //    'visited'            : 0,
-      // },
+      {
+         'file'               : 'slide_4_1.html',
+         'type'               : 'standAlone',
+         'subtype'            : '',
+         'build'              : 'yes', // yes (or) no
+         'activityCtrls'      : 'yes',
+         'layout'             : 3,
+         'visited'            : 0,
+      },
       {
          'file'               : 'SB_G6_U1_P7_1.html',
          'type'               : 'fillin',

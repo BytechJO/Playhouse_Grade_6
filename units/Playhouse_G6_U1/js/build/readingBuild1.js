@@ -16,19 +16,18 @@ function buildReadingHTML(aObj) {
             slideHtml += '</div>';
         slideHtml += '</div>';
 
-        slideHtml += '<div class="activityHeading">'
-            slideHtml += '<div class="audioIcon off contant audioQuestionTitle" data-slideNum="' + 1 + '" data-audio="' + aObj.subTitleAudio + '">';
-            slideHtml += "<div class='page_sub_title'>";
-                slideHtml += "<p> " + aObj.subTitleTextLeft + " </p>";
-                for (var sicons = 0 ; sicons < aObj.subTitleIcons.length ; sicons++) {
-                    slideHtml += "<img src='" + aObj.subTitleIcons[sicons] + "'/>";
-                }
-                slideHtml += "<p> " + aObj.subTitleTextRight + " </p>";
-            slideHtml += "</div>";
-            slideHtml += '</div>';
-        slideHtml += '</div>';
-    slideHtml += '</div>';
-
+     	slideHtml  += '<div class="activityHeading">'
+			slideHtml  += '<div class="audioIcon off contant audioQuestionTitle" data-slideNum="' + 1 + '" data-audio="' + aObj.slideHtml  + '">';
+			slideHtml  += "<div class='page_sub_title'>";
+				slideHtml  += "<p> " + aObj.subTitleTextLeft + " </p>";
+				for (var sicons = 0 ; sicons < aObj.subTitleIcons.length ; sicons++) {
+					slideHtml  += "<img src='" + aObj.subTitleIcons[sicons] + "'/>";
+				}
+				slideHtml  += "<br><p class='subTitleTextRight'>" + aObj.subTitleTextRight + " </p>";
+			slideHtml  += "</div>";
+			slideHtml  += '</div>';
+		slideHtml  += '</div>';
+		slideHtml  += '</div>';
     slideHtml += "<div class='options cont_ht_sf mx-auto'>";
     slideHtml += "<div class='all_cont d-flex justify-content-center align-items-center'>";
     // slideHtml += "<div class='slides cont_group my-3'>";
@@ -69,6 +68,81 @@ function buildReadingHTML(aObj) {
                     slideHtml += "</div>";
                 }
                 slideHtml += "</div>";
+            } else if(slide.layout == 'grammar_slide'){
+                var curIndex = 0;
+                var wordStyle = 0;
+                var audioArry = slide.audio;
+                var wordArray = slide.word;
+                var wordArray_examples = slide.example_word;
+                var imageArray = slide.image;
+                slideHtml += "<div class='d-flex justify-content-center align-items-center grid_columns_container " + slide.parentClassName + "'>";
+                    slideHtml += "<div class='letters_container d-flex flex-wrap justify-content-center'>";
+                    for(let x=0; x < slide.letters.length; x++){
+                        slideHtml += "<div class='letter letter-"+x+" bounce2'>"+slide.letters[x]+"</div>";
+                    }
+                    slideHtml += "</div>";
+
+                slideHtml += "<div class='col_grid_container'>";
+                slideHtml += "<div class='gram_title d-flex justify-content-center'>"+slide.gram_title+"</div>";
+                    slideHtml += "<div class='buttons_container d-flex flex-wrap'>";
+                        slideHtml += "<div class='gram_btn rule pulse rule_toggle_btn'>"+slide.slide_1_title+"</div>";
+                        slideHtml += "<div class='gram_btn Example pulse example_toggle_btn'>"+slide.slide_2_title+"</div>";  
+                    slideHtml += "</div>";
+                    slideHtml += "<img src='" + slide.welcomeImage + "' class='welcomeImage'/>";
+                    // == border divs ================
+                    slideHtml += "<div class='div_border top_border'></div>";
+                    slideHtml += "<div class='div_border left_border'></div>";
+                    slideHtml += "<div class='div_border right_border'></div>";
+                    slideHtml += "<div class='div_border bottom_border'></div>";
+                    // ===============================
+                    slideHtml += "<div class='snap_group_all cont_group'>";
+                        slideHtml += "<div class='slide_rule' style='display:none'>";
+                            var ImagePos = slide.imagePlacePos;
+                            var examplesTextPos = slide.examplesTextPos;
+                            if (ImagePos != undefined) {
+                                for (var snapIndex = 0; snapIndex < ImagePos.length; snapIndex++) {
+                                    slideHtml += "<div class='snap_group_" + Number(snapIndex + 1) + " row mx-0 rule_text'>";
+                                    for (var imgIndex = 0; imgIndex < ImagePos[snapIndex].colData.length; imgIndex++) {
+                                        slideHtml += "<div class='col-12 col-md-" + ImagePos[snapIndex].colWidth[imgIndex] + " col_card'>";
+                                        slideHtml += "<div class='snap_card mx-0 mx-md-auto audioIcon' data-slideNum='" + Number(slideIndex + 1) + "' data-audio='" + audioArry[curIndex] + "'data-onaudioplay=''>"
+                                        console.log("__", ImagePos[snapIndex])
+                                        if (ImagePos[snapIndex].colData[imgIndex] != 0) {
+                                            wordStyle = curIndex + 1;
+                                            slideHtml += "<div class='ss_word ss_t_" + wordStyle + "'><div class='ss_text background_audio'>" + wordArray[curIndex] + "</div></div>";
+                                            curIndex++;
+                                        }
+                                        slideHtml += "</div></div>"
+                                    }
+                                    slideHtml += "</div>";
+                                }
+                            }
+                        slideHtml += "</div>";
+                        slideHtml += "<div class='slide_example' style='display:none'>";
+                            var ImagePos = slide.imagePlacePos;
+                            var examplesTextPos = slide.examplesTextPos;
+                            if (examplesTextPos != undefined) {
+                                curIndex = 0;
+                                for (var snapIndex = 0; snapIndex < examplesTextPos.length; snapIndex++) {
+                                    slideHtml += "<div class='snap_group_" + Number(snapIndex + 1) + " row mx-0 example_text'>";
+                                    for (var imgIndex = 0; imgIndex < examplesTextPos[snapIndex].colData.length; imgIndex++) {
+                                        slideHtml += "<div class='col-12 col-md-" + examplesTextPos[snapIndex].colWidth[imgIndex] + " col_card'>";
+                                        slideHtml += "<div class='snap_card mx-0 mx-md-auto audioIcon' data-slideNum='" + Number(slideIndex + 1) + "' data-audio='" + audioArry[curIndex] + "'data-onaudioplay=''>"
+                                        console.log("__", examplesTextPos[snapIndex])
+                                        if (examplesTextPos[snapIndex].colData[imgIndex] != 0) {
+                                            wordStyle = curIndex + 1;
+                                            slideHtml += "<div class='ss_word ss_t_" + wordStyle + "'><div class='ss_text background_audio'>" + wordArray_examples[curIndex] + "</div></div>";
+                                            curIndex++;
+                                        }
+                                        slideHtml += "</div></div>"
+                                    }
+                                    slideHtml += "</div>";
+                                }
+                            }
+                        slideHtml += "</div>";
+                    slideHtml += "</div>";
+                slideHtml += "</div>";
+            slideHtml += "</div>";
+                
             } else if (slide.layout == 'grid_columns'){  // needed
                     var curIndex = 0;
                     var wordStyle = 0;
@@ -77,23 +151,17 @@ function buildReadingHTML(aObj) {
                     var imageArray = slide.image;
                     slideHtml += "<div class='d-flex justify-content-center align-items-center grid_columns_container " + slide.parent_class_name + "'>";
                         slideHtml += "<div class='col_grid_container'>";
-                            
+                            if (slide.mainImage != undefined && slide.mainImage != '' ) {
+                                slideHtml += "<img src='" + slide.mainImage + "' style='width: 100%;'/>";
+                            }
                             if (slide.middleImage != undefined && slide.middleImage != '') {
                                 slideHtml += "<img src='" + slide.middleImage + "' class='middle_image' />";
                             }
-                            slideHtml += "<div class='snap_group_all cont_group' style='" + slide.group_styles + "'>";
-                                if (slide.grid_main_title != undefined && slide.grid_main_title != '' ) {
-                                    slideHtml += "<div class='grid_main_title_container'>";
-                                    slideHtml += "<img src='" + slide.grid_main_title + "' class='grid_main_title_img'/>";
-                                    slideHtml += "<div class='snap_card audioIcon grid_main_title_text' data-slideNum='" + Number(slideIndex + 1) + "' data-audio='" + slide.grid_main_title_text_audio + "'data-onaudioplay=''>"
-                                    slideHtml += "<div class=''>" + slide.grid_main_title_text + "</div>"
-                                    slideHtml += "</div>";
-                                    slideHtml += "</div>";
-                                }
+                            slideHtml += "<div class='snap_group_all cont_group' style='" + slide.group_styles + "'>"
                                 if (slide.topText) {    
                                     slideHtml += "<div class='top_image_text d-flex'>"
                                     slideHtml += "<img src='" + slide.topImage + "' class='top_image' />";
-                                    slideHtml += "<div class='snap_card audioIcon' data-slideNum='" + Number(slideIndex + 1) + "' data-audio='" + slide.topText_audio + "'data-onaudioplay=''>"
+                                    slideHtml += "<div class='snap_card audioIcon mx-0 mx-md-auto' data-slideNum='" + Number(slideIndex + 1) + "' data-audio='" + slide.topText_audio + "'data-onaudioplay=''>"
                                     slideHtml += "<div class='ss_text'>" + slide.topText + "</div>"
                                     slideHtml += "</div>";
                                     slideHtml += "</div>";
@@ -106,7 +174,7 @@ function buildReadingHTML(aObj) {
                                     for (var snapIndex = 0; snapIndex < ImagePos.length; snapIndex++) {
                                         slideHtml += "<div class='snap_group_" + Number(snapIndex + 1) + " row mx-0'>";
                                         for (var imgIndex = 0; imgIndex < ImagePos[snapIndex].colData.length; imgIndex++) {
-                                            slideHtml += "<div class='col-12 col-md-" + ImagePos[snapIndex].colWidth[imgIndex] + " col_card'>";
+                                            slideHtml += "<div class='col-12 col-md-" + ImagePos[snapIndex].colWidth[imgIndex] + "'>";
                                             slideHtml += "<div class='snap_card audioIcon' data-slideNum='" + Number(slideIndex + 1) + "' data-audio='" + audioArry[curIndex] + "'data-onaudioplay=''>"
                                             console.log("__", ImagePos[snapIndex])
                                             if (ImagePos[snapIndex].colData[imgIndex] != 0) {
@@ -218,7 +286,7 @@ function buildReadingHTML(aObj) {
                                             console.log("__", ImagePos[snapIndex])
                                             if (ImagePos[snapIndex].colData[imgIndex] != 0) {
                                                 wordStyle = curIndex + 1;
-                                                // debugger
+                                                 
                                                 if (wordArray[curIndex].charAt(0) == '.') {
                                                     slideHtml += "<img src='" + slide.word[box][curIndex] + "' class='ss_image' />";
                                                 } else {
@@ -289,7 +357,45 @@ function buildReadingHTML(aObj) {
         }
         slideHtml += "</div></div></div>";
         $(".mainContent").append(slideHtml);
+        showRuleSlide()
+        showExampleSlide()
+        showSentenceImg()
         setLoadedStatus(getCurrFileOrDirectory('file'));
 
     }
-}        
+}
+function showSentenceImg(){
+    $(document).ready(function () {
+        $(".imgToggle").click(
+            function () {
+            var imgName = $(this).data("img");
+            $('.'+imgName).fadeToggle(1000);
+        }
+        );
+    });
+}
+
+function showRuleSlide(){
+    $(document).ready(function () {
+        $(".rule_toggle_btn").click(function () {
+           $(".welcomeImage").fadeOut(1000);
+           $(".slide_example").hide();
+           $(".slide_rule").fadeIn(1000);
+           $(".example_toggle_btn").removeClass("selected_btn")
+           $(this).addClass("selected_btn")
+        });
+    });
+}
+
+
+function showExampleSlide(){
+    $(document).ready(function () {
+        $(".example_toggle_btn").click(function () {
+            $(".welcomeImage").fadeOut(1000);
+            $(".slide_rule").hide();
+            $(".slide_example").fadeIn(1000);
+            $(".rule_toggle_btn").removeClass("selected_btn")
+            $(this).addClass("selected_btn")
+        });
+    });
+}

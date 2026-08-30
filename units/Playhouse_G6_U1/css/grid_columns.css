@@ -45,9 +45,10 @@
 
 .top_right_image {
     position: absolute;
-    height: 200px;
-    right: 0;
-    top: 0;
+    height: 185px;
+    right: 6px;
+    top: 33px;
+    border-radius: 20px;
 }
 
 .red_text {

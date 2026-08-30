@@ -1,150 +1,330 @@
 .image_space {
-    height: 27vh;
-    text-align: center;
-  }
-  .image_space img {
-    height: 100%;
-    width: auto;
-  }
-  .fillin_set {
-  }
-  
-  .audio_icon {
-    height: 39px;
-    padding: 1px;
-  }
-  
-  .screan_elements {
-    width: 90%;
-  }
-  
-  .all_cont {
-    height: 100%;
-    align-items: center;
-  }
-  
-  .options {
-    width: 85%;
-  }
+  height: 27vh;
+  text-align: center;
+}
 
-  .subTitleTextRight b{
-     color: red;
-  }
-   
-  .fillin_gr input {
-    width: 150px;
-    background-color: transparent;
-    border: none;
-    border-bottom: 2px solid black;
-    margin: 1px;
-    text-align: center;
-    height: 31px;
-    margin: 0 10px;
-  }
-  
-  .fillin_gr input:focus {
-    outline: none;
-  }
-  
-  .group_elm {
-    justify-content: space-between;
-  }
+.image_space img {
+  height: 100%;
+  width: auto;
+}
 
-  .img_fillin_gr {
-    position: relative;
-    min-height: 56px;
-    width: 45%;
-  }
+.audio_icon {
+  height: 39px;
+  padding: 1px;
+}
 
-  .fillin_set * {
-    display: inline-block;
-  }
-  /* .fillin_gr .icon_wrap_holder {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-  } */
-  .tick,
-  .cross {
-    width: 32px;
-    height: 32px;
-  }
-  .clue_word {
-    margin: 15px;
-  }
-  .word_options {
-    width: 80%;
-    border: 2px solid black;
-    border-radius: 20px;
-    margin-bottom: 8vh;
-    background-color: white;
-  }
-  .word_opt_sticky {
-    position: -webkit-sticky;
+.screen_elements {
+  width: 100%;
+  height: 100%;
+}
+
+.all_cont {
+  width: 100%;
+  height: 100%;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.options {
+  width: 100%;
+}
+
+/* =========================================
+   HEADING
+========================================= */
+
+.page_sub_title {
+  text-align: left;
+}
+
+.subTitleTextRight {
+  margin-top: 5px;
+}
+
+.subTitleTextRight b {
+  color: red;
+}
+
+/* =========================================
+   DIARY
+========================================= */
+
+.group_elm.diary_book {
+  position: relative;
+
+  width: 1100px;
+  max-width: 92vw;
+
+  aspect-ratio: 1672 / 941;
+
+  margin: 5px auto 0;
+
+  background-image: url("../images/pages/activities/diary-background.png");
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+
+  display: block;
+}
+
+/* =========================================
+   QUESTIONS GENERAL
+========================================= */
+
+.img_fillin_gr {
+  position: absolute;
+
+  width: 35%;
+
+  min-height: 0;
+
+  color: #222;
+
+
+  font-size: 19px;
+
+  line-height: 1.55;
+
+  box-sizing: border-box;
+}
+
+.fillin_gr {
+  width: 100%;
+}
+
+.q_space {
+  width: 100%;
+  position: relative;
+}
+
+.fillin_set {
+  width: 100%;
+}
+
+.fillin_set * {
+  display: inline;
+}
+
+/* =========================================
+   LEFT PAGE
+========================================= */
+
+.diary_q_1 {
+  left: 11%;
+  top: 10%;
+}
+
+.diary_q_3 {
+  left: 11%;
+  top: 37%;
+}
+
+.diary_q_5 {
+  left: 11%;
+  top: 64%;
+}
+
+/* =========================================
+   RIGHT PAGE
+========================================= */
+
+.diary_q_2 {
+  left: 55%;
+  top: 10%;
+}
+
+.diary_q_4 {
+  left: 55%;
+  top: 37%;
+}
+
+/* =========================================
+   INPUTS
+========================================= */
+
+.fillin_gr input {
+  width: 75px;
+
+  height: 24px;
+
+  margin: 0 3px;
+
+  padding: 0 2px;
+
+  border: none;
+
+  border-bottom: 2px solid #555;
+
+  background-color: transparent;
+
+  color: #222;
+
+
+  font-size: 18px;
+
+  line-height: 24px;
+
+  text-align: center;
+
+  vertical-align: baseline;
+
+  box-sizing: border-box;
+}
+
+.fillin_gr input:focus {
+  outline: none;
+}
+
+/* =========================================
+   CHECK / CROSS
+========================================= */
+
+.icon_wrap_holder {
+  position: absolute;
+
+  right: -37px;
+  top: 0;
+}
+
+.icon_wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.tick,
+.cross {
+  width: 28px;
+  height: 28px;
+}
+
+.tick img,
+.cross img {
+  display: block;
+
+  width: 100%;
+  height: 100%;
+
+  object-fit: contain;
+}
+/* =========================================
+   OPTIONS
+========================================= */
+
+.word_opt_sticky {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+
     position: sticky;
     top: 0;
     z-index: 5;
+}
+
+.word_options {
+    width: fit-content;
+    min-width: 600px;
+
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center;
+    flex-wrap: wrap;
+
+    gap: 15px 25px;
+
+    padding: 10px 25px;
+
+    background-color: #d8f2f8;
+    border: 2px solid #00b7ce;
+    border-radius: 12px;
+
+    margin-bottom: 0;
+}
+
+.clue_word {
+    margin: 0;
+
+    padding: 3px 8px;
+
+    font-size: 24px;
+    font-weight: bold;
+
+    color: #000;
+}
+
+/* =========================================
+   NAVIGATION
+========================================= */
+
+.nextNav {
+  right: 0;
+}
+
+.backNav {
+  left: 0;
+}
+
+/* =========================================
+   RESPONSIVE
+========================================= */
+
+@media (max-width: 1199.98px) {
+  .group_elm.diary_book {
+    width: 950px;
   }
 
-  .nextNav  {
-    right: 0;
+  .img_fillin_gr {
+    font-size: 16px;
+    line-height: 1.45;
   }
 
-  .backNav  {
-    left: 0;
+  .fillin_gr input {
+    width: 60px;
+    height: 21px;
+
+    font-size: 15px;
+    line-height: 21px;
   }
-  
-  /**** popup window ***/
-  
-  /* ====================================================== */
-  /*              Media Queries Start                       */
-  /* ====================================================== */
-  /* ------------------------------------------------ */
-  /*              M Q max-width: 1799.98px */
-  /* ------------------------------------------------*/
-  /* // Large devices (desktops, less than 1800px) */
-  @media (max-width: 1799.98px) {
+
+  .tick,
+  .cross {
+    width: 24px;
+    height: 24px;
   }
-  /* ------------------------------------------------ */
-  /*              M Q max-width: 1399.98px */
-  /* ------------------------------------------------*/
-  /* // Large devices (desktops, less than 1400px) */
-  @media (max-width: 1399.98px) {
+}
+
+@media (max-width: 991.98px) {
+  .group_elm.diary_book {
+    width: 850px;
   }
-  /* ------------------------------------------------ */
-  /*              M Q max-width: 1199.98px */
-  /* ------------------------------------------------*/
-  /* // Large devices (desktops, less than 1200px) */
-  @media (max-width: 1199.98px) {
-    .word_options {
-      margin-bottom: 1vh;
-    }
-    .img_fillin_gr {
-      width: 100%;
-    }
+
+  .img_fillin_gr {
+    font-size: 14px;
   }
-  /* ------------------------------------------------ */
-  /*              M Q max-width: 991.98px */
-  /* ------------------------------------------------*/
-  /* // Medium devices (tablets, less than 992px) 768 to 991.98 */
-  @media (max-width: 991.98px) {
+
+  .fillin_gr input {
+    width: 52px;
+    font-size: 13px;
   }
-  /* ------------------------------------------------ */
-  /* M Q max-width: 767.98px */
-  /* ------------------------------------------------*/
-  /* // Small devices (landscape phones, less than 768px) 576 to 767.98*/
-  @media (max-width: 767.98px) {
+}
+
+@media (max-width: 767.98px) {
+  .group_elm.diary_book {
+    width: 720px;
   }
-  /* ------------------------------------------------ */
-  /* M Q max-width: 575.98px */
-  /* ------------------------------------------------*/
-  /* // Extra small devices (portrait phones, less than 576px) 476 to 575*/
-  @media (max-width: 575.98px) {
+
+  .img_fillin_gr {
+    font-size: 12px;
+    line-height: 1.35;
   }
-  /* ------------------------------------------------ */
-  /*              M Q max-width: 475.98px             */
-  /* ------------------------------------------------*/
-  /* body working fine 320 to 475 */
-  @media (max-width: 475.98px) {
+
+  .fillin_gr input {
+    width: 45px;
+    height: 18px;
+
+    font-size: 11px;
+    line-height: 18px;
   }
-  
+}

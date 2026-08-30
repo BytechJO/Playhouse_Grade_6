@@ -7,7 +7,7 @@
 }
 
 .tick_group {
-    margin: 0 8px;
+    margin: 32px 8px;
     width: 100%;
     display: flex !important;
     align-items: center;

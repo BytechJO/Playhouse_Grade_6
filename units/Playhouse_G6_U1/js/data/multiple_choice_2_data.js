@@ -68,7 +68,7 @@ var mcq_data = {
         {
             "question"              : "When does it take place?",
             "image"                 : "",
-            "answer"                : [1],
+            "answer"                : [2],
             "audio"                 : "no",
             "audioenable"           : "default", // correct (or) default
             "numbering"				: "none", // alphabet (or) number (or) none

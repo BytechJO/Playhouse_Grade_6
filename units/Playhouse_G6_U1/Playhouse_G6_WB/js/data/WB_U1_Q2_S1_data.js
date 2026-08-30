@@ -98,49 +98,49 @@ var fillin_data = {
             "strictcase": "yes", // yes (or) no
             "type": "text", // text (or) number
         },
-        // {
-        //     "textfront": "Yes, she is. There are many things to observe here at the network offices. Right now we’re going to meet some of the people who do the lights, the sound and the camera work. You are going to meet a sound engineer and even the anchor of the news!",
-        //     "textback": "Tour Guide: ",
-        //     "audio": "../audios/p5/under.mp3",
-        //     "audioenable": "", // correct (or) default
-        //     "image": "no",
-        //     // "answer": ["g"],
-        //     "strictcase": "yes", // yes (or) no
-        //     "type": "text", // text (or) number
-        // },
-        // {
-        //     "textfront": "What kind of programme is the anchor going to do?",
-        //     "textback": "Teacher: ",
-        //     "audio": "../audios/p5/under.mp3",
-        //     "audioenable": "no", // correct (or) default
-        //     "image": "no",
-        //     // "answer": ["H"],
-        //     "strictcase": "yes", // yes (or) no
-        //     "type": "text", // text (or) number
+        {
+            "textfront": "Yes, she is. There are many things to observe here at the network offices. Right now we’re going to meet some of the people who do the lights, the sound and the camera work. You are going to meet a sound engineer and even the anchor of the news!",
+            "textback": "Tour Guide: ",
+            "audio": "../audios/p5/under.mp3",
+            "audioenable": "", // correct (or) default
+            "image": "no",
+            // "answer": ["g"],
+            "strictcase": "yes", // yes (or) no
+            "type": "text", // text (or) number
+        },
+        {
+            "textfront": "What kind of programme is the anchor going to do?",
+            "textback": "Teacher: ",
+            "audio": "../audios/p5/under.mp3",
+            "audioenable": "no", // correct (or) default
+            "image": "no",
+            // "answer": ["H"],
+            "strictcase": "yes", // yes (or) no
+            "type": "text", // text (or) number
 
 
-        // },
-        // {
-        //     "textfront": "At 12:00, the anchor is going to talk about solving environmental problems in our city. Okay, I know you’re all excited to learn everything about our network. When your teacher is ready, we can go so we won’t be late for the live broadcast.",
-        //     "textback": "Tour Guide: ",
-        //     "audio": "../audios/p5/under.mp3",
-        //     "audioenable": "no", // correct (or) default
-        //     "image": "no",
-        //     // "answer": ["I"],
-        //     "strictcase": "yes", // yes (or) no
-        //     "type": "text", // text (or) number
-        // },
-        // {
-        //     "textfront": "Let’s go. I think we’re all here now.",
-        //     "textback": "Teacher: ",
-        //     "audio": "../audios/p5/under.mp3",
-        //     "audioenable": "default", // correct (or) default
-        //     "image": "no",
-        //     // "answer": ["J"],
-        //     "strictcase": "yes", // yes (or) no              
-        //     "type": "text", // text (or) number
+        },
+        {
+            "textfront": "At 12:00, the anchor is going to talk about solving environmental problems in our city. Okay, I know you’re all excited to learn everything about our network. When your teacher is ready, we can go so we won’t be late for the live broadcast.",
+            "textback": "Tour Guide: ",
+            "audio": "../audios/p5/under.mp3",
+            "audioenable": "no", // correct (or) default
+            "image": "no",
+            // "answer": ["I"],
+            "strictcase": "yes", // yes (or) no
+            "type": "text", // text (or) number
+        },
+        {
+            "textfront": "Let’s go. I think we’re all here now.",
+            "textback": "Teacher: ",
+            "audio": "../audios/p5/under.mp3",
+            "audioenable": "default", // correct (or) default
+            "image": "no",
+            // "answer": ["J"],
+            "strictcase": "yes", // yes (or) no              
+            "type": "text", // text (or) number
 
-        // }
+        }
        
     ]
 }

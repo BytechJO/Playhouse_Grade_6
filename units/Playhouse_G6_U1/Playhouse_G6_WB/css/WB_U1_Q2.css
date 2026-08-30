@@ -47,9 +47,11 @@ ol li span{
 .image_Q2_container{
     position: absolute;
     right: 115px;
-    top: 175px;
+    top: 120px;
 }
-
+.func_ctrls {
+  display: none !important;
+}
 .image_Q2_container img{
     width: 300px;
 }

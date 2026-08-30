@@ -154,12 +154,21 @@
     padding: 2px 27px;
     font-size: 22px;
 }
-
 .word_options {
     width: 80%;
     border-radius: 10px;
     background-color: #D2EDF3;
     padding: 10px;
+
+    display: grid !important;
+    grid-template-rows: repeat(3, auto);
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+    gap: 8px 20px;
+    justify-content: center !important;
+}
+.text_bold{
+    font-weight: bold;
 }
 
 .word_opt_sticky {

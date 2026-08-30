@@ -21,8 +21,8 @@ var stereo_data = {
 var fillin_data = {
     "layout": 3,
     "numinrow": [
-        [1, 1, 1, 1,1, 1],
-    ],
+    [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+],
     "mainTitle"             : "../images/pages/sb-icons/word_main_title.png",
     "mainTitleIcon"         : "../images/pages/sb-icons/word_main_title_icon.png",
     "mainTitleIconPos"      : {"right": "-18px"},
@@ -111,78 +111,84 @@ var fillin_data = {
             "type": "number", // text (or) number
             "audio" : "../audios/p4/over.mp3"
         },
-        // {
-        //     "textfront": "",
-        //     "textback": "&nbsp; 7 &nbsp; anchor",
-        //     "textend": "an electronic device that makes it possible for a person talking on a TV programme to read text while looking into the camera",
-        //     "audio": "../audios/p4/under.mp3",
-        //     "audioenable": "", // correct (or) default
-        //     "image": "no",
-        //     "answer": ["7"],
-        //     "strictcase": "yes", // yes (or) no
-        //     "type": "number", // text (or) number
-        // },
-        // {
-        //     "textfront": "",
-        //     "textback": "&nbsp; 8 &nbsp; reporter",
-        //     "textend": " a person who is the main newsreader on a TV or radio news programme ",
-        //     "audio": "../audios/p4/under.mp3",
-        //     "audioenable": "no", // correct (or) default
-        //     "image": "no",
-        //     "answer": ["8"],
-        //     "strictcase": "yes", // yes (or) no
-        //     "type": "number", // text (or) number
+        {
+            "textfront": "",
+            "textback": "&nbsp; 7 &nbsp; anchor",
+            "textend": "an electronic device that makes it possible for a person talking on a TV programme to read text while looking into the camera",
+            "audio": "../audios/p4/under.mp3",
+            "audioenable": "", // correct (or) default
+            "image": "no",
+            "answer": ["5"],
+            "strictcase": "yes", // yes (or) no
+            "type": "number", // text (or) number
+            "audio" : "../audios/p4/over.mp3"
+        },
+        {
+            "textfront": "",
+            "textback": "&nbsp; 8 &nbsp; reporter",
+            "textend": " a person who is the main newsreader on a TV or radio news programme ",
+            "audio": "../audios/p4/under.mp3",
+            "audioenable": "no", // correct (or) default
+            "image": "no",
+            "answer": ["7"],
+            "strictcase": "yes", // yes (or) no
+            "type": "number", // text (or) number
+            "audio" : "../audios/p4/over.mp3"
 
 
-        // },
-        // {
-        //     "textfront": "",
-        //     "textback": "&nbsp; 9 &nbsp; sound engineer",
-        //     "textend": " when a programme or person is being broadcast on television or radio",
-        //     "audio": "../audios/p4/under.mp3",
-        //     "audioenable": "no", // correct (or) default
-        //     "image": "no",
-        //     "answer": ["9"],
-        //     "strictcase": "yes", // yes (or) no
-        //     "type": "number", // text (or) number
-        // },
-        // {
-        //     "textfront": "",
-        //     "textback": "&nbsp; 10 &nbsp;  microphone",
-        //     "textend": " a broadcast on TV or radio",
-        //     "audio": "../audios/p4/under.mp3",
-        //     "audioenable": "default", // correct (or) default
-        //     "image": "no",
-        //     "answer": ["10"],
-        //     "strictcase": "yes", // yes (or) no              
-        //     "type": "number", // text (or) number
+        },
+        {
+            "textfront": "",
+            "textback": "&nbsp; 9 &nbsp; sound engineer",
+            "textend": " when a programme or person is being broadcast on television or radio",
+            "audio": "../audios/p4/under.mp3",
+            "audioenable": "no", // correct (or) default
+            "image": "no",
+            "answer": ["3"],
+            "strictcase": "yes", // yes (or) no
+            "type": "number", // text (or) number
+            "audio" : "../audios/p4/over.mp3"
+        },
+        {
+            "textfront": "",
+            "textback": "&nbsp; 10 &nbsp;  microphone",
+            "textend": " a broadcast on TV or radio",
+            "audio": "../audios/p4/under.mp3",
+            "audioenable": "default", // correct (or) default
+            "image": "no",
+            "answer": ["12"],
+            "strictcase": "yes", // yes (or) no              
+            "type": "number", // text (or) number
+            "audio" : "../audios/p4/over.mp3"
 
-        // },
-        // {
-        //     "textfront": "",
-        //     "textback": "&nbsp; 11 &nbsp; breaking news",
-        //     "textend": " a sudden news event that is reported by interrupting a programme to tell others about it",
-        //     "audio": "../audios/p4/under.mp3",
-        //     "audioenable": "default", // correct (or) default
-        //     "image": "no",
-        //     "answer": ["11"],
-        //     "strictcase": "yes", // yes (or) no 
-        //     "type": "number", // text (or) number
-
-
-        // },
-        // {
-        //     "textfront": "",
-        //     "textback": "&nbsp; 12 &nbsp; programme",
-        //     "textend": " a television station that airs programmes",
-        //     "audio": "../audios/p4/under.mp3",
-        //     "audioenable": "default", // correct (or) default
-        //     "image": "no",
-        //     "answer": ["12"],
-        //     "strictcase": "yes", // yes (or) no
-        //     "type": "number", // text (or) number
+        },
+        {
+            "textfront": "",
+            "textback": "&nbsp; 11 &nbsp; breaking news",
+            "textend": " a sudden news event that is reported by</br>interrupting a programme to tell others about it",
+            "audio": "../audios/p4/under.mp3",
+            "audioenable": "default", // correct (or) default
+            "image": "no",
+            "answer": ["11"],
+            "strictcase": "yes", // yes (or) no 
+            "type": "number", // text (or) number
+            "audio" : "../audios/p4/over.mp3"
 
 
-        // }
+        },
+        {
+            "textfront": "",
+            "textback": "&nbsp; 12 &nbsp; programme",
+            "textend": " a television station that airs programmes",
+            "audio": "../audios/p4/under.mp3",
+            "audioenable": "default", // correct (or) default
+            "image": "no",
+            "answer": ["2"],
+            "strictcase": "yes", // yes (or) no
+            "type": "number", // text (or) number
+            "audio" : "../audios/p4/over.mp3"
+
+
+        }
     ]
 }

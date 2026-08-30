@@ -24,7 +24,7 @@ var mcq_data = {
     "mainTitle"             : "../images/pages/sb-icons/language-building.png",
     "mainTitleIcon"         : "../images/pages/sb-icons/conv_main_title_icon.png",
     "mainTitleIconPos"      : {"right": "80px"},
-    "mainTitleAudio"        : "../audios/under.mp3",
+    "mainTitleAudio": "../audios/p9/LANGUAGE_BUILDING.mp3",
     "subTitleTextLeft"      : "<span class='title-order'>2</span> <b>Circle it!</b>",
     "subTitleTextRight"     : "Look at the pictures and decide which sentence is better. Circle it.",
     "subTitleIcons"         : [""],

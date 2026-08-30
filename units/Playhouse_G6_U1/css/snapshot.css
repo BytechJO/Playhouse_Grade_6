@@ -1,14 +1,13 @@
-body{
-    background-image: url(../images/pages/page-1/page-background.png);
-    -webkit-background-size:cover;
-    -moz-background-size:cover;
-    -o-background-size:cover;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: bottom center;
-    background-color: #b3dcd7;
-    position:relative;
-  }
+body {
+  background-image: url(../images/pages/page-1/page-background.png);
+  margin: 0;
+  min-height: 100vh;
+
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 75% 90%;
+  position: relative;
+}
 
   /* .back-p-image {
 
@@ -38,7 +37,7 @@ body{
   
   .readHighlightsBtn{
       background: rgba(0, 183, 206, 0.5);
-      padding: 1px 34px;
+      padding: 0;
       box-shadow: 0 0 0 0 rgba(0, 183, 206, 0.5);
       -webkit-animation: glow 1.4s linear infinite;
       animation: glow 1.4s linear(0 0%, 0.22 2.1%, 0.86 6.5%, 1.11 8.6%, 1.3 10.7%, 1.35 11.8%, 1.37 12.9%, 1.37 13.7%, 1.36 14.5%, 1.32 16.2%, 1.03 21.8%, 0.94 24%, 0.89 25.9%, 0.88 26.85%, 0.87 27.8%, 0.87 29.25%, 0.88 30.7%, 0.91 32.4%, 0.98 36.4%, 1.01 38.3%, 1.04 40.5%, 1.05 42.7%, 1.05 44.1%, 1.04 45.7%, 1 53.3%, 0.99 55.4%, 0.98 57.5%, 0.99 60.7%, 1 68.1%, 1.01 72.2%, 1 86.7%, 1 100%) infinite;
@@ -53,15 +52,36 @@ body{
   }
   
   .popups-container {
-      gap: 167px;
-  }
-  
-  .readHighlightsBtn {
-      width: 200px;
-      margin: 0 auto;
-      border-radius: 51%;
+      width: 110px;
+      margin-left: 30px;
+      margin-right: 0;
+      padding: 0;
+      flex-direction: column;
+      align-items: center;
+      gap: 16px;
   }
 
+  .readHighlightsBtn {
+      width: 110px;
+      height: 110px;
+      margin: 0;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+  }
+
+  .readHighlightsBtn img {
+      width: 100%;
+      height: 85%;
+      object-fit: contain;
+      display: block;
+  }
+.read_highlights_wrap .readHighlightsBtn:nth-child(3) img {
+    width: 75%;
+    height: 60%;
+}
   .main_title img {
     height: 100%;
   }
@@ -425,7 +445,6 @@ body{
   
   .readHilightsPanel_1 .modal-content {
       background-color: transparent;
-      top: 75px;
   }
   
   .readHilightsPanel_1 .modal-body .background {
@@ -545,7 +564,6 @@ body{
   
   .readHilightsPanel2_1 .modal-content {
       background-color: transparent;
-      top: 120px;
   }
   
   .readHilightsPanel2_1 .modal-body .background {
@@ -772,4 +790,121 @@ body{
       background-position: center;
     } */
   }
-  
+.all_words .snap_card {
+  position: relative;
+  min-height: 58px;
+  padding: 10px 18px;
+
+  display: flex;
+  align-items: center;
+
+  border-radius: 14px;
+
+  cursor: pointer;
+  box-sizing: border-box;
+
+  transition:
+    transform 0.2s ease,
+    background 0.2s ease,
+    box-shadow 0.2s ease;
+}
+.all_words .snap_card:hover {
+background: linear-gradient(
+  180deg,
+  #48d4e5 0%,
+  #00b7ce 55%,
+  #087f92 100%
+);  transform: scale(1.04);
+
+  box-shadow:
+    0 5px 10px rgba(0, 0, 0, 0.25),
+    inset 0 2px 3px rgba(255, 255, 255, 0.4);
+}
+.number_bold {
+  font-weight: 900;
+  padding-left: 10px;
+}
+.image-container {
+  position: absolute;
+}
+
+.image-container .hover-image {
+  position: absolute;
+
+  left: 50%;
+  top: 100%;
+
+  transform: translateX(-50%);
+
+  margin-top: 0px;
+
+  white-space: nowrap;
+
+  z-index: 9999;
+}
+
+/* تحت الرقم */
+.image-container.popup-bottom .hover-image {
+  top: 100%;
+  bottom: auto;
+
+  transform: translateX(-50%);
+
+  margin-top: 0px;
+  margin-bottom: 0;
+}
+
+/* فوق الرقم */
+.image-container.popup-top .hover-image {
+  top: 0;
+  bottom: auto;
+
+  transform: translate(-50%, -115%);
+
+  margin-top: 0;
+  margin-bottom: 0px;
+}
+
+/* =========================================
+   HOVER IMAGE
+========================================= */
+
+.hover-image {
+  cursor: pointer;
+  transform-origin: center;
+  transition: transform 0.25s ease;
+}
+
+
+/* تحت الرقم */
+
+.image-container.popup-bottom .hover-image {
+  top: 100%;
+  bottom: auto;
+
+  transform: translateX(-50%) scale(1);
+
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.image-container.popup-bottom .hover-image:hover {
+  transform: translateX(-50%) scale(1.12);
+}
+
+
+/* فوق الرقم */
+
+.image-container.popup-top .hover-image {
+  top: -32px;
+  bottom: auto;
+
+  transform: translate(-50%, -115%) scale(1);
+
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.image-container.popup-top .hover-image:hover {
+  transform: translate(-50%, -115%) scale(1.12);
+}

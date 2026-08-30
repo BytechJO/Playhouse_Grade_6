@@ -13,15 +13,15 @@ var _activityData = {
          'visited': 0,
          'score': 0,
       },
-      {
-         "file": "WB_U1_Q1_s2.html",
-         "type": "fillin",
-         "build": "yes",
-         "activityCtrls": "yes",
-         "layout": 1,
-         "visited": 0,
-         "score": 0
-      },
+      // {
+      //    "file": "WB_U1_Q1_s2.html",
+      //    "type": "fillin",
+      //    "build": "yes",
+      //    "activityCtrls": "yes",
+      //    "layout": 1,
+      //    "visited": 0,
+      //    "score": 0
+      // },
       {
          "file": "WB_U1_Q2_s1.html",
          'type': 'fillin',
@@ -33,15 +33,15 @@ var _activityData = {
          'score': 0,
       },
 
-      {
-         'file': 'WB_U1_Q2_s2.html',
-         'type': 'fillin',
-         'build': 'yes', // yes (or) no
-         'activityCtrls': 'yes',
-         'layout': 3,
-         'visited': 0,
-         'score': 0,
-      },
+      // {
+      //    'file': 'WB_U1_Q2_s2.html',
+      //    'type': 'fillin',
+      //    'build': 'yes', // yes (or) no
+      //    'activityCtrls': 'yes',
+      //    'layout': 3,
+      //    'visited': 0,
+      //    'score': 0,
+      // },
       {
          "file": "WB_U1_Q3.html",
          'type': 'fillin',
@@ -110,16 +110,16 @@ var _activityData = {
          'visited': 0,
          'score': 0,
       },
-      {
-         "file": "WB_U1_Q7_s2.html",
-         'type': 'fillin',
-         'subtype': '',
-         'build': 'yes', // yes (or) no   
-         'activityCtrls': 'yes',
-         'layout': 2,
-         'visited': 0,
-         'score': 0,
-      }
+      // {
+      //    "file": "WB_U1_Q7_s2.html",
+      //    'type': 'fillin',
+      //    'subtype': '',
+      //    'build': 'yes', // yes (or) no   
+      //    'activityCtrls': 'yes',
+      //    'layout': 2,
+      //    'visited': 0,
+      //    'score': 0,
+      // }
    ]
 }
 
