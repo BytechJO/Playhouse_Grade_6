@@ -1,3 +1,4 @@
+
 /* //  ****************************************** // */
 
 
@@ -20,25 +21,12 @@
     height: 70px;
     margin-top: -15px;
 }
-
+.orange_text {
+    color: #f26521;
+}
 .subTitleTextRight{
-    display: block;
-    margin-left: 54px !important;
     color: #00b7ce;
 }
-.title-order{
-    padding: 4px 17px;
-    border-radius: 50%;
-    color: #fff;
-    background-color: #00b7ce;
-}
-
-.blue_text {
-    color: #00b7ce;
-}
-
-
-
 /* //  ActivitiesCSS - Version no: R-02
 /* // updated - July 10, 2020 
 /* //  ****************************************** // */
@@ -139,7 +127,23 @@
     border-color: #3582b4;
 }
 
+.title-order{
+    padding: 4px 20px;
+    border-radius: 50%;
+    color: #fff;
+    background-color: #00b7ce;
+}
 
+.blue_text {
+    color: #00b7ce;
+}
+
+.darkBlue_text {
+    color: darkblue;
+}
+.bold_text{
+    font-weight: bold;
+}
 /**************** Unit Color code end***************/
 
 .activityTitle,

@@ -5,7 +5,7 @@ var fillin_data = {
     "mainTitleIcon"         : "",
     "mainTitleIconPos"      : {"right": "-18px"},
     "mainTitleAudio"        : "../audios/under.mp3",
-    "subTitleTextLeft"      : "<span class='green_text'>1</span> Solve it! Write the answer for each riddle.",
+    "subTitleTextLeft"      : "<span class='green_text'>1</span> Solve it! <span class='blue_text'>Write the answer for each riddle.</span>",
     "subTitleTextRight"     : "",
     "subTitleIcons"         : [""],
     "subTitleAudio"         : "../audios/under.mp3",

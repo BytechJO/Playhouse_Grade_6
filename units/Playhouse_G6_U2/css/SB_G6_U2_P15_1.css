@@ -90,17 +90,21 @@
 
 .word_options {
   width: 80%;
-  /* border: 2px solid black; */
   border-radius: 20px;
-  /* margin-bottom: 8vh; */
   background-color: #d0f4f7;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .word_opt_sticky {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
+  position: relative;
+  width: 100%;
   z-index: 5;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
 }
 
 .nextNav {

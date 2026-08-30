@@ -26,14 +26,14 @@ var reading_data = {
     "subTitleTextLeft": "<span class='title-order'>1</span> Listen and read. Then act it out with a friend.",
     "subTitleTextRight": "",
     "subTitleIcons": [],
-    "subTitleAudio": "../audios/p13/1_Listen_and_read_Then_act_it_out_with_a_friend.mp3",
+    "subTitleAudio": "../audios/P13/1_Listen_and_read_Then_act_it_out_with_a_friend copy.mp3",
     "slides": [
         {
 
             "layout": "grid_columns",
             
             "mainImage": [],
-            "top_right_image": [],
+            "top_right_image": ["../images/pages/activities/6.jpg"],
             "parent_class_name": "grid_with_border",
             "group_styles": "padding-top: 20px; padding-bottom: 50px;",
             "audio": ["../audios/p13/Pg6_2.1_Stella.mp3","../audios/p13/dough.mp3","../audios/p13/sauce.mp3","../audios/p13/sprinkle.mp3","../audios/p13/cheese.mp3","../audios/p13/add.mp3","../audios/p13/pepperoni.mp3","../audios/p13/slice.mp3"],

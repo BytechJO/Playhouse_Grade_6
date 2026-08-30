@@ -43,11 +43,11 @@ function buildFillInBody(aObj) {
     htmlStmt += '<div class="all_cont justify-content-start">';
     htmlStmt += '<div class="screen_elements w-100 h-100  d-flex flex-wrap">';
     htmlStmt += '<div class="group_elm h-100 d-flex flex-wrap">';
-        for(let i=0; i<aObj.images.length; i++){
-          htmlStmt += '<div class="audioIcon off contant audioQuestionTitle" data-slideNum="" data-audio="' + aObj.subTitleAudio + '">';
-          htmlStmt += '<div class="image_space"><img src="' + aObj.images[i] + '"></div>';
-          htmlStmt += '</div>';
-        }
+        for(let i=0; i<aObj.images.length; i++){ 
+  htmlStmt += '<div>'; 
+  htmlStmt += '<div class="image_space"><img src="' + aObj.images[i] + '"></div>'; 
+  htmlStmt += '</div>'; 
+}
     htmlStmt += '</div>';
     htmlStmt += '</div></div>';// - end - all_cont			
     htmlStmt += '</div>';// - end - options			

@@ -59,7 +59,7 @@ table {
 }
 
 .Box {
-    border: 3px solid #3e9150;
+    border: 3px solid #B9CB6C;
     font-size: 20px;
     height: 70px;
     align-items: center;
@@ -134,7 +134,7 @@ th .Box {
 }
 
 .fillin_gr table tr>th {
-    background-color: #c0fbcd;
+    background-color: #B9CB6C;
 }
 
 
@@ -148,7 +148,7 @@ th .Box {
 
 table,
 table tr th{
-    border: 2px solid #245d30;
+    border: 2px solid #B9CB6C;
 }
 
 .fillin_gr table tr>td:nth-child(2) .que  .fillin_set input {

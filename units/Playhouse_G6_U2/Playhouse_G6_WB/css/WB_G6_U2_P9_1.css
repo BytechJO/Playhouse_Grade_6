@@ -1,135 +1,448 @@
 .all_cont {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 .screen_elements {
-    width: 90%;
+  width: 90%;
 }
 
 .group_elm {
-    width: 100%;
-    height: 100%;
-    margin: 0px auto;
-    align-items: center;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  align-items: center;
 }
 
 :root {
-    --temp: rgb(159, 210, 236);
+  --temp: rgb(159, 210, 236);
 }
 
-.ques{
-    width: 100%;
-}
+/* ======================================================
+   QUESTIONS
+====================================================== */
 
-.image_space{
-    width: 30%;
+.ques {
+  width: 100%;
+
+  display: flex;
+  flex-wrap: wrap;
+
+  justify-content: center;
+  align-items: flex-start;
 }
 
 .que {
-    width: 45%;
-    height: 220px;
-    position: relative;
-    border-radius: 15px;
-    border: 2px solid #84def3;
-    margin: 0px 17px;
+  width: 45%;
+  height: 220px;
+
+  position: relative;
+
+  border-radius: 15px;
+  border: 2px solid #84def3;
+
+  margin: 0 17px;
+
+  box-sizing: border-box;
 }
 
-.fillin_gr{
-    height: 64%;
+.que .question {
+  height: 50px;
+
+  margin: 17px auto 0;
+
+  font-weight: bolder;
+
+  text-align: center;
+
+  font-size: 24px;
 }
 
-.que .question{
-    height: 50px;
-    margin: 17px auto 0px;
-    font-weight: bolder;
-    text-align: center;
-    font-size: 24px;
+/* ======================================================
+   FILLIN
+====================================================== */
 
+.fillin_gr {
+  width: 100%;
+  height: 64%;
 }
 
+.fillin_set {
+  width: 100%;
+
+  display: flex;
+  flex-wrap: wrap;
+
+  justify-content: flex-start;
+  align-items: center;
+
+  column-gap: 10px;
+  row-gap: 12px;
+
+  padding: 0 20px;
+
+  box-sizing: border-box;
+}
+
+/* ======================================================
+   INPUT
+====================================================== */
 
 .fillin_set input {
-    width: 200px;
-    height: 40px;
-    text-align: center;
-    color: black;
-    border: none;
-    margin-right: 25px;
-    margin-left: 10px;
-    border-bottom: 2px solid black;
+  width: calc(50% - 55px);
+
+  flex: 0 0 calc(50% - 55px);
+
+  min-width: 0;
+
+  height: 40px;
+
+  text-align: center;
+
+  color: black;
+
+  background-color: transparent;
+
+  border: none;
+  border-bottom: 2px solid black;
+
+  margin: 0;
+
+  box-sizing: border-box;
 }
 
 .fillin_set input:focus {
-    outline: none;
+  outline: none;
 }
 
-.item {
-    flex: 1 1 33.333%;
+/* ======================================================
+   TICK / CROSS BESIDE EACH INPUT
+====================================================== */
+
+.input_result_icon {
+  width: 35px;
+  height: 35px;
+
+  flex: 0 0 35px;
+
+  display: inline-flex;
+
+  align-items: center;
+  justify-content: center;
+
+  margin: 0;
+
+  vertical-align: middle;
+
+  box-sizing: border-box;
 }
 
-.theIcons {
-    margin: 5px 0;
+.input_result_icon img {
+  display: none;
+
+  width: 30px;
+  height: 30px;
+
+  object-fit: contain;
 }
+
+/* ======================================================
+   CENTER LAST INPUT IF ODD
+====================================================== */
+
+/* question 1 = 3 inputs */
+.que:nth-child(1) .fillin_set input:nth-of-type(3) {
+  margin-left: auto;
+}
+
+.que:nth-child(1) .fillin_set input:nth-of-type(3) + .input_result_icon {
+  margin-right: auto;
+}
+
+/* question 3 = 5 inputs */
+.que:nth-child(3) .fillin_set input:nth-of-type(5) {
+  margin-left: auto;
+}
+
+.que:nth-child(3) .fillin_set input:nth-of-type(5) + .input_result_icon {
+  margin-right: auto;
+}
+
+/* ======================================================
+   ORIGINAL ICONS
+====================================================== */
 
 .tick,
 .cross {
-    width: 35px;
+  width: 35px;
 }
 
 .tick img,
 .cross img {
-    width: 100%;
+  width: 100%;
 }
 
-.icon_wrap_holder{
-    position: absolute;
-    right: 10px;
+.icon_wrap_holder {
+  position: absolute;
+  right: 10px;
+}
+
+/* ======================================================
+   IMAGE
+====================================================== */
+
+.image_space {
+  width: 30%;
 }
 
 .image_wrap {
-    display: none;
+  display: none;
 }
 
-.clue_word {
-    padding: 2px 27px;
-    font-size: 22px;
+/* ======================================================
+   ITEM
+====================================================== */
+
+.item {
+  flex: 1 1 33.333%;
+}
+
+.theIcons {
+  margin: 5px 0;
+}
+
+/* ======================================================
+   OPTIONS
+====================================================== */
+
+.word_opt_sticky {
+  width: 90%;
+
+  margin: 0 auto 30px;
+
+  position: sticky;
+
+  top: 0;
+
+  z-index: 5;
+
+  border: 2px solid var(--temp);
+
+  border-radius: 10px;
 }
 
 .word_options {
-    width: 100%;
-    border-radius: 10px;
-    background-color: #c3f4ff8c;
+  width: 100%;
+
+  display: grid !important;
+
+  grid-template-rows: repeat(2, auto) !important;
+  grid-auto-flow: column !important;
+  grid-auto-columns: 1fr !important;
+
+  gap: 8px 15px;
+
+  align-items: center;
+  justify-content: center;
+
+  padding: 10px 15px;
+
+  border-radius: 10px;
+  background-color: #c3f4ff8c;
+  white-space: nowrap;
+  box-sizing: border-box;
 }
 
-.word_opt_sticky {
-    width: 100%;
-    margin: 0px auto;
-    position: -webkit-sticky;
-    position: sticky;
-    position: -webkit-sticky;
-    top: 0;
-    z-index: 5;
-    border: 2px solid var(--temp);
-    border-radius: 10px;
+.clue_word {
+  width: 100%;
+
+  padding: 2px 10px;
+
+  font-size: 22px;
+  text-align: center;
+
+  box-sizing: border-box;
 }
 
-/* ********************************** */
-/* ********************************** */
+/* ======================================================
+   RESPONSIVE - LAPTOP / SMALL DESKTOP
+====================================================== */
+
+@media (max-width: 1199.98px) {
+  .screen_elements {
+    width: 95%;
+  }
+
+  .que {
+    width: 45%;
+
+    margin: 0 10px;
+  }
+
+  .fillin_set {
+    column-gap: 8px;
+
+    padding: 0 12px;
+  }
+
+  .fillin_set input {
+    width: calc(50% - 48px);
+
+    flex-basis: calc(50% - 48px);
+
+    height: 38px;
+
+    font-size: 18px;
+  }
+
+  .input_result_icon {
+    width: 32px;
+    height: 32px;
+
+    flex-basis: 32px;
+  }
+
+  .input_result_icon img {
+    width: 28px;
+    height: 28px;
+  }
+
+  .que .question {
+    font-size: 21px;
+  }
+
+  .clue_word {
+    font-size: 19px;
+  }
+}
+
+/* ======================================================
+   IPAD
+   KEEP SAME ORDER AS LAPTOP
+====================================================== */
+
 @media (max-width: 991.98px) {
-    .fill_in .que {
-        width: 160px;
-    }
+  .screen_elements {
+    width: 98%;
+  }
+
+  .que {
+    width: 46%;
+
+    height: 220px;
+
+    margin: 0 7px;
+  }
+
+  .que .question {
+    font-size: 18px;
+
+    margin-top: 12px;
+  }
+
+  .fillin_set {
+    column-gap: 6px;
+    row-gap: 10px;
+
+    padding: 0 8px;
+  }
+
+  .fillin_set input {
+    width: calc(50% - 42px);
+
+    flex-basis: calc(50% - 42px);
+
+    height: 36px;
+
+    font-size: 16px;
+  }
+
+  .input_result_icon {
+    width: 28px;
+    height: 28px;
+
+    flex-basis: 28px;
+  }
+
+  .input_result_icon img {
+    width: 25px;
+    height: 25px;
+  }
+
+  .clue_word {
+    font-size: 16px;
+
+    padding: 2px 5px;
+  }
+
+  .word_options {
+    gap: 6px 8px;
+
+    padding: 8px 10px;
+  }
 }
+
+/* ======================================================
+   SMALLER SCREENS
+====================================================== */
+
+@media (max-width: 767.98px) {
+  .que {
+    width: 46%;
+  }
+
+  .fillin_set {
+    padding: 0 5px;
+  }
+
+  .fillin_set input {
+    width: calc(50% - 38px);
+
+    flex-basis: calc(50% - 38px);
+
+    font-size: 14px;
+  }
+
+  .input_result_icon {
+    width: 24px;
+    height: 24px;
+
+    flex-basis: 24px;
+  }
+
+  .input_result_icon img {
+    width: 22px;
+    height: 22px;
+  }
+}
+
+/* ======================================================
+   MOBILE
+====================================================== */
 
 @media (max-width: 575.98px) {
-    .fill_in .que {
-        width: 200px;
-    }
-}
+  .que {
+    width: 95%;
 
-@media (max-width: 475.98px) {
-    /* .fill_in .que {
-        width: 200px;
-    } */
+    margin: 7px auto;
+  }
+
+  .fillin_set {
+    column-gap: 8px;
+
+    padding: 0 15px;
+  }
+
+  .fillin_set input {
+    width: calc(50% - 45px);
+
+    flex-basis: calc(50% - 45px);
+  }
+
+  .input_result_icon {
+    width: 30px;
+    height: 30px;
+
+    flex-basis: 30px;
+  }
 }

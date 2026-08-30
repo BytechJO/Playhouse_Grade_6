@@ -48,11 +48,11 @@ var reading_data = {
             // "Use <span class='dark_text'>had + past participle</span> to show past perfect.",
             // "We <span class='dark_text'>had given</span> her the money by 6:00.",
 
-            "Using Infinitives",
-            "Infinitives are a basic verb form in English. An infinitive is the form ‘to + verb’. One way to use an infinitive is to use a main verb that talks about the future or about a feeling (plan, hope, want, like, love, hate) with ‘to’.",
-            "I want to see the film tomorrow.",
-            "He loves to ski in the winter.",
-            "The infinitive does not change for negative, tense or person.",
+            "<span class='bold_text'>Using Infinitives</span>",
+            "<span class='bold_text'>Infinitives</span> are a basic verb form in English. An infinitive is the form ‘<span class='bold_text'>to + verb</span>’. One way to use an <span class='bold_text'>infinitive</span> is to use a <span class='bold_text'>main verb</span> that talks about the future or about a feeling (<span class='bold_text'>plan, hope, want, like, love, hate</span>) with ‘<span class='bold_text'>to</span>’.",
+            "I want <span class='bold_text'>to see</span> the film tomorrow.",
+            "He loves <span class='bold_text'>to ski</span> in the winter.",
+            "The <span class='bold_text'>infinitive</span> does not change for negative, tense or person.",
             ],
         "imagePlacePos":[
             {"colWidth": [12], "colData": [1] },

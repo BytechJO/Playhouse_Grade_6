@@ -110,7 +110,6 @@
   display: none !important;
 }
 
-
 /* ======================================================
    4 IMAGES
 ====================================================== */
@@ -127,7 +126,6 @@
 
   margin-bottom: 12px !important;
 }
-
 
 /* ======================================================
    WRITING TIPS WRAPPER
@@ -163,7 +161,6 @@
   display: block !important;
 }
 
-
 /* ======================================================
    TOP RIGHT IMAGE
 ====================================================== */
@@ -183,7 +180,6 @@
 
   height: auto !important;
 }
-
 
 /* ======================================================
    MAIN SCREENPLAY TEXT
@@ -241,7 +237,6 @@
   font-style: italic !important;
 }
 
-
 /* ======================================================
    RIGHT LABELS
 ====================================================== */
@@ -272,7 +267,6 @@
   justify-content: center !important;
 }
 
-
 /* ======================================================
    LABEL 1
 ====================================================== */
@@ -282,7 +276,6 @@
 
   height: 13% !important;
 }
-
 
 /* ======================================================
    LABEL 2
@@ -294,7 +287,6 @@
   height: 22% !important;
 }
 
-
 /* ======================================================
    LABEL 3
 ====================================================== */
@@ -304,7 +296,6 @@
 
   height: 25% !important;
 }
-
 
 /* ======================================================
    GREEN BRACKETS
@@ -334,7 +325,6 @@
   box-sizing: border-box !important;
 }
 
-
 /* ======================================================
    WRITING TIPS HEADER
 ====================================================== */
@@ -353,7 +343,6 @@
   margin-right: 0 !important;
 }
 
-
 /* ======================================================
    INNER IMAGE
 ====================================================== */
@@ -370,13 +359,11 @@
   transform: scale(1) !important;
 }
 
-
 /* ======================================================
    RESPONSIVE
 ====================================================== */
 
 @media (max-width: 1199.98px) {
-
   .word_options {
     margin-bottom: 1vh;
   }
@@ -403,9 +390,7 @@
   */
 }
 
-
 @media (max-width: 991.98px) {
-
   .writing_tips_mid_text .writing_tips_container,
   .writing_tips_paragraph {
     font-size: 19px !important;
@@ -416,9 +401,7 @@
   }
 }
 
-
 @media (max-width: 767.98px) {
-
   .image_item {
     width: 100% !important;
   }
@@ -438,9 +421,7 @@
   */
 }
 
-
 @media (max-width: 575.98px) {
-
   .writing_tips_mid_text .writing_tips_container,
   .writing_tips_paragraph {
     font-size: 13px !important;
@@ -451,9 +432,7 @@
   }
 }
 
-
 @media (max-width: 475.98px) {
-
   .writing_tips_mid_text .writing_tips_container,
   .writing_tips_paragraph {
     font-size: 11px !important;
@@ -462,4 +441,81 @@
   .writing_label {
     font-size: 9px !important;
   }
+}
+.textarea_icons {
+  display: none !important;
+}
+
+.textarea_question {
+  width: 100% !important;
+}
+
+.textarea_question .q_space {
+  width: 100% !important;
+}
+
+.textarea_question .fillin_set {
+  width: 100% !important;
+
+  display: flex !important;
+
+  justify-content: center !important;
+
+  align-items: center !important;
+}
+
+.screenplay_textarea {
+  width: 90% !important;
+
+  height: 380px !important;
+
+  min-height: 380px !important;
+
+  resize: none !important;
+
+  border: 2px solid #00b7ce !important;
+
+  border-radius: 15px !important;
+
+  padding: 20px !important;
+
+  background-color: white !important;
+
+  color: #222 !important;
+
+  font-size: 22px !important;
+
+  line-height: 1.5 !important;
+
+  font-family: inherit !important;
+
+  box-sizing: border-box !important;
+}
+
+.screenplay_textarea:focus {
+  outline: none !important;
+
+  border-color: #008fa3 !important;
+
+  box-shadow: 0 0 0 4px rgba(0, 183, 206, 0.15) !important;
+}
+
+.ques {
+  width: 100% !important;
+}
+
+.group_elm {
+  width: 100% !important;
+}
+
+.screen_elements {
+  width: 100% !important;
+}
+
+.all_cont {
+  width: 100% !important;
+}
+
+.options {
+  width: 90% !important;
 }

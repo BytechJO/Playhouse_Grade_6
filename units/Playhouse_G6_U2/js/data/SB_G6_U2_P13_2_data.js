@@ -40,7 +40,7 @@ var mcq_tick_data = {
     "questions"             : [
         {
             "question"              : "",
-            "answer"                : [1],
+            "answer"                : [3,4],
             "image"                 : "",
             "audio"                 : "no",
             "audioenable"           : "default", // correct (or) default

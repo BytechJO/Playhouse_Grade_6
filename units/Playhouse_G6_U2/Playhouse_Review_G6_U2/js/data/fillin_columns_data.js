@@ -5,7 +5,7 @@ var fillin_data = {
     "mainTitleIcon": "",
     "mainTitleIconPos": {"right": "-20px"},
     "mainTitleAudio": "../audios/under.mp3",
-    "subTitleTextLeft"      : '<span class="green_text">2</span> Answer it! Answer each of the questions with an infinitive ‘to + verb’.',
+    "subTitleTextLeft"      : '<span class="green_text">2</span> Answer it! <span class="blue_text">Answer each of the questions with an infinitive ‘<span class="red_text">to</span>  + <span class="red_text">verb</span> ’.</span> ',
     "subTitleTextRight"     : "",
     "subTitleIcons"         : [""],
     "subTitleAudio"         : "../audios/under.mp3",

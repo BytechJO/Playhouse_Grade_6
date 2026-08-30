@@ -1,174 +1,388 @@
-.all_cont{
-    height: 100%;
-    text-align: center;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-}
-.screen_elements{
-    width: 90%;
-    height: 100%;
+.all_cont {
+  width: 100%;
+  height: auto;
+
+  text-align: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
 }
 
-.group_elm{
-    width: 90%;
-    height: 100%;
-    margin: 0px auto;
+.screen_elements {
+  width: 90%;
+  height: auto;
 }
+
+.group_elm {
+  width: 90%;
+  height: auto;
+
+  margin: 0 auto;
+}
+
+
+/* ======================================================
+   HEADING
+====================================================== */
 
 .activityHeading b {
-    color: #3c3b3b;
+  color: #3c3b3b;
 }
 
-.txt-audioIcon{
-    color: #606060;
-    text-align: start;
+.txt-audioIcon {
+  color: #606060;
+  text-align: start;
+}
+
+.q_order {
+  width: 50px;
 }
 
 
-.q_order{
-    width: 50px;
+/* ======================================================
+   QUESTIONS
+====================================================== */
+
+.ques {
+  width: 90%;
+  height: auto;
+
+  padding: 10px 10px 80px;
+
+  box-sizing: border-box;
 }
 
-.ques{
-    width: 90%;
-    height: 100%;
-    /* align-items: center; */
-    padding: 10px;
-    /* text-align: center; */
-}
-
-.q_box{
-    width:  100%;
+.q_box {
+  width: 100%;
 }
 
 .fill_in .que {
-    width: 100%;
+  width: 100%;
+  min-height: 65px;
 }
+
+
+/* ======================================================
+   TEXT BOX
+====================================================== */
 
 .txtBox {
-    font-family: Arcon;
-    font-size: 25px;
-    color: black;
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-}
+  width: 100%;
 
-.txtBox input:focus{
-    outline: none;
+  display: flex;
+  flex-wrap: wrap;
+
+  font-family: Arcon;
+  font-size: 25px;
+
+  color: black;
 }
 
 .txtBox input {
-    flex: 1;
-    height: 35px;
-    color: black;
-    padding-left: 20px;
-    border: none;
-    font-size: 21px;
-    border-bottom: 2px solid #36a0c7;
+  flex: 1;
+
+  min-width: 0;
+
+  height: 35px;
+
+  padding-left: 20px;
+
+  border: none;
+  border-bottom: 2px solid #36a0c7;
+
+  background-color: transparent;
+
+  color: black;
+
+  font-size: 21px;
+
+  box-sizing: border-box;
 }
 
+.txtBox input:focus {
+  outline: none;
+}
+
+
+/* ======================================================
+   ICONS
+====================================================== */
+
 .icon_wrap {
-    position: absolute;
-    margin-top: -35px; 
-    right: 100px;
+  position: absolute;
+
+  margin-top: -35px;
+
+  right: 100px;
 }
 
 .tick,
 .cross {
-    width: 35px;
-}
-
-.func_ctrls{
-    display: none !important;
+  width: 35px;
 }
 
 .tick img,
 .cross img {
-    width: 100%;
+  width: 100%;
 }
+
+
+/* ======================================================
+   CONTROLS
+====================================================== */
+
+.func_ctrls {
+  display: none !important;
+}
+
+
+/* ======================================================
+   IMAGE
+====================================================== */
 
 .image_wrap {
-    display: none;
+  display: none;
 }
 
+.image-container {
+  position: absolute;
+
+  right: 260px;
+  bottom: 50px;
+}
+
+.image-container img {
+  width: 300px;
+  height: 210px;
+
+  margin: 0 70px;
+
+  object-fit: cover;
+
+  border-radius: 15px;
+  border: 2px solid #36a0c7;
+}
+
+
+/* ======================================================
+   WORD OPTIONS
+====================================================== */
+
 .clue_word {
-    padding: 2px 27px;
-    font-size: 22px;
+  padding: 2px 27px;
+
+  font-size: 22px;
 }
 
 .word_options {
-    width: 100%;
-    border-radius: 10px;
-    background-color: #c3f4ff8c;
+  width: 100%;
+
+  border-radius: 10px;
+
+  background-color: #c3f4ff8c;
 }
 
 .word_opt_sticky {
-    width: 100%;
-    margin: 0px auto;
-    position: -webkit-sticky;
-    position: sticky;
-    position: -webkit-sticky;
-    top: 0;
-    z-index: 5;
-    border: 2px solid var(--temp);
-    border-radius: 10px;
+  width: 100%;
+
+  margin: 0 auto;
+
+  position: sticky;
+
+  top: 0;
+
+  z-index: 5;
+
+  border: 2px solid var(--temp);
+
+  border-radius: 10px;
 }
 
-.words-list li{
-    height: 110px;
-    font-weight: bolder;
-    color: black;
-    border: 1px solid black;
-    align-items: center;
-    display: flex;
-    justify-content: center;
+
+/* ======================================================
+   LISTS
+====================================================== */
+
+.words-list li {
+  height: 110px;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  font-weight: bolder;
+
+  color: black;
+
+  border: 1px solid black;
 }
 
-.right-content .p-0{
-    height: 110px;
-    border: 1px solid black;
+.right-content .p-0 {
+  height: 110px;
+
+  border: 1px solid black;
 }
+
+
+/* ======================================================
+   TIPS
+====================================================== */
 
 .tips_content img {
-    height: 30px;
-    width: auto;
-    margin-top: 10px;
+  height: 30px;
+  width: auto;
+
+  margin-top: 10px;
 }
 
-.image-container{
-    position: absolute;
-    right: 260px;
-    bottom: 50px;
-    
+
+/* ======================================================
+   RESPONSIVE
+====================================================== */
+
+@media (max-width: 1199.98px) {
+
+  .screen_elements {
+    width: 95%;
+  }
+
+  .group_elm {
+    width: 95%;
+  }
+
+  .ques {
+    width: 95%;
+  }
+
+  .fill_in .que {
+    width: 100%;
+  }
+
+  .txtBox {
+    font-size: 22px;
+  }
+
+  .txtBox input {
+    font-size: 19px;
+  }
 }
 
-.image-container img{
-    width: 300px;
-    height: 210px;
-    margin: 0px 70px;
-    object-fit: cover;
-    border-radius: 15px;
-    border: 2px solid #36a0c7;
-}
 
-/* ************************************************* */
-/* ************************************************* */
 @media (max-width: 991.98px) {
-    .fill_in .que {
-        width: 160px;
-    }
+
+  .screen_elements {
+    width: 98%;
+  }
+
+  .group_elm {
+    width: 98%;
+  }
+
+  .ques {
+    width: 98%;
+
+    padding-bottom: 90px;
+  }
+
+  .fill_in .que {
+    width: 100%;
+  }
+
+  .txtBox {
+    font-size: 20px;
+  }
+
+  .txtBox input {
+    font-size: 18px;
+  }
+
+  .icon_wrap {
+    right: 40px;
+  }
 }
+
+
+@media (max-width: 767.98px) {
+
+  .fill_in .que {
+    width: 100%;
+  }
+
+  .txtBox {
+    font-size: 18px;
+  }
+
+  .txtBox input {
+    font-size: 16px;
+  }
+
+  .image-container {
+    right: 20px;
+  }
+}
+
 
 @media (max-width: 575.98px) {
-    .fill_in .que {
-        width: 200px;
-    }
+
+  .screen_elements,
+  .group_elm,
+  .ques {
+    width: 100%;
+  }
+
+  .ques {
+    padding: 10px 5px 100px;
+  }
+
+  .fill_in .que {
+    width: 100%;
+  }
+
+  .txtBox {
+    font-size: 16px;
+  }
+
+  .txtBox input {
+    font-size: 15px;
+  }
+
+  .icon_wrap {
+    right: 10px;
+  }
+
+  .image-container {
+    position: relative;
+
+    right: auto;
+    bottom: auto;
+
+    margin: 15px auto;
+
+    text-align: center;
+  }
+
+  .image-container img {
+    width: 250px;
+    height: auto;
+
+    margin: 0;
+  }
 }
 
+
 @media (max-width: 475.98px) {
-    /* .fill_in .que {
-        width: 200px;
-    } */
+
+  .ques {
+    padding-bottom: 110px;
+  }
+
+  .txtBox {
+    font-size: 15px;
+  }
+
+  .txtBox input {
+    font-size: 14px;
+  }
 }

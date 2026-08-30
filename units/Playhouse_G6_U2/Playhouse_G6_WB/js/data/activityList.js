@@ -100,33 +100,33 @@ var _activityData = {
          'layout'             : 3,
          'visited'            : 0,
       },
-      {
-         'file'               : 'slide_2.html',
-         'type'               : 'standAlone',
-         'subtype'            : '',
-         'build'              : 'yes', // yes (or) no
-         'activityCtrls'      : 'yes',
-         'layout'             : 3,
-         'visited'            : 0,
-      },
-      {
-         'file'               : 'slide_3.html',
-         'type'               : 'standAlone',
-         'subtype'            : '',
-         'build'              : 'yes', // yes (or) no
-         'activityCtrls'      : 'yes',
-         'layout'             : 3,
-         'visited'            : 0,
-      },
-      {
-         'file'               : 'slide_4.html',
-         'type'               : 'standAlone',
-         'subtype'            : '',
-         'build'              : 'yes', // yes (or) no
-         'activityCtrls'      : 'yes',
-         'layout'             : 3,
-         'visited'            : 0,
-      },
+      // {
+      //    'file'               : 'slide_2.html',
+      //    'type'               : 'standAlone',
+      //    'subtype'            : '',
+      //    'build'              : 'yes', // yes (or) no
+      //    'activityCtrls'      : 'yes',
+      //    'layout'             : 3,
+      //    'visited'            : 0,
+      // },
+      // {
+      //    'file'               : 'slide_3.html',
+      //    'type'               : 'standAlone',
+      //    'subtype'            : '',
+      //    'build'              : 'yes', // yes (or) no
+      //    'activityCtrls'      : 'yes',
+      //    'layout'             : 3,
+      //    'visited'            : 0,
+      // },
+      // {
+      //    'file'               : 'slide_4.html',
+      //    'type'               : 'standAlone',
+      //    'subtype'            : '',
+      //    'build'              : 'yes', // yes (or) no
+      //    'activityCtrls'      : 'yes',
+      //    'layout'             : 3,
+      //    'visited'            : 0,
+      // },
    ]
 }
 
