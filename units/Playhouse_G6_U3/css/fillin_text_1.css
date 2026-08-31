@@ -1,0 +1,521 @@
+.image_space {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image_space img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.group_elm {
+  width: 100%;
+  padding: 20px;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.audio_icon {
+  height: 39px;
+  padding: 1px;
+}
+
+.screen_elements {
+  width: 100%;
+  align-items: center;
+}
+
+.all_cont {
+  width: 100%;
+  height: auto;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.options {
+  width: 92%;
+}
+
+.subTitleTextRight b {
+  color: red;
+}
+
+.q_num_space,
+.txt-audioIcon b {
+  font-weight: bolder;
+}
+
+.fillin_gr input {
+  width: 200px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid black;
+  text-align: center;
+  height: 35px;
+  font-size: 28px;
+  margin: 0 10px;
+}
+
+.fillin_gr input:focus {
+  outline: none;
+}
+
+.img_fillin_gr {
+  position: relative;
+  min-height: 56px;
+  padding: 20px 30px;
+}
+
+.fillin_set * {
+  display: inline-block;
+}
+
+.tick,
+.cross {
+  width: 32px;
+  height: 32px;
+}
+
+.clue_word {
+  margin: 15px;
+}
+
+.word_options {
+  width: 80%;
+  border: 2px solid black;
+  border-radius: 20px;
+  margin-bottom: 8vh;
+  background-color: white;
+}
+
+.word_opt_sticky {
+  position: sticky;
+  top: 0;
+  z-index: 5;
+}
+
+.nextNav {
+  right: 0;
+}
+
+.backNav {
+  left: 0;
+}
+
+.func_ctrls {
+  display: none !important;
+}
+
+/* ======================================================
+   4 IMAGES
+====================================================== */
+
+.image_item {
+  width: 49% !important;
+
+  display: flex !important;
+
+  justify-content: center !important;
+  align-items: center !important;
+
+  box-sizing: border-box !important;
+
+  margin-bottom: 12px !important;
+}
+
+/* ======================================================
+   WRITING TIPS WRAPPER
+====================================================== */
+
+.writing_tips_content_holder {
+  width: 100% !important;
+
+  margin: 0 auto !important;
+
+  display: flex !important;
+
+  justify-content: center !important;
+
+  box-sizing: border-box !important;
+}
+
+.writing_tips {
+  width: 100% !important;
+
+  position: relative !important;
+}
+
+.writing_tips_background_image_container {
+  width: 100% !important;
+}
+
+.writing_tips_background_image {
+  width: 100% !important;
+
+  height: auto !important;
+
+  display: block !important;
+}
+
+/* ======================================================
+   TOP RIGHT IMAGE
+====================================================== */
+
+.writing_tips_top_right_image_image_container {
+  position: absolute !important;
+
+  top: 27% !important;
+  right: 4% !important;
+
+  width: 22% !important;
+  height: auto !important;
+}
+
+.writing_tips_top_right_image {
+  width: 100% !important;
+
+  height: auto !important;
+}
+
+/* ======================================================
+   MAIN SCREENPLAY TEXT
+====================================================== */
+
+.writing_tips_mid_text .writing_tips_container {
+  position: absolute !important;
+
+  top: 3.2% !important;
+  left: 4.5% !important;
+
+  width: 74% !important;
+  height: 92% !important;
+
+  padding: 0 !important;
+  margin: 0 !important;
+
+  display: flex !important;
+  flex-direction: column !important;
+
+  align-items: center !important;
+  justify-content: flex-start !important;
+
+  text-align: center !important;
+
+  font-size: 29px !important;
+
+  line-height: 1.15 !important;
+
+  box-sizing: border-box !important;
+}
+
+.writing_tips_paragraph {
+  width: 100% !important;
+
+  height: auto !important;
+
+  padding: 0 !important;
+  margin: 0 !important;
+
+  text-align: center !important;
+
+  font-size: 29px !important;
+
+  line-height: 1.15 !important;
+
+  color: #222 !important;
+}
+
+.writing_tips_paragraph b {
+  font-weight: 700 !important;
+}
+
+.writing_tips_paragraph i {
+  font-style: italic !important;
+}
+
+/* ======================================================
+   RIGHT LABELS
+====================================================== */
+
+.writing_label {
+  position: absolute !important;
+
+  right: 3.5% !important;
+
+  width: 17% !important;
+
+  color: #333 !important;
+
+  font-size: 24px !important;
+
+  line-height: 1.25 !important;
+
+  text-align: center !important;
+
+  z-index: 10 !important;
+
+  box-sizing: border-box !important;
+
+  display: flex !important;
+
+  align-items: center !important;
+
+  justify-content: center !important;
+}
+
+/* ======================================================
+   LABEL 1
+====================================================== */
+
+.writing_label_1 {
+  top: 6% !important;
+
+  height: 13% !important;
+}
+
+/* ======================================================
+   LABEL 2
+====================================================== */
+
+.writing_label_2 {
+  top: 22% !important;
+
+  height: 22% !important;
+}
+
+/* ======================================================
+   LABEL 3
+====================================================== */
+
+.writing_label_3 {
+  top: 57% !important;
+
+  height: 25% !important;
+}
+
+/* ======================================================
+   GREEN BRACKETS
+====================================================== */
+
+.writing_label::before {
+  content: "" !important;
+
+  position: absolute !important;
+
+  left: -14% !important;
+
+  top: 0% !important;
+
+  width: 12% !important;
+
+  height: 100% !important;
+
+  transform: none !important;
+
+  border-top: 2px solid #95c83d !important;
+
+  border-right: 2px solid #95c83d !important;
+
+  border-bottom: 2px solid #95c83d !important;
+
+  box-sizing: border-box !important;
+}
+
+/* ======================================================
+   WRITING TIPS HEADER
+====================================================== */
+
+.writing_tips_header {
+  color: blue !important;
+
+  font-weight: bold !important;
+
+  font-size: 24px !important;
+}
+
+.writing_tips_header .audioIcon {
+  margin: auto !important;
+
+  margin-right: 0 !important;
+}
+
+/* ======================================================
+   INNER IMAGE
+====================================================== */
+
+.writing_tips_inner_image {
+  float: right !important;
+
+  width: 25% !important;
+
+  height: auto !important;
+}
+
+.writing_tips_container > .audioIcon:hover {
+  transform: scale(1) !important;
+}
+
+/* ======================================================
+   RESPONSIVE
+====================================================== */
+
+@media (max-width: 1199.98px) {
+  .word_options {
+    margin-bottom: 1vh;
+  }
+
+  .img_fillin_gr {
+    width: 100%;
+  }
+
+  .writing_tips_mid_text .writing_tips_container,
+  .writing_tips_paragraph {
+    font-size: 22px !important;
+
+    line-height: 1.1 !important;
+  }
+
+  .writing_label {
+    font-size: 18px !important;
+  }
+
+  /*
+    مهم:
+    ما نغير top أو height تبع labels هون
+    حتى يظل مكانهم وطولهم ثابت كنسبة من الشاشة الكبيرة
+  */
+}
+
+@media (max-width: 991.98px) {
+  .writing_tips_mid_text .writing_tips_container,
+  .writing_tips_paragraph {
+    font-size: 19px !important;
+  }
+
+  .writing_label {
+    font-size: 16px !important;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .image_item {
+    width: 100% !important;
+  }
+
+  .writing_tips_mid_text .writing_tips_container,
+  .writing_tips_paragraph {
+    font-size: 16px !important;
+  }
+
+  .writing_label {
+    font-size: 13px !important;
+  }
+
+  /*
+    نفس الشي:
+    ما في أي تعديل على top / height
+  */
+}
+
+@media (max-width: 575.98px) {
+  .writing_tips_mid_text .writing_tips_container,
+  .writing_tips_paragraph {
+    font-size: 13px !important;
+  }
+
+  .writing_label {
+    font-size: 11px !important;
+  }
+}
+
+@media (max-width: 475.98px) {
+  .writing_tips_mid_text .writing_tips_container,
+  .writing_tips_paragraph {
+    font-size: 11px !important;
+  }
+
+  .writing_label {
+    font-size: 9px !important;
+  }
+}
+.textarea_icons {
+  display: none !important;
+}
+
+.textarea_question {
+  width: 100% !important;
+}
+
+.textarea_question .q_space {
+  width: 100% !important;
+}
+
+.textarea_question .fillin_set {
+  width: 100% !important;
+
+  display: flex !important;
+
+  justify-content: center !important;
+
+  align-items: center !important;
+}
+
+.screenplay_textarea {
+  width: 90% !important;
+
+  height: 380px !important;
+
+  min-height: 380px !important;
+
+  resize: none !important;
+
+  border: 2px solid #00b7ce !important;
+
+  border-radius: 15px !important;
+
+  padding: 20px !important;
+
+  background-color: white !important;
+
+  color: #222 !important;
+
+  font-size: 22px !important;
+
+  line-height: 1.5 !important;
+
+  font-family: inherit !important;
+
+  box-sizing: border-box !important;
+}
+
+.screenplay_textarea:focus {
+  outline: none !important;
+
+  border-color: #008fa3 !important;
+
+  box-shadow: 0 0 0 4px rgba(0, 183, 206, 0.15) !important;
+}
+
+.ques {
+  width: 100% !important;
+}
+
+.group_elm {
+  width: 100% !important;
+}
+
+.screen_elements {
+  width: 100% !important;
+}
+
+.all_cont {
+  width: 100% !important;
+}
+
+.options {
+  width: 90% !important;
+}

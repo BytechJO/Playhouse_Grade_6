@@ -283,7 +283,7 @@ body {
   
   .snap_card img {
       z-index: 0;
-      /* height: 140px; */
+      height: 140px;
   }
   
   .bottom_btn_part {

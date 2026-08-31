@@ -5,7 +5,7 @@ var fillin_data = {
     "mainTitleIcon"         : "",
     "mainTitleIconPos"      : {"right": "-18px"},
     "mainTitleAudio"        : "../audios/under.mp3",
-    "subTitleTextLeft"      : "<span class='green_text'>3</span> Match it! Match each sentence to the correct prepositional phrase.",
+    "subTitleTextLeft"      : "<span class='green_text'>3</span> Match it! <span class='blue_text'>Match each sentence to the correct prepositional phrase.</span>",
     "subTitleTextRight"     : "",
     "subTitleIcons"         : [""],
     "subTitleAudio"         : "../audios/under.mp3",

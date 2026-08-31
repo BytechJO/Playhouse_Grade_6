@@ -157,7 +157,7 @@ var fillin_data = {
       "audio": "",
       "audioenable": "default", // correct (or) default
       "image": "",
-      "answer": ["golf culb"],
+      "answer": ["golf club"],
       "alternateanswer": [[]],
       "strictcase": "no", // yes (or) no  
       "strictorder": "yes", // yes (or) no              

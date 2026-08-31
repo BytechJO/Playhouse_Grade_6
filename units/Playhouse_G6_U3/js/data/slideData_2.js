@@ -26,7 +26,7 @@ var reading_data = {
     "subTitleTextLeft": "<span class='title-order'>1</span> Listen and read. Then act it out with a friend.",
     "subTitleTextRight": "",
     "subTitleIcons": [""],
-    "subTitleAudio": "../audios/p21/1_Listen_and_read_Then_act_it_out_with_a_friend.mp3",
+    "subTitleAudio": "../audios/P21/1_Listen_and_read_Then_act_it_out_with_a_friend copy.mp3",
     "slides": [
         {
 

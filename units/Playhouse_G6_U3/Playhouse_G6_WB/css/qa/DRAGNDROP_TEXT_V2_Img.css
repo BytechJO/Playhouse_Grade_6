@@ -1,12 +1,12 @@
-:root{
+:root {
   --temp: rgb(0, 185, 242);
-} 
+}
 
 .activityHeading {
   font-size: 24px !important;
 }
 
-.img_space{
+.img_space {
   position: absolute;
   bottom: 0;
   right: 80px;
@@ -16,25 +16,25 @@
   align-items: center;
   width: 450px;
   height: 500px;
-
 }
-.img_space img{
+.img_space img {
   width: 300px;
   height: 200px;
   margin: 20px 0px;
 }
-
+.drag_drop_questions {
+  width: 85%;
+}
 @media (max-width: 799.98px) {
-  .img_space{
-    position:static;
+  .img_space {
+    position: static;
     width: 100%;
     margin: auto;
   }
-  .img_space img{
+  .img_space img {
     margin: auto 20px;
   }
 }
-  
 
 .fixed-top.screen_numbers_wrap {
   z-index: -1;
@@ -133,9 +133,8 @@ button#caret {
   box-shadow: 2px 7px #d1d2d4; */
   display: inline-block;
   padding: 11px;
-  margin: -6px 0px 7px 0px;
-  width: 1069px;
-  min-width: 1069px;
+  margin: 11px 1px 7px 4px;
+  width: 810px;
   height: 90px;
   min-height: 90px;
   text-align: center;

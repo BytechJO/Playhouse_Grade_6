@@ -110,7 +110,7 @@ function showRaduiBox(){
 }
 
 function make_change_when_audio_play(audioElement) {
-    const targetTime = [[0,15],[16,20],[21,30],[31,39],[40,102]];//target time in seconds
+    const targetTime = [[0,65],[65,200]];//target time in seconds
     audioElement.addEventListener('timeupdate', function() {
       
         const currentTime = parseInt(audioElement.currentTime);

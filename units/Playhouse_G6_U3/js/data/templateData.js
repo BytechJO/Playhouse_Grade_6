@@ -52,7 +52,7 @@ var _data = {
         "filetoload" : [],
         "reviewbutton" : {
             'visible'   : 'yes', // yes (or) no
-            'link'      : 'Playhouse_Review_G6_U3/views/WB_G4_U2_P12_2.html'
+            'link'      : 'Playhouse_Review_G6_U3/views/crossword_mystery.html'
         },
         "booksbutton" : { 
             "workbook": {
