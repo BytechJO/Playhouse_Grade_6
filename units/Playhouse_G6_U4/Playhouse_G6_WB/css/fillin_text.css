@@ -1,5 +1,4 @@
 .all_cont{
-    height: 100%;
     text-align: center;
     align-items: center;
     display: flex;
@@ -96,7 +95,6 @@
 
 .icon_wrap {
     position: absolute;
-    margin-top: -35px; 
     right: 100px;
 }
 

@@ -37,7 +37,7 @@ var reading_data = {
             "audio": ["../audios/p38/Pg6_2.1_Stella.mp3","../audios/p38/dough.mp3","../audios/p38/sauce.mp3","../audios/p38/sprinkle.mp3","../audios/p38/cheese.mp3","../audios/p38/add.mp3","../audios/p38/pepperoni.mp3","../audios/p38/slice.mp3"],
             "word": [
                 "<img src='../images/pages/activities/p38_1.png'>",
-                "<span class='blue_text'>What is a blog? The internet describes a blog as ‘an informational site on the World Wide Web where a person can post diaries, advice and pictures and have discussions about a topic’.</span>",
+                "<span class='blue_bold_text'>What is a blog? The internet describes a blog as ‘an informational site on the World Wide Web where a person can post diaries, advice and pictures and have discussions about a topic’.</span>",
             ],
             "imagePlacePos":[
                 {"colWidth": [3,9], "colData": [1,1] },

@@ -51,7 +51,7 @@ var _data = {
         "filetoload" : [],
         "reviewbutton" : {
             'visible'   : 'yes', // yes (or) no
-            'link'      : 'Playhouse_Review_G6_U4/views/fillin_text_in_sentences_2.html'
+            'link'      : 'Playhouse_Review_G6_U4/views/page_1.html'
         },
         "booksbutton" : { 
             "workbook": {

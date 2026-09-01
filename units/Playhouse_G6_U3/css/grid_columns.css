@@ -82,14 +82,13 @@
   font-size: 24px;
   font-weight: bold;
 }
-
 .top_right_image {
   position: absolute;
-  height: 160px;
-  right: 6px;
-  top: 5px;
+  height: 185px;
+  right: 22px;
+  top: 13px;
+  border-radius: 20px;
 }
-
 .red_text {
   color: red;
 }

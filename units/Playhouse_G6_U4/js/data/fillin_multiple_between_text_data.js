@@ -98,7 +98,7 @@ var stereo_data = {
         "audio": "",
         "audioenable": "default", // correct (or) default
         "image": "",
-        "answer": [""],
+        "answer": [],
         "alternateanswer": [[]],
         "strictcase": "no", // yes (or) no  
         "strictorder": "yes", // yes (or) no              

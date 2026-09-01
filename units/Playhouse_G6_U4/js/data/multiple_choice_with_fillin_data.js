@@ -22,7 +22,7 @@ var mcq_data = {
     "mainTitle"             : "../images/pages/sb-icons/language-building.png",
     "mainTitleIcon"         : "../images/pages/sb-icons/phonics_main_title_icon.png",
     "mainTitleIconPos"      : {"right": "90px"},
-    "mainTitleAudio"        : "../audios/under.mp3",
+    "mainTitleAudio"        : "../audios/p37/LANGUAGE_BUILDING.mp3",
     "subTitleTextLeft"      : "<span class='title-order'>2</span> You do it!",
     "subTitleTextRight"     : "Read each sentence and circle the adjective. On the line after the sentence, write the noun that is being described.",
     "subTitleIcons"         : [""],

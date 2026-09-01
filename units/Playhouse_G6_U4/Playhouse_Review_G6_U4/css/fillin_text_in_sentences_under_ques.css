@@ -1,238 +1,442 @@
-.all_cont{
-    height: 100%;
-    text-align: center;
-    align-items: center;
-    display: flex;
-    justify-content: center;
+.all_cont {
+  height: 100%;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
 }
-.screen_elements{
-    width: 80%;
-    height: 100%;
+
+.screen_elements {
+  width: 90%;
+  height: 100%;
 }
+
+/* =========================================
+   MAIN GROUP
+========================================= */
+
+.group_elm {
+  width: 80%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+
+  justify-content: space-between;
+  align-items: center;
+
+  gap: 25px;
+}
+
+/* =========================================
+   QUESTIONS SIDE
+========================================= */
 
 .ques {
-    display: flex;
-    flex-wrap: wrap;
-    /* border: 4px dashed rgb(250, 163, 97);
-    background: #fff;
-    border-radius: 20px; */
+  width: 55%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+
+  justify-content: center;
+  align-items: flex-start;
+
+  padding: 10px;
+
+  text-align: left;
 }
 
+/* كل سؤال */
 .que {
-    text-align: left;
-}
-
-.group_elm{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    /* flex-direction: column; */
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-}
-
-.fillin_gr {
-    width: 100%;
-}
-
-.activityHeading b {
-    color: #000;
-}
-
-.func_ctrls{
-    display: none !important;
-}
-
-.q_num_space{
-    width: 40px;
-    font-weight: bold;
-}
-
-.image_space {
-    width: 250px;
-    margin-right: 25px;
-    /* width: 75%; */
-    /* height: 342px; */
-    /* margin: 0px auto; */
-}
-  
-.image_space img {
-    height: 100%;
-    width: 100%;
-    object-fit: contain;
-}
-
-.q_order{
-    width: 50px;
-    font-weight: bolder;
-}
-
-.txt-audioIcon {
-    color: rgb(58, 58, 58);
-    font-size: 27px;
-}
-
-.ques{
-    width: 100%;
-    align-items: center;
-    padding: 10px;
-    text-align: center;
-    justify-content: center;
-}
-
-.q_image {
-    width: 520px;
-}
-
-.q_image img{
-    width: 100%;
-}
-
-.q_box{
-    width:  100%;
-    height: 70px;
+  text-align: left;
 }
 
 .fill_in .img_fillin_gr {
-    width: 70%;
-    margin: 5px;
-    /* height: 60px; */
-    position: relative;
+  width: 100%;
+
+  margin: 0px 0;
+
+  position: relative;
+
+  display: flex;
+  align-items: center;
+}
+
+/* =========================================
+   FILL IN
+========================================= */
+
+.fillin_gr {
+  width: 100%;
 }
 
 .fillin_gr .q_space {
-    width: 100%;
-}
-.fillin_set {
-    font-family: Arcon;
-    color: black;
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
+  width: 100%;
+
+  display: flex;
+
+  align-items: center;
 }
 
-.fillin_set input:focus{
-    outline: none;
+.fillin_set {
+  font-family: Arcon;
+  color: black;
+
+  width: 100%;
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+
+  text-align: left;
+}
+
+/* =========================================
+   TEXT
+========================================= */
+
+.txt-audioIcon {
+  color: rgb(58, 58, 58);
+  font-size: 27px;
+}
+
+.q_order {
+  width: 50px;
+  font-weight: bolder;
+}
+
+.q_num_space {
+  width: 40px;
+  font-weight: bold;
+}
+
+/* =========================================
+   INPUT
+========================================= */
+
+.fillin_set input:focus {
+  outline: none;
 }
 
 .fillin_set input {
-    flex: 2 2 10px;
-    width: 200px;
-    /* width: 180px; */
-    height: 35px;
-    color: black;
-    /* padding-left: 20px; */
-    border: none;
-    margin: 0px 15px;
-    border-bottom: 2px solid #595a5a;
-    background-color: transparent;
+  flex: 2 2 10px;
+
+  width: 180px;
+  max-width: 220px;
+
+  height: 35px;
+
+  color: black;
+
+  border: none;
+
+  margin: 0 10px;
+
+  border-bottom: 2px solid #595a5a;
+
+  background-color: transparent;
 }
 
+/* =========================================
+   TEXT END
+========================================= */
+
 .text_End {
-    position: absolute;
-    font-size: 23px;
+  position: absolute;
+  font-size: 23px;
+}
+
+/* =========================================
+   TICK / CROSS
+========================================= */
+
+.icon_wrap_holder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-left: 8px;
 }
 
 .icon_wrap {
-    /* position: absolute;
-    margin-top: -35px; 
-    right: 100px; */
+  position: relative;
 }
 
 .tick,
 .cross {
-    width: 35px;
+  width: 35px;
 }
 
 .tick img,
 .cross img {
-    width: 100%;
-    /* display: none; */
+  width: 100%;
 }
 
 .image_wrap {
-    display: none;
+  display: none;
 }
 
+/* =========================================
+   QUESTION IMAGE
+========================================= */
+
+.image_space {
+  width: 250px;
+
+  margin-right: 25px;
+}
+
+.image_space img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+/* =========================================
+   MAIN IMAGE - RIGHT SIDE
+========================================= */
+
+.q_image {
+  width: 45%;
+  height: 100%;
+
+  border-radius: 20px;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+
+  padding: 10px;
+}
+
+.q_image img {
+  width: 100%;
+  height: 100%;
+
+  max-height: 520px;
+
+  object-fit: contain;
+}
+
+/* =========================================
+   QUESTION BOX
+========================================= */
+
+.q_box {
+  width: 100%;
+  height: 70px;
+}
+
+/* =========================================
+   ACTIVITY HEADING
+========================================= */
+
+.activityHeading b {
+  color: #000;
+}
+
+/* =========================================
+   HIDE FUNCTION CONTROLS
+========================================= */
+
+.func_ctrls {
+  display: none !important;
+}
+
+/* =========================================
+   WORD OPTIONS
+========================================= */
+
 .clue_word {
-    padding: 2px 27px;
-    font-size: 26px;
+  padding: 2px 27px;
+  font-size: 26px;
 }
 
 .word_options {
-    width: 100%;
-    border-radius: 10px;
-    background-color: rgb(250, 163, 97);
-    padding: 10px;
+  width: 100%;
+
+  border-radius: 10px;
+
+  background-color: rgb(250, 163, 97);
+
+  padding: 10px;
 }
 
 .word_opt_sticky {
-    width: 100%;
-    margin: 0px auto;
-    position: -webkit-sticky;
-    position: sticky;
-    position: -webkit-sticky;
-    top: 0;
-    z-index: 5;
-    border: 2px solid var(--temp);
-    border-radius: 10px;
+  width: 100%;
+
+  margin: 0 auto;
+
+  position: sticky;
+  top: 0;
+
+  z-index: 5;
+
+  border: 2px solid var(--temp);
+  border-radius: 10px;
 }
 
-.words-list li{
-    height: 110px;
-    font-weight: bolder;
-    color: black;
-    border: 1px solid black;
-    align-items: center;
-    display: flex;
-    justify-content: center;
+/* =========================================
+   WORD LIST
+========================================= */
+
+.words-list li {
+  height: 110px;
+
+  font-weight: bolder;
+
+  color: black;
+
+  border: 1px solid black;
+
+  align-items: center;
+
+  display: flex;
+
+  justify-content: center;
 }
 
-.right-content .p-0{
-    height: 110px;
-    border: 1px solid black;
+.right-content .p-0 {
+  height: 110px;
+  border: 1px solid black;
 }
+
+/* =========================================
+   TIPS
+========================================= */
 
 .tips_content img {
-    height: 30px;
-    width: auto;
-    margin-top: 10px;
+  height: 30px;
+  width: auto;
+
+  margin-top: 10px;
 }
 
-.image-container{
-    position: absolute;
-    right: 260px;
-    bottom: 50px;
-    
+/* =========================================
+   OTHER IMAGE CONTAINER
+========================================= */
+
+.image-container {
+  position: absolute;
+
+  right: 260px;
+  bottom: 50px;
 }
 
-.image-container img{
-    width: 300px;
-    height: 210px;
-    margin: 0px 70px;
-    object-fit: cover;
-    border-radius: 15px;
-    border: 2px solid #36a0c7;
+.image-container img {
+  width: 300px;
+  height: 210px;
+
+  margin: 0 70px;
+
+  object-fit: cover;
+
+  border-radius: 15px;
+
+  border: 2px solid #36a0c7;
 }
 
-/* ************************************************* */
-/* ************************************************* */
+/* =========================================
+   RESPONSIVE
+========================================= */
+
 @media (max-width: 991.98px) {
-    .fill_in .img_fillin_gr {
-        width: 160px;
-    }
+  .screen_elements {
+    width: 95%;
+  }
+
+  .group_elm {
+    gap: 15px;
+  }
+
+  .ques {
+    width: 58%;
+  }
+
+  .q_image {
+    width: 42%;
+  }
+
+  .txt-audioIcon {
+    font-size: 23px;
+  }
+
+  .fillin_set input {
+    width: 140px;
+    max-width: 180px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .group_elm {
+    flex-direction: column;
+    justify-content: flex-start;
+
+    height: auto;
+  }
+
+  .ques {
+    width: 100%;
+    height: auto;
+  }
+
+  .q_image {
+    width: 100%;
+    height: auto;
+
+    max-height: 350px;
+  }
+
+  .q_image img {
+    max-height: 350px;
+  }
+
+  .fill_in .img_fillin_gr {
+    width: 100%;
+  }
 }
 
 @media (max-width: 575.98px) {
-    .fill_in .img_fillin_gr {
-        width: 200px;
-    }
+  .screen_elements {
+    width: 100%;
+  }
+
+  .ques {
+    width: 100%;
+
+    padding: 5px;
+  }
+
+  .fill_in .img_fillin_gr {
+    width: 100%;
+  }
+
+  .txt-audioIcon {
+    font-size: 20px;
+  }
+
+  .fillin_set input {
+    width: 120px;
+    max-width: 150px;
+
+    margin: 0 5px;
+  }
+
+  .q_image {
+    width: 100%;
+  }
 }
 
 @media (max-width: 475.98px) {
-    /* .fill_in .img_fillin_gr {
-        width: 200px;
-    } */
+  .fillin_set {
+    font-size: 18px;
+  }
+
+  .fillin_set input {
+    width: 100px;
+    max-width: 130px;
+  }
 }

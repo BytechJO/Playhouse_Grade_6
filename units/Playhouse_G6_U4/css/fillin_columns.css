@@ -41,14 +41,16 @@
     font-weight: bolder;
 }
 
-.ques{
+.ques {
     width: 90%;
     padding: 10px;
+    text-align: left;
 }
 
-.q_box{
-    width:  100%;
+.q_box {
+    width: 100%;
     height: 130px;
+    text-align: left;
 }
 
 .fill_in .with_Img {
@@ -79,7 +81,7 @@
     padding-left: 20px;
     border: none;
     font-size: 27px;
-    border-bottom: 2px solid #3c3c3c;
+    border-bottom: 2px solid #36a0c7;
 }
 
 .icon_wrap {
@@ -178,4 +180,9 @@
     /* .fill_in .que {
         width: 200px;
     } */
+}
+.orange_star {
+    color: orange;
+    font-size: 28px;
+    margin-right: 6px;
 }

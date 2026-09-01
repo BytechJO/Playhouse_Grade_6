@@ -1,30 +1,28 @@
 .mcq_1_5_q_group {
   border: 2px solid rgba(231, 231, 231, 0);
-}
-
-.selectedDefault {
-  /* border-color: rgb(202, 133, 13); */
-}
-
-
-.mcq_1_5_q_group {
   text-align: center;
   padding: 6px;
   position: relative;
 }
 
+.selectedDefault {
+  border-color: red !important;
+}
+
+.selectedDefault::after {
+  width: 100%;
+  height: 3px;
+}
+
 .sub_title,
 .txt_box {
   text-align: left;
-
 }
 
 .q_num_space {
   width: 20px;
   margin-right: 10px;
-  /* display: none; */
 }
-
 
 .activityHeading {
   font-family: arcon;
@@ -34,44 +32,28 @@
   height: 30vh;
 }
 
-.image_space {
-  width: 471px;
-  /* border: 1px solid red;  */
-  min-height: 200px;
-  margin: 10px auto;
-}
-
-.image_space img {
-  height: 23vh;
-}
-
 .group_elm {
-  /* box-shadow: 2px 3px 11px #c9c9c9; */
   border-radius: 19px;
-  /* margin-top: 80px; */
-  /* margin-bottom: 10px; */
   flex-wrap: wrap;
   padding: 4px;
 }
 
 .ques_part_space {
-  /* border: 1px solid green;  */
-  min-height: 200px;
+  min-height: fit-content;
   padding: 27px;
 }
 
-.selectedDefault {
-  border-color: red !important;
-  
-}
-.selectedDefault::after{
-  width: 100%;
-  height: 3px; 
-}
 .que {
   position: relative;
-  height: 75px;
   width: 1080px;
+  height: 75px;
+
+  display: flex;
+  align-items: center !important;
+}
+
+.picks_grp {
+  width: 100%;
 }
 
 .cont_group {
@@ -88,9 +70,72 @@
   bottom: 80px;
 }
 
-.icon_wrap_holder {
+/* ========================================= */
+/* INPUT */
+/* ========================================= */
+
+.fill-group {
+  position: absolute;
+
+  right: 7px;
+  top: 50%;
+  transform: translateY(-50%);
+
+  border-radius: 12px;
+  border: 2px solid #00b7ce;
+
   height: 42px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #fff;
+}
+
+.fill-group input {
+  width: 189px;
+  height: 100%;
+
+  text-align: center;
+
+  border: none;
+  outline: none;
+
+  background-color: transparent;
+
+  font-size: 24px;
+  color: black;
+}
+
+.fill-group input:focus {
+  outline: none;
+}
+
+/* ========================================= */
+/* TICK / CROSS */
+/* ========================================= */
+
+.icon_wrap_holder {
+  position: absolute;
+
+  right: -30px;
+  top: 50%;
+  transform: translateY(-50%);
+
   width: 42px;
+  height: 42px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon_wrap {
+  position: static;
+
+  width: 100%;
+  height: 100%;
 }
 
 .tick,
@@ -98,30 +143,26 @@
   width: 32px;
   height: 32px;
 }
-.fill-group{
-  /* margin-right: -90px; */
-  position: absolute;
-  right: 0;
-  top: 10px;
-  border-radius: 12px;
-  border: 2px solid #00b7ce;
 
-}
-.fill-group input {
-  text-align: center;
-  width: 189px;
-  border: none;
-  background-color: transparent;
-  /* border-bottom: 2px solid black; */
+.tick img,
+.cross img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 
-.fill-group input:focus {
-  outline: none;
-}
+/* ========================================= */
+/* IMAGE */
+/* ========================================= */
 
 .image_space {
   width: auto;
+  min-height: 200px;
+  margin: 10px auto;
+}
 
+.image_space img {
+  height: 23vh;
 }
 
 .popup_img img {
@@ -129,31 +170,22 @@
   margin-top: -37px;
 }
 
-.ques_part_space {
-  min-height: fit-content;
+/* ========================================= */
+/* MEDIA QUERIES */
+/* ========================================= */
+
+@media (max-width: 1999.98px) {
 }
 
-/**End**/
+@media (max-width: 1199.98px) {
+}
 
-/* ====================================================== */
-/*              Media Queries Start                       */
-/* ====================================================== */
-/* ------------------------------------------------ */
-/*              M Q max-width: 1199.98px */
-/* ------------------------------------------------*/
-@media (max-width: 1999.98px) {}
+@media (max-width: 991.98px) {
+  .que {
+    width: 100%;
+  }
+}
 
-@media (max-width: 1199.98px) {}
-
-/* ------------------------------------------------ */
-/*              M Q max-width: 991.98px */
-/* ------------------------------------------------*/
-/* // Medium devices (tablets, less than 992px) 768 to 991.98 */
-@media (max-width: 991.98px) {}
-
-/* ------------------------------------------------ */
-/* M Q max-width: 767.98px */
-/* ------------------------------------------------*/
 @media (max-width: 768.98px) {
   .image_space {
     width: 315px;
@@ -163,11 +195,20 @@
     width: 50%;
     margin-top: 14px;
   }
+
+  .que {
+    width: 100%;
+  }
+
+  .fill-group {
+    right: 50px;
+  }
+
+  .icon_wrap_holder {
+    right: 3px;
+  }
 }
 
-/* ------------------------------------------------ */
-/* M Q max-width: 575.98px */
-/* ------------------------------------------------*/
 @media (max-width: 575.98px) {
   .cont_group {
     padding: 15px;
@@ -183,21 +224,28 @@
     width: 100%;
   }
 
+  .que {
+    width: 100%;
+  }
+
+  .fill-group {
+    right: 48px;
+  }
+
+  .fill-group input {
+    width: 150px;
+  }
+
+  .icon_wrap_holder {
+    right: 2px;
+  }
 }
 
-/* ------------------------------------------------ */
-/*              M Q max-width: 475.98px             */
-/* ------------------------------------------------*/
 @media (max-width: 475.98px) {
-  /* .mcq_1_5_q_group {  
-      width: 100%;
-      min-width: 100%;
-      height: intrinsic;
-height: -moz-max-content;
-height: -webkit-max-content;
-height: max-content; 
-    } */
-
+  .fill-group input {
+    width: 130px;
+  }
 }
 
-@media (max-width: 320px) {}
+@media (max-width: 320px) {
+}

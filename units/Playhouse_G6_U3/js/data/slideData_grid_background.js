@@ -26,7 +26,7 @@ var reading_data = {
     "subTitleTextLeft": "<span class='title-order'>1</span> Read about it.",
     "subTitleTextRight": "",
     "subTitleIcons": [],
-    "subTitleAudio": "../audios/under.mp3",
+    "subTitleAudio": "../audios/p25/1_Read_about_it!.mp3",
     "slides": [
     {
         "mainTitle": "../images/pages/page-2/1-title_1.png",
