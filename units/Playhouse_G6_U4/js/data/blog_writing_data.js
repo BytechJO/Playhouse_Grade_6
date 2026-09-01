@@ -18,7 +18,7 @@ var stereo_data = {
     },
   ],
 };
-
+ 
 var blog_writing_data = {
   mainTitle: "../images/pages/sb-icons/writing.png",
   mainTitleIcon: "../images/pages/sb-icons/adv_icon_1.png",

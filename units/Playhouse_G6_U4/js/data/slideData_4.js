@@ -18,7 +18,7 @@ var stereo_data = {
         }
     ],
 }
-var reading_data = {
+var reading_data = { 
     "mainTitle": "../images/pages/sb-icons/gram_main_title.png",
     "mainTitleIcon": "../images/pages/sb-icons/gram_main_title_icon.png",
     "mainTitleAudio": "../audios/p34/GRAMMAR.mp3",

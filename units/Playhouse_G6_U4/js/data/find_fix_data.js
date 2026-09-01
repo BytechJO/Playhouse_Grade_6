@@ -20,7 +20,7 @@ var find_fix_data = {
     "Look at each picture and then look at its sentence. Underline the adjective that is wrong and rewrite the sentence with a better adjective.",
   subTitleIcons: ["../images/pages/sb-icons/conv_2_icon.png"],
   subTitleAudio: "../audios/new/p37find.mp3",
-
+ 
   questions: [
     // =================================================
     // 1

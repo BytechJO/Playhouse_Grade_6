@@ -15,7 +15,7 @@ var stereo_data = {
         },
         {
           'url': '',
-        }
+        } 
     ],
 }
 var mcq_data = {    

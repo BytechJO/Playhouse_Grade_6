@@ -17,7 +17,7 @@ var stereo_data = {
           'url': '',
         }
     ],
-}
+} 
 var mcq_data = {
     "mainTitle"             : "../images/pages/sb-icons/language-building.png",
     "mainTitleIcon"         : "../images/pages/sb-icons/phonics_main_title_icon.png",

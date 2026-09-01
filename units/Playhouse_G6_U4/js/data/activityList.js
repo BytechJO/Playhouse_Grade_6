@@ -22,7 +22,7 @@ var _activityData = {
     //    'visited'            : 0,
     // },
     {
-      file: "slide_2.html",
+      file: "slide_page_2.html",
       type: "standAlone",
       subtype: "",
       build: "yes", // yes (or) no
@@ -31,7 +31,7 @@ var _activityData = {
       visited: 0,
     },
     {
-      file: "fillin_text_p33.html",
+      file: "page_3.html",
       type: "fillin",
       subtype: "",
       build: "yes", // yes (or) no
@@ -41,7 +41,7 @@ var _activityData = {
       score: 0,
     },
     {
-      file: "slide_color_background_2.html",
+      file: "slide_page_4.html",
       type: "standAlone",
       subtype: "",
       build: "yes", // yes (or) no
@@ -50,7 +50,7 @@ var _activityData = {
       visited: 0,
     },
     {
-      file: "slide_4.html",
+      file: "slide_page_5.html",
       type: "standAlone",
       subtype: "",
       build: "yes", // yes (or) no
@@ -59,7 +59,7 @@ var _activityData = {
       visited: 0,
     },
     {
-      file: "underline_sentence.html",
+      file: "page_6.html",
       type: "mcq",
       build: "yes", // yes (or) no
       activityCtrls: "yes",
@@ -68,7 +68,7 @@ var _activityData = {
       score: 0,
     },
     {
-      file: "circle_word_in_sentence.html",
+      file: "page_7.html",
       type: "mcq",
       build: "yes", // yes (or) no
       activityCtrls: "yes",
@@ -77,7 +77,7 @@ var _activityData = {
       score: 0,
     },
     {
-      file: "slide_5.html",
+      file: "slide_page_8.html",
       type: "standAlone",
       subtype: "",
       build: "yes", // yes (or) no
@@ -86,7 +86,7 @@ var _activityData = {
       visited: 0,
     },
     {
-      file: "fillin_multiple_between_text.html",
+      file: "page_9.html",
       type: "fillin",
       subtype: "",
       build: "yes", // yes (or) no
@@ -96,7 +96,7 @@ var _activityData = {
       score: 0,
     },
     {
-      file: "fillin_text_p35.html",
+      file: "page_10.html",
       type: "fillin",
       subtype: "",
       build: "yes", // yes (or) no
@@ -106,7 +106,7 @@ var _activityData = {
       score: 0,
     },
     {
-      file: "slide_text.html",
+      file: "slide_page_11.html",
       type: "standAlone",
       subtype: "",
       build: "yes", // yes (or) no
@@ -115,7 +115,7 @@ var _activityData = {
       visited: 0,
     },
     {
-      file: "multiple_choice_with_background_box.html",
+      file: "page_12.html",
       type: "mcq",
       build: "yes", // yes (or) no
       activityCtrls: "yes",
@@ -123,17 +123,8 @@ var _activityData = {
       visited: 0,
       score: 0,
     },
-    // {
-    //    'file'               : 'slide_7_2.html',
-    //    'type'               : 'standAlone',
-    //    'subtype'            : '',
-    //    'build'              : 'yes', // yes (or) no
-    //    'activityCtrls'      : 'yes',
-    //    'layout'             : 3,
-    //    'visited'            : 0,
-    // },
     {
-      file: "fillin_columns.html",
+      file: "page_13.html",
       type: "fillin",
       subtype: "",
       build: "yes", // yes (or) no
@@ -143,7 +134,7 @@ var _activityData = {
       score: 0,
     },
     {
-      file: "slide_grid_background.html",
+      file: "slide_page_14.html",
       type: "standAlone",
       subtype: "",
       build: "yes", // yes (or) no
@@ -152,7 +143,7 @@ var _activityData = {
       visited: 0,
     },
     {
-      file: "multiple_choice_with_fillin.html",
+      file: "page_15.html",
       type: "mcq",
       build: "yes",
       activityCtrls: "yes",
@@ -161,7 +152,7 @@ var _activityData = {
       score: 0,
     },
     //  {
-    //    file: "fillin_with_image.html",
+    //    file: "with_image.html",
     //    type: "fillin",
     //    subtype: "",
     //    build: "yes", // yes (or) no
@@ -171,7 +162,7 @@ var _activityData = {
     //    score: 0,
     //  },
     {
-      file: "find_fix.html",
+      file: "page_16.html",
       type: "findfix",
       subtype: "",
       build: "yes",
@@ -181,7 +172,7 @@ var _activityData = {
       score: 0,
     },
     {
-      file: "slide_color_background_p38.html",
+      file: "slide_page_17.html",
       type: "standAlone",
       subtype: "",
       build: "yes", // yes (or) no
@@ -190,7 +181,7 @@ var _activityData = {
       visited: 0,
     },
    //  {
-   //    file: "fillin_textarea.html",
+   //    file: "textarea.html",
    //    type: "fillin",
    //    subtype: "",
    //    build: "yes", // yes (or) no
@@ -199,7 +190,7 @@ var _activityData = {
    //    visited: 0,
    //  },
     {
-      file: "blog_writing.html",
+      file: "page_18.html",
       type: "blogwriting",
       subtype: "",
       build: "yes",
@@ -209,7 +200,7 @@ var _activityData = {
       score: 0,
     },
     {
-      file: "slide_Newsletter.html",
+      file: "slide_page_19.html",
       type: "standAlone",
       subtype: "",
       build: "yes", // yes (or) no
@@ -219,7 +210,7 @@ var _activityData = {
     },
 
     // {
-    //    "file"               : "fillin_newsLetter.html",
+    //    "file"               : "newsLetter.html",
     //    'type'               : 'fillin',
     //    'subtype'            : '',
     //    'build'              : 'yes', // yes (or) no

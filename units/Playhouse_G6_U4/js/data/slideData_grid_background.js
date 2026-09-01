@@ -18,7 +18,7 @@ var stereo_data = {
         }
     ],
 }
-var reading_data = {
+var reading_data = { 
     "mainTitle"             : "../images/pages/sb-icons/language-building.png",
     "mainTitleIcon"         : "../images/pages/sb-icons/phonics_main_title_icon.png",
     "mainTitleIconPos"      : {"right": "60px"},

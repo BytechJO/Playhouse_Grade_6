@@ -15,7 +15,7 @@ var stereo_data = {
       },
       {
         'url': '',
-      }
+      } 
   ],
 }
   var fillin_data = {

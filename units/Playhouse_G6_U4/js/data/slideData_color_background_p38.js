@@ -17,7 +17,7 @@ var stereo_data = {
           'url': '',
         }
     ],
-}
+} 
 var reading_data = {
     "mainTitle": "../images/pages/sb-icons/writing.png",
     "mainTitleIcon": "../images/pages/sb-icons/phonics_3_icon.png",
