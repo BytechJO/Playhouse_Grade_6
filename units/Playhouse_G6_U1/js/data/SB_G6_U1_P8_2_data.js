@@ -20,7 +20,7 @@ var stereo_data = {
 };
 var fillin_data = {
   layout: 1,
-  numinrow: [[1], [1], [1], [1], [1]],
+  numinrow: [[1], [1], [1]],
   mainTitle: "../images/pages/sb-icons/reading.png",
   mainTitleIcon: "../images/pages/sb-icons/adv_icon_1.png",
   mainTitleIconPos: { right: "90px" },
@@ -44,42 +44,52 @@ var fillin_data = {
   images: ["../images/pages/activities/p7_3.png"],
   questions: [
     {
-      singleword: false,
-      text: "<b>1</b> &nbsp;&nbsp; What is Eric’s job?[_]",
-      textEnd: "",
-      textaudios: ["../audios/under.mp3"],
-      audio: "",
+      textfront: "What is Travis writing about?",
+
+      audio: "../audios/under.mp3",
       audioenable: "default",
       image: "",
+
       answer: ["He is an anchor"],
       alternateanswer: [
-        [
-          "He is an anchorman",
-          "Eric is an anchor",
-          "Eric is an anchorman",
-          "an anchor",
-          "anchorman",
-        ],
+        "He is an anchorman",
+        "Eric is an anchor",
+        "Eric is an anchorman",
+        "an anchor",
+        "anchorman",
       ],
+
       strictcase: "no",
-      strictorder: "yes",
-      maxlength: 500,
       type: "text",
     },
-
+    // =========================================
+    // Question 2
+    // =========================================
     {
-      singleword: false,
-      text: "<b>2</b> &nbsp;&nbsp; What does ‘it’ refer to on line 5?[_]",
-      textEnd: "",
-      textaudios: ["../audios/under.mp3", "../audios/under.mp3"],
-      audio: "",
+      textfront: "What does ‘it’ refer to on line 5?",
+
+      audio: "../audios/under.mp3",
       audioenable: "default",
       image: "",
       answer: ["the news"],
-      alternateanswer: [["news", "the day's news", "the news for the day"]],
+      alternateanswer: ["news", "the day's news", "the news for the day"],
       strictcase: "no",
-      strictorder: "yes",
-      maxlength: 500,
+      type: "text",
+    },
+    {
+      textfront:
+        "Do you think Eric’s job is easy or hard? Talk about it with your class.",
+
+      audio: "../audios/under.mp3",
+      audioenable: "default",
+      image: "",
+
+      answer: [],
+      alternateanswer: [],
+
+      ignorecheck: true,
+
+      strictcase: "no",
       type: "text",
     },
   ],

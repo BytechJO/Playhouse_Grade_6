@@ -18,7 +18,7 @@ var fillin_data = {
     "optionsAudios"         : ["","","","","","","","","","","","","",""],
     "questions"             :
      [
-        {
+        { 
           "singleword": false,
           "text": "1 Do you like [_] red one or [_] white one? <span class='red_text'>(there are several)</span>",
           "textaudios": ["../audios/under.mp3"],

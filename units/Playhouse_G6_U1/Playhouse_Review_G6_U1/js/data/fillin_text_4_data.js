@@ -17,7 +17,7 @@ var fillin_data = {
   numberstartfrom: 1,
   options: [
     "<span class='text_bold'>a</span> dioust",
-    "<span class='text_bold'>b</span> nnlecha",
+    "<span class='text_bold'>b</span> nnlecha", 
     "<span class='text_bold'>c</span> aacmre erootapr",
     "<span class='text_bold'>d</span> chrano",
     "<span class='text_bold'>e</span> no ria",
