@@ -21,11 +21,11 @@ var reading_data = {
     "mainTitle": "../images/pages/sb-icons/language-building.png",
     "mainTitleIcon": "../images/pages/sb-icons/gram_main_title_icon.png",
     "mainTitleIconPos": {"right": "100px"},
-    "mainTitleAudio": "../audios/under.mp3",
+    "mainTitleAudio": "../audios/p45/LANGUAGE_BUILDING.mp3",
     "subTitleTextLeft": "<span class='title-order'>1</span> Read about it.",
     "subTitleTextRight": "",
     "subTitleIcons": [""],
-    "subTitleAudio": "../audios/under.mp3",
+    "subTitleAudio": "../audios/p45/1_Read_about_it!.mp3",
     "slides": [
         {
             "layout": "grid_columns",

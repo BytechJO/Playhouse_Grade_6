@@ -1,203 +1,692 @@
-.all_cont{
-    height: 100%;
+.all_cont {
+    width: 100%;
+
     text-align: center;
-    align-items: center;
+
     display: flex;
     justify-content: center;
-}
-.screen_elements{
-    width: 90%;
-    height: 100%;
+    align-items: center;
 }
 
-.group_elm{
+
+.screen_elements {
+    width: 80%;
+    height: 100%;
+
+    position: relative;
+}
+
+
+.group_elm {
     width: 100%;
     height: 100%;
+
+    position: relative;
+
     display: flex;
     flex-direction: column;
+
     justify-content: center;
-    align-items: center;
+    align-items: stretch;
 }
+
+
+/* =========================================
+   HEADING
+========================================= */
 
 .activityHeading b {
     color: #000;
 }
 
-.q_num_space{
-    width: 40px;
-    font-weight: bold;
-}
 
-.image_space {
-    /* width: 75%; */
-    height: 342px;
-    margin: 0px auto;
-}
-  
-.image_space img {
-    height: 100%;
+/* =========================================
+   QUESTION
+========================================= */
+
+.que {
     width: 100%;
-    object-fit: contain;
-}
+    min-height: 53px;
 
-.q_order{
-    width: 50px;
-    font-weight: bolder;
-}
+    position: relative;
 
-.ques{
-    width: 100%;
-    align-items: center;
-    padding: 10px;
-    text-align: center;
-}
-
-.q_box{
-    width:  100%;
-    height: 70px;
-}
-
-.fill_in .que {
-    width: 97%;
-    height: 65px;
-    justify-content: center;
-}
-
-.fillin_gr .q_space {
-    width: 100%;
-}
-.fillin_set {
-    font-family: Arcon;
-    font-size: 25px;
-    color: black;
-    width: 100%;
     display: flex;
-    flex-wrap: wrap;
+    align-items: flex-start;
 }
 
-.fillin_set input:focus{
-    outline: none;
+
+.normal_puzzle_row {
+    margin-bottom: 0;
 }
 
-.fillin_set input {
+
+.fillin_gr {
+    width: 100%;
+
+    display: flex;
+    align-items: flex-start;
+}
+
+
+.q_space {
+    width: 100%;
+
+    display: flex;
+    align-items: flex-start;
+}
+
+
+.q_num_space {
     width: 40px;
-    height: 35px;
-    color: black;
-    border: none;
-    text-align: center;
-    border: 2px solid #36a0c7;
-    border-radius: 10px;
+    min-width: 40px;
+
+    font-weight: bold;
+
+    padding-top: 5px;
 }
 
-.txt-audioIcon{
-    margin: 0px 20px;
+
+/* =========================================
+   MAIN PUZZLE ROW
+========================================= */
+
+.fillin_set.puzzle_row {
+    width: 100%;
+
+    display: grid;
+
+    /*
+        scrambled word | boxes | definition
+    */
+    grid-template-columns:
+        125px
+        320px
+        minmax(250px, 1fr);
+
+    column-gap: 20px;
+
+    align-items: start;
+
+    font-family: Arcon;
+    font-size: 20px;
+
+    color: #333;
+
+    text-align: left;
 }
+
+
+/* =========================================
+   LEFT SCRAMBLED WORD
+========================================= */
+
+.puzzle_left_text {
+    width: 125px;
+
+    padding-top: 5px;
+
+    text-align: left;
+
+    line-height: 31px;
+
+    white-space: nowrap;
+}
+
+
+/* =========================================
+   BOXES
+========================================= */
+
+.puzzle_boxes {
+    width: 320px;
+
+    display: flex;
+    flex-wrap: nowrap;
+
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+
+/* =========================================
+   LETTER BOX WRAPPER
+========================================= */
+
+.letter_box_wrap {
+    width: 28px;
+    min-width: 28px;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: flex-start;
+    align-items: center;
+
+    flex-shrink: 0;
+}
+
+
+/* =========================================
+   INPUT
+========================================= */
+
+.fillin_set .text_input_area {
+    width: 28px;
+    height: 30px;
+
+    padding: 0;
+    margin: 0;
+
+    box-sizing: border-box;
+
+    border: 1.5px solid #7cccf2;
+    border-radius: 7px;
+
+    background-color: #fff;
+
+    text-align: center;
+
+    font-family: Arcon;
+    font-size: 19px;
+    font-weight: normal;
+
+    color: #222;
+
+    text-transform: uppercase;
+}
+
+
+.fillin_set .text_input_area:focus {
+    outline: none;
+
+    border: 2px solid #36a0c7;
+
+    box-shadow:
+        0 0 0 1px
+        rgba(54, 160, 199, 0.15);
+}
+
+
+/* =========================================
+   ADDITIONAL NUMBER
+========================================= */
+
+.Additional_text {
+    width: 28px;
+    height: 17px;
+
+    margin-top: 1px;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+
+    line-height: 15px;
+
+    color: #222;
+
+    text-align: center;
+}
+
+
+/* =========================================
+   RIGHT DEFINITION
+========================================= */
+
+.puzzle_right_text {
+    width: 100%;
+    max-width: 390px;
+
+    padding-top: 5px;
+
+    font-family: Arcon;
+    font-size: 20px;
+
+    line-height: 27px;
+
+    color: #333;
+
+    text-align: left;
+
+    white-space: normal;
+}
+
+
+/* =========================================
+   FINAL PUZZLE
+========================================= */
+
+.final_puzzle_row {
+    margin-top: 18px;
+
+    min-height: 55px;
+}
+
+
+.final_puzzle_row .q_space {
+    justify-content: flex-start;
+}
+
+
+.final_puzzle_row .fillin_set.puzzle_row {
+    display: flex;
+
+    justify-content: flex-start;
+
+    width: 100%;
+
+    padding-left: 28px;
+}
+
+
+.final_boxes_wrap {
+    display: flex;
+
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+
+.final_puzzle_row .letter_box_wrap {
+    width: 28px;
+    min-width: 28px;
+}
+
+
+.final_puzzle_row .text_input_area {
+    width: 28px;
+    height: 30px;
+}
+
+
+/* =========================================
+   TICK / CROSS
+========================================= */
+
+.icon_wrap_holder {
+    width: 42px;
+    min-width: 42px;
+
+    position: relative;
+}
+
 
 .icon_wrap {
+    display: none;
+
+    width: 34px;
+
     position: absolute;
-    margin-top: -35px; 
-    right: 100px;
+
+    top: 2px;
+    left: 5px;
+
+    z-index: 10;
 }
+
 
 .tick,
 .cross {
-    width: 35px;
+    display: none;
+
+    width: 32px;
+    height: 32px;
 }
+
 
 .tick img,
 .cross img {
     width: 100%;
+    height: 100%;
+
+    object-fit: contain;
 }
+
+
+/* =========================================
+   SIDE IMAGE
+========================================= */
+
+.puzzle_side_image {
+    position: absolute;
+
+    right: 75px;
+    bottom: 15px;
+
+    z-index: 2;
+
+    pointer-events: none;
+}
+
+
+.puzzle_side_image img {
+    width: 125px;
+    height: auto;
+
+    display: block;
+
+    object-fit: contain;
+}
+
+
+/* =========================================
+   OLD IMAGE SUPPORT
+========================================= */
+
+.image_space {
+    height: 342px;
+
+    margin: 0 auto;
+}
+
+
+.image_space img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: contain;
+}
+
 
 .image_wrap {
     display: none;
 }
 
+
+.image-container {
+    position: absolute;
+
+    right: 260px;
+    bottom: 50px;
+}
+
+
+.image-container img {
+    width: 300px;
+    height: 210px;
+
+    margin: 0 70px;
+
+    object-fit: contain;
+}
+
+
+/* =========================================
+   OPTIONS
+========================================= */
+
 .clue_word {
     padding: 2px 14px;
+
     font-size: 22px;
-    background: linear-gradient(#d79163, #f2c1a6, #d79163);
+
+    background:
+        linear-gradient(
+            #d79163,
+            #f2c1a6,
+            #d79163
+        );
+
     border-radius: 12px;
 }
 
+
 .word_options {
     width: 90%;
+
     border-radius: 10px;
+
     background-color: #593511;
+
     display: flex;
+
     justify-content: center;
 }
+
 
 .word_opt_sticky {
     width: 100%;
-    margin: 0px auto;
-    position: -webkit-sticky;
+
+    margin: 0 auto;
+
     position: sticky;
-    position: -webkit-sticky;
+
     top: 0;
+
     z-index: 5;
+
     border: 2px solid var(--temp);
+
     border-radius: 10px;
 }
 
-.words-list li{
-    height: 110px;
-    font-weight: bolder;
-    color: black;
-    border: 1px solid black;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-}
-
-.right-content .p-0{
-    height: 110px;
-    border: 1px solid black;
-}
-
-.tips_content img {
-    height: 30px;
-    width: auto;
-    margin-top: 10px;
-}
-
-.image-container{
-    position: absolute;
-    right: 260px;
-    bottom: 50px;
-    
-}
-
-.image-container img{
-    width: 300px;
-    height: 210px;
-    margin: 0px 70px;
-    object-fit: cover;
-    /* border-radius: 15px; */
-    /* border: 2px solid #36a0c7; */
-}
 
 .q_images img {
-    /* transform: scale(0.6); */
     height: 71px;
 }
 
-/* ************************************************* */
-/* ************************************************* */
-@media (max-width: 991.98px) {
-    .fill_in .que {
-        width: 160px;
+
+/* =========================================
+   TABLET
+========================================= */
+
+@media (max-width: 1200px) {
+
+    .screen_elements {
+        width: 97%;
+    }
+
+
+    .fillin_set.puzzle_row {
+        grid-template-columns:
+            105px
+            300px
+            minmax(220px, 1fr);
+
+        column-gap: 12px;
+
+        font-size: 18px;
+    }
+
+
+    .puzzle_left_text {
+        width: 105px;
+
+        font-size: 18px;
+    }
+
+
+    .puzzle_boxes {
+        width: 300px;
+    }
+
+
+    .puzzle_right_text {
+        max-width: 340px;
+
+        font-size: 18px;
+
+        line-height: 24px;
+    }
+
+
+    .letter_box_wrap {
+        width: 26px;
+        min-width: 26px;
+    }
+
+
+    .fillin_set .text_input_area {
+        width: 26px;
+        height: 28px;
+
+        font-size: 17px;
+    }
+
+
+    .Additional_text {
+        width: 26px;
+
+        font-size: 13px;
+    }
+
+
+    .puzzle_side_image {
+        right: 30px;
+    }
+
+
+    .puzzle_side_image img {
+        width: 110px;
     }
 }
+
+
+/* =========================================
+   SMALL TABLET
+========================================= */
+
+@media (max-width: 991.98px) {
+
+    .fillin_set.puzzle_row {
+        grid-template-columns:
+            90px
+            275px
+            1fr;
+
+        column-gap: 10px;
+
+        font-size: 16px;
+    }
+
+
+    .puzzle_left_text {
+        width: 90px;
+
+        font-size: 16px;
+    }
+
+
+    .puzzle_boxes {
+        width: 275px;
+    }
+
+
+    .puzzle_right_text {
+        font-size: 16px;
+
+        line-height: 22px;
+    }
+
+
+    .letter_box_wrap {
+        width: 24px;
+        min-width: 24px;
+    }
+
+
+    .fillin_set .text_input_area {
+        width: 24px;
+        height: 27px;
+
+        font-size: 16px;
+
+        border-radius: 6px;
+    }
+
+
+    .Additional_text {
+        width: 24px;
+
+        font-size: 12px;
+    }
+
+
+    .puzzle_side_image img {
+        width: 95px;
+    }
+}
+
+
+/* =========================================
+   MOBILE
+========================================= */
 
 @media (max-width: 575.98px) {
-    .fill_in .que {
-        width: 200px;
-    }
-}
 
-@media (max-width: 475.98px) {
-    /* .fill_in .que {
-        width: 200px;
-    } */
+    .screen_elements {
+        width: 99%;
+    }
+
+
+    .fillin_set.puzzle_row {
+        grid-template-columns:
+            75px
+            230px
+            minmax(160px, 1fr);
+
+        column-gap: 6px;
+
+        font-size: 14px;
+    }
+
+
+    .puzzle_left_text {
+        width: 75px;
+
+        font-size: 14px;
+    }
+
+
+    .puzzle_boxes {
+        width: 230px;
+    }
+
+
+    .puzzle_right_text {
+        font-size: 14px;
+
+        line-height: 20px;
+    }
+
+
+    .letter_box_wrap {
+        width: 20px;
+        min-width: 20px;
+    }
+
+
+    .fillin_set .text_input_area {
+        width: 20px;
+        height: 24px;
+
+        font-size: 14px;
+
+        border-radius: 5px;
+    }
+
+
+    .Additional_text {
+        width: 20px;
+        height: 14px;
+
+        font-size: 10px;
+
+        line-height: 12px;
+    }
+
+
+    .puzzle_side_image {
+        right: 10px;
+        bottom: 5px;
+    }
+
+
+    .puzzle_side_image img {
+        width: 75px;
+    }
 }

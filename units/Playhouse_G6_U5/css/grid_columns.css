@@ -42,7 +42,9 @@
     font-size: 24px;
     font-weight: bold;
 }
-
+.ss_text1 {
+    color: #00b7ce;
+}
 .top_right_image {
     position: absolute;
     height: 200px;

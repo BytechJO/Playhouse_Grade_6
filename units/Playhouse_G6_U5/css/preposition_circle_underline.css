@@ -1,0 +1,223 @@
+/* =========================================================
+   MAIN
+========================================================= */
+
+.pcu_all_cont {
+  width: 100%;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.pcu_activity {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 5px 10px 20px;
+  box-sizing: border-box;
+}
+
+/* =========================================================
+   TOOLS
+========================================================= */
+
+.pcu_tools {
+  display: flex;
+  gap: 12px;
+  margin: 5px 0 18px;
+  justify-content: flex-start;
+}
+
+.pcu_tool_btn {
+  min-width: 120px;
+  text-align: center;
+  padding: 8px 18px;
+  border: 2px solid #00b7ce;
+  border-radius: 30px;
+  color: #00b7ce;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  user-select: none;
+  background: #fff;
+}
+
+.pcu_tool_btn.active {
+  background: #00b7ce;
+  color: #fff;
+}
+
+/* =========================================================
+   CONTENT
+========================================================= */
+
+.pcu_content_wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 28px;
+}
+
+.pcu_questions_area {
+  width: 74%;
+}
+
+.pcu_side_images {
+  width: 22%;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.pcu_side_img_box {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pcu_side_img_box img {
+  width: 100%;
+  max-width: 260px;
+  height: auto;
+  object-fit: contain;
+}
+
+/* =========================================================
+   QUESTION
+========================================================= */
+
+.pcu_question {
+  width: 100%;
+  margin-bottom: 22px;
+}
+
+.pcu_question_row {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  position: relative;
+}
+
+.pcu_q_num {
+  min-width: 24px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #222;
+  line-height: 1.8;
+}
+
+.pcu_sentence {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  row-gap: 10px;
+  column-gap: 6px;
+  font-size: 20px;
+  line-height: 1.8;
+  color: #333;
+}
+
+/* =========================================================
+   TOKENS
+========================================================= */
+
+.pcu_token {
+  display: inline-block;
+  position: relative;
+  padding: 1px 4px;
+  border-radius: 999px;
+  cursor: pointer;
+  user-select: none;
+  transition: 0.15s ease;
+}
+
+.pcu_token:hover {
+  background: rgba(0, 0, 0, 0.04);
+}
+
+/* circle */
+.pcu_token.selected-circle {
+  border: 2px solid #e43b3b;
+  padding: 0px 8px;
+}
+
+/* underline */
+.pcu_token.selected-underline::after {
+  content: "";
+  position: absolute;
+  left: 2px;
+  right: 2px;
+  bottom: -2px;
+  height: 3px;
+  background: #000;
+  border-radius: 2px;
+}
+
+/* if both */
+.pcu_token.selected-circle.selected-underline::after {
+  left: 6px;
+  right: 6px;
+}
+
+/* =========================================================
+   FEEDBACK
+========================================================= */
+
+.pcu_icon_wrap {
+  min-width: 30px;
+  padding-top: 2px;
+}
+
+.pcu_icon_wrap .tick,
+.pcu_icon_wrap .cross {
+  display: none;
+  width: 26px;
+  height: 26px;
+}
+
+.pcu_icon_wrap .tick img,
+.pcu_icon_wrap .cross img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* =========================================================
+   RESPONSIVE
+========================================================= */
+
+@media (max-width: 1100px) {
+  .pcu_sentence {
+    font-size: 18px;
+  }
+
+  .pcu_tool_btn {
+    font-size: 18px;
+    min-width: 105px;
+  }
+}
+
+@media (max-width: 900px) {
+  .pcu_content_wrap {
+    gap: 18px;
+  }
+
+  .pcu_questions_area {
+    width: 72%;
+  }
+
+  .pcu_side_images {
+    width: 24%;
+  }
+
+  .pcu_sentence {
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 760px) {
+  .pcu_activity {
+    min-width: 900px;
+  }
+}

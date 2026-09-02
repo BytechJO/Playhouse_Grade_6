@@ -13,7 +13,7 @@
 .ques {
     display: flex;
     flex-wrap: wrap;
-}
+} 
 
 .group_elm{
     width: 95%;

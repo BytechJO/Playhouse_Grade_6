@@ -31,7 +31,7 @@ var fillin_data = {
     "image"                 : "",
     "images"                : ["../images/pages/activities/2-img-1.png","../images/pages/activities/2-img-2.png","../images/pages/activities/2-img-3.png"],
     "imageposition"         : "back",// "front" (or) "back"
-    "numbering"             : "number", // "alphabet" (or) "number"
+"numbering"       : "none",
     "numberstartfrom"       : 1,
     "options"               : [],
     "optionsAudios"         : [],

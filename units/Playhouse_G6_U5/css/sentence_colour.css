@@ -1,0 +1,441 @@
+/* =========================================================
+   MAIN
+========================================================= */
+
+.sc_all_cont {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+
+    align-items: flex-start;
+    justify-content: center;
+}
+
+
+.sc_activity {
+    width: 94%;
+    max-width: 1180px;
+
+    margin: 0 auto;
+
+    padding: 5px 10px 25px;
+
+    box-sizing: border-box;
+}
+
+
+/* =========================================================
+   HEADER
+========================================================= */
+
+.sc_page_sub_title {
+    width: 100%;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    align-items: center;
+
+    text-align: left;
+}
+
+
+.sc_page_sub_title p {
+    margin: 0;
+}
+
+
+.sc_title_left {
+    flex-shrink: 0;
+
+    color: #222;
+
+    font-size: 23px;
+
+    font-style: italic;
+}
+
+
+.sc_title_left b {
+    font-weight: bold;
+}
+
+
+.sc_title_num {
+    width: 31px;
+    height: 31px;
+
+    display: inline-flex;
+
+    align-items: center;
+    justify-content: center;
+
+    margin-right: 2px;
+
+    border-radius: 50%;
+
+    background: #00b5d2;
+
+    color: #fff;
+
+    font-size: 22px;
+
+    font-style: normal;
+
+    font-weight: bold;
+}
+
+
+.sc_title_right {
+    flex-basis: 100%;
+
+    margin-left: 36px !important;
+    margin-top: 4px !important;
+
+    color: #00b5d2;
+
+    font-size: 21px;
+
+    font-weight: bold;
+
+    line-height: 1.35;
+}
+
+
+/* =========================================================
+   QUESTION ROW
+========================================================= */
+
+.sc_question {
+    width: 100%;
+
+    display: grid;
+
+    grid-template-columns:
+        55% 45%;
+
+    align-items: center;
+
+    min-height: 58px;
+}
+
+
+/* =========================================================
+   CHOICES
+========================================================= */
+
+.sc_choices {
+    width: 100%;
+
+    display: grid;
+
+    grid-template-columns:
+        1fr 1fr;
+
+    gap: 0;
+
+    overflow: visible;
+}
+
+
+/* =========================================================
+   CHOICE
+========================================================= */
+
+.sc_choice {
+    height: 54px;
+
+    position: relative;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+
+    user-select: none;
+
+    overflow: visible;
+
+    box-sizing: border-box;
+}
+
+
+/* =========================================================
+   SVG
+========================================================= */
+
+.sc_choice_svg {
+    width: 100%;
+    height: 100%;
+
+    position: absolute;
+
+    inset: 0;
+
+    overflow: visible;
+
+    pointer-events: none;
+}
+
+
+.sc_choice_shape {
+    fill: #fff;
+
+    stroke-width: 2;
+
+    vector-effect: non-scaling-stroke;
+
+    transition:
+        fill 0.15s ease;
+}
+
+
+/* =========================================================
+   COMPLETE
+========================================================= */
+
+.sc_choice_shape_complete {
+    stroke: #ff7a21;
+}
+
+
+/* =========================================================
+   INCOMPLETE
+========================================================= */
+
+.sc_choice_shape_incomplete {
+    stroke: #00aeef;
+}
+
+
+/* =========================================================
+   TEXT
+========================================================= */
+
+.sc_choice_text {
+    position: relative;
+
+    z-index: 5;
+
+    color: #333;
+
+    font-size: 21px;
+
+    line-height: 1;
+
+    white-space: nowrap;
+
+    pointer-events: none;
+}
+
+
+/* =========================================================
+   JOIN THE TWO PIECES
+========================================================= */
+
+.sc_choice_complete {
+    margin-right: -2px;
+}
+
+
+.sc_choice_incomplete {
+    margin-left: -2px;
+}
+
+
+/* =========================================================
+   SELECTED COMPLETE
+========================================================= */
+
+.sc_choice_complete.selected
+.sc_choice_shape_complete {
+    fill: #ff7a21;
+}
+
+
+/* =========================================================
+   SELECTED INCOMPLETE
+========================================================= */
+
+.sc_choice_incomplete.selected
+.sc_choice_shape_incomplete {
+    fill: #00aeef;
+}
+
+
+/* =========================================================
+   SELECTED TEXT
+========================================================= */
+
+.sc_choice.selected
+.sc_choice_text {
+    color: #fff;
+}
+
+
+/* =========================================================
+   HOVER
+========================================================= */
+
+.sc_choice_complete:hover
+.sc_choice_shape_complete {
+    fill: #fff4ec;
+}
+
+
+.sc_choice_incomplete:hover
+.sc_choice_shape_incomplete {
+    fill: #eefaff;
+}
+
+
+/* selected hover */
+
+.sc_choice_complete.selected:hover
+.sc_choice_shape_complete {
+    fill: #ff7a21;
+}
+
+
+.sc_choice_incomplete.selected:hover
+.sc_choice_shape_incomplete {
+    fill: #00aeef;
+}
+
+
+/* =========================================================
+   SENTENCE AREA
+========================================================= */
+
+.sc_sentence_wrap {
+    min-width: 0;
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 10px;
+
+    padding-left: 28px;
+}
+
+
+/* =========================================================
+   NUMBER
+========================================================= */
+
+.sc_q_number {
+    width: 27px;
+
+    flex-shrink: 0;
+
+    color: #222;
+
+    font-size: 22px;
+
+    font-weight: bold;
+}
+
+
+/* =========================================================
+   SENTENCE
+========================================================= */
+
+.sc_sentence {
+    min-width: 0;
+
+    flex: 1;
+
+    color: #333;
+
+    font-size: 21px;
+
+    line-height: 1.3;
+}
+
+
+/* =========================================================
+   FEEDBACK
+========================================================= */
+
+.sc_feedback {
+    width: 28px;
+    height: 28px;
+
+    position: relative;
+
+    flex-shrink: 0;
+
+    margin-left: 5px;
+
+    padding: 0;
+}
+
+
+.sc_feedback .tick,
+.sc_feedback .cross {
+    width: 28px;
+    height: 28px;
+
+    display: none;
+
+    margin: 0;
+    padding: 0;
+}
+
+
+.sc_feedback img {
+    width: 100%;
+    height: 100%;
+
+    display: block;
+
+    object-fit: contain;
+}
+
+
+/* =========================================================
+   RESPONSIVE
+========================================================= */
+
+@media (max-width: 1100px) {
+
+    .sc_activity {
+        width: 97%;
+    }
+
+
+    .sc_question {
+        grid-template-columns:
+            56% 44%;
+    }
+
+
+    .sc_choice {
+        height: 49px;
+    }
+
+
+    .sc_choice_text {
+        font-size: 18px;
+    }
+
+
+    .sc_sentence {
+        font-size: 18px;
+    }
+
+
+    .sc_q_number {
+        font-size: 19px;
+    }
+
+
+    .sc_title_right {
+        font-size: 18px;
+    }
+
+}

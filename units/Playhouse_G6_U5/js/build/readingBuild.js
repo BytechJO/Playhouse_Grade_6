@@ -6,29 +6,28 @@ function buildReadingHTML(aObj) {
     slideHtml +=  '<div class="sub_footer_icon sub_footer_icon_left subFooterNav backNav mx-1"><a href=""><img src="../images/icons/back_btn.png"></a></div>';
     slideHtml +=  '<div class="sub_footer_icon sub_footer_icon_right subFooterNav nextNav mx-1"><a href=""><img src="../images/icons/next_btn.png"></a></div>';
 
-    slideHtml += '<div class="act_head_group justify-content-center">';
-        slideHtml += '<div class="audioIcon off contant " data-slideNum="' + 1 + '" data-audio="' + aObj.mainTitleAudio + '">';
-            slideHtml += '<div class="q-type-img-container">';
-            slideHtml += '<img class="mainTitle" src=' + aObj.mainTitle + '>';
-            if (aObj.mainTitleIcon != undefined && aObj.mainTitleIcon != '') {
-                slideHtml += '<img class="mainTitleIcon" src=' + aObj.mainTitleIcon + ' style="right:'+aObj.mainTitleIconPos.right+';">';
-            }
-            slideHtml += '</div>';
-        slideHtml += '</div>';
+slideHtml += '<div class="act_head_group justify-content-center">';
+		slideHtml += '<div class="audioIcon off contant " data-slideNum="' + 1 + '" data-audio="' + aObj.mainTitleAudio + '">';
+			slideHtml += '<div class="q-type-img-container">';
+			slideHtml += '<img class="mainTitle" src=' + aObj.mainTitle + '>';
+			if (aObj.mainTitleIcon != undefined && aObj.mainTitleIcon != '') {
+				slideHtml += '<img class="mainTitleIcon" src=' + aObj.mainTitleIcon + ' style="right: ' + aObj.mainTitleIconPos.right + ';">';
+			}
+			slideHtml += '</div>';
+		slideHtml += '</div>';
 
-        slideHtml += '<div class="activityHeading">'
-            slideHtml += '<div class="audioIcon off contant audioQuestionTitle" data-slideNum="' + 1 + '" data-audio="' + aObj.subTitleAudio + '">';
-            slideHtml += "<div class='page_sub_title d-flex'>";
-                slideHtml += "<p> " + aObj.subTitleTextLeft + " </p>";
-                for (var sicons = 0 ; sicons < aObj.subTitleIcons.length ; sicons++) {
-                    slideHtml += "<img src='" + aObj.subTitleIcons[sicons] + "'/>";
-                }
-                slideHtml += "<p> " + aObj.subTitleTextRight + " </p>";
-            slideHtml += "</div>";
-            slideHtml += '</div>';
-        slideHtml += '</div>';
-    slideHtml += '</div>';
-
+		slideHtml += '<div class="activityHeading">'
+			slideHtml += '<div class="audioIcon off contant audioQuestionTitle" data-slideNum="' + 1 + '" data-audio="' + aObj.subTitleAudio + '">';
+			slideHtml += "<div class='page_sub_title'>";
+				slideHtml += "<p> " + aObj.subTitleTextLeft + " </p>";
+				for (var sicons = 0 ; sicons < aObj.subTitleIcons.length ; sicons++) {
+					slideHtml += "<img src='" + aObj.subTitleIcons[sicons] + "'/>";
+				}
+				slideHtml += "<br><p class='subTitleTextRight'>" + aObj.subTitleTextRight + " </p>";
+			slideHtml += "</div>";
+			slideHtml += '</div>';
+		slideHtml += '</div>';
+		slideHtml += '</div>';
     slideHtml += "<div class='options cont_ht_sf mx-auto'>";
     slideHtml += "<div class='all_cont d-flex justify-content-center align-items-center'>";
     // slideHtml += "<div class='slides cont_group my-3'>";

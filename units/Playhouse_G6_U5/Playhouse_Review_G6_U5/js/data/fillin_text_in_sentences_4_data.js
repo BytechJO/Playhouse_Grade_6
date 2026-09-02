@@ -1,106 +1,123 @@
 var fillin_data = {
-    "layout"               : 1,
-    "numinrow"              : [[1], [1], [1], [1], [1]],
-    "mainTitle"             : "",
-    "mainTitleIcon"         : "",
-    "mainTitleIconPos"      : {"right": "-18px"},
-    "mainTitleAudio"        : "../audios/under.mp3",
-    "subTitleTextLeft"      : "<span class='green_text'>3</span> Write it! Read each sentence. If the sentence is complete, write a ‘C‘ on the line. If the sentence is an incomplete sentence, write an ‘I‘ on the line. Then make the incomplete sentences into complete sentences.",
-    "subTitleTextRight"     : "",
-    "subTitleIcons"         : [""],
-    "subTitleAudio"         : "../audios/under.mp3",
-    "image"                 : "",//../images/pages/activities/.png
-    "imageposition"         : "front",// "front" (or) "back"
-    "defaultAnswer"         : 1,
-    "numbering"             : "none", // "alphabet" (or) "number"
-    "numberstartfrom"       : 1,
-    "options"               : [],
-    "optionsAudios"         : ["","","","","","","","","","","","","","","",""],
-    "questions"             :
-     [
-        {
-          "singleword": false,
-          "text": "1 [_] Blin people use white canes.",
-          "textaudios": ["../audios/under.mp3"],
-          "audio": "",
-          "audioenable": "default", // correct (or) default
-          "image": "",
-          "answer": ["c"],
-          "alternateanswer": [[]],
-          "strictcase": "no", // yes (or) no  
-          "strictorder": "yes", // yes (or) no              
-          "maxlength": 200,
-          "type": "", // text (or) number
-        },
-        {
-          "singleword": false,
-          "text": "2 [_] eat pizza.",
-          "textaudios": ["../audios/under.mp3","../audios/under.mp3"],
-          "audio": "",
-          "audioenable": "default", // correct (or) default
-          "image": "",
-          "answer": ["i"],
-          "alternateanswer": [[]],
-          "strictcase": "no", // yes (or) no     
-          "strictorder": "yes", // yes (or) no             
-          "maxlength": 200,
-          "type": "", // text (or) number
-        },
-        {
-          "singleword": false,
-          "text": "3 [_] Max takes beautiful photographs.",
-          "textaudios": ["../audios/under.mp3","../audios/under.mp3"],
-          "audio": "",
-          "audioenable": "default", // correct (or) default
-          "image": "",
-          "answer": ["c"],
-          "alternateanswer": [[]],
-          "strictcase": "no", // yes (or) no     
-          "strictorder": "yes", // yes (or) no             
-          "maxlength": 200,
-          "type": "", // text (or) number
-        },
-        {
-          "singleword": false,
-          "text": "4 [_] knows sign language.",
-          "textaudios": ["../audios/under.mp3"],
-          "audio": "",
-          "audioenable": "default", // correct (or) default
-          "image": "",
-          "answer": ["i"],
-          "alternateanswer": [[]],
-          "strictcase": "no", // yes (or) no  
-          "strictorder": "yes", // yes (or) no              
-          "maxlength": 200,
-          "type": "", // text (or) number
-        },
-        {
-          "singleword": false,
-          "text": "5 [_] Jenny walks every day.",
-          "textaudios": ["../audios/under.mp3","../audios/under.mp3"],
-          "audio": "",
-          "audioenable": "default", // correct (or) default
-          "image": "",
-          "answer": ["c"],
-          "alternateanswer": [[]],
-          "strictcase": "no", // yes (or) no     
-          "strictorder": "yes", // yes (or) no             
-          "maxlength": 200,
-          "type": "", // text (or) number
-        },
-        {
-          "singleword": false,
-          "text": "6 [_] can read Braille.",
-          "textaudios": ["../audios/under.mp3","../audios/under.mp3"],
-          "audio": "",
-          "audioenable": "default", // correct (or) default
-          "image": "",
-          "answer": ["i"],
-          "alternateanswer": [[]],
-          "strictcase": "no", // yes (or) no     
-          "strictorder": "yes", // yes (or) no             
-          "maxlength": 200,
-          "type": "", // text (or) number
-        }
-      ]
-    }
+  layout: 1,
+  numinrow: [[1], [1], [1], [1], [1]],
+  mainTitle: "",
+  mainTitleIcon: "",
+  mainTitleIconPos: { right: "-18px" },
+  mainTitleAudio: "../audios/under.mp3",
+  subTitleTextLeft:
+    "<span class='green_text'>2</span> Write it! <span class='blue_text'>Read each sentence. If the sentence is complete, write a ‘<span class='red_text'>C</span>‘ on the line. If the sentence is an incomplete sentence, write an ‘<span class='red_text'>I</span>‘ on the line. Then make the incomplete sentences into complete sentences.</span>",
+  subTitleTextRight: "",
+  subTitleIcons: [""],
+  subTitleAudio: "../audios/under.mp3",
+  image: "", //../images/pages/activities/.png
+  imageposition: "front", // "front" (or) "back"
+  defaultAnswer: 1,
+  numbering: "none", // "alphabet" (or) "number"
+  numberstartfrom: 1,
+  options: [],
+  optionsAudios: [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+  ],
+  questions: [
+    {
+      singleword: false,
+      text: "1 [_] Blin people use white canes.",
+      textaudios: ["../audios/under.mp3"],
+      audio: "",
+      audioenable: "default", // correct (or) default
+      image: "",
+      answer: ["c"],
+      alternateanswer: [[]],
+      strictcase: "no", // yes (or) no
+      strictorder: "yes", // yes (or) no
+      maxlength: 200,
+      type: "", // text (or) number
+    },
+    {
+      singleword: false,
+      text: "2 [_] eat pizza.",
+      textaudios: ["../audios/under.mp3", "../audios/under.mp3"],
+      audio: "",
+      audioenable: "default", // correct (or) default
+      image: "",
+      answer: ["i"],
+      alternateanswer: [[]],
+      strictcase: "no", // yes (or) no
+      strictorder: "yes", // yes (or) no
+      maxlength: 200,
+      type: "", // text (or) number
+    },
+    {
+      singleword: false,
+      text: "3 [_] Max takes beautiful photographs.",
+      textaudios: ["../audios/under.mp3", "../audios/under.mp3"],
+      audio: "",
+      audioenable: "default", // correct (or) default
+      image: "",
+      answer: ["c"],
+      alternateanswer: [[]],
+      strictcase: "no", // yes (or) no
+      strictorder: "yes", // yes (or) no
+      maxlength: 200,
+      type: "", // text (or) number
+    },
+    {
+      singleword: false,
+      text: "4 [_] knows sign language.",
+      textaudios: ["../audios/under.mp3"],
+      audio: "",
+      audioenable: "default", // correct (or) default
+      image: "",
+      answer: ["i"],
+      alternateanswer: [[]],
+      strictcase: "no", // yes (or) no
+      strictorder: "yes", // yes (or) no
+      maxlength: 200,
+      type: "", // text (or) number
+    },
+    {
+      singleword: false,
+      text: "5 [_] Jenny walks every day.",
+      textaudios: ["../audios/under.mp3", "../audios/under.mp3"],
+      audio: "",
+      audioenable: "default", // correct (or) default
+      image: "",
+      answer: ["c"],
+      alternateanswer: [[]],
+      strictcase: "no", // yes (or) no
+      strictorder: "yes", // yes (or) no
+      maxlength: 200,
+      type: "", // text (or) number
+    },
+    {
+      singleword: false,
+      text: "6 [_] can read Braille.",
+      textaudios: ["../audios/under.mp3", "../audios/under.mp3"],
+      audio: "",
+      audioenable: "default", // correct (or) default
+      image: "",
+      answer: ["i"],
+      alternateanswer: [[]],
+      strictcase: "no", // yes (or) no
+      strictorder: "yes", // yes (or) no
+      maxlength: 200,
+      type: "", // text (or) number
+    },
+  ],
+};
