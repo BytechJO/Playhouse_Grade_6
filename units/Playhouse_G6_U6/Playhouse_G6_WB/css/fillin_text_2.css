@@ -1,195 +1,439 @@
-.all_cont{
-    height: 100%;
-    text-align: center;
-    align-items: center;
-    display: flex;
-    justify-content: center;
+.all_cont {
+  height: 100%;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
 }
-.screen_elements{
-    width: 90%;
-    height: 100%;
+.screen_elements {
+  width: 90%;
+  height: 100%;
 }
 
-.group_elm{
-    width: 80%;
-    height: 100%;
-    display: flex;
-    /* flex-direction: column; */
-    flex-wrap: wrap;
-    justify-content: space-between;;
-    align-items: center;
+.group_elm {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  /* flex-direction: column; */
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .activityHeading b {
-    color: #000;
+  color: #000;
 }
 
-.q_num_space{
-    width: 40px;
-    font-weight: bold;
+.q_num_space {
+  width: 40px;
+  font-weight: bold;
 }
 
 .image_space {
-    width: 75%;
-    height: 342px;
-    margin: 0px auto;
-}
-  
-.image_space img {
-    height: 100%;
-    width: 100%;
-    object-fit: contain;
+  width: 75%;
+  height: 342px;
+  margin: 0px auto;
 }
 
-.q_order{
-    width: 50px;
-    font-weight: bolder;
+.image_space img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.q_order {
+  width: 50px;
+  font-weight: bolder;
 }
 
 .txt-audioIcon {
-    /* color: rgb(0, 185, 242); */
-    /* font-size: 27px; */
-    min-width: 150px;
+  /* color: rgb(0, 185, 242); */
+  /* font-size: 27px; */
+  min-width: 150px;
 }
 
-.ques{
-    width: 100%;
-    align-items: center;
-    padding: 10px;
-    text-align: center;
+.ques {
+  width: 100%;
+  align-items: center;
+  padding: 10px;
+  text-align: center;
 }
 
-.q_box{
-    width:  100%;
-    height: 70px;
+.q_box {
+  width: 100%;
+  height: 70px;
 }
 
 .fill_in .que {
-    width: 30%;
-    height: 85px;
+  width: 30%;
+  height: 85px;
 }
 
 .fillin_gr .q_space {
-    width: 100%;
+  width: 100%;
 }
 .fillin_set {
-    font-family: Arcon;
-    color: black;
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
+  font-family: Arcon;
+  color: black;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.fillin_set input:focus{
-    outline: none;
+.fillin_set input:focus {
+  outline: none;
 }
 
 .fillin_set input {
-    flex: 1;
-    height: 35px;
-    color: black;
-    padding-left: 20px;
-    border: none;
-    margin: 0px 15px;
-    border-bottom: 2px solid #595a5a;
+  flex: 1;
+  height: 35px;
+  color: black;
+  padding-left: 20px;
+  border: none;
+  margin: 0px 15px;
+  border-bottom: 2px solid #595a5a;
 }
 
 .icon_wrap {
-    /* position: absolute;
+  /* position: absolute;
     margin-top: -35px; 
     right: 100px; */
 }
 
 .tick,
 .cross {
-    width: 35px;
+  width: 35px;
 }
 
 .tick img,
 .cross img {
-    width: 100%;
+  width: 100%;
 }
 
 .image_wrap {
-    display: none;
+  display: none;
 }
 
 .clue_word {
-    padding: 2px 27px;
-    font-size: 22px;
+  padding: 2px 27px;
+  font-size: 22px;
 }
 
 .word_options {
-    width: 100%;
-    border-radius: 10px;
-    background-color: #c3f4ff8c;
+  width: 100%;
+  border-radius: 10px;
+  background-color: #c3f4ff8c;
 }
 
 .word_opt_sticky {
-    width: 100%;
-    margin: 0px auto;
-    position: -webkit-sticky;
-    position: sticky;
-    position: -webkit-sticky;
-    top: 0;
-    z-index: 5;
-    border: 2px solid var(--temp);
-    border-radius: 10px;
+  width: 100%;
+  margin: 0px auto;
+  position: -webkit-sticky;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  z-index: 5;
+  border: 2px solid var(--temp);
+  border-radius: 10px;
 }
 
-.words-list li{
-    height: 110px;
-    font-weight: bolder;
-    color: black;
-    border: 1px solid black;
-    align-items: center;
-    display: flex;
-    justify-content: center;
+.words-list li {
+  height: 110px;
+  font-weight: bolder;
+  color: black;
+  border: 1px solid black;
+  align-items: center;
+  display: flex;
+  justify-content: center;
 }
 
-.right-content .p-0{
-    height: 110px;
-    border: 1px solid black;
+.right-content .p-0 {
+  height: 110px;
+  border: 1px solid black;
 }
 
 .tips_content img {
-    height: 30px;
-    width: auto;
-    margin-top: 10px;
+  height: 30px;
+  width: auto;
+  margin-top: 10px;
 }
 
-.image-container{
-    position: absolute;
-    right: 260px;
-    bottom: 50px;
-    
+.image-container {
+  position: absolute;
+  right: 260px;
+  bottom: 50px;
 }
 
-.image-container img{
-    width: 300px;
-    height: 210px;
-    margin: 0px 70px;
-    object-fit: cover;
-    border-radius: 15px;
-    border: 2px solid #36a0c7;
+.image-container img {
+  width: 300px;
+  height: 210px;
+  margin: 0px 70px;
+  object-fit: cover;
+  border-radius: 15px;
+  border: 2px solid #36a0c7;
 }
 
 /* ************************************************* */
 /* ************************************************* */
 @media (max-width: 991.98px) {
-    .fill_in .que {
-        width: 160px;
-    }
+  .fill_in .que {
+    width: 160px;
+  }
 }
 
 @media (max-width: 575.98px) {
-    .fill_in .que {
-        width: 200px;
-    }
+  .fill_in .que {
+    width: 200px;
+  }
 }
 
 @media (max-width: 475.98px) {
-    /* .fill_in .que {
+  /* .fill_in .que {
         width: 200px;
     } */
+}
+/* =========================================================
+   CONVERSATION POPUP BUTTON
+========================================================= */
+
+.conversation_popup_btn_wrap {
+  width: 80%;
+
+  margin: 5px auto 0;
+
+  display: flex;
+  justify-content: flex-end;
+}
+
+.conversation_popup_btn {
+  min-width: 210px;
+  height: 46px;
+
+  padding: 0 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 10px;
+
+  border: 2px solid #36a0c7;
+  border-radius: 25px;
+
+  background-color: #e9f8fc;
+
+  color: #176f92;
+
+  font-size: 20px;
+  font-weight: bold;
+
+  cursor: pointer;
+
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+
+  transition: all 0.2s ease;
+}
+
+.conversation_popup_btn:hover {
+  background-color: #36a0c7;
+
+  color: #fff;
+
+  transform: translateY(-2px);
+}
+
+.conversation_popup_btn i {
+  font-size: 21px;
+}
+
+/* =========================================================
+   MODAL
+========================================================= */
+
+.conversation_reference_modal {
+  z-index: 10000;
+}
+
+.conversation_modal_dialog {
+  width: 850px;
+
+  max-width: 90vw;
+}
+
+.conversation_modal_content {
+  border: none;
+
+  border-radius: 22px;
+
+  overflow: hidden;
+
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+}
+
+/* =========================================================
+   HEADER
+========================================================= */
+
+.conversation_modal_header {
+  min-height: 65px;
+
+  padding: 12px 20px;
+
+  display: flex;
+  align-items: center;
+
+  background-color: #36a0c7;
+
+  border: none;
+}
+
+.conversation_modal_title {
+  display: flex;
+  align-items: center;
+
+  gap: 12px;
+
+  color: #fff;
+
+  font-size: 27px;
+  font-weight: bold;
+}
+
+.conversation_modal_title i {
+  font-size: 27px;
+}
+
+.conversation_close_btn {
+  color: #080808 !important;
+  opacity: 1 !important;
+  font-size: 30px;
+  text-shadow: none;
+}
+
+/* =========================================================
+   BODY
+========================================================= */
+
+.conversation_modal_body {
+  max-height: 62vh;
+
+  padding: 22px 30px;
+
+  overflow-y: auto;
+
+  background-color: #fffdf4;
+
+  text-align: left;
+}
+
+/* each dialogue row */
+
+.conversation_line {
+  width: 100%;
+
+  display: flex;
+
+  align-items: flex-start;
+
+  margin-bottom: 13px;
+
+  font-family: Arcon;
+
+  font-size: 21px;
+
+  line-height: 1.4;
+}
+
+.conversation_speaker {
+  width: 85px;
+
+  flex-shrink: 0;
+
+  color: #176f92;
+
+  font-weight: bold;
+}
+
+.conversation_text {
+  flex: 1;
+
+  color: #222;
+}
+
+/* =========================================================
+   WORD POWER WORDS
+========================================================= */
+
+
+/* =========================================================
+   FOOTER
+========================================================= */
+
+.conversation_modal_footer {
+  padding: 12px 20px;
+
+  border: none;
+
+  background-color: #f5f5f5;
+
+  justify-content: center;
+}
+
+.conversation_done_btn {
+  min-width: 180px;
+
+  height: 42px;
+
+  border: none;
+
+  border-radius: 22px;
+
+  background-color: #36a0c7;
+
+  color: #fff;
+
+  font-size: 18px;
+  font-weight: bold;
+
+  cursor: pointer;
+}
+
+.conversation_done_btn:hover {
+  background-color: #2686aa;
+}
+
+/* =========================================================
+   RESPONSIVE
+========================================================= */
+
+@media (max-width: 991.98px) {
+  .conversation_popup_btn_wrap {
+    width: 90%;
+  }
+
+  .conversation_modal_dialog {
+    max-width: 94vw;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .conversation_popup_btn {
+    min-width: 180px;
+
+    height: 40px;
+
+    font-size: 17px;
+  }
+
+  .conversation_modal_body {
+    padding: 15px 18px;
+  }
+
+  .conversation_line {
+    font-size: 18px;
+  }
+
+  .conversation_speaker {
+    width: 70px;
+  }
 }

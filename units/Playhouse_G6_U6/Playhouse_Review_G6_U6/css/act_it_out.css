@@ -1,0 +1,339 @@
+/* =========================================================
+   OPTIONS
+========================================================= */
+
+.act_out_options {
+  width: 100%;
+  height: 100%;
+
+  position: relative;
+
+  overflow: hidden;
+}
+
+.func_ctrls {
+  display: none !important;
+}
+
+/* =========================================================
+   MAIN CONTENT
+========================================================= */
+
+.act_out_all_cont {
+  width: 100%;
+  height: 100%;
+
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: flex-start;
+
+  padding: 12px 30px 35px !important;
+
+  margin: 0;
+
+  box-sizing: border-box;
+
+  overflow-y: auto;
+
+  background: transparent;
+
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+/* =========================================================
+   TITLE BOX
+========================================================= */
+
+.act_out_title_box {
+  width: 100%;
+
+  min-height: 70px;
+
+  position: relative;
+
+  z-index: 2;
+
+  margin: 0 auto 10px;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  background: #a5eaf7;
+
+  border-top: 1px solid #83d7e6;
+  border-bottom: 4px solid #79c8d6;
+
+  box-shadow: 0 5px 8px rgba(0, 0, 0, 0.18);
+
+  box-sizing: border-box;
+
+  overflow: hidden;
+}
+
+/* light decorative effect */
+
+.act_out_title_box::before {
+  content: "";
+
+  position: absolute;
+
+  top: -35px;
+  left: 38%;
+
+  width: 120px;
+  height: 120px;
+
+  border-radius: 50%;
+
+  background: rgba(255, 255, 255, 0.12);
+
+  pointer-events: none;
+}
+
+/* another soft effect */
+
+.act_out_title_box::after {
+  content: "";
+
+  position: absolute;
+
+  right: 10%;
+  bottom: -45px;
+
+  width: 150px;
+  height: 100px;
+
+  border-radius: 50%;
+
+  background: rgba(255, 255, 255, 0.08);
+
+  pointer-events: none;
+}
+
+/* =========================================================
+   TITLE
+========================================================= */
+
+.act_out_title {
+  position: relative;
+
+  z-index: 3;
+
+  margin: 0;
+
+  color: #242424;
+
+  font-size: 27px;
+  font-weight: bold;
+
+  line-height: 1.1;
+
+  text-align: center;
+}
+
+/* =========================================================
+   INTRO
+========================================================= */
+
+.act_out_intro {
+  width: 92%;
+  max-width: 1000px;
+
+  position: relative;
+
+  z-index: 2;
+
+  margin: 0 auto 18px;
+
+  color: #159dca;
+
+  font-size: 22px;
+  font-weight: bold;
+
+  line-height: 1.35;
+
+  text-align: left;
+}
+
+/* =========================================================
+   MAIN IMAGE
+========================================================= */
+
+.sign_main_image_wrap {
+  width: 92%;
+  max-width: 1000px;
+
+  position: relative;
+
+  z-index: 2;
+
+  margin: 0 auto 22px;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.sign_main_image {
+  width: 100%;
+  height: auto;
+
+  max-height: 510px;
+
+  display: block;
+
+  object-fit: contain;
+}
+
+/* =========================================================
+   BOTTOM INSTRUCTION BOX
+========================================================= */
+
+.sign_bottom_box {
+  width: 88%;
+  max-width: 930px;
+
+  position: relative;
+
+  z-index: 2;
+
+  margin: 0 auto 18px;
+
+  padding: 14px 20px;
+
+  background: #ffe1c9;
+
+  border: 2px solid #f39a52;
+
+  border-radius: 8px;
+
+  box-sizing: border-box;
+}
+
+.sign_bottom_text {
+  color: #333;
+
+  font-size: 17px;
+  font-weight: bold;
+
+  line-height: 1.45;
+
+  text-align: left;
+}
+
+/* =========================================================
+   STUDENT ANSWER
+========================================================= */
+
+.sign_student_answer_wrap {
+  width: 88%;
+  max-width: 930px;
+
+  position: relative;
+
+  z-index: 2;
+
+  margin: 0 auto 25px;
+}
+
+.sign_student_answer {
+  width: 100%;
+
+  min-height: 120px;
+
+  display: block;
+
+  padding: 14px 16px;
+
+  box-sizing: border-box;
+
+  background: #fff;
+
+  border: 2px solid #5db6d7;
+
+  border-radius: 10px;
+
+  outline: none;
+
+  color: #222;
+
+  font-family: inherit;
+
+  font-size: 18px;
+
+  line-height: 1.4;
+
+  resize: vertical;
+}
+
+.sign_student_answer:focus {
+  border-color: #159dca;
+}
+
+/* =========================================================
+   RESPONSIVE - 1100
+========================================================= */
+
+@media (max-width: 1100px) {
+  .act_out_all_cont {
+    padding: 10px 22px 30px !important;
+  }
+
+  .act_out_title_box {
+    min-height: 62px;
+  }
+
+  .act_out_title {
+    font-size: 24px;
+  }
+
+  .act_out_intro {
+    width: 95%;
+
+    font-size: 16px;
+  }
+
+  .sign_main_image_wrap {
+    width: 95%;
+  }
+
+  .sign_bottom_box,
+  .sign_student_answer_wrap {
+    width: 92%;
+  }
+
+  .sign_bottom_text {
+    font-size: 15px;
+  }
+
+  .sign_student_answer {
+    font-size: 16px;
+  }
+}
+
+/* =========================================================
+   SMALL SCREEN
+========================================================= */
+
+@media (max-width: 760px) {
+  .act_out_all_cont {
+    min-width: 760px;
+  }
+
+  .act_out_title_box {
+    min-height: 58px;
+  }
+
+  .act_out_title {
+    font-size: 22px;
+  }
+}

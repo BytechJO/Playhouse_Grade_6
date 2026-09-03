@@ -40,7 +40,7 @@ var _data = {
         "booksbutton" : {
             "workbook": {
                 'icon'   : '../images/icons/book-2.png',
-                'link'      : './fill_number_or_letter.html'
+                'link'      : './page_1.html'
             },
             "studentbook": {
                 'icon'   : '../images/icons/book-1.png',

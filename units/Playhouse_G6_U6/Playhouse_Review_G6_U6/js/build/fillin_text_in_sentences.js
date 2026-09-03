@@ -17,7 +17,7 @@ function buildFillInBody(aObj) {
 		htmlStmt +=  '<a href="">'
 		htmlStmt +=  '<img src="../images/icons/next_btn.png" />'
 		htmlStmt +=  '</a>'
-		htmlStmt +=  '</div>'
+		htmlStmt +=  '</div>' 
 
 		// ===================================================================== heading =====================
 		htmlStmt += '<div class="act_head_group justify-content-center">';

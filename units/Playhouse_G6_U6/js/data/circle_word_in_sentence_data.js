@@ -24,7 +24,7 @@ var mcq_data = {
     "mainTitle"             : "../images/pages/sb-icons/gramprac_main_title.png",
     "mainTitleIcon"         : "../images/pages/sb-icons/gram_main_title_icon.png",
     "mainTitleIconPos"      : {"right": "100px"},
-    "mainTitleAudio"        : "../audios/under.mp3",
+    "mainTitleAudio"        : "../audios/P51/G_GRAMMAR_PRACTICE.mp3",
     "subTitleTextLeft"      : "<span class='title-order'>2</span> Circle it!",
     "subTitleTextRight"     : "Circle the correct verb or verbs to make each sentence correct.",
     "subTitleIcons"         : [],
@@ -35,7 +35,7 @@ var mcq_data = {
     "numbering"             : "none",
     "numberstartfrom"       : 1, 
     "numberofcolumns"       :  1,
-    "image"                 : "",
+    "image"                 : "../images/pages/activities/9.jpg",
     "imageposition"         :"back",
     "questions"             : [
         {

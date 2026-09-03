@@ -87,7 +87,7 @@ th .Box {
     /* width: 200px; */
     /* height: 55px; */
     margin: 10px auto;
-    font-size: 33px;
+    font-size: 28px;
     font-weight: bolder;
     /* color: #3e9150; */
 }
@@ -307,3 +307,77 @@ table tr th{
         width: auto;
     }
 }
+/* =========================================
+   DEVICE ROW
+========================================= */
+
+.device_row {
+  height: 62px;
+}
+
+.device_row .device_box {
+  height: 62px;
+
+  padding: 0;
+
+  vertical-align: middle;
+
+  box-sizing: border-box;
+}
+
+/* =========================================
+   LEFT DEVICE
+========================================= */
+
+.device_box_left {
+  background-color: var(--blue-bg);
+
+  border-top: 2px solid var(--blue-border);
+
+  border-left: 2px solid var(--blue-border);
+
+  border-right: 1px solid var(--blue-border);
+
+  border-bottom: 2px solid var(--blue-border);
+
+  border-radius: 12px 0 0 0;
+}
+
+/* =========================================
+   DEVICE INPUT
+========================================= */
+
+.device_name_input {
+  flex: 1;
+
+  min-width: 0;
+
+  height: 35px;
+
+  padding: 0 4px;
+
+  border: none;
+
+  border-bottom: 1px solid #555;
+
+  outline: none !important;
+
+  background-color: transparent;
+
+  font-size: 23px;
+
+  color: #222;
+
+  text-align: left;
+
+  box-shadow: none !important;
+
+  border-radius: 0;
+}
+
+.device_name_input:focus {
+  border-bottom: 2px solid #555;
+
+  outline: none;
+}
+

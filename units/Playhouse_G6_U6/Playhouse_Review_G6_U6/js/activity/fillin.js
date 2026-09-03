@@ -15,7 +15,7 @@ window.FillIn = function(obj, dataObj){
 }
 FillIn.prototype = {
     init:function(ob){       
-        this.ob = ob;
+        this.ob = ob; 
         // this.reset();
         this.listen(ob);
     },

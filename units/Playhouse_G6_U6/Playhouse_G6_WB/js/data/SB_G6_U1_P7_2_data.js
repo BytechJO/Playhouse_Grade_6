@@ -49,14 +49,14 @@ var mcq_data = {
             "fillinanswer":"C",
             "options": [
                 {
-                    "text": "walks",
+                    "text": "<span style='color: rgb(0, 185, 242);'>walks</span>",
                     "image": "",
                     "audio": "no",
                     "audioenable": "default", // correct (or) default
                     "needspaceafter": 'no'
                 },
                 {
-                    "text": "is walking",
+                    "text": "<span style='color: rgb(0, 185, 242);'>is walking</span>",
                     "image": "",
                     "audio": "no",
                     "audioenable": "default", // correct (or) default
@@ -73,14 +73,14 @@ var mcq_data = {
             "fillinanswer":"S",
             "options": [
                 {
-                    "text": "visits",
+                    "text": "<span style='color: rgb(0, 185, 242);'>visits</span>",
                     "image": "",
                     "audio": "no",
                     "audioenable": "default", // correct (or) default
                     "needspaceafter": 'no'
                 },
                 {
-                    "text": "is visiting",
+                    "text": "<span style='color: rgb(0, 185, 242);'>is visiting</span>",
                     "image": "",
                     "audio": "no",
                     "audioenable": "default", // correct (or) default
@@ -97,14 +97,14 @@ var mcq_data = {
             "fillinanswer":"S",
             "options": [
                 {
-                    "text": "ride",
+                    "text": "<span style='color: rgb(0, 185, 242);'>ride</span>",
                     "image": "",
                     "audio": "no",
                     "audioenable": "default", // correct (or) default
                     "needspaceafter": 'no'
                 },
                 {
-                    "text": "are riding",
+                    "text": "<span style='color: rgb(0, 185, 242);'>are riding</span>",
                     "image": "",
                     "audio": "no",
                     "audioenable": "default", // correct (or) default
@@ -121,14 +121,14 @@ var mcq_data = {
             "fillinanswer":"S",
             "options": [
                 {
-                    "text": "works",
+                    "text": "<span style='color: rgb(0, 185, 242);'>works</span>",
                     "image": "",
                     "audio": "no",
                     "audioenable": "default", // correct (or) default
                     "needspaceafter": 'no'
                 },
                 {
-                    "text": "is working",
+                    "text": "<span style='color: rgb(0, 185, 242);'>is working</span>",
                     "image": "",
                     "audio": "no",
                     "audioenable": "default", // correct (or) default
@@ -145,14 +145,14 @@ var mcq_data = {
             "fillinanswer":"C",
             "options": [
                 {
-                    "text": "plays",
+                    "text": "<span style='color: rgb(0, 185, 242);'>plays</span>",
                     "image": "",
                     "audio": "no",
                     "audioenable": "default", // correct (or) default
                     "needspaceafter": 'no'
                 },
                 {
-                    "text": "is playing",
+                    "text": "<span style='color: rgb(0, 185, 242);'>is playing</span>",
                     "image": "",
                     "audio": "no",
                     "audioenable": "default", // correct (or) default
@@ -169,14 +169,14 @@ var mcq_data = {
             "fillinanswer":"S",
             "options": [
                 {
-                    "text": "washes",
+                    "text": "<span style='color: rgb(0, 185, 242);'>washes</span>",
                     "image": "",
                     "audio": "no",
                     "audioenable": "default", // correct (or) default
                     "needspaceafter": 'no'
                 },
                 {
-                    "text": "is washing",
+                    "text": "<span style='color: rgb(0, 185, 242);'>is washing</span>",
                     "image": "",
                     "audio": "no",
                     "audioenable": "default", // correct (or) default

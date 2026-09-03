@@ -52,13 +52,13 @@ var mcq_data = {
                     "audioenable"   : "default", // correct (or) default
                 },
                 {
-                    "text"          : "<b>c</b> &nbsp; getting information",
+                    "text"          : "<b>b</b> &nbsp; getting information",
                     "image"         : "",
                     "audio"         : "no",
                     "audioenable"   : "default", // correct (or) default
                 },
                 {
-                    "text"          : "<b>b</b> &nbsp; a mouse",
+                    "text"          : "<b>c</b> &nbsp; a mouse",
                     "image"         : "",
                     "audio"         : "no",
                     "audioenable"   : "default", // correct (or) default
@@ -68,7 +68,7 @@ var mcq_data = {
         {
             "question"              : "In the article, what does it say we do when we need directions now?",
             "image"                 : "",
-            "answer"                : [1],
+            "answer"                : [3],
             "audio"                 : "no",
             "audioenable"           : "default", // correct (or) default
             "numbering"				: "none", // alphabet (or) number (or) none

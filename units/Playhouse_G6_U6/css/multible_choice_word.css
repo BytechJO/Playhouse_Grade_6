@@ -33,7 +33,7 @@
     position: relative;
     align-items: center;
     align-content: center;
-    font-size: 29px;
+    font-size: 25px;
 }
 
 .q_part {
@@ -86,7 +86,7 @@
 .icon_wrap {
     position: absolute;
     top: 0px;
-    right: -21px;
+    right: 15%;
 }
 
 .tick,

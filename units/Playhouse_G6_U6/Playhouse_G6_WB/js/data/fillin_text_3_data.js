@@ -39,7 +39,7 @@ var fillin_data = {
      [
         {
           "singleword": false,
-          "text": "Ryan[_] (live) in the city. He[_] (be) in his last year of school. ",
+          "text": "Ryan[_] (<span style='color: rgb(0, 185, 242);'>live</span>) in the city. He[_] (<span style='color: rgb(0, 185, 242);'>be</span>) in his last year of school. ",
           "textaudios": ["../audios/p31/under.mp3"],
           "audio": "",
           "audioenable": "default", // correct (or) default
@@ -53,7 +53,7 @@ var fillin_data = {
         },
         {
           "singleword": false,
-          "text": "He[_](take) a course in computers right now.",
+          "text": "He[_](<span style='color: rgb(0, 185, 242);'>take</span>) a course in computers right now.",
           "textaudios": ["../audios/p31/under.mp3","../audios/p31/under.mp3"],
           "audio": "",
           "audioenable": "default", // correct (or) default
@@ -67,7 +67,7 @@ var fillin_data = {
         },
         {
           "singleword": false,
-          "text": "This week, he[_](stay) with his grandparents.",
+          "text": "This week, he[_](<span style='color: rgb(0, 185, 242);'>stay</span>) with his grandparents.",
           "textaudios": ["../audios/p31/under.mp3","../audios/p31/under.mp3"],
           "audio": "",
           "audioenable": "default", // correct (or) default
@@ -81,7 +81,7 @@ var fillin_data = {
         },
         {
           "singleword": false,
-          "text": "He [_] (study) for exams at the weekend. Ryan",
+          "text": "He [_] (<span style='color: rgb(0, 185, 242);'>study</span>) for exams at the weekend. Ryan",
           "textaudios": ["../audios/p31/under.mp3","../audios/p31/under.mp3"],
           "audio": "",
           "audioenable": "default", // correct (or) default
@@ -95,7 +95,7 @@ var fillin_data = {
         },    
         {
           "singleword": false,
-          "text": "usually[_](wear) a T-shirt and trousers to class, but today he",
+          "text": "usually[_](<span style='color: rgb(0, 185, 242);'>wear</span>) a T-shirt and trousers to class, but today he",
           "textaudios": ["../audios/p31/under.mp3","../audios/p31/under.mp3"],
           "audio": "",
           "audioenable": "default", // correct (or) default
@@ -109,7 +109,7 @@ var fillin_data = {
         }, 
         {
           "singleword": false,
-          "text": "[_](wear) a suit because he[_](want) to give a speech about computers.",
+          "text": "[_](<span style='color: rgb(0, 185, 242);'>wear</span>) a suit because he[_](<span style='color: rgb(0, 185, 242);'>want</span>) to give a speech about computers.",
           "textaudios": ["../audios/p31/under.mp3","../audios/p31/under.mp3"],
           "audio": "",
           "audioenable": "default", // correct (or) default

@@ -29,7 +29,7 @@ var fillin_data = {
     "subTitleTextRight"     : "Read each sentence. Write ‘<span class='red_text'>SP</span>’ for simple present and ‘<span class='red_text'>PC</span>’ for present continuous in the blank.",
     "subTitleIcons"         : [],
     "subTitleAudio"         : "../audios/new/p50catigorise.mp3",
-    "image"                 : "",
+    "image"                 : "../images/pages/activities/8.jpg",
     "imageposition"         : "back",// "front" (or) "back"
     "numbering"       : "none", // "alphabet" (or) "number"
     "numberstartfrom" : 1,
@@ -47,7 +47,7 @@ var fillin_data = {
           "alternateanswer": [[]],
           "strictcase": "no", // yes (or) no  
           "strictorder": "yes", // yes (or) no              
-          "maxlength": 200,
+          "maxlength": 2,
           "type": "", // text (or) number
         },
         {
@@ -61,7 +61,7 @@ var fillin_data = {
           "alternateanswer": [[]],
           "strictcase": "no", // yes (or) no     
           "strictorder": "yes", // yes (or) no             
-          "maxlength": 200,
+          "maxlength": 2,
           "type": "", // text (or) number
         },
         {
@@ -75,7 +75,7 @@ var fillin_data = {
           "alternateanswer": [[]],
           "strictcase": "no", // yes (or) no    
           "strictorder": "yes", // yes (or) no              
-          "maxlength": 200,
+          "maxlength": 2,
           "type": "", // text (or) number
         },
         {
@@ -89,7 +89,7 @@ var fillin_data = {
           "alternateanswer": [[]],
           "strictcase": "no", // yes (or) no    
           "strictorder": "yes", // yes (or) no              
-          "maxlength": 200,
+          "maxlength": 2,
           "type": "", // text (or) number
         },
         {
@@ -103,7 +103,7 @@ var fillin_data = {
           "alternateanswer": [[]],
           "strictcase": "no", // yes (or) no    
           "strictorder": "yes", // yes (or) no              
-          "maxlength": 200,
+          "maxlength": 2,
           "type": "", // text (or) number
         },
        

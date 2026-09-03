@@ -29,7 +29,7 @@ var fillin_data = {
     "subTitleTextRight"     : "Write the correct verb tense in each blank for the verb in brackets.",
     "subTitleIcons"         : [],
     "subTitleAudio"         : "../audios/new/p50doit.mp3",
-    "image"                 : "",
+    "image"                 : "../images/pages/activities/7.png",
     "imageposition"         : "back",// "front" (or) "back"
     "numbering"             : "number", // "alphabet" (or) "number"
     "numberstartfrom"       : 1,
@@ -38,7 +38,7 @@ var fillin_data = {
      [
         {
           "singleword": false,
-          "text": "This [_]  (be) Kelly.",
+          "text": "This [_]  (<span class='red_text'>be</span>) Kelly.",
           "textaudios": ["../audios/under.mp3"],
           "audio": "",
           "audioenable": "default", // correct (or) default
@@ -52,7 +52,7 @@ var fillin_data = {
         },
         {
           "singleword": false,
-          "text": "She [_]  (wear) a green T-shirt.",
+          "text": "She [_]  (<span class='red_text'>wear</span>) a green T-shirt.",
           "textaudios": ["../audios/under.mp3","../audios/under.mp3"],
           "audio": "",
           "audioenable": "default", // correct (or) default
@@ -66,7 +66,7 @@ var fillin_data = {
         },
         {
           "singleword": false,
-          "text": "She [_] (hold) an apple right now.",
+          "text": "She [_] (<span class='red_text'>hold</span>) an apple right now.",
           "textaudios": ["../audios/under.mp3","../audios/under.mp3"],
           "audio": "",
           "audioenable": "default", // correct (or) default
@@ -80,7 +80,7 @@ var fillin_data = {
         },
         {
           "singleword": false,
-          "text": "Kelly[_] (like) healthy foods.",
+          "text": "Kelly[_] (<span class='red_text'>like</span>) healthy foods.",
           "textaudios": ["../audios/under.mp3","../audios/under.mp3"],
           "audio": "",
           "audioenable": "default", // correct (or) default
@@ -94,7 +94,7 @@ var fillin_data = {
         },
         {
           "singleword": false,
-          "text": "Kelly[_]  (know) that apples are good for her growing body",
+          "text": "Kelly[_]  (<span class='red_text'>know</span>) that apples are good for her growing body",
           "textaudios": ["../audios/under.mp3","../audios/under.mp3"],
           "audio": "",
           "audioenable": "default", // correct (or) default
