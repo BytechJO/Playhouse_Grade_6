@@ -16,7 +16,7 @@ var stereo_data = {
         {
           'url': '',
         }
-    ],
+    ], 
   }
 var mcq_data = {   
     "layout"                : 1,

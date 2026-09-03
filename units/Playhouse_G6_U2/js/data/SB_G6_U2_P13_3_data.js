@@ -12,7 +12,7 @@ var stereo_data = {
         },
         {
           'url': '',
-        },
+        }, 
         {
           'url': '',
         }

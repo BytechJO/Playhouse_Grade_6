@@ -10,7 +10,7 @@
     height: 100%;
 }
 
-.ques {
+.ques { 
     display: flex;
     flex-wrap: wrap;
 }

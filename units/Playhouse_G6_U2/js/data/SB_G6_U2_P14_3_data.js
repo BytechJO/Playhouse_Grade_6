@@ -16,7 +16,7 @@
       {
         'url': '',
       }
-  ],
+  ], 
 }
 var fillin_data = {
   "layout"               : 1,

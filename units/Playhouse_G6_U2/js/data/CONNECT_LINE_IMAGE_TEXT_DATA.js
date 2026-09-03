@@ -17,7 +17,7 @@ var stereo_data = {
           'url': '',
         }
     ],
-  }
+  } 
 var linedraw_data = {    
     "layout"   : 1,
     "mainTitle": "../images/pages/sb-icons/gramprac_main_title.png",

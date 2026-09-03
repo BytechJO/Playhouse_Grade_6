@@ -16,7 +16,7 @@ var stereo_data = {
     {
       url: "",
     },
-  ],
+  ], 
 };
 var reading_data = {
   mainTitle: "../images/pages/sb-icons/language-building.png",

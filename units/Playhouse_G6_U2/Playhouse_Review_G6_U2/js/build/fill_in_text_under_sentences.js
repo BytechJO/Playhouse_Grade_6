@@ -16,7 +16,7 @@ function buildFillInBody(aObj) {
 		htmlStmt +=  '<div class="sub_footer_icon sub_footer_icon_right subFooterNav nextNav mx-1">'
 		htmlStmt +=  '<a href="">'
 		htmlStmt +=  '<img src="../images/icons/next_btn.png" />'
-		htmlStmt +=  '</a>'
+		htmlStmt +=  '</a>' 
 		htmlStmt +=  '</div>'
 		// ===================================================================== heading =====================
 		htmlStmt += '<div class="act_head_group justify-content-center">';

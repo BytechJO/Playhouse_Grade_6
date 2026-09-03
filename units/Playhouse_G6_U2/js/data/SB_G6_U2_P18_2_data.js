@@ -20,7 +20,7 @@ var stereo_data = {
 };
 
 var fillin_data = {
-  layout: 1,
+  layout: 1, 
 
   numinrow: [[1]],
 
