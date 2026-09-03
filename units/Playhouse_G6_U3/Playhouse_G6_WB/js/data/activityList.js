@@ -4,7 +4,7 @@
 var _activityData = {
   list: [
     {
-      file: "WB_G6_U3_P14_1.html",
+      file: "page_1.html",
       type: "standAlone",
       build: "no",
       activityCtrls: "no",
@@ -13,7 +13,7 @@ var _activityData = {
       score: 0,
     },
     {
-      file: "WB_G6_U3_P14_2.html",
+      file: "page_2.html",
       type: "fillin",
       subtype: "",
       build: "yes", // yes (or) no
@@ -23,7 +23,7 @@ var _activityData = {
       score: 0,
     },
     {
-      file: "WB_G6_U3_P15_1.html",
+      file: "page_3.html",
       type: "fillin",
       subtype: "",
       build: "yes", // yes (or) no
@@ -33,7 +33,7 @@ var _activityData = {
       score: 0,
     },
     {
-      file: "WB_G6_U3_P15_2.html",
+      file: "page_4.html",
       type: "fillin",
       subtype: "",
       build: "yes", // yes (or) no
@@ -43,7 +43,7 @@ var _activityData = {
       score: 0,
     },
     {
-      file: "slide_4.html",
+      file: "slide_page_5.html",
       type: "standAlone",
       subtype: "",
       build: "yes", // yes (or) no
@@ -52,7 +52,7 @@ var _activityData = {
       visited: 0,
     },
     {
-      file: "WB_G6_U3_P16_1.html",
+      file: "page_6.html",
       type: "fillin",
       subtype: "",
       build: "yes", // yes (or) no
@@ -62,7 +62,7 @@ var _activityData = {
       score: 0,
     },
     {
-      file: "WB_G6_U3_P16_2.html",
+      file: "page_7.html",
       type: "fillin",
       subtype: "",
       build: "yes", // yes (or) no
@@ -72,7 +72,7 @@ var _activityData = {
       score: 0,
     },
     {
-      file: "slide_5.html",
+      file: "slide_page_8.html",
       type: "standAlone",
       subtype: "",
       build: "yes", // yes (or) no
@@ -81,7 +81,7 @@ var _activityData = {
       visited: 0,
     },
     {
-      file: "preposition_circle_underline.html",
+      file: "page_9.html",
       type: "prepcircleunderline",
       subtype: "",
       build: "yes",
@@ -90,18 +90,8 @@ var _activityData = {
       visited: 0,
       score: 0,
     },
-   //  {
-   //    file: "AGW_2_SB_U10_A1.html",
-   //    type: "standAlone",
-   //    subtype: "",
-   //    build: "no", // yes (or) no
-   //    activityCtrls: "yes",
-   //    layout: 1,
-   //    visited: 0,
-   //    score: 0,
-   //  },
     {
-      file: "WB_G6_U3_P17_2.html",
+      file: "page_10.html",
       type: "fillin",
       subtype: "",
       build: "yes", // yes (or) no
@@ -111,7 +101,7 @@ var _activityData = {
       score: 0,
     },
     {
-      file: "fillin_textarea.html",
+      file: "page_11.html",
       type: "fillin",
       subtype: "",
       build: "yes", // yes (or) no

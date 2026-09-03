@@ -13,7 +13,7 @@ var crossword_mystery_data = {
     "puck",
     "cricket",
     "cricket pitch",
-    "ice hockey",
+    "ice hockey", 
     "golf club",
     "golf",
   ],

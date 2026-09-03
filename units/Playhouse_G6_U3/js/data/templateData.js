@@ -52,12 +52,12 @@ var _data = {
         "filetoload" : [],
         "reviewbutton" : {
             'visible'   : 'yes', // yes (or) no
-            'link'      : 'Playhouse_Review_G6_U3/views/crossword_mystery.html'
+            'link'      : 'Playhouse_Review_G6_U3/views/page_1.html'
         },
         "booksbutton" : { 
             "workbook": {
                 'icon'   : '../images/icons/book-2.png',
-                'link'      : '../Playhouse_G6_WB/views/WB_G6_U3_P14_1.html'
+                'link'      : '../Playhouse_G6_WB/views/page_1.html'
             },
             "studentbook": {
                 'icon'   : '../images/icons/book-1.png',

@@ -17,7 +17,7 @@ CrosswordMystery.prototype = {
   // INIT
   // =====================================================
 
-  init: function (ob) {
+  init: function (ob) { 
     this.ob = ob;
 
     this.listen();

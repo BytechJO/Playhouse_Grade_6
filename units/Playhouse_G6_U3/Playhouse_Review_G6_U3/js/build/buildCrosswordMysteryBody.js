@@ -15,7 +15,7 @@ function buildCrosswordMysteryBody(aObj) {
   htmlStmt += '<a href="">';
 
   htmlStmt += '<img src="../images/icons/back_btn.png"/>';
-
+ 
   htmlStmt += "</a>";
 
   htmlStmt += "</div>";
