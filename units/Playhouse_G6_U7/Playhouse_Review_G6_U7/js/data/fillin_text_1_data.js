@@ -76,7 +76,7 @@ var fillin_data = {
       textaudios: ["../audios/p74/under.mp3"],
       audio: "",
       audioenable: "default", // correct (or) default
-      image: "../images/pages/activities/img1.png",
+      image: "../images/pages/activities/img1.PNG",
       answer: ["c", "d"],
       alternateanswer: [[]],
       strictcase: "no", // yes (or) no
@@ -90,7 +90,7 @@ var fillin_data = {
       textaudios: ["../audios/p74/under.mp3", "../audios/p74/under.mp3"],
       audio: "",
       audioenable: "default", // correct (or) default
-      image: "../images/pages/activities/img2.png",
+      image: "../images/pages/activities/img2.PNG",
       answer: ["a", "f"],
       alternateanswer: [[]],
       strictcase: "no", // yes (or) no
@@ -104,7 +104,7 @@ var fillin_data = {
       textaudios: ["../audios/p74/under.mp3", "../audios/p74/under.mp3"],
       audio: "",
       audioenable: "default", // correct (or) default
-      image: "../images/pages/activities/img3.png",
+      image: "../images/pages/activities/img3.PNG",
       answer: ["j", "l"],
       alternateanswer: [[]],
       strictcase: "no", // yes (or) no
@@ -118,7 +118,7 @@ var fillin_data = {
       textaudios: ["../audios/p74/under.mp3", "../audios/p74/under.mp3"],
       audio: "",
       audioenable: "default", // correct (or) default
-      image: "../images/pages/activities/img4.png",
+      image: "../images/pages/activities/img4.PNG",
       answer: ["i", "b"],
       alternateanswer: [[]],
       strictcase: "no", // yes (or) no
@@ -132,7 +132,7 @@ var fillin_data = {
       textaudios: ["../audios/p74/under.mp3"],
       audio: "",
       audioenable: "default", // correct (or) default
-      image: "../images/pages/activities/img5.png",
+      image: "../images/pages/activities/img5.PNG",
       answer: ["g", "e"],
       alternateanswer: [[]],
       strictcase: "no", // yes (or) no
@@ -146,7 +146,7 @@ var fillin_data = {
       textaudios: ["../audios/p74/under.mp3", "../audios/p74/under.mp3"],
       audio: "",
       audioenable: "default", // correct (or) default
-      image: "../images/pages/activities/img6.png",
+      image: "../images/pages/activities/img6.PNG",
       answer: ["k", "h"],
       alternateanswer: [[]],
       strictcase: "no", // yes (or) no

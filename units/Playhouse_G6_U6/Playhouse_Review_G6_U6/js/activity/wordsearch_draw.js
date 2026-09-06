@@ -267,12 +267,12 @@ WordSearch.prototype = {
           2,
       );
       // console.log( 'setSizes >> ',marginTopMatrix, marginTopList );
-      $options.find(".wordmatrix").css("margin-top", marginTopMatrix + "px");
+      $options.find(".wordmatrix").css("margin-top", "auto");
       // $options.find('.wordlist').css('height',$options.find('.wordmatrix_holder').height()+'px' );
       if ($options.find(".wordlist").hasClass("onPop")) {
         $options.find(".wordlist").css("margin-top", "auto");
       } else {
-        $options.find(".wordlist").css("margin-top", marginTopList + "px");
+        $options.find(".wordlist").css("margin-top", "0px");
       }
 
       $options.find(".ws_col").each(function () {

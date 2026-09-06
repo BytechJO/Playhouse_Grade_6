@@ -29,7 +29,7 @@ var fillin_data = {
     "subTitleTextRight"     : "",
     "subTitleIcons"         : [],
     "subTitleAudio"         : "../audios/p24/1_Solve_it!_The_Word_Power_words_are_spelt_in_the_Braille_alphabet_See_if_you_can_‘crack_the_code’.mp3",
-    "image"                 : "../images/pages/activities/img1.png",
+    "image"                 : "../images/pages/activities/img1.PNG",
     "imageposition"         : "back",// "front" (or) "back"
     "numbering"       : "number", // "alphabet" (or) "number"
     "numberstartfrom" : 1,

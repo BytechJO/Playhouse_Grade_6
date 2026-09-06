@@ -19,7 +19,7 @@ var stereo_data = {
   ],
 };
 var reading_data = {
-  mainTitle: "../images/pages/sb-icons/writing.jpg",
+  mainTitle: "../images/pages/sb-icons/WRITING.jpg",
   mainTitleIcon: "",
   mainTitleIconPos: { right: "90px" },
   mainTitleAudio: "../audios/p33/WRITING.mp3",
@@ -36,10 +36,10 @@ var reading_data = {
       parent_class_name: "mistake_inventions_layout",
 
       boxImages: [
-        "../images/pages/activities/img1.png",
-        "../images/pages/activities/img2.png",
-        "../images/pages/activities/img3.png",
-        "../images/pages/activities/img4.png",
+        "../images/pages/activities/img1.PNG",
+        "../images/pages/activities/img2.PNG",
+        "../images/pages/activities/img3.PNG",
+        "../images/pages/activities/img4.PNG",
       ],
 
       centerImages: [

@@ -7,7 +7,7 @@ var _data = {
         "unitno"       :"1",
        // "bgimage": "./images/ARC_2_1_SB_U1_header.png", 
        "bgcolor": "linear-gradient(180deg, #00b7ce 0%, rgba(255,255,255,0) 100%)",
-       "icon": "./images/unit-icon.png",  
+       "icon": "./images/unit-icon.PNG",  
 
        "grammer_icon":"./images/icons/gram-icon.png",
        "grammer_link":"./views/slide_4.html", 

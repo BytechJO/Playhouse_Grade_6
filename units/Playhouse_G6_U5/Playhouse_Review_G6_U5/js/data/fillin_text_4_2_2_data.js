@@ -10,7 +10,7 @@ var fillin_data = {
   subTitleTextRight: "",
   subTitleIcons: [""],
   subTitleAudio: "../audios/under.mp3",
-  image: "../images/pages/activities/q1-img.png",
+  image: "../images/pages/activities/q1-img.PNG",
   imageposition: "front", // "front" (or) "back"
   defaultAnswer: 1,
   numbering: "none", // "alphabet" (or) "number"

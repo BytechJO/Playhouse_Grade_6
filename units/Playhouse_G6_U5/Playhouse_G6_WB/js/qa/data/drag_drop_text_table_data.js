@@ -20,7 +20,7 @@ var stereo_data = {
 };
 var _activity_json = {
   image: "new_drag_drop.png",
-  mainTitle: "../images/pages/sb-icons/writing.jpg",
+  mainTitle: "../images/pages/sb-icons/WRITING.jpg",
   mainTitleIcon: "",
   mainTitleIconPos: { right: "50px" },
   mainTitleAudio: "../audios/p28/WRITING.mp3",
