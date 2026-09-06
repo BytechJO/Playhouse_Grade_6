@@ -15,7 +15,7 @@
     flex-wrap: wrap;
 }
 
-.arrow {
+.arrow { 
     font-size: 100px;
     height: 40px;
     width: 100px;
@@ -127,7 +127,6 @@
     /* flex: 2 2 10px; */
     width: 30px;
     /* height: 75px; */
-    justify-items: center;
     color: black;
     /* padding-left: 20px; */
     border: none;

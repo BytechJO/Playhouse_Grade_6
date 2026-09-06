@@ -91,7 +91,6 @@
 
 .icon_wrap {
     position: absolute;
-    margin-top: -35px; 
     right: 100px;
 }
 
@@ -100,9 +99,7 @@
     width: 35px;
 }
 
-.func_ctrls{
-    display: none !important;
-}
+
 
 .tick img,
 .cross img {

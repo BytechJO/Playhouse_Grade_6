@@ -1,264 +1,418 @@
-.all_cont{
-    flex-direction: column;
-    height: 100%;
-    text-align: center;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-}
-.screen_elements{
-    width: 90%;
-    height: 100%;
-    flex-direction: column;
-    justify-content: space-around;
+.all_cont {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
-.group_elm{
-    width: 90%;
-    height: 100%;
-    display: flex;
-    flex-direction: unset;
-    flex-wrap: wrap;
-    /* justify-content: center; */
-    align-items: center;
-    justify-content: space-evenly;
+.screen_elements {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
 }
 
-.image_space img {
-    width: 100%;
-    border-radius: 25px;
-}
-
-.icon_wrap_holder {
-    height: 42px;
-    position: absolute;
-    top: -25px;
-    right: 0;
+.group_elm {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 .activityHeading b {
-    color: #000;
+  color: #000;
 }
 
-.q_num_space{
-    width: 40px;
-    font-weight: bold;
+.q_num_space {
+  width: 40px;
+  font-weight: bold;
 }
 
-.fillin_gr {
-    width: 100%;
+.q_order {
+  width: 50px;
+  font-weight: bolder;
 }
 
-.img_space {
-    width: fit-content !important;
-    /* margin: 0px auto; */
-}
-  
-.img_space img {
-    height: 308px;
-    width: fit-content !important;
-    object-fit: contain;
+/* =========================
+   OPTIONS
+========================= */
+
+.word_opt_sticky {
+  width: 90%;
+  margin: 0 auto 10px;
+  position: relative;
+  top: auto;
+  z-index: 5;
+  border: 2px solid var(--temp);
+  border-radius: 10px;
 }
 
-.q_order{
-    width: 50px;
-    font-weight: bolder;
+.word_options {
+  width: 100%;
+  padding: 8px 15px;
+  background-color: #c3f4ff8c;
+  border-radius: 10px;
+
+  display: grid !important;
+  grid-template-columns: repeat(6, 1fr);
+  column-gap: 20px;
+  row-gap: 6px;
 }
 
-/* .txt-audioIcon {
-    color: rgb(0, 185, 242);
-    font-size: 27px;
-} */
-
-.ques{
-    /* width: 775px; */
-    position: relative;
-    row-gap: 10px;
-    height: 100%;
-    padding: 10px;
-    display: flex;
-    text-align: center;
-    flex-direction: unset;
-    flex-wrap: wrap;
-    /* justify-content: center; */
-    align-items: center;
-    justify-content: space-evenly;
+.clue_word {
+  width: auto;
+  min-width: 0;
+  font-size: 18px;
+  text-align: left;
+  white-space: nowrap;
 }
 
-.link-imgl {
-    position: absolute;
-    width: 50%;
-    height: 100px;
-    left: 0;
+/* =========================
+   QUESTIONS GRID
+========================= */
+
+.ques {
+  width: 100%;
+  height: auto;
+  padding: 10px 25px;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 45px;
+  row-gap: 15px;
+
+  align-items: center;
+  justify-items: center;
+
+  position: relative;
 }
 
-.link-imgr {
-    position: absolute;
-    width: 50%;
-    /* height: 100px; */
-    right: 0;
-}
-
-.q_box{
-    width:  100%;
-    /* height: 70px; */
-}
+/* =========================
+   EACH QUESTION
+========================= */
 
 .fill_in .que {
-    position: relative;
-    width: 24%;
-    /* height: 142px; */
-        /* height: 100px; */
-    /* border: solid 2px black; */
-    border-radius: 15px;
+  position: relative;
+  width: 280px;
+  height: 160px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 15px;
 }
 
-/* .que:nth-child(-n + 6) {
-  width: 24%;
-} */
+/* =========================
+   IMAGE
+========================= */
 
-.fillin_set input:first-of-type {
-    top: 10px;
-    left: 0;
+.image_space {
+  width: 155px;
+  height: 140px;
+
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.fillin_set input:last-of-type {
-    bottom: 10px;
-    right: 0;
+.image_space img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 18px;
+}
+
+/* =========================
+   FILL IN LAYER
+========================= */
+
+.fillin_gr {
+  position: absolute;
+  inset: 0;
+
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  align-items: center;
 }
 
 .fillin_gr .q_space {
-    /* position: relative; */
-    width: 100%;
-    /* margin-top: -34px; */
+  position: relative;
+
+  width: 100%;
+  height: 100%;
+
+  display: flex;
 }
 
 .fillin_set {
-    font-family: Arcon;
-    color: black;
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
+  position: relative;
+
+  width: 100%;
+  height: 100%;
+
+  display: block;
+
+  font-family: Arcon;
+  color: black;
 }
 
-.fillin_set input:focus{
-    outline: none;
-}
+/* =========================
+   INPUT GENERAL STYLE
+========================= */
 
 .fillin_set input {
-    font-weight: bold;
-    font-size: 30px;
-    /* flex: 2 2 10px; */
-    position: absolute;
-    width: 50%;
-    height: 40px;
-    color: #007bff !important;
-    /* padding-left: 20px; */
-    text-align: center;
-    border: none;
-    margin: 0px 15px;
-    background: transparent;
-    border-bottom: 2px solid #595a5a;
+  position: absolute;
+
+  height: 32px;
+
+  margin: 0;
+  padding: 0 3px;
+
+  font-size: 23px;
+  font-weight: bold;
+
+  text-align: center;
+
+  color: #007bff !important;
+  background: transparent;
+
+  border: none;
+  border-bottom: 2px solid #595a5a;
+}
+
+.fillin_set input:focus {
+  outline: none;
+}
+
+/* =========================
+   Q1 - rocket / blast-off
+========================= */
+
+.q-1 .fillin_set input:first-of-type {
+  top: 4px;
+  left: 12px;
+  width: 105px;
+}
+
+.q-1 .fillin_set input:last-of-type {
+  bottom: 7px;
+  right: 10px;
+  width: 105px;
+}
+
+/* =========================
+   Q2 - astronaut / spacesuit
+========================= */
+
+.q-2 .fillin_set input:first-of-type {
+  top: 3px;
+  left: 15px;
+  width: 105px;
+}
+
+.q-2 .fillin_set input:last-of-type {
+  top: 70px;
+  right: 0px;
+  width: 108px;
+}
+
+/* =========================
+   Q3 - outer space / star
+========================= */
+
+.q-3 .fillin_set input:first-of-type {
+  top: 10px;
+  left: 0px;
+  width: 120px;
+}
+
+.q-3 .fillin_set input:last-of-type {
+  top: 27px;
+  right: -33px;
+  width: 115px;
+}
+
+/* =========================
+   Q4 - space station / spacewalk
+========================= */
+
+.q-4 .fillin_set input:first-of-type {
+  top: 27px;
+  left: -2px;
+  width: 115px;
+}
+
+.q-4 .fillin_set input:last-of-type {
+  bottom: 19px;
+  right: 15px;
+  width: 110px;
+}
+
+/* =========================
+   Q5 - radar / countdown
+========================= */
+
+.q-5 .fillin_set input:first-of-type {
+  top: 34px;
+  left: -12px;
+  width: 115px;
+}
+
+.q-5 .fillin_set input:last-of-type {
+  bottom: 37px;
+  right: -53px;
+  width: 120px;
+}
+
+/* =========================
+   Q6 - planet / satellite
+========================= */
+
+.q-6 .fillin_set input:first-of-type {
+  top: 29px;
+  left: -10px;
+  width: 115px;
+}
+
+.q-6 .fillin_set input:last-of-type {
+  bottom: 28px;
+  right: -8px;
+  width: 120px;
+}
+
+/* =========================
+   TICK / CROSS
+========================= */
+
+.icon_wrap_holder {
+  position: absolute;
+  top: -16px;
+  right: -18px;
+
+  height: 42px;
+  z-index: 10;
 }
 
 .icon_wrap {
-    /* position: absolute;
-    margin-top: -35px; 
-    right: 100px; */
+  position: relative;
 }
 
 .tick,
 .cross {
-    width: 35px;
+  width: 33px;
 }
 
 .tick img,
 .cross img {
-    width: 100%;
+  width: 100%;
+}
+
+/* =========================
+   EXTRA
+========================= */
+
+.img_space {
+  width: fit-content !important;
+}
+
+.img_space img {
+  height: 308px;
+  width: fit-content !important;
+  object-fit: contain;
 }
 
 .image_wrap {
-    display: none;
+  display: none;
 }
 
-.clue_word {
-    width: 200px;
-    /* font-size: 22px; */
-    text-align: left;
+.q_box {
+  width: 100%;
 }
 
-.word_options {
-    width: 100%;
-    border-radius: 10px;
-    padding-left: 10px;
-    background-color: #c3f4ff8c;
+.words-list li {
+  height: 110px;
+  font-weight: bolder;
+  color: black;
+  border: 1px solid black;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.word_opt_sticky {
-    width: 88%;
-    margin: 0px auto;
-    position: -webkit-sticky;
-    position: sticky;
-    position: -webkit-sticky;
-    top: 0;
-    z-index: 5;
-    border: 2px solid var(--temp);
-    border-radius: 10px;
-}
-
-.words-list li{
-    height: 110px;
-    font-weight: bolder;
-    color: black;
-    border: 1px solid black;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-}
-
-.right-content .p-0{
-    height: 110px;
-    border: 1px solid black;
+.right-content .p-0 {
+  height: 110px;
+  border: 1px solid black;
 }
 
 .tips_content img {
-    height: 30px;
-    width: auto;
-    margin-top: 10px;
+  height: 30px;
+  width: auto;
+  margin-top: 10px;
 }
 
-.image-container{
-    position: absolute;
-    right: 260px;
-    bottom: 50px;
-    
+.image-container {
+  position: absolute;
+  right: 260px;
+  bottom: 50px;
 }
 
-.image-container img{
-    width: 300px;
-    height: 210px;
-    margin: 0px 70px;
-    object-fit: cover;
-    border-radius: 15px;
-    border: 2px solid #36a0c7;
+.image-container img {
+  width: 300px;
+  height: 210px;
+  margin: 0 70px;
+
+  object-fit: cover;
+
+  border-radius: 15px;
+  border: 2px solid #36a0c7;
 }
 
-/* ************************************************* */
-/* ************************************************* */
+/* =========================
+   RESPONSIVE
+========================= */
+
 @media (max-width: 991.98px) {
-    .fill_in .que {
-        width: 160px;
-    }
+  .ques {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 25px;
+  }
+
+  .fill_in .que {
+    width: 260px;
+  }
+
+  .word_options {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
 
 @media (max-width: 575.98px) {
-    .fill_in .que {
-        width: 200px;
-    }
-}
+  .ques {
+    grid-template-columns: 1fr;
+  }
 
-@media (max-width: 475.98px) {
-    /* .fill_in .que {
-        width: 200px;
-    } */
+  .fill_in .que {
+    width: 250px;
+  }
+
+  .word_options {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .clue_word {
+    font-size: 17px;
+  }
 }

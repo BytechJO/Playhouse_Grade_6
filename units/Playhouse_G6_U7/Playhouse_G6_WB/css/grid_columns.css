@@ -1,45 +1,45 @@
 .grid_columns_container {
-    position: relative;
+  position: relative;
 }
 
 .snap_group_all {
-    position: relative;
-    text-align: left;
-    line-height: 45px;
-    /* border: 2px solid #08b0ef; */
-    border-radius: 20px;
-    padding: 34px;
-    /* background-color: #e1f4fd; */
-    margin-bottom: 80px;
+  position: relative;
+  text-align: left;
+  line-height: 45px;
+  /* border: 2px solid #08b0ef; */
+  border-radius: 20px;
+  padding: 34px;
+  /* background-color: #e1f4fd; */
+  margin-bottom: 80px;
 }
 
 #lined-textarea {
-    display: block;
-    width: 100%;
-    height: 140px;
-    margin: 20px 0;
-    font-size: 24px;
-    line-height: 40px;
-    padding: 0 10px;
-    border: none;
-    outline: none;
-    background-image: linear-gradient(to bottom, #000000 1px, transparent 1px);
-    background-size: 100% 40px;
-    background-attachment: local;
+  display: block;
+  width: 100%;
+  height: 140px;
+  margin: 20px 0;
+  font-size: 24px;
+  line-height: 40px;
+  padding: 0 10px;
+  border: none;
+  outline: none;
+  background-image: linear-gradient(to bottom, #000000 1px, transparent 1px);
+  background-size: 100% 40px;
+  background-attachment: local;
 }
 
 .grid_writing_f .audioIcon:hover {
- transform: scale(1);
+  transform: scale(1);
 }
 
 .grid_writing_f .audioIcon {
- width: 100%;
+  width: 100%;
 }
 
 .grid_writing_f .col_grid_container {
-    width: 50%;
-    border: double 15px gray;
-    border-radius: 15px;
+  width: 50%;
+  border: double 15px gray;
+  border-radius: 15px;
 }
 
 input {
@@ -56,144 +56,142 @@ input:focus {
   border-bottom-color: blue; /* Change the underline color when focused */
 }
 
-.g_t .ss_text{
-    display: flex;
+.g_t .ss_text {
+  display: flex;
 }
 
 .grid_main_title_container {
-    position: absolute;
-    top: -17px;
-    left: -5px;
+  position: absolute;
+  top: -17px;
+  left: -5px;
 }
 
 .grid_main_title_img {
-    height: 40px;
-
+  height: 40px;
 }
 
 .remember .grid_main_title_img {
-    height: 90px;
+  height: 90px;
 }
 
 .remember .snap_group_all {
-    position: relative;
-    text-align: left;
-    line-height: 45px;
-    border: 2px solid #08b0ef;
-    border-radius: 20px;
-    padding: 34px;
-    background-color: #e1f4fd;
-    margin-bottom: 80px;
+  position: relative;
+  text-align: left;
+  line-height: 45px;
+  border: 2px solid #08b0ef;
+  border-radius: 20px;
+  padding: 34px;
+  background-color: #e1f4fd;
+  margin-bottom: 80px;
 }
 
 .grid_main_title_text {
-    position: absolute;
-    top: 0px;
-    left: 74px;
+  position: absolute;
+  top: 0px;
+  left: 74px;
 }
 
 .ss_text {
-    font-size: 40px;
-    /* font-weight: bold; */
+  font-size: 40px;
+  /* font-weight: bold; */
 }
 
 .red_text {
-    color: red;
+  color: red;
 }
 
 .grid_columns_container {
-    width: 100%;
+  width: 100%;
 }
 
 .col_grid_container {
-    width: 85%;
+  width: 85%;
 }
 
 .img_card {
-    max-height: 150px;
-    display: block;
+  max-height: 150px;
+  display: block;
 }
 
 .img_card_text {
-    max-height: 50px;
+  max-height: 50px;
 }
 
 .song_text {
-    font-size: 60px;
-    font-weight: bold;
+  font-size: 60px;
+  font-weight: bold;
 }
 
 .ss_text {
-    font-size: 24px;
-    /* font-weight: bold; */
+  font-size: 24px;
+  /* font-weight: bold; */
 }
 
 .top_right_image {
-    position: absolute;
-    height: 200px;
-    right: 0;
-    top: 0;
+  position: absolute;
+  height: 200px;
+  right: 0;
+  top: 0;
 }
 
 .red_text {
-    color: red
+  color: red;
 }
 
 .read_grammer {
-    margin-bottom: 300px;
+  margin-bottom: 300px;
 }
 
 .image_audio {
-    position: absolute;
-    transform: scale(0.5);
+  position: absolute;
+  transform: scale(0.5);
 }
 
 .main_image {
-    height: 600px;
+  height: 600px;
 }
 
 .main_image img {
-    max-width: 100%;
-    max-height: 100%;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .read_grammer .grammer_container {
-    transform: scale(0.8);
-    display: inline-block;
-    align-self: center;
-    position: relative;
+  transform: scale(0.8);
+  display: inline-block;
+  align-self: center;
+  position: relative;
 }
 
 .read_grammer .grammer_container img {
-    /* transform: scale(0.5); */
-    width: 100%;
+  /* transform: scale(0.5); */
+  width: 100%;
 }
 
 .words_container {
-    position: absolute;
-    font-weight: bold;
-    width: 100%;
-    /* center */
-    left: 20%;
-    top: 40%;
-    transform: translate(-20%, -50%);
-    color: red;
-    font-size: 40px;
+  position: absolute;
+  font-weight: bold;
+  width: 100%;
+  /* center */
+  left: 20%;
+  top: 40%;
+  transform: translate(-20%, -50%);
+  color: red;
+  font-size: 40px;
 }
 
 .grid_with_border .snap_group_all {
-    width: 100%;
-    position: relative;
-    /* margin-top: 150px; */
-    text-align: left;
-    border: solid 5px deepskyblue;
-    border-radius: 24px;
-    padding: 0 25px;
+  width: 100%;
+  position: relative;
+  /* margin-top: 150px; */
+  text-align: left;
+  border-radius: 24px;
+  padding: 0 25px;
 }
 
-.grid_without_border .snap_group_all{
-    background-color: transparent;
-    border: none;
+.grid_without_border .snap_group_all {
+  background-color: transparent;
+  border: none;
 }
 
 /* .grid_with_background_image .snap_group_all {
@@ -206,79 +204,356 @@ input:focus {
 } */
 
 .grid_with_center_images {
-    width: 80%;
-    background-color: rgb(251,244,175);
-    border-radius: 25px;
-    position: absolute;
-    top: 179px;
-    padding: 30px;
+  width: 80%;
+  background-color: rgb(251, 244, 175);
+  border-radius: 25px;
+  position: absolute;
+  top: 179px;
+  padding: 30px;
 }
 
 .grid_with_center_images .snap_group_all {
-    width: auto;
-    position: static;
+  width: auto;
+  position: static;
 }
 
 .grid_with_center_images .audioIcon {
-    margin: auto;
+  margin: auto;
 }
 
 .grid_with_center_images .row {
-    min-height: 200px !important;
+  min-height: 200px !important;
 }
 
 .grid_with_center_images .col_grid_container {
-    width: 100%;
+  width: 100%;
 }
 
 .top_image_text {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .top_image {
-    height: 90px;
-    margin-right: 25px;
+  height: 90px;
+  margin-right: 25px;
 }
 
 .snap_group_all .row {
-    text-align: left;
-    min-height: 36px;
+  text-align: left;
+  min-height: 36px;
 }
 
 .display-block {
-    display: block !important;
+  display: block !important;
 }
 
 .back_bottom_image {
-    width: 100%;
-    position: absolute;
-    top: -25px;
-    left: 0;
+  width: 100%;
+  position: absolute;
+  top: -25px;
+  left: 0;
 }
 
 .middle_image {
-    width: 250px;
-    position: absolute;
-    top: 250px;
-    left: 590px;
+  width: 250px;
+  position: absolute;
+  top: 250px;
+  left: 590px;
 }
 
 .snap_group_bottom {
-    height: 141px;
-    position: relative;
-    padding: 30px;
-    width: 100%;
+  height: 141px;
+  position: relative;
+  padding: 30px;
+  width: 100%;
 }
 
-.slide_2 .snap_group_all  {
-    padding: 50px 25px;
+.slide_2 .snap_group_all {
+  padding: 50px 25px;
 }
 
-.slide_3 .snap_group_all  {
-    border: none;
-    margin-top: 50px;
+.slide_3 .snap_group_all {
+  border: none;
+  margin-top: 50px;
 }
 
 .slide_3 .snap_group_6 {
-    height: 50px;
+  height: 50px;
+}
+
+/* ====================================================== */
+/* AUTOBIOGRAPHY - 4 BOXES ON ONE PAGE */
+/* ====================================================== */
+
+.reading_container .options {
+  width: 100%;
+  height: 100%;
+}
+
+.reading_container .all_cont {
+  width: 80%;
+  height: 100%;
+  margin-bottom: 50px !important;
+  margin: 0 auto;
+
+  display: flex !important;
+  flex-wrap: wrap !important;
+
+  justify-content: center !important;
+  align-items: stretch !important;
+
+  gap: 10px;
+}
+
+/* ====================================================== */
+/* EACH BOX */
+/* ====================================================== */
+
+.autobiography_box.grid_columns_container {
+  width: calc(50% - 10px) !important;
+  height: 340px;
+
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+
+  position: relative;
+}
+
+/* inner box */
+.autobiography_box .col_grid_container {
+  width: 100% !important;
+  height: 100%;
+
+  border: 2px solid #08b0ef;
+  border-radius: 18px;
+
+  overflow: hidden;
+}
+
+/* content */
+.autobiography_box .snap_group_all {
+  width: 100%;
+  height: 100%;
+
+  margin: 0;
+
+  padding: 8px 10px;
+
+  border: none;
+
+  border-radius: 16px;
+
+  position: relative;
+
+  text-align: left;
+
+  line-height: 28px;
+}
+
+/* ====================================================== */
+/* ROWS */
+/* ====================================================== */
+
+.autobiography_box .snap_group_all .row {
+  min-height: 27px !important;
+  margin: 0 !important;
+
+  align-items: center;
+}
+
+.autobiography_box .snap_group_all .row > div {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* ====================================================== */
+/* TEXT */
+/* ====================================================== */
+
+.autobiography_box .ss_text {
+  width: 100%;
+
+  font-size:25px;
+  line-height: 27px;
+
+  text-align: left;
+}
+
+.autobiography_box .audioIcon {
+  width: 100%;
+}
+
+/* don't zoom on hover */
+.autobiography_box .audioIcon:hover {
+  transform: scale(1);
+}
+
+/* ====================================================== */
+/* TITLE OF EACH BOX */
+/* ====================================================== */
+
+.autobiography_box .snap_group_1 .ss_text {
+  width: 100%;
+
+  font-size: 25px;
+  font-weight: bold;
+
+  text-align: center;
+
+  line-height: 28px;
+}
+
+/* ====================================================== */
+/* INPUTS */
+/* ====================================================== */
+
+.autobiography_box input {
+  border: none;
+  border-bottom: 1px solid #555;
+
+  background: transparent;
+
+  outline: none;
+
+  height: 26px;
+
+  padding: 0 4px;
+
+  font-size: 23px;
+}
+
+.autobiography_box input:focus {
+  border-bottom-color: #08b0ef;
+}
+
+/* numbered lines */
+.numbered-line {
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+
+  gap: 8px;
+}
+
+.numbered-line b {
+  width: 18px;
+  min-width: 18px;
+}
+
+.numbered-line input {
+  flex: 1;
+  width: auto;
+}
+
+/* said by */
+.said-by {
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+
+  gap: 5px;
+}
+
+.said-by input {
+  flex: 1;
+  width: auto;
+}
+
+/* ====================================================== */
+/* MAIN IDEA TEXTAREA */
+/* ====================================================== */
+
+.lined-textarea {
+  display: block;
+
+  width: 100%;
+  height: 155px;
+
+  resize: none;
+
+  margin: 5px 0 0;
+
+  padding: 0 4px;
+
+  border: none;
+  outline: none;
+
+  background-color: transparent;
+
+  font-size: 18px;
+
+  line-height: 30px;
+
+  background-image: linear-gradient(to bottom, transparent 29px, #777 30px);
+
+  background-size: 100% 30px;
+
+  background-attachment: local;
+}
+
+/* ====================================================== */
+/* PICTURE */
+/* ====================================================== */
+
+.box_pictures .s_img {
+  display: block;
+
+  width: 165px;
+  max-height: 145px;
+
+  object-fit: contain;
+
+  margin: 5px auto 0;
+}
+
+/* ====================================================== */
+/* INDIVIDUAL BOX TWEAKS */
+/* ====================================================== */
+
+.box_main_idea .snap_group_all {
+  padding: 7px 10px;
+}
+
+.box_events .snap_group_all {
+  padding: 7px 10px;
+}
+
+.box_others .snap_group_all {
+  padding: 7px 10px;
+}
+
+.box_pictures .snap_group_all {
+  padding: 7px 10px;
+}
+
+/* ====================================================== */
+/* REMOVE OLD 50% INNER WIDTH RULE */
+/* ====================================================== */
+
+.grid_writing_f .col_grid_container {
+  width: 100% !important;
+}
+
+/* ====================================================== */
+/* RESPONSIVE */
+/* ====================================================== */
+
+@media (max-width: 991.98px) {
+  .autobiography_box.grid_columns_container {
+    width: 100% !important;
+    height: auto;
+    min-height: 330px;
+  }
+
+  .reading_container .all_cont {
+    flex-direction: column;
+    flex-wrap: nowrap !important;
+  }
+}
+.box_others .snap_group_all .row {
+  min-height: 30px !important;
+  margin-bottom: 8px !important;
 }

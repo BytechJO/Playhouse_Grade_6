@@ -47,7 +47,7 @@ var fillin_data = {
           "alternateanswer": [[]],
           "strictcase": "no", // yes (or) no  
           "strictorder": "yes", // yes (or) no              
-          "maxlength": 200,
+          "maxlength": 1,
           "type": "", // text (or) number
         },
         {
@@ -61,7 +61,7 @@ var fillin_data = {
           "alternateanswer": [[]],
           "strictcase": "no", // yes (or) no     
           "strictorder": "yes", // yes (or) no             
-          "maxlength": 200,
+          "maxlength": 1,
           "type": "", // text (or) number
         },
         {
@@ -75,12 +75,12 @@ var fillin_data = {
           "alternateanswer": [[]],
           "strictcase": "no", // yes (or) no    
           "strictorder": "yes", // yes (or) no              
-          "maxlength": 200,
+          "maxlength": 1,
           "type": "", // text (or) number
         },
         {
           "singleword": false,
-          "text": "[_] <b>e</b> &nbsp; Hey! Let’s watch the film again and see what else we can learn about outer space.]",
+          "text": "[_] <b>e</b> &nbsp; Hey! Let’s watch the film again and see what else we can learn about outer space.",
           "textaudios": ["../audios/under.mp3","../audios/under.mp3"],
           "audio": "",
           "audioenable": "default", // correct (or) default
@@ -89,7 +89,7 @@ var fillin_data = {
           "alternateanswer": [[]],
           "strictcase": "no", // yes (or) no    
           "strictorder": "yes", // yes (or) no              
-          "maxlength": 200,
+          "maxlength": 1,
           "type": "", // text (or) number
         },
         {
@@ -103,12 +103,12 @@ var fillin_data = {
           "alternateanswer": [[]],
           "strictcase": "no", // yes (or) no    
           "strictorder": "yes", // yes (or) no              
-          "maxlength": 200,
+          "maxlength": 1,
           "type": "", // text (or) number
         },
         {
           "singleword": false,
-          "text": "[_] <b>f</b> &nbsp; I learnt a lot, too. I think I want to be an astronaut when I grow up., you know.",
+          "text": "[_] <b>f</b> &nbsp; I learnt a lot, too. I think I want to be an astronaut when I grow up.",
           "textaudios": ["../audios/under.mp3","../audios/under.mp3"],
           "audio": "",
           "audioenable": "default", // correct (or) default
@@ -117,7 +117,7 @@ var fillin_data = {
           "alternateanswer": [[]],
           "strictcase": "no", // yes (or) no    
           "strictorder": "yes", // yes (or) no              
-          "maxlength": 200,
+          "maxlength": 1,
           "type": "", // text (or) number
         },
       ]

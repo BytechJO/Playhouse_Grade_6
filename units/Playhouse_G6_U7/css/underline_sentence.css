@@ -1,9 +1,10 @@
 .all_cont {
+    width: 100%;
     height: 100%;
-    text-align: center;
-    align-items: center;
     display: flex;
     justify-content: center;
+    align-items: center;
+    text-align: left;
 }
 
 .screen_elements {
@@ -11,46 +12,164 @@
     height: 100%;
 }
 
+
+/* ====================================================== */
+/* MAIN QUESTIONS CONTAINER */
+/* ====================================================== */
+
 .group_elm {
-    width: 90%;
-    height: 100%;
-    margin: 0px auto;
+    width: 80%;
+    height: 90%;
+    margin: 0 auto;
+
+    display: flex;
+    flex-wrap: nowrap;
+
+    justify-content: space-between;
+    align-items: flex-start;
 }
+
+
+/* ====================================================== */
+/* EACH COLUMN */
+/* ====================================================== */
 
 .tick_group {
-    margin: 25px auto;
-    width: 88%;
-    height: 90%;
+    width: 47%;
+    height: auto;
+
     display: flex;
-    text-align: center;
-    align-items: center;
+    flex-direction: column;
+
+    justify-content: flex-start;
+    align-items: stretch;
+
+    margin: 20px 0;
 }
 
-.selectedDefault {
-    border: none;
-    border-bottom: 2px solid blue;
-    /* text-decoration: line-through solid red 3px;  */  /*line through text*/
-}
+
+/* ====================================================== */
+/* QUESTION */
+/* ====================================================== */
 
 .que {
     width: 100%;
-    margin: 2px 8px;
-    /* border:1px solid #ececec; */
+    min-height: 85px;
+
+    margin: 4px 0;
+    padding: 8px 10px;
+
     border-radius: 5px;
+
     position: relative;
+
+    display: flex;
+    align-items: center;
 }
 
+
+/* ====================================================== */
+/* QUESTION TEXT IF EXISTS */
+/* ====================================================== */
+
 .q_part {
-    width: 50px;
-    /* height: 50%; */
+    width: fit-content;
     font-weight: bold;
     letter-spacing: 1px;
-    margin-bottom: 0px;
+    margin: 0;
 }
 
 .q_num_space {
     width: 27px;
 }
+
+
+/* ====================================================== */
+/* OPTIONS ROW */
+/* ====================================================== */
+
+.picks_grp {
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    flex-wrap: wrap;
+
+    gap: 8px;
+}
+
+
+/* ====================================================== */
+/* QUESTION NUMBER */
+/* ====================================================== */
+
+.sentence-number {
+    width: 35px;
+    min-width: 35px;
+
+    font-size: 28px;
+    font-weight: bold;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    color: #000;
+}
+
+
+/* ====================================================== */
+/* SELECTABLE WORD */
+/* ====================================================== */
+
+.pick {
+    width: fit-content;
+
+    height: 45px;
+
+    margin: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+
+    border: none;
+
+    font-size: 27px;
+
+    border-radius: 0 !important;
+
+    border-bottom: 3px solid transparent;
+
+    cursor: pointer;
+}
+
+
+/* Selected word */
+
+.selectedDefault {
+    border: none;
+    border-bottom: 2px solid blue;
+}
+
+
+/* ====================================================== */
+/* PICK TEXT */
+/* ====================================================== */
+
+.pick .txt {
+    width: fit-content;
+    white-space: nowrap;
+}
+
+
+/* ====================================================== */
+/* IMAGE */
+/* ====================================================== */
 
 .img_space {
     width: 400px;
@@ -63,33 +182,18 @@
     object-fit: cover;
 }
 
-.pick {
-    width: fit-content;
-    margin: 15px;
-    height: 50px;
-    text-align: center;
-    border: none;
-    font-size: 28px;
-    border-radius: 0px !important;
-    border-bottom: 3px solid rgb(255, 255, 255);
-    /* border-radius: 10px !important; */
-}
 
-.roundedCorners {
-    /* border-radius: 10px; */
-}
-
-.pick img {
-    width: 65% !important;
-    height: 100% !important;
-    padding: 0px 5px;
-    object-fit: contain;
-}
+/* ====================================================== */
+/* TICK / CROSS */
+/* ====================================================== */
 
 .icon_wrap {
     position: absolute;
-    top: 20px;
-    right: 20px;
+
+    top: 50%;
+    right: -35px;
+
+    transform: translateY(-50%);
 }
 
 .tick,
@@ -98,66 +202,135 @@
     height: 25px;
 }
 
-
+.tick img,
+.cross img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
 
 
 /* ====================================================== */
-/*              Media Queries Start                       */
+/* OTHER */
 /* ====================================================== */
-/* ------------------------------------------------ */
-/*              M Q max-width: 1799.98px */
-/* ------------------------------------------------*/
-/* // Large devices (desktops, less than 1800px) */
+
+.roundedCorners {
+    border-radius: 0;
+}
+
+
+/* ====================================================== */
+/* MEDIA QUERIES */
+/* ====================================================== */
+
 @media (max-width: 1799.98px) {
+
     .que {
-        padding: 10px;
+        padding: 8px;
     }
 
+    .pick {
+        font-size: 25px;
+    }
 }
 
-/* ------------------------------------------------ */
-/*              M Q max-width: 1399.98px */
-/* ------------------------------------------------*/
-/* // Large devices (desktops, less than 1400px) */
+
 @media (max-width: 1399.98px) {
-    .que {
-        padding: 4px;
+
+    .group_elm {
+        width:80%;
     }
 
-    .q_part {
-        margin-bottom: 20px;
+    .tick_group {
+        width: 48%;
+    }
+
+    .que {
+        padding: 5px;
+    }
+
+    .pick {
+        font-size: 23px;
+    }
+
+    .sentence-number {
+        font-size: 24px;
     }
 }
 
-/* ------------------------------------------------ */
-/*              M Q max-width: 1199.98px */
-/* ------------------------------------------------*/
-/* // Large devices (desktops, less than 1200px) */
-@media (max-width: 1199.98px) {}
 
-/* ------------------------------------------------ */
-/*              M Q max-width: 991.98px */
-/* ------------------------------------------------*/
-/* // Medium devices (tablets, less than 992px) 768 to 991.98 */
-@media (max-width: 991.98px) {}
+@media (max-width: 1199.98px) {
 
-/* ------------------------------------------------ */
-/* M Q max-width: 767.98px */
-/* ------------------------------------------------*/
-/* // Small devices (landscape phones, less than 768px) 576 to 767.98*/
-@media (max-width: 767.98px) {}
+    .group_elm {
+        width: 80%;
+    }
 
-/* ------------------------------------------------ */
-/* M Q max-width: 575.98px */
-/* ------------------------------------------------*/
-/* // Extra small devices (portrait phones, less than 576px) 476 to 575*/
-@media (max-width: 575.98px) {}
+    .picks_grp {
+        gap: 5px;
+    }
 
-/* body working fine 320 to 475 */
+    .pick {
+        font-size: 21px;
+    }
+}
+
+
+@media (max-width: 991.98px) {
+
+    .group_elm {
+        flex-wrap: wrap;
+    }
+
+    .tick_group {
+        width: 100%;
+        margin: 5px 0;
+    }
+
+    .que {
+        min-height: 65px;
+    }
+}
+
+
+@media (max-width: 767.98px) {
+
+    .pick {
+        font-size: 20px;
+    }
+
+    .sentence-number {
+        font-size: 21px;
+        width: 30px;
+        min-width: 30px;
+    }
+}
+
+
+@media (max-width: 575.98px) {
+
+    .group_elm {
+        width: 100%;
+    }
+
+    .pick {
+        font-size: 18px;
+    }
+}
+
+
 @media (max-width: 475.98px) {
+
     .tickBox {
         height: 36px;
         width: 36px;
         min-width: 36px;
+    }
+
+    .que {
+        padding: 4px;
+    }
+
+    .picks_grp {
+        gap: 3px;
     }
 }
