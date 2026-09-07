@@ -41,6 +41,60 @@ function buildFillInBody(aObj) {
 				htmlStmt += '</div>';
 			htmlStmt += '</div>';
 		htmlStmt += '</div>';
+		     // =====================================================
+      // READING POPUP BUTTON
+      // =====================================================
+      if (aObj.helpPopup != undefined && aObj.helpPopup != null) {
+        htmlStmt += '<button type="button" class="reading_help_btn">';
+        htmlStmt += "Read the text";
+        htmlStmt += "</button>";
+
+        // ===================================================
+        // POPUP
+        // ===================================================
+        htmlStmt += '<div class="reading_popup_overlay">';
+
+        htmlStmt += '<div class="reading_popup">';
+
+        // CLOSE
+        htmlStmt += '<button type="button" class="reading_popup_close">';
+        htmlStmt += "&times;";
+        htmlStmt += "</button>";
+
+        // TITLE
+        htmlStmt += '<div class="reading_popup_title">';
+        htmlStmt += aObj.helpPopup.title;
+        htmlStmt += "</div>";
+
+        // CONTENT
+        htmlStmt += '<div class="reading_popup_content">';
+
+        // TEXT
+        htmlStmt += '<div class="reading_popup_text">';
+
+        for (var rp = 0; rp < aObj.helpPopup.paragraphs.length; rp++) {
+          htmlStmt += '<div class="reading_popup_paragraph">';
+          htmlStmt += aObj.helpPopup.paragraphs[rp];
+          htmlStmt += "</div>";
+        }
+
+        htmlStmt += "</div>";
+
+        // IMAGE
+        if (aObj.helpPopup.image != undefined && aObj.helpPopup.image != "") {
+          htmlStmt += '<div class="reading_popup_image">';
+
+          htmlStmt += '<img src="' + aObj.helpPopup.image + '">';
+
+          htmlStmt += "</div>";
+        }
+
+        htmlStmt += "</div>";
+
+        htmlStmt += "</div>";
+
+        htmlStmt += "</div>";
+      }
 		// ===================================================================== all_cont =====================
 		htmlStmt += '<div class="options cont_ht_sf mx-auto">';
 		htmlStmt += '<div class="all_cont justify-content-start justify-content-sm-center">';
@@ -109,7 +163,34 @@ function buildFillInBody(aObj) {
 	}
 	console.log('htmlStmt >> fillin Built');
 	$( ".activity_area" ).append( htmlStmt );	
-	
+	// =====================================================
+  // OPEN READING POPUP
+  // =====================================================
+  $(".reading_help_btn")
+    .off("click")
+    .on("click", function () {
+      $(".reading_popup_overlay").addClass("show");
+    });
+
+  // =====================================================
+  // CLOSE
+  // =====================================================
+  $(".reading_popup_close")
+    .off("click")
+    .on("click", function () {
+      $(".reading_popup_overlay").removeClass("show");
+    });
+
+  // =====================================================
+  // CLICK OUTSIDE
+  // =====================================================
+  $(".reading_popup_overlay")
+    .off("click")
+    .on("click", function (e) {
+      if ($(e.target).hasClass("reading_popup_overlay")) {
+        $(".reading_popup_overlay").removeClass("show");
+      }
+    });
 	setLoadedStatus(getCurrFileOrDirectory('file'));
 }
 function nextChar(c) {

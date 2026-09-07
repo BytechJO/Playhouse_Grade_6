@@ -38,6 +38,37 @@ var fillin_data = {
   leftList:
     '<ol type="1" class="words-list"> <li><img style="max-width:31%" src="../images/pages/activities/AGW_U15_P146_I6.png"></li> <li><img style="max-width:31%" src="../images/pages/activities/AGW_U15_P146_I6.png"></li> <li><img style="max-width:31%" src="../images/pages/activities/AGW_U15_P146_I6.png"></li> <li><img style="max-width:31%" src="../images/pages/activities/AGW_U15_P146_I6.png"></li> <li><img style="max-width:31%" src="../images/pages/activities/AGW_U15_P146_I6.png"></li>  </ol>',
   image: "",
+  helpPopup: {
+    title: "Read the text",
+
+    image: "",
+
+    paragraphs: [
+      `
+      As of this year, the International Family Sports Festival will have held sports
+      contests for students for 18 years. The competition was started for students who
+      perform at a high level in order to encourage them to develop their talents.
+      This year, the IFSF will have worked in cooperation with Youthfest for nine years.
+      Youthfest is an international organisation that wants
+      to celebrate the achievements of youth.
+      Students between the ages of 8 and 17 can send an application to IFSF to enter the festival.
+      Usually the entry deadline is in the month of November, and the awards ceremony is in March
+      of the next year. The contestants can compete in team sports, individual sports, outdoor events,
+      indoor events or strategy sports.
+    `,
+
+      `
+      There is an entry fee of about €25 per person. For sports that are not well known,
+      contestants should have submitted their rules to the IFSF by November. These rules
+      should be no more than 45 pages long, and students aged 13 and younger will have gotten
+      their parents‘ approval and signatures before the festival‘s entry deadline.
+      Up until now, the IFSF has been a leader in developing talent in the sports industry.
+      Many other local organisations are also starting to encourage young people to
+      play sports. If you are interested, check with your school and city about which opportunities
+      might be near you. There may be a lot available for you!
+    `,
+    ],
+  },
   questions: [
     {
       textfront:

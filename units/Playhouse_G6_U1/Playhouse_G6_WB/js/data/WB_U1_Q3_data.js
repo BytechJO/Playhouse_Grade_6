@@ -45,6 +45,68 @@ var fillin_data = {
   numbering: "alphabet", // "alphabet" (or) "number"
   numberstartfrom: "a",
   options: [],
+  helpPopup: {
+    title: "1 Read it and say it!",
+
+    image: "",
+
+    paragraphs: [
+      `
+      <b>Tour Guide:</b>
+      This is our studio, where all the news is filmed.
+      <br><br>
+
+      <b>Student:</b>
+      Wow, are they doing a broadcast right now?
+      <br><br>
+
+      <b>Tour Guide:</b>
+      No, we won’t go on air until 10:30. But you can hear the breaking news now.
+      <br><br>
+
+      <b>Student:</b>
+      Can we hear the breaking news and then see more things in the studio, Mrs. Nelson?
+      <br><br>
+
+      <b>Student:</b>
+      I always wanted to see a reporter’s teleprompter and a camera operator’s equipment.
+    `,
+
+      `
+      <b>Teacher:</b>
+      Yes, we will see the broadcast in a few minutes. But remember that they’re doing
+      the news live, so we’ll need to be quiet and careful.
+      <br><br>
+
+      <b>Student:</b>
+      This is great! I’ve always wondered how TV shows were done. Now we get to see it!
+      Is the one who is speaking into the microphone the reporter?
+      <br><br>
+
+      <b>Tour Guide:</b>
+      Yes, she is. There are many things to observe here at the network offices.
+      Right now we’re going to meet some of the people who do the lights,
+      the sound and the camera work. You are going to meet a sound engineer
+      and even the anchor of the news!
+    `,
+
+      `
+      <b>Teacher:</b>
+      What kind of programme is the anchor going to do?
+      <br><br>
+
+      <b>Tour Guide:</b>
+      At 12:00, the anchor is going to talk about solving environmental problems
+      in our city. Okay, I know you’re all excited to learn everything about our
+      network. When your teacher is ready, we can go so we won’t be late for
+      the live broadcast.
+      <br><br>
+
+      <b>Teacher:</b>
+      Let’s go. I think we’re all here now.
+    `,
+    ],
+  },
   questions: [
     {
       textfronttt: "",

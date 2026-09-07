@@ -12,7 +12,7 @@ var stereo_data = {
     { url: "" },
   ],
 };
- 
+
 var fillin_data = {
   layout: 1,
   numinrow: [[1], [1], [1]],
@@ -30,7 +30,84 @@ var fillin_data = {
   defaultAnswer: -1,
   leftList: "",
   image: "",
+  helpPopup: {
+    title: "Read the text",
 
+    image: "../images/pages/activities/7.png",
+
+    paragraphs: [
+      `
+      I'm Travis. This is my first time travelling out of the country
+      on an aeroplane. I was nervous at first, but my parents travel a lot for their jobs,
+      and they told me what to expect. This helped me so much.
+
+      I hope that if I share my experience with you on this blog,
+      you too will not be nervous and enjoy your holiday.
+
+      Yesterday, my father told me that our flight will leave at 6:00pm.
+      He said that if we want to have a smooth check-in, then we should be there
+      at least two hours before our flight leaves. That was a good idea.
+      Our check-in was so easy.
+    `,
+
+      `
+      This year we are travelling with my little brother, Dean.
+      He is only eight months old. My mum says that travelling with a baby isn't hard
+      as long as you have got a good plan. This is what she says we should do:
+
+      <br><b>1</b>
+      <span class='under_line'>Keep your passports close by!</span>
+      My dad puts all of our passports in his front pocket.
+      This way he can get to everything quickly,
+      and he can put them back quickly as well.
+
+      <br><b>2</b>
+      <span class='under_line'>Keep snacks and drinks at the top of your luggage!</span>
+      My mum says that she always packs Dean's formula and snacks for me
+      at the top of her hand luggage, so she can open the bag and get it out easily.
+      That works out well for me too.
+
+      Plus, Mum says that if Dean gets hungry, she can feed him quickly
+      because his formula is easy to get to.
+    `,
+
+      `
+      <br><b>3</b>
+      <span class='under_line'>Bring everything you need and more!</span>
+
+      My mum told us that when she and Dad travelled last time,
+      they had some disasters. Everything went wrong!
+
+      So this time, my mum says she is bringing more than enough.
+      She packed extra wipes, extra snacks, some extra clothes for Dean
+      and an extra T-shirt for me.
+
+      Make sure that when YOU pack your bag,
+      you put in lots of things that will keep you busy during the flight.
+
+      I packed my HeeBeeJeeBee game and some extra batteries.
+    `,
+
+      `
+      <br><b>4</b>
+      <span class='under_line'>Keep it all together!</span>
+
+      This is funny because my dad says that this means more than what you think!
+
+      First, after you arrive at the check-in counter and they give you your boarding card,
+      your e-ticket and your passport, make sure you keep them all in one place.
+
+      After you pass security and go to your gate,
+      everything will be right where you want it.
+
+      My dad also says be ready for anything,
+      so ‘Keep it all together!’ also means that you shouldn't get angry
+      or upset when something goes wrong.
+
+      Just breathe, relax and have a good time!
+    `,
+    ],
+  },
   questions: [
     // =========================================
     // Question 1

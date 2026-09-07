@@ -40,6 +40,68 @@ var fillin_data = {
   leftList:
     '<ol type="1" class="words-list"> <li><img style="max-width:31%" src="../images/pages/activities/AGW_U15_P146_I6.png"></li> <li><img style="max-width:31%" src="../images/pages/activities/AGW_U15_P146_I6.png"></li> <li><img style="max-width:31%" src="../images/pages/activities/AGW_U15_P146_I6.png"></li> <li><img style="max-width:31%" src="../images/pages/activities/AGW_U15_P146_I6.png"></li> <li><img style="max-width:31%" src="../images/pages/activities/AGW_U15_P146_I6.png"></li>  </ol>',
   image: "",
+  helpPopup: {
+    title: "Read it and say it!",
+
+    image: "",
+
+    paragraphs: [
+      `
+      <b>Tour Guide:</b>
+      This is our studio, where all the news is filmed.
+      <br>
+
+      <b>Student:</b>
+      Wow, are they doing a broadcast right now?
+      <br>
+
+      <b>Tour Guide:</b>
+      No, we won’t go on air until 10:30. But you can hear the breaking news now.
+      <br>
+
+      <b>Student:</b>
+      Can we hear the breaking news and then see more things in the studio, Mrs. Nelson?
+      <br>
+
+      <b>Student:</b>
+      I always wanted to see a reporter’s teleprompter and a camera operator’s equipment.
+    `,
+
+      `
+      <b>Teacher:</b>
+      Yes, we will see the broadcast in a few minutes. But remember that they’re doing
+      the news live, so we’ll need to be quiet and careful.
+      <br>
+
+      <b>Student:</b>
+      This is great! I’ve always wondered how TV shows were done. Now we get to see it!
+      Is the one who is speaking into the microphone the reporter?
+      <br>
+
+      <b>Tour Guide:</b>
+      Yes, she is. There are many things to observe here at the network offices.
+      Right now we’re going to meet some of the people who do the lights, the sound
+      and the camera work. You are going to meet a sound engineer and even the anchor
+      of the news!
+    `,
+
+      `
+      <b>Teacher:</b>
+      What kind of programme is the anchor going to do?
+      <br>
+
+      <b>Tour Guide:</b>
+      At 12:00, the anchor is going to talk about solving environmental problems
+      in our city. Okay, I know you’re all excited to learn everything about our
+      network. When your teacher is ready, we can go so we won’t be late for
+      the live broadcast.
+      <br>
+
+      <b>Teacher:</b>
+      Let’s go. I think we’re all here now.
+    `,
+    ],
+  },
   questions: [
     {
       textfront: "What doesn’t Actor 1 want to do?",
