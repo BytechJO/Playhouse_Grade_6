@@ -104,8 +104,8 @@
 .drag_drop_activity input[type="text"],
 .fill_blanks_activity input[type="text"],
 .fill_multi_blanks_activity input[type="text"] {
-  width: 150px;
-  min-width: 150px;
+  width: 165px;
+  min-width: 165px;
 }
 button#caret {
   border: none;

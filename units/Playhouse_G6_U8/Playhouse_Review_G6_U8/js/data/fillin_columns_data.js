@@ -5,17 +5,18 @@ var fillin_data = {
     "mainTitleIcon": "",
     "mainTitleIconPos": {"right": "-20px"},
     "mainTitleAudio": "../audios/under.mp3",
-    "subTitleTextLeft"      : '<span class="green_text">2</span> Write it! Rewrite each sentence below in the present perfect continuous tense. Example: I walked to school. I have been walking to school for five years.',
+    "subTitleTextLeft"      : '<span class="green_text">2</span> Write it! <span class="blue_text">Rewrite each sentence below in the present perfect continuous tense.</span>',
     "subTitleTextRight"     : "",
     "subTitleIcons"         : [""],
     "subTitleAudio"         : "../audios/under.mp3",
+    "eaxampple":" Example: I walked to school. <span class='red'>I have been walking to school for five years.</span>",
     "defaultAnswer"         : -1,
     "leftList"              : '',
     "options"               : [],
     "optionsAudios"         : ["","","","","","",""],
     "image"                 :"",
     "questions": [
-        {
+        { 
             "textfront": "1 Did you go skydiving at the weekend?",
             "audio": "",
             "audioenable": "default", // correct (or) default

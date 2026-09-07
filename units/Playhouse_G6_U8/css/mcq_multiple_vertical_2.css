@@ -1,173 +1,375 @@
-.all_cont{
-    align-items: center;
-    height: 100%;
+/* =========================================================
+   MAIN
+========================================================= */
+
+.all_cont {
+    width: 100% ;
+
+    display: flex ;
+
+    justify-content: center ;
+    align-items: center ;
 }
 
-.group_elm{
-    width: 85%;
-    height: 100%;
-    margin: 0px auto;
+
+.group_elm {
+    position: relative ;
+
+    width: 80% ;
+    height: 100% ;
+
+    margin: 0 auto ;
+
+    display: flex ;
+
+    justify-content: center ;
+    align-items: center ;
 }
 
-.tick_group {
-    margin: 5px auto;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between
+
+
+/* =========================================================
+   QUESTION
+========================================================= */
+
+.que {
+    position: relative ;
+
+    width: 100% ;
+    height: auto ;
+
+    margin: 0 ;
+    padding: 0 ;
+
+    display: flex ;
+    flex-direction: column ;
+
+    justify-content: center ;
+    align-items: center ;
+
+    border: none ;
 }
+
+
+
+/* =========================================================
+   OPTIONS WRAPPER
+========================================================= */
+
+.picks_grp {
+    position: relative ;
+
+    width: 100% ;
+
+    display: flex ;
+    flex-wrap: nowrap ;
+
+    justify-content: space-between ;
+    align-items: flex-start ;
+
+    margin: 0 auto ;
+
+    font-size: 25px ;
+}
+
+
+
+/* =========================================================
+   COLUMNS
+========================================================= */
+
+.options_column {
+    position: relative ;
+
+    width: 43% ;
+
+    display: flex ;
+    flex-direction: column ;
+
+    justify-content: flex-start ;
+    align-items: stretch ;
+
+    gap: 28px ;
+
+    z-index: 2 ;
+}
+
+
+.left_column {
+    padding-right: 6% ;
+}
+
+
+.right_column {
+    padding-left: 6% ;
+}
+
+
+
+/* =========================================================
+   EACH SENTENCE
+========================================================= */
+
+.pick {
+    position: relative ;
+
+    width: 100% ;
+    min-height: 62px ;
+
+    display: flex ;
+    flex-direction: row ;
+
+    justify-content: flex-start ;
+    align-items: flex-start ;
+
+    margin: 0 ;
+    padding: 3px 8px ;
+
+    border: 2px solid transparent ;
+
+    border-radius: 18px ;
+
+    background: transparent ;
+
+    cursor: pointer ;
+}
+
+
+
+/* =========================================================
+   OPTION NUMBER
+========================================================= */
+
+.option_number {
+    width: 35px ;
+    min-width: 35px ;
+
+    font-size: 24px ;
+    font-weight: bold ;
+
+    line-height: 1.35 ;
+
+    color: #222 ;
+
+    text-align: left ;
+}
+
+
+
+/* =========================================================
+   TEXT
+========================================================= */
+
+.pick .txt {
+    flex: 1 ;
+
+    font-size: 25px ;
+    line-height: 1.35 ;
+
+    text-align: left ;
+
+    color: #222 ;
+
+    padding: 0 ;
+}
+
+
+
+/* =========================================================
+   CENTER IMAGE
+========================================================= */
 
 .img_container {
-    position: absolute;
-    top: 250px;
-    left: 529px;
+    position: absolute ;
+
+    left: 50% ;
+    top: 72px ;
+
+    transform: translateX(-50%) ;
+
+    width: 260px ;
+    height: 190px ;
+
+    display: flex ;
+
+    justify-content: center ;
+    align-items: center ;
+
+    z-index: 3 ;
+
+    pointer-events: none ;
 }
+
 
 .img_container img {
-    height: 200px;
-}
+    width: 100% ;
+    height: 100% ;
 
-.page_sub_title b{
-    color: #000;
-}
-.que{
-    margin-bottom: 10px;
-    /* border:1px solid #ececec; */
-    border-radius:  5px;
-    position: relative;
-    width: 100%  !important;
-    height: 100%;
-    margin: 0px 10px;
-    flex-direction: unset;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    justify-content: center;
-}
-.q_part{
-    font-weight: bold;
-    letter-spacing: 1px;
-    align-items: center;
-}
-.q_num_space{
-    width:27px;
-}
-.img_space{
-    width: 290px;
-    height: 200px !important;
-    margin: 0px 10px;
-}
-
-.img_space img{
-    width: 100% !important;
-    height: 100% !important;
-    object-fit: contain;
-}
-
-.picks_grp{
-    /* position: absolute;
-    top: 0;
-    left: 200px; */
-    width: 95%;
-    height: 100%;
-    font-size: 30px;
-    /* margin: 20px 0px; */
-    /* justify-content: space-around; */
-    /* border: 1px solid #00aeef; */
-    /* border-radius: 30px; */
-    justify-content: space-between;
-}
-
-
-.pick{
-    width: 350px;
-    /* height: 50px; */
-    border: 1px solid rgb(255, 255, 252);
-    border-radius: 10px !important;
-    margin: auto 4px;
-}
-
-.roundedCorners {
-    border-radius: 10px;
+    object-fit: contain ;
 }
 
 
 
-.icon_wrap{
-    /* position: absolute; */
-    top: 0;
-    right: 0;
+/* =========================================================
+   SELECTED / CIRCLE
+========================================================= */
+
+/*
+   إذا الـ MCQ engine عندك بحط selected class
+   هذا بخلي الجملة المحددة محاطة.
+*/
+
+.pick.selected,
+.pick.active,
+.pick.select {
+    border: 2px solid #00b7ce ;
+    border-radius: 18px ;
 }
 
-.tick, 
-.cross{
-    width: 25px;
-    height: 25px;
+
+
+/* =========================================================
+   FEEDBACK
+========================================================= */
+
+.icon_wrap {
+    position: absolute ;
+
+    top: -10px ;
+    right: -35px ;
+
+    z-index: 10 ;
 }
 
 
-/* ====================================================== */
-/*              Media Queries Start                       */
-/* ====================================================== */
-    /* ------------------------------------------------ */
-    /*              M Q max-width: 1799.98px */
-    /* ------------------------------------------------*/
-    /* // Large devices (desktops, less than 1800px) */
-    @media (max-width: 1799.98px) {    
-        .que{
-            padding:10px;
-        }
-    
+.tick,
+.cross {
+    width: 30px ;
+    height: 30px ;
+}
+
+
+.tick img,
+.cross img {
+    width: 100% ;
+    height: 100% ;
+
+    object-fit: contain ;
+}
+
+
+
+/* =========================================================
+   TITLE
+========================================================= */
+
+.page_sub_title b {
+    color: #000 ;
+}
+
+
+.subTitleTextRight {
+    text-align: left ;
+}
+
+
+
+/* =========================================================
+   TABLET
+========================================================= */
+
+@media (max-width: 1199.98px) {
+
+    .group_elm {
+        width: 92% ;
     }
-    /* ------------------------------------------------ */
-    /*              M Q max-width: 1399.98px */
-    /* ------------------------------------------------*/
-    /* // Large devices (desktops, less than 1400px) */
-    @media (max-width: 1399.98px) {
-        .que {
-        padding: 4px;
-        }
-        .q_part {        
-            /* margin-bottom: 20px; */
-        }
+
+    .picks_grp {
+        font-size: 21px ;
     }
-    /* ------------------------------------------------ */
-    /*              M Q max-width: 1199.98px */
-    /* ------------------------------------------------*/
-    /* // Large devices (desktops, less than 1200px) */
-    @media (max-width: 1199.98px) {
-    
-    
+
+    .pick .txt {
+        font-size: 21px ;
     }
-    /* ------------------------------------------------ */
-    /*              M Q max-width: 991.98px */
-    /* ------------------------------------------------*/
-    /* // Medium devices (tablets, less than 992px) 768 to 991.98 */
-    @media (max-width: 991.98px) {    
-    
+
+    .option_number {
+        font-size: 21px ;
+        width: 30px ;
+        min-width: 30px ;
     }
-    /* ------------------------------------------------ */
-    /* M Q max-width: 767.98px */
-    /* ------------------------------------------------*/
-    /* // Small devices (landscape phones, less than 768px) 576 to 767.98*/
-    @media (max-width: 767.98px) {
-    
-    
+
+    .img_container {
+        width: 220px ;
+        height: 165px ;
     }
-    /* ------------------------------------------------ */
-    /* M Q max-width: 575.98px */
-    /* ------------------------------------------------*/
-    /* // Extra small devices (portrait phones, less than 576px) 476 to 575*/
-    @media (max-width: 575.98px) {
-      
-   
+}
+
+
+
+/* =========================================================
+   SMALL TABLET
+========================================================= */
+
+@media (max-width: 991.98px) {
+
+    .options_column {
+        width: 45% ;
+        gap: 18px ;
     }
-    
-    /* body working fine 320 to 475 */
-    @media (max-width: 475.98px) {  
-        .tickBox {
-            height: 36px;
-            width: 36px;     
-            min-width: 36px;
-        }
+
+    .pick .txt {
+        font-size: 18px ;
     }
+
+    .option_number {
+        font-size: 18px ;
+    }
+
+    .img_container {
+        width: 180px ;
+        height: 140px ;
+
+        top: 80px ;
+    }
+}
+
+
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 575.98px) {
+
+    .picks_grp {
+        height: auto ;
+
+        flex-direction: column ;
+
+        gap: 15px ;
+    }
+
+    .options_column {
+        width: 100% ;
+
+        padding: 0 ;
+
+        gap: 10px ;
+    }
+
+    .img_container {
+        position: relative ;
+
+        order: 2 ;
+
+        left: auto ;
+        top: auto ;
+
+        transform: none ;
+
+        width: 180px ;
+        height: 140px ;
+
+        margin: 10px auto ;
+    }
+}

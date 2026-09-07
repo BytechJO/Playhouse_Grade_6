@@ -1,42 +1,56 @@
-function initActivity(activity){
+function initActivity(activity) {
+  //Options
+  drag_drop_options = '<div class="drag_drop_options sticky-top center_item">';
+  jQuery.each(activity.options, function (key, value) {
+    drag_drop_options +=
+      '<div class="draggable_div" data-value="' +
+      value +
+      '" style="background-color: transparent;">' +
+      value +
+      "</div>";
+  });
+  drag_drop_options += "</div>";
 
-	//Options
-	drag_drop_options = '<div class="drag_drop_options sticky-top center_item">';
-	jQuery.each(activity.options, function(key, value){
-		drag_drop_options += '<div class="draggable_div" data-value="'+value+'" style="background-color: transparent;">'+value+'</div>';
-	});
-	drag_drop_options += '</div>';
+  //Questions
+  drag_drop_questions =
+    '<div class="drag_drop_questions center_item"><ul class="d-flex flex-wrap">';
+  jQuery.each(activity.questions, function (key, values) {
+    drag_drop_questions += '<li><ul class="d-flex flex-wrap">';
+    if (typeof values == "string") {
+      var has_single_text = "";
+      if ((values[0] == "_") == true) {
+        has_single_text = "has_single_text";
+      }
 
+      drag_drop_questions +=
+        '<li class="' +
+        has_single_text +
+        '"><div class="droppable_label">' +
+        values.replace(
+          /___/g,
+          '<input readonly type="text" class="droppable_div" /></div><div class="droppable_label">',
+        ) +
+        "</div></li>";
+    } else {
+      jQuery.each(values, function (k, v) {
+        var v = v + "";
+        drag_drop_questions +=
+          '<li class="drag_drop_multiple" style="margin: 4px 20px">' +
+          v.replace(
+            "___",
+            ' <input readonly type="text" class="droppable_div" />',
+          ) +
+          "</li>";
+      });
+    }
+    drag_drop_questions += "</ul></li>";
+  });
+  drag_drop_questions += "</ul></div>";
 
-	//Questions
-	drag_drop_questions = '<div class="drag_drop_questions center_item"><ul class="d-flex flex-wrap">';
-	jQuery.each(activity.questions, function(key, values){
-		drag_drop_questions += '<li><ul class="d-flex flex-wrap">';
-		if(typeof(values)=="string"){
-			var has_single_text = '';
-			if((values[0]=='_')==true){
-				has_single_text = 'has_single_text';
-			}
+  var html = "";
+  html += "<div>";
 
-			drag_drop_questions += '<li class="'+has_single_text+'"><div class="droppable_label">'+ values.replace(/___/g, '<input readonly type="text" class="droppable_div" /></div><div class="droppable_label">')+'</div></li>';
-
-		} else {
-			jQuery.each(values, function(k, v){
-				var v = v+"";
-				drag_drop_questions += '<li class="drag_drop_multiple" style="margin: 4px 20px">'+ v.replace('___', ' <input readonly type="text" class="droppable_div" />') +'</li>';
-			});
-		}
-		drag_drop_questions += '</ul></li>';
-	});
-	drag_drop_questions += '</ul></div>';
-
-
-	
-
-	var html = '';
-	html += '<div>';
-
-	/*if(
+  /*if(
 		(typeof(_activity_json.layout)!="undefined")&&
 		(_activity_json.layout=="top")
 	){
@@ -45,60 +59,123 @@ function initActivity(activity){
 		html += drag_drop_questions + drag_drop_options;
 	}*/
 
-	html += drag_drop_options + drag_drop_questions;
+  html += drag_drop_options + drag_drop_questions;
 
+  if (
+    typeof activity.background_image != "undefined" &&
+    activity.background_image != ""
+  ) {
+    html += '<div class="image_container">';
+    html +=
+      '<img src="../images/pages/activities/' +
+      activity.background_image +
+      '" />';
+    html += "</div>";
+  }
 
-	if(
-		(typeof(activity.background_image)!='undefined') && 
-		(activity.background_image!='')
-	) {
-		html += '<div class="image_container">';
-		html += '<img src="../images/pages/activities/'+activity.background_image+'" />';
-		html += '</div>';
-	}
+  if (activity.image != undefined && activity.image != "") {
+    html += '<div class="image_container">';
+    html += '<img src="' + activity.image + '" />';
+    html += "</div>";
+  }
 
+  html += "</div>";
+  writeHtml(activity, html);
+  setDefaultAnswerDragDrop(activity);
 
-	if(activity.image != undefined && activity.image != ""){
-		html += '<div class="image_container">';
-		html += '<img src="'+activity.image+'" />';
-		html += '</div>';
-	}
+  //for mobile view
+  if (window.outerWidth <= 600) {
+    //jQuery('.drag_drop_options').css('top', (jQuery('.activity-heading').offset().top + jQuery('.activity-heading').height())+20);
+  }
 
-	html += '</div>';
-	writeHtml(activity, html);
-	setDefaultAnswerDragDrop(activity);
-
-	//for mobile view
-	if(window.outerWidth<=600){
-		//jQuery('.drag_drop_options').css('top', (jQuery('.activity-heading').offset().top + jQuery('.activity-heading').height())+20);
-	}
-
-	jQuery('.drag_drop_options div.draggable_div').draggable({
-	  container: jQuery('.activity-content'),
+  function makeOptionDraggable($element) {
+    $element.draggable({
+      container: jQuery(".activity-content"),
       revert: true,
       placeholder: true,
-      droptarget: '.drag_drop_questions input.droppable_div',
-      drop: function(evt, droptarget) {
-        jQuery(droptarget).val(evt.target.innerText);
-        jQuery(droptarget).removeClass('droppable_div');
+      droptarget: ".drag_drop_questions input.droppable_div",
 
-        jQuery(this).remove();//('destroy');
+      drop: function (evt, droptarget) {
+        var $dragged = jQuery(this);
+        var newValue = $dragged.attr("data-value") || $dragged.text().trim();
+
+        var $input = jQuery(droptarget);
+
+        // الكلمة الموجودة مسبقاً داخل الخانة
+        var oldValue = $input.val().trim();
+
+        // إذا الخانة فيها كلمة، رجعها فوق
+        if (oldValue !== "") {
+          var $oldWord = jQuery(
+            '<div class="draggable_div" data-value="' +
+              oldValue +
+              '" style="background-color: transparent;">' +
+              oldValue +
+              "</div>",
+          );
+
+          jQuery(".drag_drop_options").append($oldWord);
+
+          makeOptionDraggable($oldWord);
+        }
+
+        // ضع الكلمة الجديدة
+        $input.val(newValue);
+
+        // احذف الكلمة الجديدة من الخيارات
+        $dragged.remove();
+
         detectDragend();
+      },
+    });
+  }
+
+  // فعّل السحب للكلمات
+  jQuery(".drag_drop_options div.draggable_div").each(function () {
+    makeOptionDraggable(jQuery(this));
+  });
+
+  // إذا ضغط على الكلمة الموجودة داخل الخانة رجعها فوق
+  jQuery(document)
+    .off("click.returnDragWord")
+    .on("click.returnDragWord", ".drag_drop_questions input", function () {
+      var $input = jQuery(this);
+
+      var value = $input.val().trim();
+
+      if (value === "") {
+        return;
       }
+
+      var $word = jQuery(
+        '<div class="draggable_div" data-value="' +
+          value +
+          '" style="background-color: transparent;">' +
+          value +
+          "</div>",
+      );
+
+      jQuery(".drag_drop_options").append($word);
+
+      makeOptionDraggable($word);
+
+      $input.val("");
+
+      detectDragend();
     });
 
-    // jQuery('.content_wrap').scroll(function(){  
-    // 	console.log(jQuery(this).scrollTop());
-	//      if(jQuery(this).scrollTop()>72){
-	//      	jQuery('.drag_drop_options').addClass('drag_drop_options_fixed');
-	//      } else {
-	//      	jQuery('.drag_drop_options').removeClass('drag_drop_options_fixed');
-	//      }
-	// });
+  // jQuery('.content_wrap').scroll(function(){
+  // 	console.log(jQuery(this).scrollTop());
+  //      if(jQuery(this).scrollTop()>72){
+  //      	jQuery('.drag_drop_options').addClass('drag_drop_options_fixed');
+  //      } else {
+  //      	jQuery('.drag_drop_options').removeClass('drag_drop_options_fixed');
+  //      }
+  // });
 
-    // disableBtns();
+  // disableBtns();
 }
-		
+
 //Example 1
 /*
 var _activity_json = {

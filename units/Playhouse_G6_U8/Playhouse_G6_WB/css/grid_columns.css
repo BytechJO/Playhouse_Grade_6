@@ -175,7 +175,6 @@ table td{
     position: relative;
     /* margin-top: 150px; */
     text-align: left;
-    border: solid 5px deepskyblue;
     border-radius: 24px;
     padding: 0 25px;
 }
@@ -270,4 +269,60 @@ table td{
 
 .slide_3 .snap_group_6 {
     height: 50px;
+}
+
+.l_sent {
+    width: 100% ;
+    min-height: 175px !important;
+    height: auto !important;
+
+    border-right: solid 5px rgb(0, 185, 242) !important;
+    border-radius: 25px !important;
+
+    display: flex !important;
+    flex-direction: column !important;
+
+    padding: 20px 25px !important;
+    box-sizing: border-box !important;
+}
+
+.event_text {
+    width: 100% !important;
+    text-align: left !important;
+
+    font-size: 24px !important;
+    line-height: 1.5 !important;
+}
+
+.event_inner_img {
+    width: 150px !important;
+    height: 150px !important;
+
+    object-fit: contain !important;
+
+    display: block !important;
+
+    margin-top: 20px !important;
+}
+
+
+/* الصورة شمال */
+.event_left {
+    align-items: flex-start !important;
+}
+
+.event_left .event_inner_img {
+    margin-left: 20px !important;
+    margin-right: auto !important;
+}
+
+
+/* الصورة يمين */
+.event_right {
+    align-items: flex-end !important;
+}
+
+.event_right .event_inner_img {
+    margin-left: auto !important;
+    margin-right: 20px !important;
 }

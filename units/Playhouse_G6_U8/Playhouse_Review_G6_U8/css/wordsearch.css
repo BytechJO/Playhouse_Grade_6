@@ -1,0 +1,482 @@
+/* =========================================================
+   MAIN
+========================================================= */
+
+.ws_all_cont {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.ws_activity {
+  width: 94%;
+  max-width: 1150px;
+
+  margin: 0 auto;
+
+  padding: 3px 10px 25px;
+
+  box-sizing: border-box;
+}
+
+/* =========================================================
+   HEADER
+========================================================= */
+
+.ws_page_sub_title {
+  width: 100%;
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 5px;
+
+  text-align: left;
+}
+
+.ws_page_sub_title p {
+  margin: 0;
+}
+
+.ws_title_left {
+  flex-shrink: 0;
+
+  color: #222;
+
+  font-size: 22px;
+
+  font-style: italic;
+}
+
+.ws_title_num {
+  width: 31px;
+  height: 31px;
+
+  display: inline-flex;
+
+  align-items: center;
+  justify-content: center;
+
+  margin-right: 2px;
+
+  border-radius: 50%;
+
+  background: #00b5d2;
+
+  color: #111;
+
+  font-size: 21px;
+
+  font-style: normal;
+
+  font-weight: bold;
+}
+
+.ws_title_right {
+  color: #00b5d2;
+
+  font-size: 21px;
+
+  font-weight: bold;
+}
+
+/* =========================================================
+   WORD BANK
+========================================================= */
+
+.ws_word_bank {
+  width: 88%;
+
+  margin: 0 auto 14px;
+
+  padding: 8px 15px;
+
+  display: grid;
+
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+
+  column-gap: 28px;
+  row-gap: 7px;
+
+  border-radius: 11px;
+
+  background: #d7eef4;
+
+  box-sizing: border-box;
+}
+
+.ws_bank_word {
+  position: relative;
+
+  color: #333;
+
+  font-size: 19px;
+
+  text-align: left;
+
+  white-space: nowrap;
+
+  transition: opacity 0.2s ease;
+}
+
+/* =========================================================
+   FOUND WORD
+========================================================= */
+
+.ws_bank_word.found {
+  opacity: 0.42;
+
+  text-decoration: line-through;
+
+  text-decoration-thickness: 2px;
+
+  text-decoration-color: #666;
+}
+
+/* =========================================================
+   GRID FRAME
+========================================================= */
+
+.ws_grid_frame {
+  width: fit-content;
+
+  margin: 0 auto;
+
+  padding: 10px;
+
+  border-radius: 10px;
+
+  background: #aaa9cd;
+
+  box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.28);
+
+  box-sizing: border-box;
+}
+
+/* =========================================================
+   GRID WRAPPER
+========================================================= */
+
+.ws_grid_wrap {
+  position: relative;
+
+  display: inline-block;
+
+  line-height: 0;
+
+  user-select: none;
+
+  touch-action: none;
+}
+
+/* =========================================================
+   MATRIX
+========================================================= */
+
+.ws_matrix {
+  --ws-cell: 35px;
+
+  position: relative;
+
+  z-index: 1;
+
+  display: grid;
+
+  grid-template-columns: repeat(var(--ws-cols), var(--ws-cell));
+
+  grid-auto-rows: var(--ws-cell);
+
+  gap: 1px;
+
+  border: 1px solid #333;
+
+  background: #333;
+
+  user-select: none;
+
+  touch-action: none;
+}
+
+/* =========================================================
+   CELL
+========================================================= */
+
+.ws_cell {
+  width: var(--ws-cell);
+  height: var(--ws-cell);
+
+  position: relative;
+
+  z-index: 2;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  background: #fff !important;
+
+  color: #222;
+
+  cursor: pointer;
+
+  box-sizing: border-box;
+
+  overflow: visible;
+}
+
+/* =========================================================
+   DO NOT COLOR CELLS
+========================================================= */
+
+.ws_cell.ws_current,
+.ws_cell.ws_found,
+.ws_cell:hover,
+.ws_cell.ws_found:hover {
+  background: #fff !important;
+}
+
+/* =========================================================
+   LETTER
+========================================================= */
+
+.ws_letter {
+  position: relative;
+
+  z-index: 10;
+
+  display: block;
+
+  color: #111;
+
+  font-size: 19px;
+
+  font-weight: normal;
+
+  line-height: 1;
+
+  text-transform: lowercase;
+
+  pointer-events: none;
+}
+
+/* =========================================================
+   SVG MARKER LAYER
+========================================================= */
+
+.ws_highlight_svg {
+  width: 100%;
+  height: 100%;
+
+  position: absolute;
+
+  inset: 0;
+
+  z-index: 6;
+
+  overflow: visible;
+
+  pointer-events: none;
+}
+
+/* =========================================================
+   PREVIEW MARKER
+========================================================= */
+
+.ws_preview_line {
+  display: none;
+
+  fill: none;
+
+  stroke: rgba(29, 147, 246, 0.46);
+
+  stroke-width: 28px;
+
+  stroke-linecap: round;
+
+  stroke-linejoin: round;
+
+  pointer-events: none;
+}
+
+/* =========================================================
+   PREVIEW GLOSS
+========================================================= */
+
+.ws_preview_gloss {
+  display: none;
+
+  fill: none;
+
+  stroke: rgba(255, 255, 255, 0.16);
+
+  stroke-width: 10px;
+
+  stroke-linecap: round;
+
+  pointer-events: none;
+}
+
+/* =========================================================
+   SAVED WORD MARKER
+========================================================= */
+
+.ws_saved_line {
+  fill: none;
+
+  stroke: rgba(37, 161, 229, 0.5);
+
+  stroke-width: 28px;
+
+  stroke-linecap: round;
+
+  stroke-linejoin: round;
+
+  pointer-events: none;
+}
+
+/* =========================================================
+   SAVED GLOSS
+========================================================= */
+
+.ws_saved_gloss {
+  fill: none;
+
+  stroke: rgba(255, 255, 255, 0.16);
+
+  stroke-width: 10px;
+
+  stroke-linecap: round;
+
+  stroke-linejoin: round;
+
+  pointer-events: none;
+}
+
+/* =========================================================
+   IMPORTANT:
+   LETTERS ABOVE MARKER
+========================================================= */
+
+.ws_cell {
+  z-index: 7;
+}
+
+/*
+   الخلية نفسها transparent بصرياً فوق الـSVG،
+   بس بدنا حدود الجريد تظل ظاهرة.
+*/
+
+.ws_cell {
+  background: transparent !important;
+}
+
+/*
+   نرجع الأبيض عن طريق pseudo-element
+   تحت الـSVG
+*/
+
+.ws_cell::before {
+  content: "";
+
+  position: absolute;
+
+  inset: 0;
+
+  z-index: -2;
+
+  background: #fff;
+
+  pointer-events: none;
+}
+
+/* =========================================================
+   GRID BORDER STAYS VISIBLE
+========================================================= */
+
+.ws_matrix {
+  background: #333;
+}
+
+/* =========================================================
+   LETTER ALWAYS ABOVE MARKER
+========================================================= */
+
+.ws_letter {
+  z-index: 20;
+}
+
+/* =========================================================
+   DRAG CURSOR
+========================================================= */
+
+.ws_grid_wrap,
+.ws_cell { 
+  cursor: pointer;
+}
+
+/* =========================================================
+   RESPONSIVE
+========================================================= */
+
+@media (max-width: 1100px) {
+  .ws_activity {
+    width: 97%;
+  }
+
+  .ws_word_bank {
+    width: 92%;
+
+    column-gap: 18px;
+  }
+
+  .ws_bank_word {
+    font-size: 16px;
+  }
+
+  .ws_matrix {
+    --ws-cell: 31px;
+  }
+
+  .ws_letter {
+    font-size: 16px;
+  }
+
+  .ws_preview_line,
+  .ws_saved_line {
+    stroke-width: 24px;
+  }
+
+  .ws_preview_gloss,
+  .ws_saved_gloss {
+    stroke-width: 8px;
+  }
+}
+
+/* =========================================================
+   SMALLER
+========================================================= */
+
+@media (max-width: 850px) {
+  .ws_word_bank {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .ws_matrix {
+    --ws-cell: 28px;
+  }
+
+  .ws_letter {
+    font-size: 15px;
+  }
+
+  .ws_preview_line,
+  .ws_saved_line {
+    stroke-width: 22px;
+  }
+}
