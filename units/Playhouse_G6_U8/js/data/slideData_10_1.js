@@ -46,14 +46,14 @@ var reading_data = {
         "../audios/p102/slice.mp3",
       ],
       word: [
-        "<img src='../images/pages/activities/img1.png' class='l_img'/>",
-        "<img src='../images/pages/activities/img2.png' class='r_img'/>",
+        "<img src='../images/pages/activities/img1.PNG' class='l_img'/>",
+        "<img src='../images/pages/activities/img2.PNG' class='r_img'/>",
 
-        "<img src='../images/pages/activities/img3.png' class='l_img'/>",
-        "<img src='../images/pages/activities/img4.png' class='r_img'/>",
+        "<img src='../images/pages/activities/img3.PNG' class='l_img'/>",
+        "<img src='../images/pages/activities/img4.PNG' class='r_img'/>",
 
-        "<img src='../images/pages/activities/img5.png' class='l_img'/>",
-        "<img src='../images/pages/activities/img6.png' class='r_img'/>",
+        "<img src='../images/pages/activities/img5.PNG' class='l_img'/>",
+        "<img src='../images/pages/activities/img6.PNG' class='r_img'/>",
       ],
       imagePlacePos: [
         { colWidth: [9, 3], colData: [1, 1] },

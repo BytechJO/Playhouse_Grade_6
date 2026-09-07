@@ -51,25 +51,25 @@ var mcq_data = {
       options: [
         {
           text: "",
-          image: "../images/pages/activities/img1c.png",
+          image: "../images/pages/activities/img1c.PNG",
           audio: "no",
           audioenable: "default",
         },
         {
           text: "",
-          image: "../images/pages/activities/img2c.png",
+          image: "../images/pages/activities/img2c.PNG",
           audio: "no",
           audioenable: "default",
         },
         {
           text: "",
-          image: "../images/pages/activities/img3c.png",
+          image: "../images/pages/activities/img3c.PNG",
           audio: "no",
           audioenable: "default",
         },
         {
           text: "",
-          image: "../images/pages/activities/img4c.png",
+          image: "../images/pages/activities/img4c.PNG",
           audio: "no",
           audioenable: "default",
         },

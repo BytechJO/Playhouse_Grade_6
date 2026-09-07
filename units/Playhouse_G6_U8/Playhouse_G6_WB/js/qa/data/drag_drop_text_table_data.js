@@ -20,7 +20,7 @@ var stereo_data = {
 }
 var _activity_json = {
   "image":"new_drag_drop.png",
-  "mainTitle"             : "../images/pages/sb-icons/conversation.jpg",
+  "mainTitle"             : "../images/pages/sb-icons/CONVERSATION.jpg",
   "mainTitleIcon"         : "",
   "mainTitleIconPos"      : {"right": "50px"},
   "mainTitleAudio"        : "../audios/p40/CONVERSATION.mp3",

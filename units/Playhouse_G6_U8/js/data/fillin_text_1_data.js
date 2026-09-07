@@ -51,7 +51,7 @@ var fillin_data = {
       audio: "",
       audioenable: "default",
 
-      image: "../images/pages/activities/imgl1.png",
+      image: "../images/pages/activities/imgl1.PNG",
 
       answer: [
         "No travelling that way is more like a journey",
@@ -80,7 +80,7 @@ var fillin_data = {
       audio: "",
       audioenable: "default",
 
-      image: "../images/pages/activities/imgl2.png",
+      image: "../images/pages/activities/imgl2.PNG",
       answer: [
         "Have you ever travelled by railway?",
         "So how do you get to your aunt's house every year?",
