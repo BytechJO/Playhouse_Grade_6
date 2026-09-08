@@ -52,12 +52,12 @@ var _data = {
         "filetoload" : [],
         "reviewbutton" : {
             'visible'   : 'yes', // yes (or) no
-            'link'      : 'Playhouse_Review_G6_U9/views/WB_G4_U2_P12_2.html'
+            'link'      : 'Playhouse_Review_G6_U9/views/page_1.html'
         },
         "booksbutton" : { 
             "workbook": {
                 'icon'   : '../images/icons/book-2.png',
-                'link'      : '../Playhouse_G6_WB/views/Square_puzzle.html'
+                'link'      : '../Playhouse_G6_WB/views/page_1.html'
             },
             "studentbook": {
                 'icon'   : '../images/icons/book-1.png',

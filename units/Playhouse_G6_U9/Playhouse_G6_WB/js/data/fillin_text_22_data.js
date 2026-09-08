@@ -25,7 +25,7 @@ var fillin_data = {
     "mainTitleIcon"         : "",
     "mainTitleIconPos"      : {"right": "90px"},
     "mainTitleAudio"        : "../audios/p45/CONVERSATION.mp3",
-    "subTitleTextLeft"      : '<span class="blue_text">2</span> Discuss it! Discuss the following questions about the conversation between Donna and Alex with your classmate or',
+    "subTitleTextLeft"      : '<span class="blue_text">2</span> Discuss it! Discuss the following questions about the conversation between Donna and Alex with your classmate or family member.',
     "subTitleTextRight"     : "",
     "subTitleIcons"         : [],
     "subTitleAudio"         : "../audios/p45/2_Discuss_it!_Discuss_the_following_questions_about_the_conversation_between_Donna_and_Alex_with.mp3",

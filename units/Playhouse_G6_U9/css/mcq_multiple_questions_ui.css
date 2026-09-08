@@ -230,3 +230,39 @@
         min-width: 36px;
     }
 }
+.input_question .q_part {
+    width: 100%;
+}
+
+.input_answer_group {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 27px;
+    margin-top: 6px;
+}
+
+.mcq_text_input {
+    width: 95%;
+    height: 38px;
+
+    border: none;
+    border-bottom: 2px solid #555;
+
+    background: transparent;
+
+    font-family: inherit;
+    font-size: 23px;
+
+    color: #323030;
+
+    padding: 0 5px;
+}
+
+.mcq_text_input:focus {
+    outline: none;
+}
+
+.input_question .icon_wrap {
+    top: 45px;
+}

@@ -45,13 +45,13 @@ var mcq_data = {
             "audioenable"           : "default", // correct (or) default
             "options"               : [
                 {
-                    "text"          : "Jenny: Do you think everything will be fnished when I get back from the store?",
+                    "text"          : "<span class='blue_text'>Jenny</span>: Do you think everything will be fnished when I get back from the store?",
                     "image"         : "",
                     "audio"         : "no",
                     "audioenable"   : "default", // correct (or) default
                 },
                 {
-                    "text"          : "Lilly: Don’t worry.",
+                    "text"          : "<span class='blue_text'>Lilly</span>: Don’t worry.",
                     "image"         : "",
                     "audio"         : "no",
                     "audioenable"   : "default", // correct (or) default
@@ -63,13 +63,13 @@ var mcq_data = {
                     "audioenable"   : "default", // correct (or) default
                 },
                 {
-                    "text"          : "Jenny: I hope so! They are going to arrive around six o’clock.",
+                    "text"          : "<span class='blue_text'>Jenny</span>: I hope so! They are going to arrive around six o’clock.",
                     "image"         : "",
                     "audio"         : "no",
                     "audioenable"   : "default", // correct (or) default
                 },
                 {
-                    "text"          : "Lilly: Everything will be clean and shiny by the time they get here.",
+                    "text"          : "<span class='blue_text'>Lilly</span>: Everything will be clean and shiny by the time they get here.",
                     "image"         : "",
                     "audio"         : "no",
                     "audioenable"   : "default", // correct (or) default
@@ -85,13 +85,13 @@ var mcq_data = {
             "audioenable"           : "default", // correct (or) default
             "options"               : [
                 {
-                    "text"          : "Max: How long has your dad been in the UK? I hear there is a heatwave there now.",
+                    "text"          : "<span class='orange_text'>Max</span>: How long has your dad been in the UK? I hear there is a heatwave there now.",
                     "image"         : "",
                     "audio"         : "no",
                     "audioenable"   : "default", // correct (or) default
                 },
                 {
-                    "text"          : "Yoshi: He’s been there a couple of weeks.",
+                    "text"          : "<span class='blue_text'>Yoshi</span>: He’s been there a couple of weeks.",
                     "image"         : "",
                     "audio"         : "no",
                     "audioenable"   : "default", // correct (or) default
@@ -103,13 +103,13 @@ var mcq_data = {
                     "audioenable"   : "default", // correct (or) default
                 },
                 {
-                    "text"          : "Max: He goes to the UK a lot, doesn’t he?",
+                    "text"          : "<span class='orange_text'>Max</span>: He goes to the UK a lot, doesn’t he?",
                     "image"         : "",
                     "audio"         : "no",
                     "audioenable"   : "default", // correct (or) default
                 },
                 {
-                    "text"          : "Yoshi: Definitely!",
+                    "text"          : "<span class='blue_text'>Yoshi</span>: Definitely!",
                     "image"         : "",
                     "audio"         : "no",
                     "audioenable"   : "default", // correct (or) default

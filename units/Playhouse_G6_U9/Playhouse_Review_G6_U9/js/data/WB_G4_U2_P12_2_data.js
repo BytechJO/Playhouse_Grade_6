@@ -5,7 +5,7 @@ var wordpuzzle_data = {
    "mainTitleIcon"         : "",
    "mainTitleIconPos"      : {"right": "-18px"},
    "mainTitleAudio"        : "../audios/page_12/PHONICS_AND_SPELLING.mp3",
-   "subTitleTextLeft"      : "<span class='green_text'>1</span> Solve it! Solve the crossword puzzle using the Word Power words.",
+   "subTitleTextLeft"      : "<span class='green_text'>1</span> Solve it! <span class='blue_text'>Solve the crossword puzzle using the Word Power words.</span>",
    "subTitleTextRight"     : "",
    "subTitleIcons"         : [],
    "subTitleAudio"         : "../audios/page_12/2_Solve_it!_Complete_the_crossword_puzzle_by_matching_the_‘ea‘_words_with_the_correct_clues.mp3",
@@ -16,7 +16,7 @@ var wordpuzzle_data = {
     "optionsAudios":["../audios/page_12/under.mp3","../audios/page_12/under.mp3","../audios/page_12/under.mp3","../audios/page_12/under.mp3","../audios/page_12/under.mp3","../audios/page_12/under.mp3","../audios/page_12/under.mp3","../audios/page_12/under.mp3"],
     "questions"             : [
         {   
-            "rows"                  : 14,
+            "rows"                  : 14, 
             "columns"               : 19,
             "horizontalwords"       : [
                 {

@@ -5,7 +5,7 @@ var fillin_data = {
     "mainTitleIcon"         : "",
     "mainTitleIconPos"      : {"right": "-18px"},
     "mainTitleAudio"        : "../audios/under.mp3",
-    "subTitleTextLeft"      : "<span class='green_text'>3</span> Complete it! Complete each sentence using the correct future tense of the verb in the brackets.",
+    "subTitleTextLeft"      : "<span class='green_text'>3</span> Complete it! <span class='blue_text'>Complete each sentence using the correct future tense of the verb in the brackets.</span>",
     "subTitleTextRight"     : "",
     "subTitleIcons"         : [""],
     "subTitleAudio"         : "../audios/under.mp3",
@@ -16,7 +16,7 @@ var fillin_data = {
     "numberstartfrom"       : 1,
     "options"               : [],
     "optionsAudios"         : ["","","","","","","","","","","","","",""],
-    "questions"             :
+    "questions"             : 
      [
         {
           "singleword": false,

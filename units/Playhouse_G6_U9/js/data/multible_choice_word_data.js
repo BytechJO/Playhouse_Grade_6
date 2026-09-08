@@ -40,7 +40,7 @@ var mcq_data = {
         {
             "question"              : "",
             "image"                 : "no",
-            "answer"                : [4,7],
+            "answer"                : [1,3,5],
             "audio"                 : "no",
             "audioenable"           : "default", // correct (or) default
             "options"               : [
@@ -80,7 +80,7 @@ var mcq_data = {
         {
             "question"              : "",
             "image"                 : "no",
-            "answer"                : [6],
+            "answer"                : [2,3],
             "audio"                 : "no",
             "audioenable"           : "default", // correct (or) default
             "options"               : [

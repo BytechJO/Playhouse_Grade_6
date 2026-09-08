@@ -11,7 +11,7 @@ window.WordPuzzle = function(obj, dataObj){
         'num_columns'    : (dataObj.questions).columns,
         'data_obj'       : dataObj,
         'parent_holder'  : obj[0]
-    } 
+    }  
     this.init(this.settings);
 }
 

@@ -22,7 +22,7 @@ var reading_data = {
     "mainTitle": "../images/pages/sb-icons/language-building.png",
     "mainTitleIcon": "../images/pages/sb-icons/gram_main_title_icon.png",
     "mainTitleIconPos": {"right": "100px"},
-    "mainTitleAudio": "../audios/under.mp3",
+    "mainTitleAudio": "../audios/p81/LANGUAGE_BUILDING.mp3",
     "subTitleTextLeft": "<span class='title-order'>3</span> Talk about it!",
     "subTitleTextRight": "Use the idioms from Exercises 1 and 2 and the questions from the box to make a conversation with a partner.",
     "subTitleIcons": [],

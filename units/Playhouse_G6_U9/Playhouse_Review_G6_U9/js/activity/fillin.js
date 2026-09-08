@@ -11,7 +11,7 @@ window.FillIn = function(obj, dataObj){
         'data_obj'      : dataObj,
         'parent_holder' : obj[0]
     }    
-    this.init(this.settings);
+    this.init(this.settings); 
 }
 FillIn.prototype = {
     init:function(ob){       

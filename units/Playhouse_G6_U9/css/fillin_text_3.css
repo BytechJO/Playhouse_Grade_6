@@ -1,168 +1,396 @@
-.all_cont{
-    height: 100%;
-    text-align: center;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-}
-.screen_elements{
-    width: 90%;
-    height: 100%;
+.all_cont {
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
 }
 
-.group_elm{
-    width: 80%;
-    height: 57%;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
+.screen_elements {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* =====================================================
+   Main content group
+===================================================== */
+
+.group_elm {
+  width: 80%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+
+  gap: 12px;
+}
+
+/* =====================================================
+   Questions container
+===================================================== */
+
+.questions_container {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+
+  gap: 5px;
 }
 
 .func_ctrls {
-    display: none !important;
+  display: none !important;
 }
 
-.q_num_space{
-    width: 50px;
-    font-weight: bold;
-}
-
-.q_order{
-    width: 50px;
-    font-weight: bolder;
-}
-
-.ques{
-    width: 100%;
-    align-items: center;
-    padding: 10px;
-    text-align: center;
-}
-
-.q_box{
-    width:  100%;
-    height: 70px;
-}
+/* =====================================================
+   Question
+===================================================== */
 
 .fill_in .que {
-    width: 100%;
-    height: 43px;
-    justify-content: center;
+  width: 100%;
+  min-height: 43px;
+
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.fillin_gr {
+  width: 100%;
+
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
 }
 
 .fillin_gr .q_space {
-    width: 100%;
+  width: 100%;
+
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
 }
+
+.q_num_space {
+  width: 50px;
+
+  flex-shrink: 0;
+
+  font-weight: bold;
+
+  text-align: center;
+}
+
+.q_order {
+  width: 50px;
+
+  font-weight: bolder;
+}
+
+.ques {
+  width: 100%;
+
+  align-items: center;
+
+  padding: 10px;
+
+  text-align: center;
+}
+
+.q_box {
+  width: 100%;
+
+  height: 70px;
+}
+
+/* =====================================================
+   FillIn text + input
+===================================================== */
 
 .fillin_set {
-    font-family: Arcon;
-    font-size: 25px;
-    color: black;
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-}
+  width: 100%;
 
-.fillin_set input:focus{
-    outline: none;
+  font-family: Arcon;
+
+  font-size: 25px;
+
+  color: black;
+
+  display: flex;
+
+  flex-wrap: wrap;
+
+  justify-content: center;
+
+  align-items: center;
 }
 
 .fillin_set input {
-    flex: 2 2 10px;
-    margin: 0px 20px;
-    height: 35px;
-    color: black;
-    padding-left: 20px;
-    border: none;
-    font-size: 23px;
-    border-bottom: 2px solid #36a0c7;
+  flex: 2 2 10px;
+
+  min-width: 100px;
+
+  height: 35px;
+
+  margin: 0 20px;
+
+  color: black;
+
+  border: none;
+
+  border-bottom: 2px solid #36a0c7;
+
+  font-size: 23px;
+
+  text-align: center;
+
+  padding: 0 5px;
+
+  background: transparent;
 }
 
-.txt-audioIcon{
-    z-index: 1;
+.fillin_set input:focus {
+  outline: none;
+}
+
+.txt-audioIcon {
+  z-index: 1;
+}
+
+/* =====================================================
+   Tick / Cross
+===================================================== */
+
+.icon_wrap_holder {
+  width: 45px;
+
+  flex-shrink: 0;
+
+  position: relative;
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
 }
 
 .icon_wrap {
-    position: absolute;
-    margin-top: -35px; 
-    right: 100px;
+  width: 35px;
+
+  position: relative;
+
+  display: none;
 }
 
 .tick,
 .cross {
-    width: 35px;
+  width: 35px;
 }
 
 .tick img,
 .cross img {
-    width: 100%;
+  width: 100%;
+
+  display: block;
+}
+
+/* =====================================================
+   Images
+===================================================== */
+
+.images_container {
+  width: 100%;
+
+  display: flex;
+
+  justify-content: space-around;
+
+  align-items: center;
+
+  gap: 35px;
+}
+
+.images_top {
+  margin-bottom: 5px;
+}
+
+.images_bottom {
+  margin-top: 5px;
+}
+
+.image_item {
+  flex: 1;
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+}
+
+.images_container img {
+  width: auto;
+
+  max-width: 100%;
+
+  height: 140px;
+
+  object-fit: contain;
+
+  display: block;
+}
+
+/* مهم:
+   ما في position:absolute للصور
+   عشان تضل ضمن ترتيب المحتوى
+*/
+
+.images_container .img-0,
+.images_container .img-1,
+.images_container .img-2,
+.images_container .img-3 {
+  position: static;
+}
+
+/* =====================================================
+   Other images
+===================================================== */
+
+.image_space {
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+}
+
+.image_space img {
+  max-width: 100%;
+
+  object-fit: contain;
 }
 
 .image_wrap {
-    display: none;
+  display: none;
 }
 
-.images_container{
-    width: 100%;
-    display: flex;
-    /* padding: 10px; */
-    justify-content: space-around;
-}
+/* =====================================================
+   Animation
+===================================================== */
 
-.images_container img{
-    height: 150px;
-}
-
-.images_container .img-0{
-    position: absolute;
-    top: 175px;
-    left: 307px;
-}
-
-.images_container .img-1{
-    position: absolute;
-    top: 175px;
-    right: 240px;
-}
-
-.images_container .img-2{
-    position: absolute;
-    bottom: 8px;
-    left: 391px;
-}
-
-.images_container .img-3{
-    position: absolute;
-    bottom: 8px;
-    right: 356px;
-}
-
-/* ====================================== */
 .pulse {
-    animation: pulse 1s infinite ease-in-out alternate;
+  animation: pulse 1s infinite ease-in-out alternate;
+}
+
+@keyframes pulse {
+  from {
+    transform: scale(1);
   }
-  @keyframes pulse {
-    from { transform: scale(1.0); }
-    to { transform: scale(1.1); }
+
+  to {
+    transform: scale(1.1);
   }
-/* ====================================== */
-/* ************************************************* */
-/* ************************************************* */
+}
+
+/* =====================================================
+   Responsive
+===================================================== */
+
 @media (max-width: 991.98px) {
-    .fill_in .que {
-        width: 160px;
-    }
+  .group_elm {
+    width: 95%;
+  }
+
+  .images_container img {
+    height: 120px;
+  }
+
+  .fillin_set {
+    font-size: 22px;
+  }
+
+  .fillin_set input {
+    font-size: 21px;
+  }
 }
 
 @media (max-width: 575.98px) {
-    .fill_in .que {
-        width: 200px;
-    }
+  .screen_elements {
+    width: 100%;
+  }
+
+  .group_elm {
+    width: 100%;
+
+    gap: 8px;
+  }
+
+  .images_container {
+    gap: 15px;
+  }
+
+  .images_container img {
+    height: 95px;
+  }
+
+  .fill_in .que {
+    width: 100%;
+  }
+
+  .q_num_space {
+    width: 35px;
+  }
+
+  .fillin_set {
+    font-size: 19px;
+  }
+
+  .fillin_set input {
+    min-width: 80px;
+
+    height: 32px;
+
+    margin: 0 8px;
+
+    font-size: 19px;
+  }
+
+  .icon_wrap_holder {
+    width: 35px;
+  }
+
+  .icon_wrap,
+  .tick,
+  .cross {
+    width: 28px;
+  }
 }
 
 @media (max-width: 475.98px) {
-    /* .fill_in .que {
-        width: 200px;
-    } */
+  .images_container img {
+    height: 80px;
+  }
+
+  .fillin_set {
+    font-size: 18px;
+  }
+
+  .fillin_set input {
+    min-width: 70px;
+
+    font-size: 18px;
+  }
 }
