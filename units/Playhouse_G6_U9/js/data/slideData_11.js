@@ -36,8 +36,8 @@ var reading_data = {
             "group_styles": "",
             "audio": ["../audios/p102/Pg6_2.1_Stella.mp3","../audios/p102/dough.mp3","../audios/p102/sauce.mp3","../audios/p102/sprinkle.mp3","../audios/p102/cheese.mp3","../audios/p102/add.mp3","../audios/p102/pepperoni.mp3","../audios/p102/slice.mp3"],
             "word": [
-                "<img src='../images/pages/activities/img5.png' class='img_l'/>",
-                "<img src='../images/pages/activities/img6.png' class='img_l'/>",
+                "<img src='../images/pages/activities/img5.PNG' class='img_l'/>",
+                "<img src='../images/pages/activities/img6.PNG' class='img_l'/>",
                 '<div class="textarea-container">' +
                 '<textarea id="paper-textarea" rows="10" cols="50" maxlength="400"></textarea>' +
                 '</div>'

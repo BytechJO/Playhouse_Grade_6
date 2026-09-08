@@ -45,7 +45,7 @@ var fillin_data = {
           "textaudios": ["../audios/p74/under.mp3"],
           "audio": "",
           "audioenable": "default", // correct (or) default
-          "image": "../images/pages/activities/imgq1.png",
+          "image": "../images/pages/activities/imgq1.PNG",
           "answer": ["c"],
           "alternateanswer": [[]],
           "strictcase": "no", // yes (or) no  
@@ -60,7 +60,7 @@ var fillin_data = {
           "textaudios": ["../audios/p74/under.mp3","../audios/p74/under.mp3"],
           "audio": "",
           "audioenable": "default", // correct (or) default
-          "image": "../images/pages/activities/imgq2.png",
+          "image": "../images/pages/activities/imgq2.PNG",
           "answer": ["d"],
           "alternateanswer": [[]],
           "strictcase": "no", // yes (or) no     
@@ -75,7 +75,7 @@ var fillin_data = {
           "textaudios": ["../audios/p74/under.mp3","../audios/p74/under.mp3"],
           "audio": "",
           "audioenable": "default", // correct (or) default
-          "image": "../images/pages/activities/imgq3.png",
+          "image": "../images/pages/activities/imgq3.PNG",
           "answer": ["b"],
           "alternateanswer": [[]],
           "strictcase": "no", // yes (or) no    
@@ -90,7 +90,7 @@ var fillin_data = {
           "textaudios": ["../audios/p74/under.mp3","../audios/p74/under.mp3"],
           "audio": "",
           "audioenable": "default", // correct (or) default
-          "image": "../images/pages/activities/imgq4.png",
+          "image": "../images/pages/activities/imgq4.PNG",
           "answer": ["a"],
           "alternateanswer": [[]],
           "strictcase": "no", // yes (or) no    
