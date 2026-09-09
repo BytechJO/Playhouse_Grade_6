@@ -44,7 +44,7 @@ var fillin_data = {
           "textaudios": ["../audios/p74/under.mp3"],
           "audio": "",
           "audioenable": "default", // correct (or) default
-          "image": "../images/pages/activities/img1.png",
+          "image": "../images/pages/activities/img1.PNG",
           "answer": ["I wish I could fly like a bird. or I hope the air can be clean again for the birds to fly in."],
           "alternateanswer": [[]],
           "strictcase": "no", // yes (or) no  
@@ -58,7 +58,7 @@ var fillin_data = {
           "textaudios": ["../audios/p74/under.mp3","../audios/p74/under.mp3"],
           "audio": "",
           "audioenable": "default", // correct (or) default
-          "image": "../images/pages/activities/img2.png",
+          "image": "../images/pages/activities/img2.PNG",
           "answer": [""],
           "alternateanswer": [[]],
           "strictcase": "no", // yes (or) no     
@@ -72,7 +72,7 @@ var fillin_data = {
           "textaudios": ["../audios/p74/under.mp3","../audios/p74/under.mp3"],
           "audio": "",
           "audioenable": "default", // correct (or) default
-          "image": "../images/pages/activities/img3.png",
+          "image": "../images/pages/activities/img3.PNG",
           "answer": ["Eric"],
           "alternateanswer": [[]],
           "strictcase": "no", // yes (or) no    
@@ -86,7 +86,7 @@ var fillin_data = {
           "textaudios": ["../audios/p74/under.mp3","../audios/p74/under.mp3"],
           "audio": "",
           "audioenable": "default", // correct (or) default
-          "image": "../images/pages/activities/img4.png",
+          "image": "../images/pages/activities/img4.PNG",
           "answer": ["Sharon"],
           "alternateanswer": [[]],
           "strictcase": "no", // yes (or) no    
@@ -100,7 +100,7 @@ var fillin_data = {
           "textaudios": ["../audios/p74/under.mp3"],
           "audio": "",
           "audioenable": "default", // correct (or) default
-          "image": "../images/pages/activities/img5.png",
+          "image": "../images/pages/activities/img5.PNG",
           "answer": ["Brad"],
           "alternateanswer": [[]],
           "strictcase": "no", // yes (or) no  
@@ -114,7 +114,7 @@ var fillin_data = {
           "textaudios": ["../audios/p74/under.mp3","../audios/p74/under.mp3"],
           "audio": "",
           "audioenable": "default", // correct (or) default
-          "image": "../images/pages/activities/img6.png",
+          "image": "../images/pages/activities/img6.PNG",
           "answer": ["Liz"],
           "alternateanswer": [[]],
           "strictcase": "no", // yes (or) no     
@@ -128,7 +128,7 @@ var fillin_data = {
           "textaudios": ["../audios/p74/under.mp3","../audios/p74/under.mp3"],
           "audio": "",
           "audioenable": "default", // correct (or) default
-          "image": "../images/pages/activities/img7.png",
+          "image": "../images/pages/activities/img7.PNG",
           "answer": ["Matt"],
           "alternateanswer": [[]],
           "strictcase": "no", // yes (or) no    
@@ -142,7 +142,7 @@ var fillin_data = {
           "textaudios": ["../audios/p74/under.mp3","../audios/p74/under.mp3"],
           "audio": "",
           "audioenable": "default", // correct (or) default
-          "image": "../images/pages/activities/img8.png",
+          "image": "../images/pages/activities/img8.PNG",
           "answer": ["Janet"],
           "alternateanswer": [[]],
           "strictcase": "no", // yes (or) no    

@@ -43,7 +43,7 @@ var fillin_data = {
   subTitleAudio: "../audios/new/p93doit.mp3",
 
   // الصورة العلوية
-  image: "../images/pages/activities/img1.png",
+  image: "../images/pages/activities/img1.PNG",
 
   imageposition: "front",
 

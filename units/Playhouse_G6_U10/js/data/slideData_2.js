@@ -33,7 +33,7 @@ var reading_data = {
     {
       layout: "grid_columns",
       mainImage: [],
-      top_right_image: [],
+      top_right_image: ["../images/pages/activities/5.jpg"],
       parent_class_name: "grid_with_border",
       group_styles: "padding-top: 20px; padding-bottom: 50px;",
       audio: [
