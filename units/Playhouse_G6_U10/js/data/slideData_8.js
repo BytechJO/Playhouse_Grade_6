@@ -22,11 +22,11 @@ var reading_data = {
     "mainTitle": "../images/pages/sb-icons/language-building.png",
     "mainTitleIcon": "../images/pages/sb-icons/gram_main_title_icon.png",
     "mainTitleIconPos": {"right": "100px"},
-    "mainTitleAudio": "../audios/under.mp3",
+    "mainTitleAudio": "../audios/p93/LANGUAGE_BUILDING.mp3",
     "subTitleTextLeft": "<span class='title-order'>1</span> Read about it.",
     "subTitleTextRight": "",
     "subTitleIcons": [""],
-    "subTitleAudio": "../audios/under.mp3",
+    "subTitleAudio": "../audios/p93/1_Read_about_it!.mp3",
     "slides": [
         {
             "layout": "grid_columns",
@@ -41,21 +41,21 @@ var reading_data = {
                 
                 "<span class='blue_text'>Re</span> – means to do again",
                 
-                "<span class='blue_text'>re</span> = to do again",
+                "<span class='blue_text'>re</span> <span class='red_text'>= to do again</span>",
                 "view = to see",
                 "<span class='blue_text'>re</span> + view = <span class='blue_text'>review</span> to see again",
 
-                "<span class='blue_text'>re</span> = to do again",
+                "<span class='blue_text'>re</span> <span class='red_text'>= to do again</span>",
                 "use = to use",
                 "<span class='blue_text'>re</span> + use = reuse to use again",
 
                 "<span class='blue_text'>Pre</span> – means to do before",
 
-                "<span class='blue_text'>Pre</span> = do before",
+                "<span class='blue_text'>Pre</span> <span class='red_text'>= do before</span>",
                 "view = to see",
                 "<span class='blue_text'>Pre</span> + view = <span class='blue_text'>preview</span> to see before",
 
-                "<span class='blue_text'>pre</span> = do before",
+                "<span class='blue_text'>pre</span> <span class='red_text'>= do before</span>",
                 "pay = to give money",
                 "<span class='blue_text'>pre</span> + pay = <span class='blue_text'>prepay</span> to pay before",
               ],

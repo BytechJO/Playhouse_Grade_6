@@ -230,3 +230,40 @@
         min-width: 36px;
     }
 }
+
+.extra_question {
+    width: 95%;
+    margin: 25px auto 0;
+}
+
+.extra_question_text {
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.extra_question_text::before {
+    content: "★";
+    color: #f26522;
+    font-size: 35px;
+    margin-right: 12px;
+}
+
+.extra_answer {
+    width: 100%;
+    min-height: 120px;
+    font-size: 24px;
+    line-height: 55px;
+
+    border: none;
+    outline: none;
+    resize: none;
+
+    background-image: repeating-linear-gradient(
+        to bottom,
+        transparent 0,
+        transparent 53px,
+        #444 54px,
+        #444 55px
+    );
+}

@@ -117,10 +117,10 @@
                         htmlStmt += '<div class="que que_' + currentQue + 'w-75 h-100" data-qno="' + (currentQue) + '">';
 
                         htmlStmt += '<div class="txt_wrap background_audio d-flex justify-content-between">';
-                        var inputboxstmt = '<input type="text" maxlength="1"/>';
+                        var inputboxstmt = '<input type="text" maxlength="2"/>';
                         console.log("aObj.defaultAnswer", aObj.defaultAnswer, currentQue);
                         if (aObj.defaultAnswer == currentQue) {
-                            inputboxstmt = '<input type="text" maxlength="1" readonly value="' + ((aObj.questions)[currentQue - 1]).answer[0] + '"/>'
+                            inputboxstmt = '<input type="text" maxlength="2" readonly value="' + ((aObj.questions)[currentQue - 1]).answer[0] + '"/>'
                         }
                         htmlStmt += '<div class="theIcons">';
                         // htmlStmt += '<div class="audioIcon ml-5 off disabled" data-audio="'+((aObj.questions)[currentQue-1]).audio+'"></div>';

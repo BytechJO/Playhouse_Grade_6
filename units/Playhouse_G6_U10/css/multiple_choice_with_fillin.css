@@ -1,0 +1,707 @@
+/* =========================================================
+   GENERAL
+========================================================= */
+
+.all_cont {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.group_elm {
+  width: 84% !important;
+  min-height: 100%;
+
+  margin: 0 auto;
+
+  display: flex;
+  align-items: flex-start !important;
+  justify-content: center;
+
+  border-radius: 19px;
+}
+
+.ques_part_space {
+  width: 100%;
+
+  padding: 8px 15px 20px;
+}
+
+/* =========================================================
+   QUESTION
+========================================================= */
+
+.que {
+  position: relative;
+
+  width: 100% !important;
+  min-height: auto !important;
+
+  display: flex;
+  align-items: flex-start;
+
+  margin: 3px auto 8px !important;
+
+  font-family: Arcon;
+  color: #333;
+}
+
+/* =========================================================
+   QUESTION NUMBER
+========================================================= */
+
+.q_num_space {
+  width: 32px !important;
+  min-width: 32px !important;
+
+  margin-right: 0 !important;
+
+  font-family: Arcon;
+  font-size: 25px !important;
+  font-weight: bold;
+
+  line-height: 34px;
+}
+
+/* =========================================================
+   QUESTION CONTENT
+========================================================= */
+
+.question_content {
+  position: relative;
+
+  width: calc(100% - 32px);
+
+  padding-right: 45px;
+}
+
+.question_text {
+  width: 100%;
+
+  min-height: 32px;
+
+  display: flex;
+  align-items: center;
+
+  font-family: Arcon;
+
+  font-size: 24px !important;
+  line-height: 1.25;
+
+  color: #333;
+}
+
+/* =========================================================
+   OPTIONS GENERAL
+========================================================= */
+
+.picks_grp {
+  width: 100%;
+
+  margin-top: 0 !important;
+}
+
+/* =========================================================
+   OPTION ITSELF
+   IMPORTANT: WIDTH FITS TEXT
+========================================================= */
+
+.mcq_1_5_q_group {
+  position: relative;
+
+  width: fit-content !important;
+  max-width: 100% !important;
+
+  display: inline-flex !important;
+
+  align-items: center !important;
+  justify-content: flex-start !important;
+
+  margin: 1px 0 !important;
+
+  padding: 2px 10px !important;
+
+  text-align: left !important;
+
+  border: 2px solid transparent;
+  border-radius: 28px !important;
+
+  cursor: pointer;
+
+  box-sizing: border-box;
+}
+
+/* =========================================================
+   OPTION TEXT
+========================================================= */
+
+.txt_box {
+  width: auto !important;
+
+  display: inline-block !important;
+
+  text-align: left !important;
+
+  font-family: Arcon;
+
+  font-size: 22px !important;
+  line-height: 1.25;
+
+  color: #333;
+}
+
+.txt_box span {
+  white-space: nowrap !important;
+}
+
+/* =========================================================
+   OPTION LETTER
+========================================================= */
+
+.option_letter {
+  display: inline-block;
+
+  min-width: 25px;
+
+  margin-right: 4px;
+
+  font-weight: bold;
+}
+
+/* =========================================================
+   SELECTED OPTION
+   BORDER ONLY AROUND TEXT
+========================================================= */
+
+.selectedDefault {
+  width: fit-content !important;
+
+  border: 2px solid #00a9d4 !important;
+
+  border-radius: 28px !important;
+
+  background: transparent !important;
+}
+
+.selectedDefault .txt_box {
+  text-decoration: none !important;
+}
+
+/* =========================================================
+   CORRECT / WRONG
+========================================================= */
+
+.isCorrect {
+  width: fit-content !important;
+
+  border: 2px solid #32a852 !important;
+
+  border-radius: 28px !important;
+}
+
+.isNotCorrect {
+  width: fit-content !important;
+
+  border: 2px solid #e53935 !important;
+
+  border-radius: 28px !important;
+}
+
+/* =========================================================
+   QUESTION 1
+   VERTICAL
+========================================================= */
+
+#que_1 .picks_grp {
+  display: flex !important;
+
+  flex-direction: column !important;
+
+  align-items: flex-start !important;
+  justify-content: flex-start !important;
+
+  gap: 0 !important;
+}
+
+#que_1 .mcq_1_5_q_group {
+  width: fit-content !important;
+}
+
+/* =========================================================
+   QUESTION 2
+   TWO COLUMNS
+========================================================= */
+
+#que_2 .picks_grp {
+  display: grid !important;
+
+  grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+
+  column-gap: 55px !important;
+  row-gap: 1px !important;
+
+  align-items: start;
+}
+
+#que_2 .mcq_1_5_q_group {
+  width: fit-content !important;
+}
+
+/* =========================================================
+   QUESTION 3
+   FOUR OPTIONS SAME ROW
+========================================================= */
+
+#que_3 .picks_grp {
+  display: grid !important;
+
+  grid-template-columns:
+    1.2fr
+    0.8fr
+    1.25fr
+    0.65fr !important;
+
+  column-gap: 25px !important;
+
+  align-items: start;
+}
+
+#que_3 .mcq_1_5_q_group {
+  width: fit-content !important;
+}
+
+/* =========================================================
+   FILL INPUT
+========================================================= */
+
+.fill-group {
+  width: 100%;
+
+  height: 35px;
+
+  border: none !important;
+
+  border-bottom: 2px solid #555 !important;
+}
+
+.fill-group input {
+  width: 100%;
+  height: 100%;
+
+  border: none !important;
+
+  outline: none !important;
+
+  padding: 0 4px;
+
+  background: transparent !important;
+
+  font-family: Arcon;
+  font-size: 22px;
+
+  color: #222;
+}
+
+.fill-group input:focus {
+  border: none !important;
+  outline: none !important;
+}
+
+/* =========================================================
+   QUESTION 4
+========================================================= */
+
+#que_4 {
+  margin-top: 5px !important;
+}
+
+#que_4 .question_text {
+  margin-bottom: 0;
+}
+
+#que_4 .normal_fill_line {
+  margin-top: -2px;
+}
+
+/* =========================================================
+   QUESTION 5
+   FREE WRITING
+========================================================= */
+
+#que_5 {
+  margin-top: 8px !important;
+}
+
+#que_5 .question_content {
+  padding-right: 0 !important;
+}
+
+#que_5 .question_text {
+  margin-bottom: 2px;
+}
+
+.free_writing_lines {
+  width: 100%;
+}
+
+.free_writing_line {
+  width: 100%;
+
+  height: 34px;
+
+  margin-top: 0;
+
+  border-bottom: 2px solid #555 !important;
+}
+
+.free_writing_input {
+  width: 100%;
+  height: 100%;
+
+  background: transparent;
+
+  border: none;
+
+  outline: none;
+
+  font-family: Arcon;
+  font-size: 22px;
+}
+
+/* =========================================================
+   TICK / CROSS
+========================================================= */
+
+.icon_wrap_holder {
+  position: absolute;
+
+  right: 0;
+  top: 50%;
+
+  transform: translateY(-50%);
+
+  width: 32px;
+  height: 32px;
+}
+
+.icon_wrap {
+  width: 100%;
+  height: 100%;
+}
+
+.tick,
+.cross {
+  display: none;
+
+  width: 28px;
+  height: 28px;
+}
+
+.tick img,
+.cross img {
+  width: 100%;
+  height: 100%;
+
+  object-fit: contain;
+}
+
+/* =========================================================
+   SIDE IMAGE
+========================================================= */
+
+.image_space {
+  width: auto;
+
+  min-height: 200px;
+
+  margin: 10px auto;
+}
+
+.image_space img {
+  max-width: 100%;
+
+  height: 23vh;
+
+  object-fit: contain;
+}
+
+/* =========================================================
+   HELP BUTTON
+========================================================= */
+
+.help_popup_btn {
+  position: absolute;
+
+  top: 26%;
+  right: 12%;
+
+  padding: 8px 20px !important;
+
+  background-color: #00a9d4 !important;
+
+  color: #fff !important;
+
+  border: none !important;
+
+  border-radius: 18px !important;
+
+  font-family: Arcon !important;
+
+  font-size: 18px !important;
+  font-weight: bold !important;
+
+  cursor: pointer !important;
+
+  z-index: 50 !important;
+
+  transition: transform 0.2s ease !important;
+}
+
+.help_popup_btn:hover {
+  transform: scale(1.04) !important;
+}
+
+/* =========================================================
+   POPUP OVERLAY
+========================================================= */
+
+.mcq_help_overlay {
+  position: fixed !important;
+
+  top: 0 !important;
+  left: 0 !important;
+
+  width: 100% !important;
+  height: 100% !important;
+
+  background: rgba(0, 0, 0, 0.55) !important;
+
+  display: flex;
+
+  align-items: center !important;
+  justify-content: center !important;
+
+  z-index: 99999 !important;
+
+  padding: 20px !important;
+}
+
+/* =========================================================
+   POPUP
+========================================================= */
+
+.mcq_help_popup {
+  position: relative !important;
+
+  width: auto !important;
+  max-width: 95vw !important;
+
+  height: auto !important;
+  max-height: 90vh !important;
+
+  background: #fff !important;
+
+  border-radius: 18px !important;
+
+  padding: 20px !important;
+
+  overflow: hidden !important;
+
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.35) !important;
+}
+
+/* =========================================================
+   CLOSE
+========================================================= */
+
+.mcq_help_close {
+  position: absolute !important;
+
+  top: 5px !important;
+  right: 12px !important;
+
+  width: 40px !important;
+  height: 40px !important;
+
+  display: flex !important;
+
+  align-items: center !important;
+  justify-content: center !important;
+
+  font-size: 36px !important;
+  font-weight: bold !important;
+
+  line-height: 1 !important;
+
+  color: #333 !important;
+
+  background: rgba(255, 255, 255, 0.85) !important;
+
+  border: none !important;
+
+  border-radius: 50% !important;
+
+  cursor: pointer !important;
+
+  z-index: 10 !important;
+}
+
+/* =========================================================
+   POPUP CONTENT
+========================================================= */
+
+.mcq_help_content {
+  width: 100% !important;
+
+  display: flex !important;
+
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+/* =========================================================
+   READING IMAGE
+========================================================= */
+
+.reading_only_image {
+  width: 100% !important;
+
+  display: flex !important;
+
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.reading_only_image img {
+  display: block !important;
+
+  width: auto !important;
+  height: auto !important;
+
+  max-width: 90vw !important;
+  max-height: 82vh !important;
+
+  object-fit: contain !important;
+}
+
+/* =========================================================
+   RESPONSIVE 1199
+========================================================= */
+
+@media (max-width: 1199.98px) {
+  .group_elm {
+    width: 94% !important;
+  }
+
+  .question_text {
+    font-size: 22px !important;
+  }
+
+  .txt_box {
+    font-size: 20px !important;
+  }
+
+  #que_2 .picks_grp {
+    column-gap: 25px !important;
+  }
+
+  #que_3 .picks_grp {
+    column-gap: 12px !important;
+  }
+}
+
+/* =========================================================
+   RESPONSIVE 991
+========================================================= */
+
+@media (max-width: 991.98px) {
+  .group_elm {
+    width: 97% !important;
+  }
+
+  .ques_part_space {
+    padding: 8px !important;
+  }
+
+  .question_text {
+    font-size: 20px !important;
+  }
+
+  .txt_box {
+    font-size: 18px !important;
+  }
+
+  #que_3 .picks_grp {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+}
+
+/* =========================================================
+   RESPONSIVE 767
+========================================================= */
+
+@media (max-width: 767.98px) {
+  .group_elm {
+    width: 100% !important;
+  }
+
+  .q_num_space {
+    width: 27px !important;
+    min-width: 27px !important;
+
+    font-size: 20px !important;
+  }
+
+  .question_content {
+    width: calc(100% - 27px);
+
+    padding-right: 32px;
+  }
+
+  .question_text {
+    font-size: 18px !important;
+  }
+
+  .txt_box {
+    font-size: 17px !important;
+  }
+
+  .txt_box span {
+    white-space: normal !important;
+  }
+
+  #que_2 .picks_grp,
+  #que_3 .picks_grp {
+    grid-template-columns: 1fr !important;
+  }
+
+  .mcq_1_5_q_group {
+    max-width: 100% !important;
+  }
+
+  .mcq_help_overlay {
+    padding: 10px !important;
+  }
+
+  .mcq_help_popup {
+    max-width: 98vw !important;
+    max-height: 95vh !important;
+
+    padding: 12px !important;
+  }
+
+  .reading_only_image img {
+    max-width: 94vw !important;
+    max-height: 88vh !important;
+  }
+
+  .mcq_help_close {
+    width: 34px !important;
+    height: 34px !important;
+
+    font-size: 30px !important;
+  }
+}

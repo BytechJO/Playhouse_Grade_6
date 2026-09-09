@@ -159,7 +159,7 @@ var fillin_data = {
           "audio": "",
           "audioenable": "default", // correct (or) default
           "image": "",
-          "answer": ["recook"],
+          "answer": ["precook"],
           "alternateanswer": [[]],
           "strictcase": "no", // yes (or) no    
           "strictorder": "yes", // yes (or) no              
@@ -246,7 +246,7 @@ var fillin_data = {
           "audio": "",
           "audioenable": "default", // correct (or) default
           "image": "",
-          "answer": ["reschool"],
+          "answer": ["preschool"],
           "alternateanswer": [[]],
           "strictcase": "no", // yes (or) no    
           "strictorder": "yes", // yes (or) no              

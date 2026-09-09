@@ -62,7 +62,7 @@ var mcq_data = {
         {
             "question"              : "Circle the things Lilly and Yoshi should start doing now.",
             "image"                 : "",
-            "answer"                : [1],
+            "answer"                : [4],
             "audio"                 : "no",
             "audioenable"           : "default", // correct (or) default
             "numbering"				: "none", // alphabet (or) number (or) none
@@ -97,7 +97,7 @@ var mcq_data = {
         {
             "question"              : "Who was asked for help in starting a recycling programme?",
             "image"                 : "",
-            "answer"                : [1],
+            "answer"                : [2],
             "audio"                 : "no",
             "audioenable"           : "default", // correct (or) default
             "numbering"				: "none", // alphabet (or) number (or) none
