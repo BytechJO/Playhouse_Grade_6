@@ -603,7 +603,7 @@
   }
 
   .rotator {
-    right: 0 !important;
+    right: -13%  !important;
     top: 5% !important;
     z-index: 99999 !important;
   }
