@@ -49,7 +49,7 @@ var fillin_data = {
           "alternateanswer": [[]],
           "strictcase": "no", // yes (or) no  
           "strictorder": "yes", // yes (or) no              
-          "maxlength": 200,
+          "maxlength": 2,
           "type": "", // text (or) number
         },
         {
@@ -64,7 +64,7 @@ var fillin_data = {
           "alternateanswer": [[]],
           "strictcase": "no", // yes (or) no  
           "strictorder": "yes", // yes (or) no              
-          "maxlength": 200,
+          "maxlength": 2,
           "type": "", // text (or) number
         },
         {
@@ -79,13 +79,13 @@ var fillin_data = {
           "alternateanswer": [[]],
           "strictcase": "no", // yes (or) no  
           "strictorder": "yes", // yes (or) no              
-          "maxlength": 200,
+          "maxlength": 2,
           "type": "", // text (or) number
         },
         {
           "singleword": false,
           "textFront":"",
-          "text": "[_] <b>4</b> &nbsp; Susan exercised for two hours.",
+          "text": "[_] <b>4</b> &nbsp; Ted has done 30 push-ups already.",
           "textaudios": ["../audios/under.mp3"],
           "audio": "",
           "audioenable": "default", // correct (or) default
@@ -94,7 +94,7 @@ var fillin_data = {
           "alternateanswer": [[]],
           "strictcase": "no", // yes (or) no  
           "strictorder": "yes", // yes (or) no              
-          "maxlength": 200,
+          "maxlength": 2,
           "type": "", // text (or) number
         },
         {
@@ -109,7 +109,7 @@ var fillin_data = {
           "alternateanswer": [[]],
           "strictcase": "no", // yes (or) no  
           "strictorder": "yes", // yes (or) no              
-          "maxlength": 200,
+          "maxlength": 2,
           "type": "", // text (or) number
         },
         {
@@ -124,7 +124,7 @@ var fillin_data = {
           "alternateanswer": [[]],
           "strictcase": "no", // yes (or) no  
           "strictorder": "yes", // yes (or) no              
-          "maxlength": 200,
+          "maxlength": 2,
           "type": "", // text (or) number
         },
       ]

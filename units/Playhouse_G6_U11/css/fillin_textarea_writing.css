@@ -1,163 +1,292 @@
 .all_cont {
-    height: 100%;
-    text-align: center;
-    align-items: center;
-    display: flex;
-    justify-content: center;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .screen_elements {
-    width: 90%;
-    height: 100%;
+  width: 90%;
+  height: 100%;
 }
 
 .group_elm {
-    width: 96%;
-    height: 100%;
-    margin: 0px auto;
-    position: relative;
+  width: 96%;
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
 }
 
 .subTitleTextRight b {
-    color: red;
+  color: red;
 }
 
-.background_img{
-    height: 545px;
-    position: relative;
-    margin: 0px auto;
-}
+/* =========================
+   NOTEBOOK AREA
+========================= */
 
 .area {
-    background-image: url('../images/pages/activities/writing-background.png');
-    background-size: 965px 420px;
-    background-repeat: no-repeat;
-    height: 100%;
-    /* margin-top: 20px; */
-    position: relative;
+  width: 965px;
+  height: 545px;
+  position: relative;
+  margin: 0 auto;
 }
+
+/* notebook image */
+.background_img {
+  width: 965px;
+  height: 545px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: contain;
+  z-index: 1;
+}
+
+/* =========================
+   TEXTAREA HOLDER
+========================= */
 
 .textarea-container {
-    padding: 0px;
-    width: 762px;
-    height: 100%;
-    position: absolute;
-    display: flex;
-    justify-content: space-around;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 965px;
+  height: 545px;
+
+  padding: 0;
+  margin: 0;
+
+  z-index: 2;
+
+  display: block;
 }
 
-.text1{
-    /* border: 1px solid; */
-    width: 300px;
+/* =========================
+   COMMON TEXTAREA
+========================= */
+
+.paper-textarea {
+  position: absolute;
+
+  height: 480px;
+
+  border: none;
+  outline: none;
+  resize: none;
+
+  background-color: transparent;
+
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+
+  line-height: 38px;
+
+  padding: 0 8px;
+
+  overflow: hidden;
+
+  box-sizing: border-box;
+
+  color: #000;
+
+  background-image: repeating-linear-gradient(
+    to bottom,
+    transparent 0px,
+    transparent 36px,
+    #bfc7cc 37px,
+    #bfc7cc 38px
+  );
+
+  background-size: 100% 38px;
 }
 
-.text2{
-    width: 300px;
-    /* border: 1px solid red; */
+.paper-textarea:focus {
+  outline: none;
 }
+
+/* =========================
+   LEFT PAGE
+========================= */
+
+.text1 {
+  top: 27px;
+  left: 128px;
+  width: 308px;
+}
+
+/* =========================
+   RIGHT PAGE
+========================= */
+
+.text2 {
+  top: 27px;
+  left: 535px;
+
+  width: 290px;
+}
+
+/* =========================
+   OTHER
+========================= */
 
 .text_input_area {
-    flex: 1;
-    border: none;
-    /* border-bottom: 1px solid black; */
-}
-
-#paper-textarea {
-    background-color: transparent;
-    /* width: 100%; */
-    height: 100%;
-    /* padding: 0px 12px; */
-    line-height: 30px;
-    padding-top: 30px;
-    padding-left: 10px;
-    padding-right: 15px;
-    font-size: 24.8px;
-    overflow: hidden;
-}
-
-textarea {
-    border: none;
-    outline: none;
-    resize: none;
-    background: transparent;
-    font-family: Arial, sans-serif;
-    overflow: hidden;
+  flex: 1;
+  border: none;
 }
 
 .text {
-    /* position: absolute; */
-    top: 50px;
-    left: 20px;
-    width: 700px;
-    font-size: 20px;
+  top: 50px;
+  left: 20px;
+  width: 700px;
+  font-size: 20px;
 }
 
 .icon_wrap {
-    position: absolute;
-    margin-top: -35px;
-    right: 100px;
+  position: absolute;
+  margin-top: -35px;
+  right: 100px;
 }
 
 .tick,
 .cross {
-    width: 35px;
+  width: 35px;
 }
 
 .tick img,
 .cross img {
-    width: 100%;
+  width: 100%;
 }
 
 .image_wrap {
-    display: none;
+  display: none;
 }
 
 .clue_word {
-    margin: 5px;
-    padding: 0px 12px;
+  margin: 5px;
+  padding: 0 12px;
 }
 
 .word_options {
-    width: 100%;
-    font-size: 23px;
-    border: 2px solid var(--temp);
-    border-radius: 20px;
-    margin-bottom: 15px;
+  width: 100%;
+  font-size: 23px;
+
+  border: 2px solid var(--temp);
+  border-radius: 20px;
+
+  margin-bottom: 15px;
 }
 
 .word_opt_sticky {
-    position: -webkit-sticky;
-    position: sticky;
-    position: -webkit-sticky;
-    top: 0;
-    z-index: 5;
+  position: sticky;
+  top: 0;
+  z-index: 5;
 }
 
 .func_ctrls {
-    display: none !important;
+  display: none !important;
 }
 
-/* ************************************************* */
-/* ************************************************* */
-@media (max-width: 991.98px) {
-    .fill_in .que {
-        width: 160px;
-    }
+/* =========================
+   TABLET
+========================= */
+
+@media (max-width: 1199.98px) {
+  .area {
+    width: 90%;
+    height: auto;
+    aspect-ratio: 965 / 545;
+  }
+
+  .background_img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .textarea-container {
+    width: 100%;
+    height: 100%;
+  }
+
+  .paper-textarea {
+    height: 88%;
+
+    font-size: 20px;
+    line-height: 32px;
+
+    background-image: repeating-linear-gradient(
+      to bottom,
+      transparent 0px,
+      transparent 30px,
+      #bfc7cc 31px,
+      #bfc7cc 32px
+    );
+
+    background-size: 100% 32px;
+  }
+
+  .text1 {
+    top: 5%;
+    left: 5.7%;
+    width: 38.8%;
+  }
+
+  .text2 {
+    top: 5%;
+    left: 55.4%;
+    width: 38.8%;
+  }
 }
+
+/* =========================
+   SMALL TABLET
+========================= */
+
+@media (max-width: 991.98px) {
+  .fill_in .que {
+    width: 160px;
+  }
+
+  .paper-textarea {
+    font-size: 18px;
+    line-height: 28px;
+
+    background-image: repeating-linear-gradient(
+      to bottom,
+      transparent 0px,
+      transparent 26px,
+      #bfc7cc 27px,
+      #bfc7cc 28px
+    );
+
+    background-size: 100% 28px;
+  }
+}
+
+/* =========================
+   MOBILE
+========================= */
 
 @media (max-width: 575.98px) {
-    .fill_in .que {
-        width: 200px;
-    }
+  .fill_in .que {
+    width: 200px;
+  }
 
-    #paper-textarea {
-        line-height: 46px;
-        padding-top: 44px;
-    }
-}
+  .paper-textarea {
+    font-size: 15px;
+    line-height: 24px;
 
-@media (max-width: 475.98px) {
-    /* .fill_in .que {
-        width: 200px;
-    } */
+    background-image: repeating-linear-gradient(
+      to bottom,
+      transparent 0px,
+      transparent 22px,
+      #bfc7cc 23px,
+      #bfc7cc 24px
+    );
+
+    background-size: 100% 24px;
+  }
 }

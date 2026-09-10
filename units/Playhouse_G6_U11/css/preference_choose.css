@@ -1,0 +1,387 @@
+/* =========================================================
+   MAIN
+========================================================= */
+
+.pc_all_cont {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.pc_activity {
+  width: 94%;
+  max-width: 1180px;
+
+  margin: 0 auto;
+
+  padding: 5px 10px 25px;
+
+  box-sizing: border-box;
+}
+
+/* =========================================================
+   HEADER
+========================================================= */
+
+.pc_page_sub_title {
+  width: 100%;
+
+  display: flex;
+  flex-wrap: wrap;
+
+  align-items: center;
+
+  text-align: left;
+}
+
+.pc_page_sub_title p {
+  margin: 0;
+}
+
+.pc_title_left {
+  color: #222;
+
+  font-size: 23px;
+
+  font-style: italic;
+
+  flex-shrink: 0;
+}
+
+.pc_title_num {
+  width: 31px;
+  height: 31px;
+
+  display: inline-flex;
+
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+
+  background: #00b5d2;
+
+  color: #fff;
+
+  font-size: 22px;
+
+  font-style: normal;
+
+  font-weight: bold;
+}
+
+.pc_title_right {
+  flex-basis: 100%;
+
+  margin-left: 37px !important;
+  margin-top: 4px !important;
+
+  color: #00b5d2;
+
+  font-size: 20px;
+
+  font-weight: bold;
+}
+
+.pc_red {
+  color: #e4313b;
+}
+
+/* =========================================================
+   GRID
+========================================================= */
+
+.pc_questions_grid {
+  width: 100%;
+
+  display: grid;
+
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+
+  column-gap: 65px;
+  row-gap: 22px;
+}
+
+/* =========================================================
+   QUESTION
+========================================================= */
+
+.pc_question {
+  min-width: 0;
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: stretch;
+}
+
+/* =========================================================
+   IMAGE
+========================================================= */
+
+.pc_image_wrap {
+  width: 65%;
+  height: 105px;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  margin-bottom: 4px;
+}
+
+.pc_image_wrap img {
+  max-width: 190px;
+  max-height: 133px;
+
+  width: auto;
+  height: auto;
+
+  display: block;
+
+  object-fit: contain;
+}
+
+/* =========================================================
+   SENTENCE
+========================================================= */
+
+.pc_sentence_row {
+  width: 100%;
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 7px;
+}
+
+.pc_q_num {
+  width: 25px;
+
+  flex-shrink: 0;
+
+  color: #222;
+
+  font-size: 20px;
+
+  font-weight: bold;
+}
+
+.pc_before,
+.pc_after {
+  color: #333;
+
+  font-size: 18px;
+
+  line-height: 1.3;
+}
+
+.pc_before {
+  flex-shrink: 0;
+}
+
+.pc_after {
+  min-width: 0;
+}
+
+/* =========================================================
+   INPUT
+========================================================= */
+
+.pc_answer_input {
+  width: 135px;
+
+  height: 30px;
+
+  flex-shrink: 0;
+
+  padding: 0 4px;
+
+  border: none;
+
+  border-bottom: 2px solid #555;
+
+  outline: none;
+
+  background: transparent;
+
+  color: #222;
+
+  font-family: inherit;
+
+  font-size: 17px;
+
+  text-align: center;
+
+  box-sizing: border-box;
+
+  cursor: default;
+}
+
+/* =========================================================
+   OPTIONS
+========================================================= */
+
+.pc_options {
+  width: calc(100% - 32px);
+
+  margin-left: 32px;
+  margin-top: 5px;
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 45px;
+}
+
+.pc_option {
+  display: flex;
+
+  align-items: center;
+
+  gap: 7px;
+
+  margin: 0;
+
+  cursor: pointer;
+
+  user-select: none;
+}
+
+/* hide native checkbox */
+
+.pc_checkbox {
+  position: absolute;
+
+  opacity: 0;
+
+  pointer-events: none;
+}
+
+/* =========================================================
+   CUSTOM CHECKBOX
+========================================================= */
+
+.pc_fake_box {
+  width: 20px;
+  height: 20px;
+
+  position: relative;
+
+  flex-shrink: 0;
+
+  display: inline-block;
+
+  border: 1.5px solid #333;
+
+  border-radius: 4px;
+
+  background: #fff;
+
+  box-sizing: border-box;
+}
+
+/* CHECK MARK */
+
+.pc_checkbox:checked + .pc_fake_box::after {
+  content: "✓";
+
+  position: absolute;
+
+  left: 2px;
+  top: -4px;
+
+  color: #00aeca;
+
+  font-size: 22px;
+
+  font-weight: bold;
+
+  line-height: 1;
+}
+
+/* =========================================================
+   OPTION TEXT
+========================================================= */
+
+.pc_option_text {
+  color: #333;
+
+  font-size: 18px;
+
+  white-space: nowrap;
+}
+
+/* =========================================================
+   FEEDBACK
+========================================================= */
+
+.pc_feedback {
+  width: 27px;
+  height: 27px;
+
+  flex-shrink: 0;
+
+  position: relative;
+
+  margin-left: 3px;
+}
+
+.pc_feedback .tick,
+.pc_feedback .cross {
+  width: 27px;
+  height: 27px;
+
+  display: none;
+}
+
+.pc_feedback img {
+  width: 100%;
+  height: 100%;
+
+  display: block;
+
+  object-fit: contain;
+}
+
+/* =========================================================
+   RESPONSIVE
+========================================================= */
+
+@media (max-width: 1050px) {
+  .pc_questions_grid {
+    column-gap: 40px;
+  }
+
+  .pc_image_wrap {
+    height: 85px;
+  }
+
+  .pc_image_wrap img {
+    max-height: 80px;
+  }
+
+  .pc_before,
+  .pc_after,
+  .pc_option_text {
+    font-size: 16px;
+  }
+
+  .pc_answer_input {
+    width: 115px;
+
+    font-size: 15px;
+  }
+
+  .pc_options {
+    gap: 25px;
+  }
+}

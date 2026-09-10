@@ -13,7 +13,7 @@
 .ques {
     display: flex;
     flex-wrap: wrap;
-}
+} 
 
 .arrow {
     font-size: 100px;

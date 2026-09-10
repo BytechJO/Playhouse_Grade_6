@@ -18,7 +18,7 @@ FillIn.prototype = {
         this.ob = ob;
         // this.reset();
         this.listen(ob);
-    },
+    }, 
     listen:function(ob){
         var e = (ob.activity_area); 
         var inputs = e.querySelectorAll('input'); 

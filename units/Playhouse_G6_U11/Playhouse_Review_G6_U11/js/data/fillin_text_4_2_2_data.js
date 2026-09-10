@@ -1,162 +1,181 @@
 var fillin_data = {
-    "layout"               : 1,
-    "numinrow"              : [[1], [1], [1], [1], [1]],
-    "mainTitle"             : "",
-    "mainTitleIcon"         : "",
-    "mainTitleIconPos"      : {"right": "-18px"},
-    "mainTitleAudio"        : "../audios/under.mp3",
-    "subTitleTextLeft"      : "<span class='green_text'>3</span> Categorise it! Read each sentence below. Write ‘SP‘ for the sentences written in the simple past tense and write ‘PP‘ for the sentences written in the present perfect tense.",
-    "subTitleTextRight"     : "",
-    "subTitleIcons"         : [""],
-    "subTitleAudio"         : "../audios/under.mp3",
-    "image"                 : "",
-    "imageposition"         : "back",// "front" (or) "back"
-    "defaultAnswer"         : 1,
-    "numbering"             : "none", // "alphabet" (or) "number"
-    "numberstartfrom"       : 1,
-    "options"               : [],
-    "optionsAudios"         : ["","","","","","","","","","","","","",""],
-    "questions"             :
-     [
-        {
-          "singleword": false,
-          "text": "[_] 1 I visited my aunt at the weekend.",
-          "textaudios": ["../audios/under.mp3","../audios/under.mp3"],
-          "audio": "",
-          "audioenable": "default", // correct (or) default
-          "image": "",
-          "answer": ["SP"],
-          "alternateanswer": [[]],
-          "strictcase": "no", // yes (or) no     
-          "strictorder": "yes", // yes (or) no             
-          "maxlength": 200,
-          "type": "", // text (or) number
-        },
-        {
-          "singleword": false,
-          "text": "[_] 2 Max has already been to the zoo.",
-          "textaudios": ["../audios/under.mp3","../audios/under.mp3"],
-          "audio": "",
-          "audioenable": "default", // correct (or) default
-          "image": "",
-          "answer": ["PP"],
-          "alternateanswer": [[]],
-          "strictcase": "no", // yes (or) no     
-          "strictorder": "yes", // yes (or) no             
-          "maxlength": 200,
-          "type": "", // text (or) number
-        },
-        {
-          "singleword": false,
-          "text": "[_] 3 John sang the song.",
-          "textaudios": ["../audios/under.mp3","../audios/under.mp3"],
-          "audio": "",
-          "audioenable": "default", // correct (or) default
-          "image": "",
-          "answer": ["SP"],
-          "alternateanswer": [[]],
-          "strictcase": "no", // yes (or) no     
-          "strictorder": "yes", // yes (or) no             
-          "maxlength": 200,
-          "type": "", // text (or) number
-        },
-        {
-          "singleword": false,
-          "text": "[_] 4 Sally walked to the supermarket.",
-          "textaudios": ["../audios/under.mp3"],
-          "audio": "",
-          "audioenable": "default", // correct (or) default
-          "image": "",
-          "answer": ["SP"],
-          "alternateanswer": [["a lot of"]],
-          "strictcase": "no", // yes (or) no  
-          "strictorder": "yes", // yes (or) no              
-          "maxlength": 200,
-          "type": "", // text (or) number
-        },
-        {
-          "singleword": false,
-          "text": "[_] 5 Amy has finished her homework.",
-          "textaudios": ["../audios/under.mp3","../audios/under.mp3"],
-          "audio": "",
-          "audioenable": "default", // correct (or) default
-          "image": "",
-          "answer": ["PP"],
-          "alternateanswer": [[]],
-          "strictcase": "no", // yes (or) no     
-          "strictorder": "yes", // yes (or) no             
-          "maxlength": 200,
-          "type": "", // text (or) number
-        },
-        {
-          "singleword": false,
-          "text": "[_] 6 Kara has just baked a chocolate cake.",
-          "textaudios": ["../audios/under.mp3"],
-          "audio": "",
-          "audioenable": "default", // correct (or) default
-          "image": "",
-          "answer": ["PP"],
-          "alternateanswer": [["a lot of"]],
-          "strictcase": "no", // yes (or) no  
-          "strictorder": "yes", // yes (or) no              
-          "maxlength": 200,
-          "type": "", // text (or) number
-        },
-        {
-          "singleword": false,
-          "text": "[_] 7 Ben wrote a poem.",
-          "textaudios": ["../audios/under.mp3","../audios/under.mp3"],
-          "audio": "",
-          "audioenable": "default", // correct (or) default
-          "image": "",
-          "answer": ["SP"],
-          "alternateanswer": [[]],
-          "strictcase": "no", // yes (or) no     
-          "strictorder": "yes", // yes (or) no             
-          "maxlength": 200,
-          "type": "", // text (or) number
-        },
-        {
-          "singleword": false,
-          "text": "[_] 8 Jill has already jogged around the park.",
-          "textaudios": ["../audios/under.mp3","../audios/under.mp3"],
-          "audio": "",
-          "audioenable": "default", // correct (or) default
-          "image": "",
-          "answer": ["PP"],
-          "alternateanswer": [[]],
-          "strictcase": "no", // yes (or) no     
-          "strictorder": "yes", // yes (or) no             
-          "maxlength": 200,
-          "type": "", // text (or) number
-        },
-        {
-          "singleword": false,
-          "text": "[_] 9 Mary ate her breakfast.",
-          "textaudios": ["../audios/under.mp3","../audios/under.mp3"],
-          "audio": "",
-          "audioenable": "default", // correct (or) default
-          "image": "",
-          "answer": ["SP"],
-          "alternateanswer": [[]],
-          "strictcase": "no", // yes (or) no     
-          "strictorder": "yes", // yes (or) no             
-          "maxlength": 200,
-          "type": "", // text (or) number
-        },
-        {
-          "singleword": false,
-          "text": "[_] 10 Hank has just drunk a milkshake.",
-          "textaudios": ["../audios/under.mp3"],
-          "audio": "",
-          "audioenable": "default", // correct (or) default
-          "image": "",
-          "answer": ["PP"],
-          "alternateanswer": [["a lot of"]],
-          "strictcase": "no", // yes (or) no  
-          "strictorder": "yes", // yes (or) no              
-          "maxlength": 200,
-          "type": "", // text (or) number
-        }
-      ]
-    }
+  layout: 1,
+  numinrow: [[1], [1], [1], [1], [1]],
+  mainTitle: "",
+  mainTitleIcon: "",
+  mainTitleIconPos: { right: "-18px" },
+  mainTitleAudio: "../audios/under.mp3",
+  subTitleTextLeft:
+    "<span class='green_text'>3</span> Categorise it! <span class='blue_text'>Read each sentence below. Write ‘<span class='red_text'>SP</span>‘ for the sentences written in the simple past tense and write ‘<span class='red_text'>PP</span>‘ for the sentences written in the present perfect tense.</span>",
+  subTitleTextRight: "",
+  subTitleIcons: [""],
+  subTitleAudio: "../audios/under.mp3",
+  image: "",
+  imageposition: "back", // "front" (or) "back"
+  defaultAnswer: 1,
+  numbering: "none", // "alphabet" (or) "number"
+  numberstartfrom: 1,
+  options: [],
+  optionsAudios: ["", "", "", "", "", "", "", "", "", "", "", "", "", ""],
+  questions: [
+    // 1
+    {
+      singleword: false,
+      text: "[_] <span class='bold_text'>1</span> I visited my aunt at the weekend.",
+      textaudios: ["../audios/under.mp3", "../audios/under.mp3"],
+      audio: "",
+      audioenable: "default",
+      image: "",
+      answer: ["SP"],
+      alternateanswer: [[]],
+      strictcase: "no",
+      strictorder: "yes",
+      maxlength: 2,
+      type: "",
+    },
+
+    // 6
+    {
+      singleword: false,
+      text: "[_] <span class='bold_text'>6</span> Kara has just baked a chocolate cake.",
+      textaudios: ["../audios/under.mp3"],
+      audio: "",
+      audioenable: "default",
+      image: "",
+      answer: ["PP"],
+      alternateanswer: [["a lot of"]],
+      strictcase: "no",
+      strictorder: "yes",
+      maxlength: 2,
+      type: "",
+    },
+
+    // 2
+    {
+      singleword: false,
+      text: "[_] <span class='bold_text'>2</span> Max has already been to the zoo.",
+      textaudios: ["../audios/under.mp3", "../audios/under.mp3"],
+      audio: "",
+      audioenable: "default",
+      image: "",
+      answer: ["PP"],
+      alternateanswer: [[]],
+      strictcase: "no",
+      strictorder: "yes",
+      maxlength: 2,
+      type: "",
+    },
+
+    // 7
+    {
+      singleword: false,
+      text: "[_] <span class='bold_text'>7</span> Ben wrote a poem.",
+      textaudios: ["../audios/under.mp3", "../audios/under.mp3"],
+      audio: "",
+      audioenable: "default",
+      image: "",
+      answer: ["SP"],
+      alternateanswer: [[]],
+      strictcase: "no",
+      strictorder: "yes",
+      maxlength: 2,
+      type: "",
+    },
+
+    // 3
+    {
+      singleword: false,
+      text: "[_] <span class='bold_text'>3</span> John sang the song.",
+      textaudios: ["../audios/under.mp3", "../audios/under.mp3"],
+      audio: "",
+      audioenable: "default",
+      image: "",
+      answer: ["SP"],
+      alternateanswer: [[]],
+      strictcase: "no",
+      strictorder: "yes",
+      maxlength: 2,
+      type: "",
+    },
+
+    // 8
+    {
+      singleword: false,
+      text: "[_] <span class='bold_text'>8</span> Jill has already jogged around the park.",
+      textaudios: ["../audios/under.mp3", "../audios/under.mp3"],
+      audio: "",
+      audioenable: "default",
+      image: "",
+      answer: ["PP"],
+      alternateanswer: [[]],
+      strictcase: "no",
+      strictorder: "yes",
+      maxlength: 2,
+      type: "",
+    },
+
+    // 4
+    {
+      singleword: false,
+      text: "[_] <span class='bold_text'>4</span> Sally walked to the supermarket.",
+      textaudios: ["../audios/under.mp3"],
+      audio: "",
+      audioenable: "default",
+      image: "",
+      answer: ["SP"],
+      alternateanswer: [["a lot of"]],
+      strictcase: "no",
+      strictorder: "yes",
+      maxlength: 2,
+      type: "",
+    },
+
+    // 9
+    {
+      singleword: false,
+      text: "[_] <span class='bold_text'>9</span> Mary ate her breakfast.",
+      textaudios: ["../audios/under.mp3", "../audios/under.mp3"],
+      audio: "",
+      audioenable: "default",
+      image: "",
+      answer: ["SP"],
+      alternateanswer: [[]],
+      strictcase: "no",
+      strictorder: "yes",
+      maxlength: 2,
+      type: "",
+    },
+
+    // 5
+    {
+      singleword: false,
+      text: "[_] <span class='bold_text'>5</span> Amy has finished her homework.",
+      textaudios: ["../audios/under.mp3", "../audios/under.mp3"],
+      audio: "",
+      audioenable: "default",
+      image: "",
+      answer: ["PP"],
+      alternateanswer: [[]],
+      strictcase: "no",
+      strictorder: "yes",
+      maxlength: 2,
+      type: "",
+    },
+
+    // 10
+    {
+      singleword: false,
+      text: "[_] <span class='bold_text'>10</span> Hank has just drunk a milkshake.",
+      textaudios: ["../audios/under.mp3"],
+      audio: "",
+      audioenable: "default",
+      image: "",
+      answer: ["PP"],
+      alternateanswer: [["a lot of"]],
+      strictcase: "no",
+      strictorder: "yes",
+      maxlength: 2,
+      type: "",
+    },
+  ],
+};

@@ -2,111 +2,112 @@
 // (1) mcq
 // (2) fillin
 var _activityData = {
-   "list": [
-      {
-         "file"               : "free_fillin_on_image.html",
-         'type'               : 'fillin',
-         'subtype'            : '',
-         'build'              : 'yes', // yes (or) no   
-         'activityCtrls'      : 'yes',
-         'layout'             : 2,
-         'visited'            : 0,
-         'score'              : 0,
-      },
-      {
-         'file'               : 'slide_1.html',
-         'type'               : 'standAlone',
-         'subtype'            : '',
-         'build'              : 'yes', // yes (or) no
-         'activityCtrls'      : 'yes',
-         'layout'             : 3,
-         'visited'            : 0,
-      },
-      {
-         "file"               : "fillin_table.html",
-         'type'               : 'fillin',
-         'subtype'            : '',
-         'build'              : 'yes', // yes (or) no   
-         'activityCtrls'      : 'yes',
-         'layout'             : 2,
-         'visited'            : 0,
-         'score'              : 0,
-      },
-      {
-         'file'               : 'slide_remember_1.html',
-         'type'               : 'standAlone',
-         'subtype'            : '',
-         'build'              : 'yes', // yes (or) no
-         'activityCtrls'      : 'yes',
-         'layout'             : 3,
-         'visited'            : 0,
-      },
-      {
-         "file"               : "fillin_text.html",
-         'type'               : 'fillin',
-         'subtype'            : '',
-         'build'              : 'yes', // yes (or) no   
-         'activityCtrls'      : 'yes',
-         'layout'             : 2,
-         'visited'            : 0,
-         'score'              : 0,
-      },
-      {
-         'file'               : 'circle_word_in_sentence.html',
-         'type'               : 'mcq',
-         'build'              : 'yes', // yes (or) no
-         'activityCtrls'      : 'yes',
-         'layout'             : 1,
-         'visited'            : 0,
-         'score'              : 0,
-      },
-      {
-         'file'               : 'slide_remember_2.html',
-         'type'               : 'standAlone',
-         'subtype'            : '',
-         'build'              : 'yes', // yes (or) no
-         'activityCtrls'      : 'yes',
-         'layout'             : 3,
-         'visited'            : 0,
-      },
-      {
-         "file"               : "fillin_text_2.html",
-         'type'               : 'fillin',
-         'subtype'            : '',
-         'build'              : 'yes', // yes (or) no   
-         'activityCtrls'      : 'yes',
-         'layout'             : 2,
-         'visited'            : 0,
-         'score'              : 0,
-      },
-      {
-         "file"               : "fillin_table_2.html",
-         'type'               : 'fillin',
-         'subtype'            : '',
-         'build'              : 'yes', // yes (or) no   
-         'activityCtrls'      : 'yes',
-         'layout'             : 2,
-         'visited'            : 0,
-         'score'              : 0,
-      },
-      {
-         'file'               : 'slide_9.html',
-         'type'               : 'standAlone',
-         'subtype'            : '',
-         'build'              : 'yes', // yes (or) no
-         'activityCtrls'      : 'yes',
-         'layout'             : 3,
-         'visited'            : 0,
-      },
-      {
-         'file'               : 'fillin_textarea.html',
-         'type'               : "fillin",
-         'subtype'            : '',
-         'build'              : 'yes', // yes (or) no
-         'activityCtrls'      : 'yes',
-         'layout'             : 4,
-         'visited'            : 0,
-      },
-   ]
-}
+  list: [
+    {
+      file: "page_1.html",
+      type: "fillin",
+      subtype: "",
+      build: "yes", // yes (or) no
+      activityCtrls: "yes",
+      layout: 2,
+      visited: 0,
+      score: 0,
+    },
+    {
+      file: "slide_page_2.html",
+      type: "standAlone",
+      subtype: "",
+      build: "yes", // yes (or) no
+      activityCtrls: "yes",
+      layout: 3,
+      visited: 0,
+    },
+    {
+      file: "page_3.html",
+      type: "fillin",
+      subtype: "",
+      build: "yes", // yes (or) no
+      activityCtrls: "yes",
+      layout: 2,
+      visited: 0,
+      score: 0,
+    },
+    {
+      file: "slide_page_4.html",
+      type: "standAlone",
+      subtype: "",
+      build: "yes", // yes (or) no
+      activityCtrls: "yes",
+      layout: 3,
+      visited: 0,
+    },
+    {
+      file: "page_5.html",
+      type: "fillin",
+      subtype: "",
+      build: "yes", // yes (or) no
+      activityCtrls: "yes",
+      layout: 2,
+      visited: 0,
+      score: 0,
+    },
 
+    {
+      file: "page_6.html",
+      type: "verbchoose",
+      subtype: "",
+      build: "yes",
+      activityCtrls: "yes",
+      layout: 1,
+      visited: 0,
+      score: 0,
+    },
+    {
+      file: "slide_page_7.html",
+      type: "standAlone",
+      subtype: "",
+      build: "yes", // yes (or) no
+      activityCtrls: "yes",
+      layout: 3,
+      visited: 0,
+    },
+    {
+      file: "page_8.html",
+      type: "fillin",
+      subtype: "",
+      build: "yes", // yes (or) no
+      activityCtrls: "yes",
+      layout: 2,
+      visited: 0,
+      score: 0,
+    },
+    {
+      file: "page_9.html",
+      type: "fillin",
+      subtype: "",
+      build: "yes", // yes (or) no
+      activityCtrls: "yes",
+      layout: 2,
+      visited: 0,
+      score: 0,
+    },
+    {
+      file: "slide_page_10.html",
+      type: "standAlone",
+      subtype: "",
+      build: "yes", // yes (or) no
+      activityCtrls: "yes",
+      layout: 3,
+      visited: 0,
+    },
+    {
+      file: "slide_page_11.html",
+      type: "standAlone",
+      subtype: "",
+      build: "yes", // yes (or) no
+      activityCtrls: "yes",
+      layout: 3,
+      visited: 0,
+    },
+  ],
+};

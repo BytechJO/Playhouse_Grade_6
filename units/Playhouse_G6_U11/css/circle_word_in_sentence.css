@@ -83,7 +83,7 @@
 }
 
 .question_group {
-    width: 83%;
+    width: 75%;
     /* margin: 0 8px; */
     display: flex;
     flex-direction: column;

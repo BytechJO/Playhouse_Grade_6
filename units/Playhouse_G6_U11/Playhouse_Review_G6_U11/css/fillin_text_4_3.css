@@ -13,9 +13,9 @@
 .ques {
     display: flex;
     flex-wrap: wrap;
-}
+} 
 
-/* .que:nth-child(4) {
+/* .que:nth-child(4) { 
     width: 30% !important;
     flex-direction: column;
     height: auto !important;

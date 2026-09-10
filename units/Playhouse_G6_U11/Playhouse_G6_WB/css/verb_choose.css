@@ -1,0 +1,444 @@
+/* =========================================================
+   MAIN
+========================================================= */
+
+.vc_all_cont {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+
+  align-items: flex-start;
+  justify-content: center;
+}
+
+
+.vc_activity {
+  width: 80%;
+  max-width: 1150px;
+
+  margin: 0 auto;
+
+  padding: 5px 10px 25px;
+
+  box-sizing: border-box;
+}
+
+
+/* =========================================================
+   HEADER
+========================================================= */
+
+.vc_page_sub_title {
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+
+  gap: 5px;
+
+  text-align: left;
+}
+
+
+.vc_page_sub_title p {
+  margin: 0;
+}
+
+
+.vc_title_left {
+  flex-shrink: 0;
+
+  color: #00aeef;
+
+  font-size: 20px;
+
+  font-style: italic;
+}
+
+
+.vc_title_num {
+  color: #00aeef;
+
+  font-size: 20px;
+
+  font-weight: bold;
+}
+
+
+.vc_title_right {
+  color: #00aeef;
+
+  font-size: 18px;
+
+  font-style: italic;
+}
+
+
+/* =========================================================
+   GRID
+========================================================= */
+
+.vc_questions_grid {
+  width: 100%;
+
+  display: grid;
+
+  grid-template-columns:
+    repeat(
+      2,
+      minmax(0, 1fr)
+    );
+
+  column-gap: 70px;
+  row-gap: 22px;
+}
+
+
+/* =========================================================
+   QUESTION
+========================================================= */
+
+.vc_question {
+  min-width: 0;
+
+  width: 100%;
+
+  box-sizing: border-box;
+}
+
+
+/* =========================================================
+   SENTENCE ROW
+========================================================= */
+
+.vc_sentence_row {
+  width: 100%;
+
+  display: flex;
+
+  align-items: flex-start;
+
+  gap: 7px;
+
+  box-sizing: border-box;
+}
+
+
+/* =========================================================
+   QUESTION NUMBER
+========================================================= */
+
+.vc_q_num {
+  width: 25px;
+
+  flex-shrink: 0;
+
+  color: #222;
+
+  font-size: 24px;
+
+  font-weight: bold;
+
+  line-height: 32px;
+}
+
+
+/* =========================================================
+   SENTENCE CONTENT
+   before + input + after
+========================================================= */
+
+.vc_sentence_content {
+  min-width: 0;
+
+  flex: 1;
+
+  display: flex;
+
+  flex-wrap: wrap;
+
+  align-items: center;
+
+  column-gap: 7px;
+  row-gap: 4px;
+
+  box-sizing: border-box;
+}
+
+
+/* =========================================================
+   BEFORE / AFTER
+========================================================= */
+
+.vc_before,
+.vc_after {
+  color: #333;
+
+  font-size: 24px;
+
+  line-height: 32px;
+}
+
+
+.vc_before {
+  flex-shrink: 0;
+}
+
+
+.vc_after {
+  min-width: 0;
+}
+
+
+/* =========================================================
+   INPUT
+========================================================= */
+
+.vc_answer_input {
+  width: 160px;
+  height: 32px;
+
+  flex-shrink: 0;
+
+  padding: 0 4px;
+
+  border: none;
+
+  border-bottom: 1.5px solid #555;
+
+  outline: none;
+
+  background: transparent;
+
+  color: #222;
+
+  font-family: inherit;
+
+  font-size: 24px;
+
+  line-height: 30px;
+
+  text-align: center;
+
+  cursor: default;
+
+  box-sizing: border-box;
+}
+
+
+/* =========================================================
+   FEEDBACK
+========================================================= */
+
+.vc_feedback {
+  width: 26px;
+  height: 26px;
+
+  flex-shrink: 0;
+
+  position: relative;
+
+  margin-top: 3px;
+}
+
+
+.vc_feedback .tick,
+.vc_feedback .cross {
+  width: 26px;
+  height: 26px;
+
+  display: none;
+}
+
+
+.vc_feedback img {
+  width: 100%;
+  height: 100%;
+
+  display: block;
+
+  object-fit: contain;
+}
+
+
+/* =========================================================
+   OPTIONS
+========================================================= */
+
+.vc_options {
+  margin-left: 40px;
+  margin-top: 8px;
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: flex-start;
+
+  gap: 8px;
+}
+
+
+/* =========================================================
+   OPTION
+========================================================= */
+
+.vc_option {
+  width: fit-content;
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 7px;
+
+  margin: 0;
+
+  padding: 3px 10px;
+
+  border: 2px solid transparent;
+
+  border-radius: 999px;
+
+  background: transparent;
+
+  cursor: pointer;
+
+  user-select: none;
+
+  box-sizing: border-box;
+
+  transition:
+    border-color 0.15s ease,
+    background 0.15s ease;
+}
+
+
+/* =========================================================
+   OPTION LETTER A / B
+========================================================= */
+
+.vc_option_letter {
+  flex-shrink: 0;
+
+  color: #222;
+
+  font-size: 24px;
+
+  font-weight: bold;
+
+  line-height: 1.2;
+}
+
+
+/* =========================================================
+   OPTION TEXT
+========================================================= */
+
+.vc_option_text {
+  color: #333;
+
+  font-size: 24px;
+
+  line-height: 1.3;
+
+  white-space: nowrap;
+}
+
+
+/* =========================================================
+   SELECTED
+   دائرة حول الخيار كامل
+========================================================= */
+
+.vc_option.selected {
+  border-color: #e33d3d;
+
+  background: transparent;
+}
+
+
+/* =========================================================
+   HOVER
+========================================================= */
+
+.vc_option:hover {
+  background: rgba(0, 174, 239, 0.05);
+}
+
+
+.vc_option.selected:hover {
+  background: transparent;
+}
+
+
+/* =========================================================
+   OLD CHECKBOX / RADIO
+   نخفيهم لو ضل أي عنصر منهم بالبيلد
+========================================================= */
+
+.vc_checkbox,
+.vc_fake_circle {
+  display: none !important;
+}
+
+
+/* =========================================================
+   RESPONSIVE
+========================================================= */
+
+@media (max-width: 1050px) {
+
+  .vc_questions_grid {
+    column-gap: 40px;
+  }
+
+
+  /*
+    خليت الخطوط نفسها زي ما طلبتي
+    ما بصغرهم هون
+  */
+
+  .vc_before,
+  .vc_after {
+    font-size: 24px;
+  }
+
+
+  .vc_answer_input {
+    width: 125px;
+
+    font-size: 24px;
+  }
+
+
+  .vc_option_letter {
+    font-size: 24px;
+  }
+
+
+  .vc_option_text {
+    font-size: 16px;
+  }
+
+}
+
+
+/* =========================================================
+   SMALL WIDTH
+   لما كل عمود يصير ضيق
+========================================================= */
+
+@media (max-width: 850px) {
+
+  .vc_questions_grid {
+    column-gap: 25px;
+  }
+
+
+  .vc_sentence_content {
+    row-gap: 6px;
+  }
+
+}

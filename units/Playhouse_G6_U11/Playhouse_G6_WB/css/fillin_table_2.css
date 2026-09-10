@@ -1,353 +1,537 @@
-.all_cont {
-    height: 100%;
-    text-align: center;
-    align-items: center;
-    display: flex;
-    justify-content: center;
+/* =========================================================
+   GENERAL
+========================================================= */
+
+:root {
+  --temp: #68c0f0;
 }
 
-.screan_elements {
-    width: 90%;
+.all_cont {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.screen_elements {
+  width: 90%;
+  height: 100%;
+  margin: 0 auto;
 }
 
 .group_elm {
-    width: 100%;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
 }
 
-:root {
-    --temp: #68c0f0;
+.func_ctrls {
+  display: none !important;
 }
 
-.func_ctrls{
-    display: none !important;
-}
+/* =========================================================
+   IMAGE
+========================================================= */
 
 .image_gap {
-    height: 100%;
-    width: intrinsic;
-    width: -moz-max-content;
-    width: -webkit-max-content;
-    width: max-content;
+  height: 100%;
+  width: max-content;
 }
 
-
-.fillin_set {
-    display: flex;
+.img_space {
+  width: 400px;
+  height: 500px;
 }
 
-.fillin_gr input {
-    border: none;
-    width: 95%;
-    /* flex: 1 1 44.444%;  */
-    /* margin: auto; */
-    font-size: 25px;
-    text-align: center;
-    outline: none !important;
-    background-color: transparent;
-    border-bottom: 2px solid #0000004b;
-  
+.img_space img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 
-.text{
-    font-size: 36px;
-    text-align: center;
+/* =========================================================
+   FILL IN MAIN AREA
+========================================================= */
+
+.fillin_gr {
+  width: 100%;
+  position: relative;
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+
+  /*
+    المسافة بين السؤال Chart it!
+    وبين الجدول
+  */
+  margin-top: 60px;
 }
 
-table {
-    width: 70%;
-    text-align: center;
-    margin: 10px auto;
-    /* border: 2px solid var(--temp); */
+.q_space {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+/* =========================================================
+   TABLE
+========================================================= */
+
+.fillin_table {
+  width: 80%;
+  table-layout: fixed;
+
+  border-collapse: separate;
+  border-spacing: 0;
+
+  text-align: center;
+
+  margin: 0 auto;
+}
+
+.fillin_table th,
+.fillin_table td {
+  vertical-align: top;
+  padding: 0;
+}
+
+/* =========================================================
+   MAIN HEADINGS
+========================================================= */
+
+.main_heading_row th {
+  position: relative;
+  padding: 0 3px 10px 3px;
+}
+
+.heading_box {
+  width: 100%;
+  height: 65px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  box-sizing: border-box;
+
+  border: 2px solid #000;
+
+  border-radius: 18px 18px 0 0;
+
+  background-image: linear-gradient(
+    to right,
+    #cccccc,
+    #ffffff,
+    #cccccc,
+    #cccccc,
+    #ffffff
+  );
+
+  color: #000;
+
+  font-size: 30px;
+  font-weight: bold;
+
+  text-align: center;
+
+  /*
+   مهم:
+   ما في absolute
+   وما في top:-50px
+  */
+  position: relative;
+  top: auto;
+  left: auto;
+  right: auto;
+
+  min-width: 0;
+}
+
+.heading_box .audioIcon {
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: #000;
+  text-align: center;
+}
+
+/* =========================================================
+   CELL
+========================================================= */
+
+.que {
+  width: 100%;
+
+  margin: 0;
+
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .img_fillin_gr {
-    width: 100%;
-    position: relative;
+  width: 100%;
+  position: relative;
 }
+
+/* =========================================================
+   BOX
+========================================================= */
 
 .Box {
-    /* font-size: 24px; */
-    height: 65px;
-    align-items: center;
-    justify-content: center;
-    width: 257px;
-    padding: 5px;
-    /* border-radius: 30px; */
-    margin:  0px;
-    /* border-bottom: 2px solid #000; */
-    border-left: 2px solid #000;
-    border-right: 2px solid #000;
+  width: 100%;
+  height: 65px;
 
-    background-color: #fff;
-    /* border-radius: 20px; */
+  box-sizing: border-box;
+
+  padding: 5px 15px;
+
+  margin: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: relative;
+
+  background-color: #fff;
+
+  border-top: none;
+  border-bottom: none;
+  border-left: 2px solid #000;
+  border-right: 2px solid #000;
 }
 
-.que[data-qno="1"], .que[data-qno="5"], .que[data-qno="9"]{
-    /* background-color: #fedcc6; */
-    /* border-radius: 20px; */
+.fillin_set {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-td {
-    vertical-align: top;
-    /* border: 2px solid var(--temp); */
+/* =========================================================
+   INPUTS
+========================================================= */
+
+.fillin_gr input {
+  width: 92%;
+
+  border: none;
+  outline: none !important;
+
+  border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+
+  background-color: transparent;
+
+  font-size: 25px;
+
+  text-align: center;
+
+  padding: 5px 30px 5px 10px;
+
+  box-sizing: border-box;
 }
 
-th:first-child .Box{
-    /* background-color: #fee0c8; */
-    /* font-size: 24px; */
+.fillin_gr input:focus {
+  outline: none;
 }
 
-th:nth-child(2) .Box{
-    /* background-color: #c7eafb; */
+/* =========================================================
+   FIRST FOUR DEFAULT ANSWERS
+========================================================= */
+
+.default_fillin_input {
+  color: #000;
+
+  font-size: 27px !important;
+
+  cursor: default;
+
+  pointer-events: none;
 }
 
-th:nth-child(3) .Box{
-    /* background-color: #b9d980; */
+/* =========================================================
+   STUDENT INPUT
+========================================================= */
+
+.text_input_area {
+  color: #000;
 }
 
-th .Box {
-    /* background-color: #fbb784; */
-    border: 2px solid transparent;
-    /* border-radius: 20px; */
-    background: transparent;
-    color: #000;
-    border: 2px solid #000;
-    border-radius: 15px 15px 0px 0px;
-    background-image: linear-gradient(to right, #ccc, #fff,#ccc, #ccc, #fff);
-    text-align: center;
-    justify-content: center;
-    /* border-radius: 30px; */
-    min-width: 515px;
-    position: absolute;
-    top: -50px;
-    height: 55px;
-    /* margin: 10px auto; */
-    /* font-size: 33px; */
-    font-weight: bolder;
-    /* color: #3e9150; */
-}
-th:nth-child(2) .Box{
-    right: 0;
-}
-
-.fillin_gr {
-    /* width: 100%; */
-    position: relative;
-}
-
-
-
-.fillin_gr .icon_wrap_holder {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-}
+/* =========================================================
+   ICONS
+========================================================= */
 
 .icon_wrap {
-    position: absolute;
-    right: 10px;
+  position: absolute;
+
+  top: 50%;
+  right: 7px;
+
+  transform: translateY(-50%);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.default_icon_wrap {
+  display: none;
 }
 
 .tick,
 .cross {
-    width: 32px;
-    height: 32px;
+  width: 28px;
+  height: 28px;
 }
 
+.tick img,
+.cross img {
+  width: 100%;
+  height: 100%;
+
+  object-fit: contain;
+}
+
+/* إذا السيستم بيخفي/يظهر الصح والغلط بنفسه */
+.tick,
+.cross {
+  display: none;
+}
+
+/* =========================================================
+   WORD OPTIONS
+========================================================= */
+
 .clue_word {
-    margin: 3px;
-    width: 150px;
+  margin: 3px;
+
+  width: 150px;
 }
 
 .word_options {
-    width: 75%;
-    /* border: 2px solid black; */
-    border-radius: 20px;
-    margin-bottom: 15px;
-    background-color: #fff2e4;
+  width: 75%;
+
+  border-radius: 20px;
+
+  margin-bottom: 15px;
+
+  background-color: #fff2e4;
 }
 
 .word_opt_sticky {
-    position: -webkit-sticky;
-    position: sticky;
-    position: -webkit-sticky;
-    top: 0;
-    z-index: 5;
+  position: sticky;
+
+  top: 0;
+
+  z-index: 5;
 }
 
-.fillin_gr table tr>th {
-    /* background-color: #c0fbcd; */
+/* =========================================================
+   TEXT
+========================================================= */
+
+.text {
+  font-size: 36px;
+
+  text-align: center;
 }
 
+/* =========================================================
+   SPECIAL COLUMN SEPARATION
+========================================================= */
 
-.fillin_gr table tr>td:nth-child(2),
-.fillin_gr table tr>td:nth-child(2) .Box
-{
-    /* width: 573px; */
-    /* font-size: 24px; */
-    /* border: 2px solid red; */
+/*
+  يفصل Activities and Sports عن Foods
+  بشكل أوضح
+*/
+
+.fillin_table tbody td:nth-child(2) {
+  border-right: 3px double #000;
 }
 
-.fillin_gr table tr>td:nth-child(3),
-.fillin_gr table tr>td:nth-child(3) .Box
-{
-    /* width: 500px; */
-    /* font-size: 24px; */
+.fillin_table tbody td:nth-child(3) {
+  border-left: 3px double #000;
 }
 
+/* =========================================================
+   OPTIONAL FIRST / LAST BORDERS
+========================================================= */
 
-table,
-table tr th{
-    /* border: 2px solid #245d30; */
+.fillin_table tbody td:first-child .Box {
+  border-left: 2px solid #000;
 }
 
-.fillin_gr table tr>td:nth-child(2) .que  .fillin_set input {
-    /* width: 100%;
-    padding: 0px 10px; */
+.fillin_table tbody td:last-child .Box {
+  border-right: 2px solid #000;
 }
 
+/* =========================================================
+   MODAL
+========================================================= */
 
-/**** popup window ***/
+@media (min-width: 576px) {
+  .modal-width {
+    max-width: 820px !important;
+    min-width: 820px !important;
+  }
+}
 
+/* =========================================================
+   MEDIA <= 1799
+========================================================= */
 
-/* ====================================================== */
+@media (max-width: 1799.98px) {
+  .fillin_table {
+    width: 82%;
+  }
+}
 
-
-/*              Media Queries Start                       */
-
-
-/* ====================================================== */
-
-
-/* ------------------------------------------------ */
-
-
-/*              M Q max-width: 1799.98px */
-
-
-/* ------------------------------------------------*/
-
-
-/* // Large devices (desktops, less than 1800px) */
-
-@media (max-width: 1799.98px) {}
-
-
-/* ------------------------------------------------ */
-
-
-/*              M Q max-width: 1399.98px */
-
-
-/* ------------------------------------------------*/
-
-
-/* // Large devices (desktops, less than 1400px) */
+/* =========================================================
+   MEDIA <= 1399
+========================================================= */
 
 @media (max-width: 1399.98px) {
-    .img_fillin_gr {
-        /* width: 60%; */
-    }
+  .fillin_table {
+    width: 88%;
+  }
+
+  .heading_box {
+    font-size: 27px;
+  }
+
+  .fillin_gr input {
+    font-size: 23px;
+  }
 }
 
-
-/* ------------------------------------------------ */
-
-
-/*              M Q max-width: 1199.98px */
-
-
-/* ------------------------------------------------*/
-
-
-/* // Large devices (desktops, less than 1200px) */
+/* =========================================================
+   MEDIA <= 1199
+========================================================= */
 
 @media (max-width: 1199.98px) {
-    .word_options {
-        margin-bottom: 1vh;
-    }
+  .word_options {
+    margin-bottom: 1vh;
+  }
+
+  .fillin_table {
+    width: 94%;
+  }
+
+  .heading_box {
+    height: 60px;
+    font-size: 24px;
+  }
+
+  .Box {
+    height: 60px;
+  }
+
+  .fillin_gr input {
+    font-size: 21px;
+  }
 }
 
-
-/* ------------------------------------------------ */
-
-
-/*              M Q max-width: 991.98px */
-
-
-/* ------------------------------------------------*/
-
-
-/* // Medium devices (tablets, less than 992px) 768 to 991.98 */
+/* =========================================================
+   MEDIA <= 991
+========================================================= */
 
 @media (max-width: 991.98px) {
-    .img_fillin_gr {
-        width: 85%;
-    }
+  .screen_elements {
+    width: 95%;
+  }
+
+  .fillin_table {
+    width: 100%;
+  }
+
+  .heading_box {
+    font-size: 21px;
+  }
+
+  .fillin_gr input {
+    font-size: 19px;
+  }
+
+  .fillin_gr {
+    margin-top: 45px;
+  }
 }
 
-
-/* ------------------------------------------------ */
-
-
-/* M Q max-width: 767.98px */
-
-
-/* ------------------------------------------------*/
-
-
-/* // Small devices (landscape phones, less than 768px) 576 to 767.98*/
+/* =========================================================
+   MEDIA <= 767
+========================================================= */
 
 @media (max-width: 767.98px) {
+  .image_gap {
+    margin: auto;
+  }
 
-    .image_gap {
-        margin: auto;
-    }
+  .screen_elements {
+    width: 98%;
+  }
 
-    .img_fillin_gr {
-        width: 95%;
-    }
+  .fillin_table {
+    width: 100%;
+  }
 
-    .fillin_set {
-        padding-right: 20px;
-    }
+  .heading_box {
+    height: 55px;
+    font-size: 18px;
+  }
 
-    .tick,
-    .cross {
-        width: 20px;
-        height: 20px;
-    }
+  .Box {
+    height: 55px;
+    padding: 4px 7px;
+  }
 
+  .fillin_gr input {
+    width: 95%;
+    font-size: 17px;
+    padding-right: 22px;
+  }
+
+  .tick,
+  .cross {
+    width: 20px;
+    height: 20px;
+  }
 }
 
+/* =========================================================
+   MEDIA <= 575
+========================================================= */
 
-/* ------------------------------------------------ */
+@media (max-width: 575.98px) {
+  .heading_box {
+    font-size: 16px;
+  }
 
+  .fillin_gr input {
+    font-size: 15px;
+  }
+}
 
-/* M Q max-width: 575.98px */
-
-
-/* ------------------------------------------------*/
-
-
-/* // Extra small devices (portrait phones, less than 576px) 476 to 575*/
-
-@media (max-width: 575.98px) {}
-
-
-/* ------------------------------------------------ */
-
-
-/*              M Q max-width: 475.98px             */
-
-
-/* ------------------------------------------------*/
-
-
-/* body working fine 320 to 475 */
+/* =========================================================
+   MEDIA <= 475
+========================================================= */
 
 @media (max-width: 475.98px) {
-    .img_fillin_gr {
-        width: auto;
-    }
+  .screen_elements {
+    width: 100%;
+  }
+
+  .heading_box {
+    font-size: 14px;
+  }
+
+  .fillin_gr input {
+    font-size: 13px;
+  }
 }
