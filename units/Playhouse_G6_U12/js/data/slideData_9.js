@@ -36,19 +36,19 @@ var reading_data = {
             "group_styles": "",
             "audio": ["../audios/Pg6_2.1_Stella.mp3","../audios/dough.mp3","../audios/sauce.mp3","../audios/sprinkle.mp3","../audios/cheese.mp3","../audios/add.mp3","../audios/pepperoni.mp3","../audios/slice.mp3"],
             "word": [
-                "<img src='../images/pages/activities/img1.png' class='img_t'/>",
+                "<img src='../images/pages/activities/img1.PNG' class='img_t'/>",
 
-                "<img src='../images/pages/activities/img2.png' class='img_l'/>",
+                "<img src='../images/pages/activities/img2.PNG' class='img_l'/>",
                 '<textarea id="paper-textarea" rows="10" cols="50" maxlength="400"></textarea>',
 
                 '<textarea id="paper-textarea" rows="10" cols="50" maxlength="400"></textarea>',
-                "<img src='../images/pages/activities/img3.png' class='img_l'/>",
+                "<img src='../images/pages/activities/img3.PNG' class='img_l'/>",
 
-                "<img src='../images/pages/activities/img4.png' class='img_l'/>",
+                "<img src='../images/pages/activities/img4.PNG' class='img_l'/>",
                 '<textarea id="paper-textarea" rows="10" cols="50" maxlength="400"></textarea>',
 
                 '<textarea id="paper-textarea" rows="10" cols="50" maxlength="400"></textarea>',
-                "<img src='../images/pages/activities/img5.png' class='img_l'/>"
+                "<img src='../images/pages/activities/img5.PNG' class='img_l'/>"
               ],
             "imagePlacePos":[
                 {"colWidth": [12], "colData": [1] },

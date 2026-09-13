@@ -602,6 +602,10 @@ function setLoadedStatus(val) {
               }
 
               break;
+            case "conversation_board":
+              buildConversationBoardBody(conversation_board_data);
+
+              break;
           }
         } else {
           // console.log('no build');
@@ -622,6 +626,7 @@ function setLoadedStatus(val) {
           case "fillin":
           case "mcq":
           case "wordpuzzle":
+          case "conversation_board":
           case "lesswordsearch":
           case "wordsearch":
           case "linedraw":

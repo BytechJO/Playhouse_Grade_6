@@ -12,7 +12,7 @@ var less_wordsearch_data = {
   mainTitleIconPos: { right: "-18px" },
   mainTitleAudio: "../audios/under.mp3",
   subTitleTextLeft:
-    "<span class='green_text'>3</span> Find it! <span class='blue_text'>Find as many '<span class='red_text'>-less</span>' words as you can! Then write them on the lines in the next question. There are 13!</span>",
+    "<span class='green_text'>3</span> Find it! <span class='blue_text'>Find as many '<span class='red_text'>-less</span>' words as you can! Then write them on the lines below. There are 13!</span>",
   subTitleTextRight: "",
   subTitleIcons: [],
   subTitleAudio: "../audios/under.mp3",

@@ -29,6 +29,9 @@
   /* color: rgb(0, 185, 242); */
   font-size: 26px;
 }
+.subTitleTextRight{
+    color: #00b7ce;
+}
 
 .green_text {
   background-color: #00b7ce;

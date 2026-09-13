@@ -271,6 +271,8 @@ function initiateActivityType(aActTyp, aActSubType) {
     theActivity = new Coloring(quePart, coloring_data);
   } else if (aActTyp == "lesswordsearch") {
     theActivity = new LessWordSearch(quePart, less_wordsearch_data);
+  } else if (aActTyp == "conversation_board") {
+    theActivity = new ConversationBoard(quePart, conversation_board_data);
   } else if (aActTyp == "standAlone") {
     theActivity = "standAlone";
   } else {
