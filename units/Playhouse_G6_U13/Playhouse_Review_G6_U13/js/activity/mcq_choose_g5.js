@@ -14,7 +14,7 @@ window.MCQ = function(obj, dataObj){
 }
 MCQ.prototype = {
     init:function(ob){       
-        this.ob = ob;
+        this.ob = ob; 
         // this.reset();
         this.listen(ob);
     },

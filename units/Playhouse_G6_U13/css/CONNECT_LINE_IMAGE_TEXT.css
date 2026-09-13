@@ -1,18 +1,3 @@
-body {
-  -webkit-touch-callout: none;
-  /* iOS Safari */
-  -webkit-user-select: none;
-  /* Chrome/Safari/Opera */
-  -khtml-user-select: none;
-  /* Konqueror */
-  -moz-user-select: none;
-  /* Firefox */
-  -ms-user-select: none;
-  /* Internet Explorer/Edge */
-  user-select: none;
-  /* Non-prefixed version, currently supported by any browser but < IE9 */
-}
-
 .drag_wrap {
   background-image: url(../images/pages/activities/imgl.PNG);
   background-repeat: no-repeat;
@@ -30,7 +15,7 @@ body {
 }
 
 .droppers , .dragger {
-  margin-top: -65px;
+  margin-top: -25px;
 }
 
 .mainTitleIcon {
@@ -117,7 +102,6 @@ body {
 }
 
 .drag {
-  height: 60px;
   margin: auto;
   margin-top: 0;
   margin-bottom: 0;
@@ -212,7 +196,6 @@ body {
     /* me */
     /* height: 118px; */
     /* height: 90px; */
-    height: 150px;
     /* me */
   }
 }

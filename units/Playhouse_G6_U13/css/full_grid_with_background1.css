@@ -1,0 +1,1024 @@
+/* =========================================================
+   GENERAL
+========================================================= */
+
+body {
+  margin: 0;
+  padding: 0;
+
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* =========================================================
+   MAIN GRID
+========================================================= */
+
+.full_grid_with_background_image {
+  width: 100%;
+
+  background-color: #dbeabf;
+
+  padding: 25px;
+
+  box-sizing: border-box;
+}
+
+.full_grid_with_background_image .col_grid_container {
+  position: relative;
+
+  width: 100%;
+
+  margin: 0 auto;
+
+  box-sizing: border-box;
+}
+
+.full_grid_with_background_image .snap_group_all {
+  position: relative;
+
+  width: 100%;
+
+  top: 0;
+  left: 0;
+
+  text-align: left;
+
+  line-height: 1.4;
+
+  box-sizing: border-box;
+}
+
+/* =========================================================
+   GRID COLUMN
+========================================================= */
+
+.grid_col {
+  width: 100%;
+
+  justify-items: center;
+  align-content: center;
+
+  box-sizing: border-box;
+}
+
+/* =========================================================
+   IMAGE HELPERS
+========================================================= */
+
+.img_c {
+  height: 300px;
+}
+
+.img_l {
+  height: 200px;
+}
+
+/* =========================================================
+   SLIDE 10
+========================================================= */
+
+.slide-10 {
+  width: 80%;
+
+  padding: 50px;
+
+  background-color: transparent;
+
+  border: solid 4px lightblue;
+
+  border-radius: 25px;
+
+  box-sizing: border-box;
+}
+
+/* =========================================================
+   SLIDE 11
+========================================================= */
+
+.slide-11 {
+  width: 100%;
+
+  padding: 0;
+
+  background-color: transparent;
+
+  box-sizing: border-box;
+}
+
+.slide-11 .col_grid_container {
+  width: 96%;
+
+  max-width: 1500px;
+
+  margin: 0 auto;
+
+  box-sizing: border-box;
+}
+
+.slide-11 .audioIcon {
+  transform: scale(1);
+}
+
+/* =========================================================
+   TOP TEXT
+========================================================= */
+
+.top-text {
+  width: 100%;
+
+  padding: 16px 20px;
+
+  margin: 0;
+
+  background-color: #dcecb7;
+
+  border-radius: 15px;
+
+  color: #333;
+
+  font-size: 20px;
+
+  line-height: 1.35;
+
+  text-align: left;
+
+  box-sizing: border-box;
+}
+
+/* =========================================================
+   INNER TOPICS BOX
+========================================================= */
+
+.inner-text {
+  width: 100%;
+
+  margin-top: 12px;
+
+  padding: 10px 18px;
+
+  background-color: #ffffff;
+
+  border: 2px solid #4b9d50;
+
+  border-radius: 15px;
+
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: flex-start;
+
+  gap: 15px;
+
+  box-sizing: border-box;
+}
+
+.inner-text p {
+  width: 25%;
+
+  margin: 0;
+
+  padding: 0;
+
+  color: #333;
+
+  font-size: 18px;
+
+  line-height: 1.35;
+
+  text-align: left;
+
+  box-sizing: border-box;
+}
+
+/* =========================================================
+   TEXTAREA CONTAINER
+   CLIPBOARD IMAGE
+========================================================= */
+
+.textarea-container {
+  position: relative;
+
+  width: 96%;
+
+  max-width: 1200px;
+
+  aspect-ratio: 930 / 709;
+
+  margin: 20px auto 0 auto;
+
+  padding: 0;
+
+  background-image: url("../images/pages/activities/write.png");
+
+  background-repeat: no-repeat;
+
+  background-position: center center;
+
+  background-size: 100% 100%;
+
+  border: none;
+
+  border-radius: 0;
+
+  overflow: hidden;
+
+  box-sizing: border-box;
+}
+
+/* =========================================================
+   TEXTAREA
+========================================================= */
+
+#paper-textarea {
+  position: absolute;
+
+  /*
+      مكان الورقة البيضاء داخل الصورة
+    */
+  left: 8%;
+  top: 16%;
+
+  /*
+      مساحة الكتابة
+    */
+  width: 84%;
+  height: 76%;
+
+  margin: 0;
+
+  padding: 20px 24px;
+
+  border: none;
+
+  outline: none;
+
+  resize: none;
+
+  background: transparent !important;
+
+  background-image: none !important;
+
+  color: #222;
+
+  font-family: Arial, sans-serif;
+
+  font-size: 24px;
+
+  font-weight: 400;
+
+  line-height: 1.55;
+
+  text-align: left;
+
+  overflow-y: auto;
+
+  overflow-x: hidden;
+
+  box-sizing: border-box;
+}
+
+/* =========================================================
+   GENERAL TEXTAREA
+========================================================= */
+
+textarea {
+  border: none;
+
+  outline: none;
+
+  resize: none;
+
+  background: transparent;
+
+  font-family: Arial, sans-serif;
+}
+
+/* =========================================================
+   SCROLLBAR
+========================================================= */
+
+#paper-textarea::-webkit-scrollbar {
+  width: 6px;
+}
+
+#paper-textarea::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+#paper-textarea::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.25);
+
+  border-radius: 10px;
+}
+
+/* =========================================================
+   LARGE LAPTOP
+========================================================= */
+
+@media (max-width: 1399.98px) {
+  .slide-11 .col_grid_container {
+    width: 80%;
+  }
+
+  .textarea-container {
+    width: 96%;
+
+    max-width: 1100px;
+  }
+
+  .top-text {
+    font-size: 19px;
+  }
+
+  .inner-text p {
+    font-size: 17px;
+  }
+
+  #paper-textarea {
+    font-size: 22px;
+
+    padding: 18px 22px;
+  }
+}
+
+/* =========================================================
+   SMALL LAPTOP / TABLET LANDSCAPE
+========================================================= */
+
+@media (max-width: 1199.98px) {
+  .slide-11 .col_grid_container {
+    width: 97%;
+  }
+
+  .textarea-container {
+    width: 97%;
+
+    max-width: 1000px;
+  }
+
+  .top-text {
+    font-size: 18px;
+  }
+
+  .inner-text {
+    gap: 12px;
+  }
+
+  .inner-text p {
+    font-size: 16px;
+  }
+
+  #paper-textarea {
+    left: 8%;
+    top: 16%;
+
+    width: 84%;
+    height: 76%;
+
+    font-size: 21px;
+  }
+}
+
+/* =========================================================
+   TABLET
+========================================================= */
+
+@media (max-width: 991.98px) {
+  .full_grid_with_background_image {
+    padding: 18px;
+  }
+
+  .slide-11 .col_grid_container {
+    width: 98%;
+  }
+
+  .top-text {
+    padding: 14px 16px;
+
+    font-size: 17px;
+  }
+
+  .inner-text {
+    padding: 9px 12px;
+
+    gap: 10px;
+  }
+
+  .inner-text p {
+    font-size: 15px;
+  }
+
+  .textarea-container {
+    width: 98%;
+
+    margin-top: 15px;
+  }
+
+  #paper-textarea {
+    left: 8%;
+    top: 16%;
+
+    width: 84%;
+    height: 76%;
+
+    padding: 16px 18px;
+
+    font-size: 20px;
+
+    line-height: 1.5;
+  }
+}
+
+/* =========================================================
+   MOBILE / SMALL TABLET
+========================================================= */
+
+@media (max-width: 767.98px) {
+  .full_grid_with_background_image {
+    padding: 12px;
+  }
+
+  .slide-11 .col_grid_container {
+    width: 100%;
+  }
+
+  .top-text {
+    padding: 12px;
+
+    font-size: 16px;
+
+    line-height: 1.3;
+  }
+
+  .inner-text {
+    padding: 8px 10px;
+
+    gap: 8px;
+
+    flex-wrap: wrap;
+  }
+
+  .inner-text p {
+    width: 48%;
+
+    font-size: 14px;
+
+    line-height: 1.3;
+  }
+
+  .textarea-container {
+    width: 100%;
+
+    margin-top: 12px;
+  }
+
+  #paper-textarea {
+    left: 8%;
+    top: 16%;
+
+    width: 84%;
+    height: 76%;
+
+    padding: 14px 16px;
+
+    font-size: 18px;
+
+    line-height: 1.45;
+  }
+}
+
+/* =========================================================
+   SMALL MOBILE
+========================================================= */
+
+@media (max-width: 575.98px) {
+  .top-text {
+    font-size: 15px;
+  }
+
+  .inner-text p {
+    width: 48%;
+
+    font-size: 13px;
+  }
+
+  #paper-textarea {
+    padding: 12px 14px;
+
+    font-size: 17px;
+  }
+}
+
+/* =========================================================
+   EXTRA SMALL
+========================================================= */
+
+@media (max-width: 475.98px) {
+  .full_grid_with_background_image {
+    padding: 8px;
+  }
+
+  .top-text {
+    padding: 10px;
+
+    font-size: 14px;
+  }
+
+  .inner-text {
+    padding: 7px 8px;
+  }
+
+  .inner-text p {
+    font-size: 12px;
+  }
+
+  #paper-textarea {
+    left: 8%;
+    top: 16%;
+
+    width: 84%;
+    height: 76%;
+
+    padding: 10px 12px;
+
+    font-size: 16px;
+  }
+}
+/* =========================================================
+   FIX WRITING PAGE
+========================================================= */
+
+/* الصفحة كاملة */
+.slide-11 {
+  width: 100% !important;
+  height: auto !important;
+  min-height: 100% !important;
+
+  padding: 0 !important;
+  margin: 0 !important;
+
+  background: transparent !important;
+
+  display: flex !important;
+  justify-content: center !important;
+}
+
+/* الحاوية الرئيسية */
+.slide-11 .col_grid_container {
+  position: relative !important;
+
+  width: 92% !important;
+  max-width: 1500px !important;
+
+  height: auto !important;
+
+  margin: 0 auto !important;
+  padding: 0 !important;
+}
+
+/* كل المحتوى */
+.slide-11 .snap_group_all {
+  position: relative !important;
+
+  top: auto !important;
+  left: auto !important;
+
+  width: 100% !important;
+  height: auto !important;
+
+  margin: 0 !important;
+  padding: 0 !important;
+
+  display: block !important;
+}
+
+/* كل row */
+.slide-11 .grid_row {
+  width: 100% !important;
+
+  margin: 0 !important;
+  padding: 0 !important;
+
+  display: block !important;
+}
+
+/* كل column */
+.slide-11 .grid_col {
+  width: 100% !important;
+  max-width: 100% !important;
+
+  flex: 0 0 100% !important;
+
+  margin: 0 !important;
+  padding: 0 !important;
+
+  display: block !important;
+}
+
+/* مهم جداً:
+   إلغاء أي حجم قديم للـ snap_card
+*/
+.slide-11 .snap_card {
+  position: relative !important;
+
+  width: 100% !important;
+  height: auto !important;
+  min-height: 0 !important;
+
+  margin: 0 !important;
+  padding: 0 !important;
+
+  display: block !important;
+
+  transform: none !important;
+}
+
+/* =========================================================
+   SS WORD FIX
+========================================================= */
+
+.slide-11 .ss_word {
+  position: relative !important;
+
+  top: auto !important;
+  left: auto !important;
+  right: auto !important;
+  bottom: auto !important;
+
+  width: 100% !important;
+  height: auto !important;
+
+  margin: 0 !important;
+  padding: 0 !important;
+
+  display: block !important;
+
+  transform: none !important;
+}
+
+/* specifically first and second items */
+.slide-11 .ss_t_1,
+.slide-11 .ss_t_2 {
+  position: relative !important;
+
+  top: auto !important;
+  left: auto !important;
+
+  width: 100% !important;
+  height: auto !important;
+
+  margin: 0 !important;
+  padding: 0 !important;
+
+  transform: none !important;
+}
+
+/* =========================================================
+   TEXT WRAPPER FIX
+========================================================= */
+
+.slide-11 .ss_text {
+  position: relative !important;
+
+  width: 100% !important;
+  height: auto !important;
+
+  margin: 0 !important;
+  padding: 0 !important;
+
+  text-align: left !important;
+
+  display: block !important;
+
+  background: transparent !important;
+
+  overflow: visible !important;
+
+  box-sizing: border-box !important;
+}
+
+/* =========================================================
+   TOP QUESTION TEXT
+========================================================= */
+
+.top-text {
+  width: 100% !important;
+
+  margin: 0 0 20px 0 !important;
+
+  padding: 18px 25px !important;
+
+  background: #dcecb7 !important;
+
+  border-radius: 18px !important;
+
+  color: #222 !important;
+
+  font-size: 21px !important;
+  line-height: 1.4 !important;
+
+  box-sizing: border-box !important;
+}
+
+/* =========================================================
+   TOPICS BOX
+========================================================= */
+
+.inner-text {
+  width: 100% !important;
+
+  margin: 15px 0 0 0 !important;
+
+  padding: 14px 20px !important;
+
+  background: #fff !important;
+
+  border: 2px solid #4b9d50 !important;
+  border-radius: 18px !important;
+
+  display: flex !important;
+
+  justify-content: space-between !important;
+  align-items: flex-start !important;
+
+  gap: 25px !important;
+
+  box-sizing: border-box !important;
+}
+
+.inner-text p {
+  width: 25% !important;
+
+  margin: 0 !important;
+  padding: 0 !important;
+
+  font-size: 18px !important;
+  line-height: 1.35 !important;
+
+  color: #222 !important;
+
+  text-align: left !important;
+}
+
+/* =========================================================
+   CLIPBOARD
+========================================================= */
+
+.textarea-container {
+  position: relative !important;
+
+  display: block !important;
+
+  width: 72% !important;
+  max-width: 950px !important;
+
+  /*
+      مهم جداً:
+      نعطيه ارتفاع فعلي بدل الاعتماد فقط على aspect-ratio
+    */
+  height: min(62vh, 720px) !important;
+  min-height: 500px !important;
+
+  margin: 20px auto 80px auto !important;
+
+  padding: 0 !important;
+
+  background-image: url("../images/pages/activities/write.png") !important;
+
+  background-repeat: no-repeat !important;
+
+  background-position: center center !important;
+
+  background-size: 100% 100% !important;
+
+  border: none !important;
+
+  overflow: visible !important;
+
+  box-sizing: border-box !important;
+}
+
+/* =========================================================
+   TEXTAREA فوق الورقة البيضاء
+========================================================= */
+
+#paper-textarea {
+  position: absolute !important;
+
+  left: 8.5% !important;
+  top: 17% !important;
+
+  width: 83% !important;
+  height: 75% !important;
+
+  margin: 0 !important;
+
+  padding: 8px 18px 0 18px !important;
+
+  border: none !important;
+  outline: none !important;
+
+  resize: none !important;
+
+  color: #222 !important;
+
+  font-family: Arial, sans-serif !important;
+  font-size: 22px !important;
+
+  /* مهم: نفس ارتفاع الخط مع سطر الكتابة */
+  line-height: 1.6em !important;
+
+  text-align: left !important;
+
+  overflow-y: auto !important;
+  overflow-x: hidden !important;
+
+  box-sizing: border-box !important;
+
+  z-index: 5 !important;
+
+  user-select: text !important;
+  -webkit-user-select: text !important;
+
+  /* =====================================================
+       PAPER LINES
+    ===================================================== */
+
+  background-color: transparent !important;
+
+  background-image: repeating-linear-gradient(
+    to bottom,
+
+    transparent 0,
+
+    transparent calc(1.6em - 1px),
+    rgba(60, 60, 60, 0.65) calc(1.6em - 1px),
+    rgba(60, 60, 60, 0.65) 1.6em
+  ) !important;
+
+  background-size: 100% 1.6em !important;
+
+  background-position: 0 0 !important;
+}
+
+/* =========================================================
+   TEXTAREA PLACEHOLDER / FOCUS
+========================================================= */
+
+#paper-textarea:focus {
+  outline: none !important;
+  border: none !important;
+}
+
+/* =========================================================
+   SCROLLBAR
+========================================================= */
+
+#paper-textarea::-webkit-scrollbar {
+  width: 6px;
+}
+
+#paper-textarea::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+#paper-textarea::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.25);
+
+  border-radius: 10px;
+}
+
+/* =========================================================
+   LAPTOP
+========================================================= */
+
+@media (max-width: 1399.98px) {
+  .slide-11 .col_grid_container {
+    width: 94% !important;
+  }
+
+  .textarea-container {
+    width: 68% !important;
+
+    height: min(60vh, 650px) !important;
+
+    min-height: 470px !important;
+  }
+
+  #paper-textarea {
+    font-size: 21px !important;
+  }
+}
+
+/* =========================================================
+   TABLET LANDSCAPE
+========================================================= */
+
+@media (max-width: 1199.98px) {
+  .textarea-container {
+    width: 75% !important;
+
+    min-height: 440px !important;
+  }
+
+  .top-text {
+    font-size: 19px !important;
+  }
+
+  .inner-text p {
+    font-size: 16px !important;
+  }
+
+  #paper-textarea {
+    font-size: 20px !important;
+  }
+}
+
+/* =========================================================
+   TABLET
+========================================================= */
+
+@media (max-width: 991.98px) {
+  .slide-11 .col_grid_container {
+    width: 96% !important;
+  }
+
+  .textarea-container {
+    width: 82% !important;
+
+    height: min(58vh, 580px) !important;
+
+    min-height: 420px !important;
+  }
+
+  .inner-text {
+    gap: 12px !important;
+  }
+
+  .inner-text p {
+    font-size: 15px !important;
+  }
+
+  #paper-textarea {
+    padding: 16px 18px !important;
+
+    font-size: 19px !important;
+  }
+}
+
+/* =========================================================
+   SMALL TABLET / MOBILE
+========================================================= */
+
+@media (max-width: 767.98px) {
+  .slide-11 .col_grid_container {
+    width: 98% !important;
+  }
+
+  .top-text {
+    padding: 14px !important;
+
+    font-size: 16px !important;
+  }
+
+  .inner-text {
+    flex-wrap: wrap !important;
+
+    padding: 10px !important;
+  }
+
+  .inner-text p {
+    width: 48% !important;
+
+    font-size: 14px !important;
+  }
+
+  .textarea-container {
+    width: 92% !important;
+
+    height: 520px !important;
+
+    min-height: 400px !important;
+  }
+
+  #paper-textarea {
+    left: 8.5% !important;
+    top: 17% !important;
+
+    width: 83% !important;
+    height: 75% !important;
+
+    padding: 14px 16px !important;
+
+    font-size: 18px !important;
+  }
+}
+.slide-11 .col_grid_container {
+  width: 80% !important;
+}

@@ -11,7 +11,7 @@ function buildFillInBody(aObj) {
 		htmlStmt +=  '<div class="sub_footer_icon sub_footer_icon_left subFooterNav backNav mx-1">'
 		htmlStmt +=  '<a href="">'
 		htmlStmt +=  '<img src="../images/icons/back_btn.png" />'
-		htmlStmt +=  '</a>'
+		htmlStmt +=  '</a>' 
 		htmlStmt +=  '</div>'
 		htmlStmt +=  '<div class="sub_footer_icon sub_footer_icon_right subFooterNav nextNav mx-1">'
 		htmlStmt +=  '<a href="">'

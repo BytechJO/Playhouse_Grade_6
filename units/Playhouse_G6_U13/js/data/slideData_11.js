@@ -22,11 +22,11 @@ var reading_data = {
     "mainTitle": "../images/pages/sb-icons/writing.png",
     "mainTitleIcon": "../images/pages/sb-icons/phonics_3_icon.png",
     "mainTitleIconPos": {"right": "100px"},
-    "mainTitleAudio": "../audios/p102/WRITING.mp3",
+    "mainTitleAudio": "../audios/p122/WRITING.mp3",
     "subTitleTextLeft": "<span class='title-order'>2</span> Write about it!",
     "subTitleTextRight": "",
     "subTitleIcons": [],
-    "subTitleAudio": "../audios/p102/1_Read_about_it!.mp3",
+    "subTitleAudio": "../audios/P122/2_Write_about_it!.mp3",
     "slides": [
         {
             "layout": "grid_columns",

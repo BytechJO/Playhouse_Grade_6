@@ -16,7 +16,7 @@ function buildMcqBody(aObj) {
 		htmlStmt +=  '<a href="">'
 		htmlStmt +=  '<img src="../images/icons/next_btn.png" />'
 		htmlStmt +=  '</a>'
-		htmlStmt +=  '</div>'
+		htmlStmt +=  '</div>' 
 		// ===================================================================== heading =====================
 		htmlStmt += '<div class="act_head_group justify-content-center">';
 			htmlStmt += '<div class="audioIcon off contant " data-slideNum="' + 1 + '" data-audio="' + aObj.mainTitleAudio + '">';

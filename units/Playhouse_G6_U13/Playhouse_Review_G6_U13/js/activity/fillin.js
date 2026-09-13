@@ -10,7 +10,7 @@ window.FillIn = function(obj, dataObj){
         'has_audio'     : (obj[0].dataset.audio!=undefined && obj[0].dataset.audio!=null)? obj[0].dataset.audio:'no',
         'data_obj'      : dataObj,
         'parent_holder' : obj[0]
-    }    
+    }     
     this.init(this.settings);
 }
 FillIn.prototype = {

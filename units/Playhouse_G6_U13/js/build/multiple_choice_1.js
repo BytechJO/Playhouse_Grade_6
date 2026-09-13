@@ -1,0 +1,384 @@
+function buildMcqBody(aObj) {
+  var htmlStmt = "";
+
+  if (typeof aObj != undefined && aObj != null) {
+    var numOfQuestions = aObj.questions.length;
+    var numberofCols = parseInt(aObj.numberofcolumns);
+    var numOfQinCol = Math.round(numOfQuestions / numberofCols);
+    var currQueNum = 0;
+
+    htmlStmt += '<div class="sub_footer_icon subFooterNav backNav mx-1">';
+    htmlStmt += '<a href="">';
+    htmlStmt += '<img src="../images/icons/back_btn.png" />';
+    htmlStmt += "</a>";
+    htmlStmt += "</div>";
+
+    htmlStmt += '<div class="sub_footer_icon subFooterNav nextNav mx-1">';
+    htmlStmt += '<a href="">';
+    htmlStmt += '<img src="../images/icons/next_btn.png" />';
+    htmlStmt += "</a>";
+    htmlStmt += "</div>";
+
+    // =====================================================================
+    // HEADING
+    // =====================================================================
+
+    htmlStmt += '<div class="act_head_group justify-content-center">';
+
+    htmlStmt +=
+      '<div class="audioIcon off contant " data-slideNum="' +
+      1 +
+      '" data-audio="' +
+      aObj.mainTitleAudio +
+      '">';
+
+    htmlStmt += '<div class="q-type-img-container">';
+
+    htmlStmt += '<img class="mainTitle" src=' + aObj.mainTitle + ">";
+
+    if (aObj.mainTitleIcon != undefined && aObj.mainTitleIcon != "") {
+      htmlStmt +=
+        '<img class="mainTitleIcon" src=' +
+        aObj.mainTitleIcon +
+        ' style="right:' +
+        aObj.mainTitleIconPos.right +
+        ';">';
+    }
+
+    htmlStmt += "</div>";
+    htmlStmt += "</div>";
+
+    htmlStmt += '<div class="activityHeading">';
+
+    htmlStmt +=
+      '<div class="audioIcon off contant audioQuestionTitle" data-slideNum="' +
+      1 +
+      '" data-audio="' +
+      aObj.subTitleAudio +
+      '">';
+
+    htmlStmt += "<div class='page_sub_title'>";
+
+    htmlStmt += "<p> " + aObj.subTitleTextLeft + " </p>";
+
+    for (var sicons = 0; sicons < aObj.subTitleIcons.length; sicons++) {
+      htmlStmt += "<img src='" + aObj.subTitleIcons[sicons] + "'/>";
+    }
+
+    htmlStmt +=
+      "<br><p class='subTitleTextRight'> " +
+      aObj.subTitleTextRight +
+      " </p>";
+
+    htmlStmt += "</div>";
+    htmlStmt += "</div>";
+    htmlStmt += "</div>";
+    htmlStmt += "</div>";
+
+    // =====================================================
+    // READING POPUP BUTTON
+    // =====================================================
+
+    if (aObj.helpPopup != undefined && aObj.helpPopup != null) {
+      htmlStmt += '<button type="button" class="reading_help_btn">';
+      htmlStmt += "Read the text";
+      htmlStmt += "</button>";
+
+      // ===================================================
+      // POPUP
+      // ===================================================
+
+      htmlStmt += '<div class="reading_popup_overlay">';
+
+      htmlStmt += '<div class="reading_popup">';
+
+      // CLOSE
+      htmlStmt += '<button type="button" class="reading_popup_close">';
+      htmlStmt += "&times;";
+      htmlStmt += "</button>";
+
+      // TITLE
+      htmlStmt += '<div class="reading_popup_title">';
+      htmlStmt += aObj.helpPopup.title;
+      htmlStmt += "</div>";
+
+      // CONTENT
+      htmlStmt += '<div class="reading_popup_content">';
+
+      // TEXT
+      htmlStmt += '<div class="reading_popup_text">';
+
+      for (var rp = 0; rp < aObj.helpPopup.paragraphs.length; rp++) {
+        htmlStmt += '<div class="reading_popup_paragraph">';
+        htmlStmt += aObj.helpPopup.paragraphs[rp];
+        htmlStmt += "</div>";
+      }
+
+      htmlStmt += "</div>";
+
+      // IMAGE
+      if (aObj.helpPopup.image != undefined && aObj.helpPopup.image != "") {
+        htmlStmt += '<div class="reading_popup_image">';
+
+        htmlStmt += '<img src="' + aObj.helpPopup.image + '">';
+
+        htmlStmt += "</div>";
+      }
+
+      htmlStmt += "</div>";
+      htmlStmt += "</div>";
+      htmlStmt += "</div>";
+    }
+
+    // =====================================================================
+    // ALL CONTENT
+    // =====================================================================
+
+    htmlStmt += '<div class="options cont_ht_sf mx-auto">';
+
+    htmlStmt +=
+      '<div class="all_cont justify-content-start justify-content-sm-center">';
+
+    htmlStmt +=
+      '<div class="group_elm d-flex flex-wrap justify-content-center align-items-center mb-70">';
+
+    if (aObj.image != "no" && aObj.image != "") {
+      if (aObj.imageposition == "front") {
+        htmlStmt +=
+          '<div class="img_space"><img src="' +
+          aObj.image +
+          '"></img></div>';
+      }
+    }
+
+    // =====================================================================
+    // MCQ QUESTIONS
+    // =====================================================================
+
+    for (x = 0; x < numberofCols; x++) {
+      htmlStmt += '<div class="tick_group d-flex flex-wrap">';
+
+      for (y = 0; y < numOfQinCol; y++) {
+        currQueNum++;
+
+        var tpOb = aObj.questions[currQueNum - 1];
+
+        if (typeof tpOb != undefined && tpOb != null) {
+          htmlStmt +=
+            '<div class="que background_audio d-flex flex-column" id="que_' +
+            currQueNum +
+            '" data-qno="' +
+            currQueNum +
+            '">';
+
+          htmlStmt += '<div class="d-flex q_part">';
+
+          // =====================================================
+          // QUESTION NUMBER
+          // =====================================================
+
+          if (aObj.numbering != "none") {
+            htmlStmt += '<div class="q_num_space">';
+
+            if (aObj.numbering == "alphabet") {
+              xx = currQueNum == 1 ? aObj.numberstartfrom : nextChar(xx);
+            } else if (aObj.numbering == "number") {
+              xx = x + parseInt(aObj.numberstartfrom);
+              x++;
+            }
+
+            htmlStmt += xx + "</div>";
+          }
+
+          console.log(x, y, currQueNum, tpOb);
+
+          // =====================================================
+          // QUESTION TEXT
+          // =====================================================
+
+          htmlStmt +=
+            '<div class="question">' +
+            tpOb.question +
+            "</div>";
+
+          if (tpOb.image != undefined && tpOb.image != "") {
+            htmlStmt +=
+              '<div class="img_space"><img src="' +
+              tpOb.image +
+              '"></img></div>';
+          }
+
+          htmlStmt += "</div>";
+
+          // =====================================================
+          // OPTIONS
+          // =====================================================
+
+          htmlStmt += '<div class="d-flex flex-wrap picks_grp">';
+
+          if (tpOb.options.length > 0) {
+            for (var opt = 0; opt < tpOb.options.length; opt++) {
+              htmlStmt +=
+                '<div id="pick_' +
+                currQueNum +
+                "_" +
+                (opt + 1) +
+                '" class="pick d-flex">';
+
+              if (tpOb.numbering != "none") {
+                htmlStmt += '<div class="q_num_space">';
+
+                if (tpOb.numbering == "alphabet") {
+                  xx = opt == 0 ? tpOb.numberstartfrom : nextChar(xx);
+                } else if (tpOb.numbering == "number") {
+                  xx = opt + parseInt(tpOb.numberstartfrom);
+                }
+
+                htmlStmt += xx + ". </div>";
+              }
+
+              htmlStmt +=
+                '<div class="txt">' +
+                tpOb.options[opt].text +
+                "</div> ";
+
+              if (
+                tpOb.options[opt].image != undefined &&
+                tpOb.options[opt].image != ""
+              ) {
+                htmlStmt +=
+                  '<div><img src="' +
+                  tpOb.options[opt].image +
+                  '"/></div>';
+              }
+
+              htmlStmt += "</div>";
+            }
+          }
+
+          htmlStmt += "</div>";
+
+          // =====================================================
+          // CHECK / CROSS
+          // =====================================================
+
+          htmlStmt += '<div class="icon_wrap p-2">';
+
+          htmlStmt +=
+            '<div class="tick"><img src="../images/icons/check_btn.png"></div>';
+
+          htmlStmt +=
+            '<div class="cross"><img src="../images/icons/cross_btn.png"></div>';
+
+          htmlStmt += "</div>";
+
+          htmlStmt += "</div>";
+        }
+      }
+
+      htmlStmt += "</div>";
+    }
+
+    // =====================================================================
+    // STATIC QUESTIONS
+    // هدول مش تابعين للـ MCQ نهائياً
+    // ما عليهم validation
+    // =====================================================================
+
+    htmlStmt += '<div class="static_questions_wrap">';
+
+    // =====================================================
+    // QUESTION 4
+    // =====================================================
+
+    htmlStmt += '<div class="static_question_item">';
+
+    htmlStmt += '<div class="static_question_row">';
+
+    htmlStmt += '<div class="static_question_number">4</div>';
+
+    htmlStmt +=
+      '<div class="static_question_text">' +
+      "Do you think the boy will accept Max’s friend request? Why?" +
+      "</div>";
+
+    htmlStmt += "</div>";
+
+    htmlStmt +=
+      '<input type="text" ' +
+      'class="static_answer_input" ' +
+      'autocomplete="off">';
+
+    htmlStmt += "</div>";
+
+    // =====================================================
+    // QUESTION 5
+    // =====================================================
+
+    htmlStmt += '<div class="static_question_item">';
+
+    htmlStmt += '<div class="static_question_row">';
+
+    htmlStmt += '<div class="static_question_number">5</div>';
+
+    htmlStmt +=
+      '<div class="static_question_text">' +
+      "What kind of comment would you write on Evan’s timeline if he were your friend?" +
+      "</div>";
+
+    htmlStmt += "</div>";
+
+    htmlStmt +=
+      '<input type="text" ' +
+      'class="static_answer_input" ' +
+      'autocomplete="off">';
+
+    htmlStmt += "</div>";
+
+    htmlStmt += "</div>";
+
+    // =====================================================================
+    // CLOSE CONTAINERS
+    // =====================================================================
+
+    htmlStmt += "</div></div></div>";
+  }
+
+  console.log("htmlStmt >> mcq Built");
+
+  $(".activity_area").append(htmlStmt);
+
+  // =====================================================
+  // OPEN READING POPUP
+  // =====================================================
+
+  $(".reading_help_btn")
+    .off("click")
+    .on("click", function () {
+      $(".reading_popup_overlay").addClass("show");
+    });
+
+  // =====================================================
+  // CLOSE POPUP
+  // =====================================================
+
+  $(".reading_popup_close")
+    .off("click")
+    .on("click", function () {
+      $(".reading_popup_overlay").removeClass("show");
+    });
+
+  // =====================================================
+  // CLICK OUTSIDE
+  // =====================================================
+
+  $(".reading_popup_overlay")
+    .off("click")
+    .on("click", function (e) {
+      if ($(e.target).hasClass("reading_popup_overlay")) {
+        $(".reading_popup_overlay").removeClass("show");
+      }
+    });
+
+  setLoadedStatus(getCurrFileOrDirectory("file"));
+}
