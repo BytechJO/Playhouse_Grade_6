@@ -1,0 +1,378 @@
+/* =========================================================
+   MAIN
+========================================================= */
+
+.lws_all_cont {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.lws_activity {
+  width: 95%;
+  max-width: 1200px;
+
+  margin: 0 auto;
+
+  position: relative;
+
+  box-sizing: border-box;
+}
+
+/* =========================================================
+   TITLE
+========================================================= */
+
+.lws_page_sub_title {
+  width: 100%;
+
+  display: flex;
+
+  align-items: center;
+
+  text-align: left;
+}
+
+.lws_title_left {
+  margin: 0;
+
+  color: #00aec5;
+
+  font-size: 20px;
+
+  font-weight: bold;
+}
+
+.lws_title_left b {
+  color: #222;
+
+  font-style: italic;
+}
+
+/* =========================================================
+   GRID SECTION
+========================================================= */
+
+.lws_grid_section {
+  width: 100%;
+
+  position: relative;
+
+  margin-top: 8px;
+}
+
+/* =========================================================
+   WHOLE GRID FEEDBACK
+========================================================= */
+
+.lws_grid_feedback {
+  width: 34px;
+  height: 34px;
+
+  position: absolute;
+
+  right: -4px;
+  top: -4px;
+
+  z-index: 50;
+}
+
+.lws_grid_feedback .tick,
+.lws_grid_feedback .cross {
+  width: 34px;
+  height: 34px;
+
+  display: none;
+}
+
+.lws_grid_feedback img {
+  width: 100%;
+  height: 100%;
+
+  display: block;
+
+  object-fit: contain;
+}
+
+/* =========================================================
+   GRID WRAP
+========================================================= */
+
+.lws_grid_wrap {
+  width: 100%;
+
+  position: relative;
+
+  border: 2px solid #555;
+
+  box-sizing: border-box;
+
+  overflow: visible;
+
+  user-select: none;
+}
+
+/* =========================================================
+   MATRIX
+========================================================= */
+
+.lws_matrix {
+  width: 100%;
+
+  display: grid;
+
+  grid-template-columns: repeat(var(--lws-cols), 1fr);
+
+  position: relative;
+  background-color: #fff;
+  z-index: 5;
+}
+
+/* =========================================================
+   CELL
+========================================================= */
+
+.lws_cell {
+  aspect-ratio: 1 / 1;
+
+  position: relative;
+
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+
+  border-right: 1px solid #555;
+  border-bottom: 1px solid #555;
+
+  box-sizing: border-box;
+
+  cursor: pointer;
+
+  background: transparent;
+}
+
+/* =========================================================
+   LETTER
+========================================================= */
+
+.lws_letter {
+  position: relative;
+
+  z-index: 20;
+
+  color: #222;
+
+  font-size: 20px;
+
+  line-height: 1;
+
+  text-transform: lowercase;
+
+  pointer-events: none;
+}
+
+/* =========================================================
+   SVG HIGHLIGHT
+========================================================= */
+
+.lws_highlight_svg {
+  width: 100%;
+  height: 100%;
+
+  position: absolute;
+
+  left: 0;
+  top: 0;
+
+  z-index: 10;
+
+  pointer-events: none;
+
+  overflow: visible;
+}
+
+.lws_preview_line {
+  stroke: rgba(0, 181, 213, 0.45);
+
+  stroke-width: 27px;
+
+  stroke-linecap: round;
+
+  display: none;
+}
+
+.lws_saved_line {
+  stroke: rgba(0, 181, 213, 0.42);
+
+  stroke-width: 27px;
+
+  stroke-linecap: round;
+}
+
+/* =========================================================
+   NUMBERS LAYER
+========================================================= */
+
+.lws_numbers_layer {
+  width: 100%;
+  height: 100%;
+
+  position: absolute;
+
+  left: 0;
+  top: 0;
+
+  z-index: 30;
+
+  pointer-events: none;
+}
+
+/* =========================================================
+   NUMBER ON FOUND WORD
+========================================================= */
+
+.lws_found_number {
+  width: 25px;
+  height: 25px;
+
+  position: absolute;
+
+  transform: translate(-50%, -145%);
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+
+  background: #00abc4;
+
+  color: #fff;
+
+  font-size: 14px;
+
+  font-weight: bold;
+
+  line-height: 1;
+
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+}
+
+/* =========================================================
+   ANSWERS
+========================================================= */
+
+.lws_answers {
+  width: 100%;
+
+  margin-top: 30px;
+
+  display: grid;
+
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+
+  column-gap: 42px;
+
+  row-gap: 22px;
+}
+
+/* =========================================================
+   ANSWER ITEM
+========================================================= */
+
+.lws_answer_item {
+  width: 100%;
+
+  position: relative;
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 7px;
+}
+
+/* =========================================================
+   INPUT
+========================================================= */
+
+.lws_answer_input {
+  width: 100%;
+
+  height: 35px;
+
+  padding: 0 5px;
+
+  border: none;
+
+  border-bottom: 2px solid #666;
+
+  outline: none;
+
+  background: transparent;
+
+  color: #222;
+
+  font-family: inherit;
+
+  font-size: 20px;
+
+  text-align: center;
+
+  box-sizing: border-box;
+}
+
+/* =========================================================
+   INPUT FEEDBACK
+========================================================= */
+
+.lws_answer_feedback {
+  width: 28px;
+  height: 28px;
+
+  flex-shrink: 0;
+
+  position: relative;
+}
+
+.lws_answer_feedback .tick,
+.lws_answer_feedback .cross {
+  width: 28px;
+  height: 28px;
+
+  display: none;
+}
+
+.lws_answer_feedback img {
+  width: 100%;
+  height: 100%;
+
+  display: block;
+
+  object-fit: contain;
+}
+
+/* =========================================================
+   RESPONSIVE
+========================================================= */
+
+@media (max-width: 1050px) {
+  .lws_letter {
+    font-size: 17px;
+  }
+
+  .lws_answers {
+    column-gap: 28px;
+    row-gap: 18px;
+  }
+
+  .lws_answer_input {
+    font-size: 18px;
+  }
+}

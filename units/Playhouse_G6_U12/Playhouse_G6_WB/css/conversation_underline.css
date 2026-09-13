@@ -1,0 +1,239 @@
+/* =========================================================
+   MAIN
+========================================================= */
+
+.cu_all_cont {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.cu_activity {
+  width: 94%;
+
+  max-width: 1200px;
+
+  margin: 0 auto;
+
+  padding: 5px 15px 25px;
+
+  box-sizing: border-box;
+}
+
+/* =========================================================
+   TITLE
+========================================================= */
+
+.cu_page_sub_title {
+  width: 100%;
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 5px;
+
+  text-align: left;
+}
+
+.cu_page_sub_title p {
+  margin: 0;
+}
+
+.cu_title_left {
+  color: #00aeef;
+
+  font-size: 18px;
+
+  font-style: italic;
+
+  font-weight: bold;
+}
+
+.cu_title_right {
+  color: #00aeef;
+
+  font-size: 18px;
+
+  font-style: italic;
+}
+
+/* =========================================================
+   CONVERSATION
+========================================================= */
+
+.cu_conversation {
+  width: 100%;
+
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 5px;
+}
+
+/* =========================================================
+   ROW
+========================================================= */
+
+.cu_row {
+  width: 100%;
+
+  display: flex;
+
+  align-items: flex-start;
+
+  gap: 8px;
+
+  box-sizing: border-box;
+}
+
+/* =========================================================
+   SPEAKER
+========================================================= */
+
+.cu_speaker {
+  width: 70px;
+
+  flex-shrink: 0;
+
+  color: #111;
+
+  font-size: 22px;
+
+  font-weight: bold;
+
+  line-height: 1.5;
+}
+
+/* =========================================================
+   TEXT
+========================================================= */
+
+.cu_text {
+  flex: 1;
+
+  min-width: 0;
+
+  color: #222;
+
+  font-size: 22px;
+
+  line-height: 1.5;
+
+  text-align: left;
+}
+
+/* =========================================================
+   CLICKABLE WORD POWER WORD
+========================================================= */
+
+.cu_word {
+  position: relative;
+
+  display: inline;
+
+  cursor: pointer;
+
+  color: inherit;
+
+  white-space: normal;
+
+  user-select: none;
+}
+
+/* =========================================================
+   HOVER
+========================================================= */
+
+.cu_word:hover {
+  color: #00aeef;
+}
+
+/* =========================================================
+   SELECTED UNDERLINE
+========================================================= */
+
+.cu_word.selected {
+  color: #111;
+
+  text-decoration-line: underline;
+
+  text-decoration-style: solid;
+
+  text-decoration-thickness: 3px;
+
+  text-decoration-color: #e33d3d;
+
+  text-underline-offset: 4px;
+}
+
+/* =========================================================
+   RESPONSIVE
+========================================================= */
+
+@media (max-width: 1050px) {
+  .cu_activity {
+    width: 96%;
+  }
+
+  .cu_speaker {
+    width: 62px;
+
+    font-size: 16px;
+  }
+
+  .cu_text {
+    font-size: 16px;
+  }
+
+  .cu_title_left,
+  .cu_title_right {
+    font-size: 17px;
+  }
+}
+.cu_activity {
+  width: 94%;
+  max-width: 1200px;
+
+  margin: 0 auto;
+
+  padding: 5px 15px 25px;
+
+  box-sizing: border-box;
+
+  position: relative;
+}
+
+.cu_main_feedback {
+  width: 32px;
+  height: 32px;
+
+  position: absolute;
+
+  top: 5px;
+  right: 5px;
+
+  margin: 0;
+}
+
+.cu_main_feedback .tick,
+.cu_main_feedback .cross {
+  width: 32px;
+  height: 32px;
+
+  display: none;
+}
+
+.cu_main_feedback img {
+  width: 100%;
+  height: 100%;
+
+  display: block;
+
+  object-fit: contain;
+}

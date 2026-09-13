@@ -44,7 +44,7 @@ var fillin_data = {
           "audio": "",
           "audioenable": "default", // correct (or) default
           "image": "",
-          "answer": [""],
+          "answer": ["1"],
           "alternateanswer": [[]],
           "strictcase": "no", // yes (or) no  
           "strictorder": "yes", // yes (or) no              
@@ -59,7 +59,7 @@ var fillin_data = {
           "audio": "",
           "audioenable": "default", // correct (or) default
           "image": "",
-          "answer": [""],
+          "answer": ["3"],
           "alternateanswer": [[]],
           "strictcase": "no", // yes (or) no  
           "strictorder": "yes", // yes (or) no              
@@ -74,7 +74,7 @@ var fillin_data = {
           "audio": "",
           "audioenable": "default", // correct (or) default
           "image": "",
-          "answer": [""],
+          "answer": ["2"],
           "alternateanswer": [[]],
           "strictcase": "no", // yes (or) no  
           "strictorder": "yes", // yes (or) no              
@@ -89,7 +89,7 @@ var fillin_data = {
           "audio": "",
           "audioenable": "default", // correct (or) default
           "image": "",
-          "answer": [""],
+          "answer": ["4"],
           "alternateanswer": [[]],
           "strictcase": "no", // yes (or) no  
           "strictorder": "yes", // yes (or) no              

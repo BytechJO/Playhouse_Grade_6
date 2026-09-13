@@ -61,22 +61,22 @@
 
 .que[data-qno="1"]{
     border: 1px solid #ccc;
-    background: #eee7f1;
+    background: #eee7f1 !important;
 }
 
 .que[data-qno="2"]{
     border: 1px solid #ccc;
-    background: #fffcdd;
+    background: #fffcdd !important;
 }
 
 .que[data-qno="3"]{
     border: 1px solid #ccc;
-    background: #f2f8ea;
+    background: #f2f8ea !important;
 }
 
 .que[data-qno="4"]{
     border: 1px solid #ccc;
-    background: #e1f4fd;
+    background: #e1f4fd !important;
 }
 
 .fill_in .que {

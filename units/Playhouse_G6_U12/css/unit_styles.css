@@ -112,25 +112,6 @@
 /**************** fonts end ***************/
 
 
-/**************** Scrollbar ***************/
-
-::-webkit-scrollbar {
-    width: 15px;
-}
-
-::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 5px grey;
-    border-radius: 10px;
-}
-
-::-webkit-scrollbar-thumb {
-    background: #00b7ce;
-    border-radius: 10px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-    background: #018b9d;
-}
 /**************** Unit Color code ***************/
 .unitTitleText {
     padding-left: 2px;
@@ -165,7 +146,12 @@
 .darkBlue_text {
     color: darkblue;
 }
-
+.bold_text {
+  font-weight: bold;
+}
+.red_text{
+  color: #ed1b2a;
+}
 /**************** Unit Color code end***************/
 
 .activityTitle,

@@ -32,7 +32,7 @@ var reading_data = {
 
             "layout": "grid_columns",
             "mainImage": [],
-            "top_right_image": [],
+            "top_right_image": ["../images/pages/page-2/1-img.png"],
             "parent_class_name": "grid_with_border",
             "group_styles": "padding-top: 20px; padding-bottom: 50px;",
             "audio": ["../audios/p105/Pg6_2.1_Stella.mp3","../audios/p105/dough.mp3","../audios/p105/sauce.mp3","../audios/p105/sprinkle.mp3","../audios/p105/cheese.mp3","../audios/p105/add.mp3","../audios/p105/pepperoni.mp3","../audios/p105/slice.mp3"],

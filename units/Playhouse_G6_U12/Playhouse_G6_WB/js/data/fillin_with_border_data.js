@@ -135,7 +135,7 @@ var fillin_data = {
         "alternateanswer": [[]],
         "strictcase": "no", // yes (or) no    
         "strictorder": "yes", // yes (or) no              
-        "maxlength": 50,
+        "maxlength": 100,
         "type": "text", // text (or) number
       },
       {
@@ -151,7 +151,7 @@ var fillin_data = {
         "alternateanswer": [[]],
         "strictcase": "no", // yes (or) no    
         "strictorder": "yes", // yes (or) no              
-        "maxlength": 50,
+        "maxlength": 100,
         "type": "text", // text (or) number
       },
       {
@@ -167,7 +167,7 @@ var fillin_data = {
         "alternateanswer": [[]],
         "strictcase": "no", // yes (or) no    
         "strictorder": "yes", // yes (or) no              
-        "maxlength": 50,
+        "maxlength": 100,
         "type": "text", // text (or) number
       },
       {
@@ -183,7 +183,7 @@ var fillin_data = {
         "alternateanswer": [[]],
         "strictcase": "no", // yes (or) no    
         "strictorder": "yes", // yes (or) no              
-        "maxlength": 50,
+        "maxlength": 100,
         "type": "text", // text (or) number
       },
       {
@@ -199,7 +199,7 @@ var fillin_data = {
         "alternateanswer": [[]],
         "strictcase": "no", // yes (or) no    
         "strictorder": "yes", // yes (or) no              
-        "maxlength": 50,
+        "maxlength": 100,
         "type": "text", // text (or) number
       },
     ]
