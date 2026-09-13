@@ -42,26 +42,26 @@ var linedraw_data = {
         "drags"             : [
             {
                 "text"          : "",
-                "image"         : "../images/pages/activities/img_1.png",
+                "image"         : "../images/pages/activities/img_1.PNG",
                 "audio"         : "../audios/under.mp3",
                 "audioenable"   : "default", // correct (or) default
             },
             {
                 "text"          : "",
-				"image"         : "../images/pages/activities/img_2.png",
+				"image"         : "../images/pages/activities/img_2.PNG",
                 "audio"         : "../audios/under.mp3",
                 "audioenable"   : "default", // correct (or) default
                
             },
             {
                 "text"          : "",
-                "image"         : "../images/pages/activities/img_3.png",
+                "image"         : "../images/pages/activities/img_3.PNG",
                 "audio"         : "../audios/under.mp3",
                 "audioenable"   : "default", // correct (or) default
             },
             {
                 "text"          : "",
-                "image"         : "../images/pages/activities/img_4.png",
+                "image"         : "../images/pages/activities/img_4.PNG",
                 "audio"         : "../audios/under.mp3",
                 "audioenable"   : "default", // correct (or) default
             }
@@ -69,28 +69,28 @@ var linedraw_data = {
         "drops"                 : [
             {
                 "text"          : "",
-                "image"         : "../images/pages/activities/img_5.png",
+                "image"         : "../images/pages/activities/img_5.PNG",
                 "answer"        : [3],
                 "audio"         : "",
                 "audioenable"   : "default", // correct (or) default
             },
             {
                 "text"          : "",
-                "image"         : "../images/pages/activities/img_6.png",
+                "image"         : "../images/pages/activities/img_6.PNG",
                 "answer"        : [4],
                 "audio"         : "",
                 "audioenable"   : "default", // correct (or) default
             },
             {
                 "text"          : "",
-                "image"         : "../images/pages/activities/img_7.png",
+                "image"         : "../images/pages/activities/img_7.PNG",
                 "answer"        : [1],
                 "audio"         : "",
                 "audioenable"   : "default", // correct (or) default
             },
             {
                 "text"          : "",
-                "image"         : "../images/pages/activities/img_8.png",
+                "image"         : "../images/pages/activities/img_8.PNG",
                 "answer"        : [2],
                 "audio"         : "",
                 "audioenable"   : "default", // correct (or) default

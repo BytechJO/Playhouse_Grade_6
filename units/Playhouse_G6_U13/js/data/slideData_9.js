@@ -36,11 +36,11 @@ var reading_data = {
             "group_styles": "",
             "audio": ["../audios/p102/Pg6_2.1_Stella.mp3","../audios/p102/dough.mp3","../audios/p102/sauce.mp3","../audios/p102/sprinkle.mp3","../audios/p102/cheese.mp3","../audios/p102/add.mp3","../audios/p102/pepperoni.mp3","../audios/p102/slice.mp3"],
             "word": [
-                "<img src='../images/pages/activities/img1.png' class='img_l'/>",
-                "<img src='../images/pages/activities/img2.png' class='img_c'/>",
-                "<img src='../images/pages/activities/img3.png' class='img_c'/>",
-                "<img src='../images/pages/activities/img4.png' class='img_c'/>",
-                "<img src='../images/pages/activities/img5.png' class='img_l'/>"
+                "<img src='../images/pages/activities/img1.PNG' class='img_l'/>",
+                "<img src='../images/pages/activities/img2.PNG' class='img_c'/>",
+                "<img src='../images/pages/activities/img3.PNG' class='img_c'/>",
+                "<img src='../images/pages/activities/img4.PNG' class='img_c'/>",
+                "<img src='../images/pages/activities/img5.PNG' class='img_l'/>"
               ],
             "imagePlacePos":[
                 {"colWidth": [1,3,4,3,1], "colData": [1,1,1,1,1] },
