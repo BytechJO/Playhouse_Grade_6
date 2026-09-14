@@ -4,7 +4,7 @@ var stereo_data = {
   bgColor_rgb: "rgb(0, 183, 206)",
   playListData: [
     {
-      audiourl: "../audios/p111/demo.mp3",
+      audiourl: "../audios/P111/demo.mp3",
     },
     {
       url: "",
@@ -21,11 +21,11 @@ var reading_data = {
   mainTitle: "",
   mainTitleIcon: "",
   mainTitleIconPos: { right: "100px" },
-  mainTitleAudio: "../audios/p111/under.mp3",
+  mainTitleAudio: "../audios/P111/under.mp3",
   subTitleTextLeft: "PLAYHOUSE NEWSLETTER",
   subTitleTextRight: "",
   subTitleIcons: [""],
-  subTitleAudio: "../audios/p111/PLAYHOUSE_NEWSLETTER.mp3",
+  subTitleAudio: "../audios/P111/PLAYHOUSE_NEWSLETTER.mp3",
   slides: [
     {
       // "layout": "adventure_images_with_text",
@@ -56,7 +56,7 @@ var reading_data = {
             "Billy says from now on, he will follow the directions for science and do his labs carefully! He is grateful for his friend's " +
             "help.",
         ],
-        audio: ["../audios/p111/A_Bad_Story_With_a_Good_Ending!.mp3"],
+        audio: ["../audios/P111/A_Bad_Story_With_a_Good_Ending!.mp3"],
         titlesAudio: [""],
         titleTexts: [""],
         top_image: ["../images/pages/news-letter/1-news-title-1.png"], //
@@ -68,7 +68,7 @@ var reading_data = {
           "Do you know how to calm a crying baby? Or how to get a child to sit still? Do you know what to do if a child has a stomach ache? Our star student this month Tess Robertson does. Tess is a certified babysitter. She took a babysitting basics course from the community centre and earned her babysitting certificate. She learnt how to help kids have fun, while keeping them safe and following the rules of the house.  Tess said it was easy, and she says everyone should get certified. She thinks it will help a lot when keeping an eye on little brothers and sisters. ‘It teaches you what to do in emergencies, and it teaches you how to look after small children,' said Tess.<br>" +
             "<span style='text-align: right; display:block'>by Lilly <br> Photo by Yoshi</span>",
         ],
-        audio: ["../audios/p111/Star_Student.mp3"],
+        audio: ["../audios/P111/Star_Student.mp3"],
         titlesAudio: [""],
         titleTexts: ["Start Student"],
         top_image: ["../images/pages/news-letter/2-img-title.png"],
@@ -81,7 +81,7 @@ var reading_data = {
           "What doyou think they are saying?",
           "With a friend, act out the conversation! ",
         ],
-        audio: ["../audios/p111/Pg4_1.2_Adult_Lady.mp3"],
+        audio: ["../audios/P111/Pg4_1.2_Adult_Lady.mp3"],
         titlesAudio: [""],
         titleTexts: [""],
         top_image: ["../images/pages/news-letter/3-img.png"],

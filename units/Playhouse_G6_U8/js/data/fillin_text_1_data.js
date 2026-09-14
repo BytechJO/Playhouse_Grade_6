@@ -5,7 +5,7 @@ var stereo_data = {
   type: "text",
   playListData: [
     {
-      audiourl: "../audios/p74/demo.mp3",
+      audiourl: "../audios/P74/demo.mp3",
     },
     { url: "" },
     { url: "" },
@@ -20,7 +20,7 @@ var fillin_data = {
   mainTitle: "../images/pages/sb-icons/conv_main_title.png",
   mainTitleIcon: "../images/pages/sb-icons/conv_main_title_icon.png",
   mainTitleIconPos: { right: "90px" },
-  mainTitleAudio: "../audios/p69/CONVERSATION.mp3",
+  mainTitleAudio: "../audios/P69/CONVERSATION.mp3",
 
   subTitleTextLeft: '<span class="title-order">3</span> Talk about it!',
   subTitleTextRight: "Put this conversation together. Then practise it.",
@@ -46,7 +46,7 @@ var fillin_data = {
         "No, travelling that way is more like a journey.",
       ],
 
-      textaudios: ["../audios/p74/under.mp3", "../audios/p74/under.mp3"],
+      textaudios: ["../audios/P74/under.mp3", "../audios/P74/under.mp3"],
 
       audio: "",
       audioenable: "default",
@@ -75,7 +75,7 @@ var fillin_data = {
         "So, how do you get to your aunt's house every year?",
       ],
 
-      textaudios: ["../audios/p74/under.mp3", "../audios/p74/under.mp3"],
+      textaudios: ["../audios/P74/under.mp3", "../audios/P74/under.mp3"],
 
       audio: "",
       audioenable: "default",

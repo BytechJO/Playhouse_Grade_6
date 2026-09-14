@@ -5,7 +5,7 @@ var stereo_data = {
   type: "text",
   playListData: [
     {
-      audiourl: "../audios/p12/Remember!.mp3",
+      audiourl: "../audios/P12/Remember!.mp3",
     },
     {
       url: "",
@@ -22,11 +22,11 @@ var reading_data = {
   mainTitle: "../images/pages/sb-icons/LANGUAGE_BUILDING.jpg",
   mainTitleIcon: "",
   mainTitleIconPos: { right: "80px" },
-  mainTitleAudio: "../audios/p12/LANGUAGE_BUILDING.mp3",
+  mainTitleAudio: "../audios/P12/LANGUAGE_BUILDING.mp3",
   subTitleTextLeft: "",
   subTitleTextRight: "",
   subTitleIcons: [],
-  subTitleAudio: "../audios/p12/under.mp3",
+  subTitleAudio: "../audios/P12/under.mp3",
   slides: [
     {
       layout: "grid_columns",
@@ -34,17 +34,17 @@ var reading_data = {
       grid_main_title: ["../images/pages/sb-icons/remember.png"],
       parent_class_name: "grid_with_background_image remember remember2",
       grid_main_title_text: "",
-      grid_main_title_text_audio: "../audios/p12/under.mp3",
+      grid_main_title_text_audio: "../audios/P12/under.mp3",
       group_styles: "",
       audio: [
-        "../audios/p12/Pg6_2.1_Stella.mp3",
-        "../audios/p12/dough.mp3",
-        "../audios/p12/sauce.mp3",
-        "../audios/p12/sprinkle.mp3",
-        "../audios/p12/cheese.mp3",
-        "../audios/p12/add.mp3",
-        "../audios/p12/pepperoni.mp3",
-        "../audios/p12/slice.mp3",
+        "../audios/P12/Pg6_2.1_Stella.mp3",
+        "../audios/P12/dough.mp3",
+        "../audios/P12/sauce.mp3",
+        "../audios/P12/sprinkle.mp3",
+        "../audios/P12/cheese.mp3",
+        "../audios/P12/add.mp3",
+        "../audios/P12/pepperoni.mp3",
+        "../audios/P12/slice.mp3",
       ],
       word: [
         "<span class='black_text'>Verbs That Are Also Nouns",

@@ -14,13 +14,13 @@ var find_fix_data = {
   mainTitle: "../images/pages/sb-icons/language-building.png",
   mainTitleIcon: "../images/pages/sb-icons/phonics_main_title_icon.png",
   mainTitleIconPos: { right: "60px" },
-  mainTitleAudio: "../audios/p37/LANGUAGE_BUILDING.mp3",
+  mainTitleAudio: "../audios/P37/LANGUAGE_BUILDING.mp3",
   subTitleTextLeft: "<span class='title-order'>3</span> Find it and fix it!",
   subTitleTextRight:
     "Look at each picture and then look at its sentence. Underline the adjective that is wrong and rewrite the sentence with a better adjective.",
   subTitleIcons: ["../images/pages/sb-icons/conv_2_icon.png"],
   subTitleAudio: "../audios/new/p37find.mp3",
- 
+
   questions: [
     // =================================================
     // 1

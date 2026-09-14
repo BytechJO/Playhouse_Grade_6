@@ -28,7 +28,7 @@ var fillin_data = {
 
   mainTitleIcon: "../images/pages/sb-icons/gram_main_title_icon.png",
 
-  mainTitleAudio: "../audios/p98/GRAMMAR.mp3",
+  mainTitleAudio: "../audios/P98/GRAMMAR.mp3",
 
   mainTitleIconPos: {
     right: "80px",

@@ -5,7 +5,7 @@ var stereo_data = {
   type: "text",
   playListData: [
     {
-      audiourl: "../audios/p18/1.mp3",
+      audiourl: "../audios/P18/1.mp3",
     },
     {
       url: "",
@@ -18,7 +18,7 @@ var stereo_data = {
     },
   ],
 };
- 
+
 var fillin_data = {
   layout: 1,
   numinrow: [[1], [1], [1], [1], [1]],
@@ -26,7 +26,7 @@ var fillin_data = {
   mainTitle: "../images/pages/sb-icons/writing.png",
   mainTitleIcon: "../images/pages/sb-icons/adv_icon_1.png",
   mainTitleIconPos: { right: "90px" },
-  mainTitleAudio: "../audios/p18/WRITING.mp3",
+  mainTitleAudio: "../audios/P18/WRITING.mp3",
 
   subTitleTextLeft:
     "<span class='title-order'>1</span> <b>Read about it!</b> The Writing Process: Writing a Screenplay!",
@@ -36,14 +36,14 @@ var fillin_data = {
 
   subTitleIcons: [""],
 
-  subTitleAudio: "../audios/p18/1_Read_about_it!.mp3",
+  subTitleAudio: "../audios/P18/1_Read_about_it!.mp3",
 
   activityheading: "",
-  activityheading_audio: "../audios/p18/under.mp3",
+  activityheading_audio: "../audios/P18/under.mp3",
 
   main_activityheading: "../images/pages/activities/conversation.jpg",
 
-  main_activityheading_audio: "../audios/p18/under.mp3",
+  main_activityheading_audio: "../audios/P18/under.mp3",
 
   activitysubheading: "",
 

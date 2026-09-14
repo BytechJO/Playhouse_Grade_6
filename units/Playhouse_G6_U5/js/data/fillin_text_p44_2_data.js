@@ -22,7 +22,7 @@ var fillin_data = {
   numinrow: [[1], [1], [1], [1], [1]],
   mainTitle: "../images/pages/sb-icons/reading.png",
   mainTitleIcon: "../images/pages/sb-icons/phonics_3_icon.png",
-  mainTitleAudio: "../audios/p44/READING.mp3",
+  mainTitleAudio: "../audios/P44/READING.mp3",
   mainTitleIconPos: { right: "80px" },
   subTitleTextLeft: '<span class="title-order">2</span> Order it!',
   subTitleTextRight:

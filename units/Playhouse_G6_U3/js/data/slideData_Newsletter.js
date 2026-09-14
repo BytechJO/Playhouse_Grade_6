@@ -4,7 +4,7 @@ var stereo_data = {
   bgColor_rgb: "rgb(0, 183, 206)",
   playListData: [
     {
-      audiourl: "../audios/p27/demo.mp3",
+      audiourl: "../audios/P27/demo.mp3",
     },
     {
       url: "",
@@ -21,11 +21,11 @@ var reading_data = {
   mainTitle: "",
   mainTitleIcon: "",
   mainTitleIconPos: { right: "100px" },
-  mainTitleAudio: "../audios/p27/under.mp3",
+  mainTitleAudio: "../audios/P27/under.mp3",
   subTitleTextLeft: "PLAYHOUSE NEWSLETTER",
   subTitleTextRight: "",
   subTitleIcons: [""],
-  subTitleAudio: "../audios/p27/PLAYHOUSE_NEWSLETTER.mp3",
+  subTitleAudio: "../audios/P27/PLAYHOUSE_NEWSLETTER.mp3",
   slides: [
     {
       // "layout": "adventure_images_with_text",
@@ -54,7 +54,7 @@ var reading_data = {
             "be better friends and be healthier." +
             "Thank you, Mr. Tikes, for such a great afternoon. We will never forget it.",
         ],
-        audio: ["../audios/p27/Special_Visitor.mp3"],
+        audio: ["../audios/P27/Special_Visitor.mp3"],
         titlesAudio: [""],
         titleTexts: [""],
         top_image: ["../images/pages/news-letter/1-news-title.png"], //
@@ -71,7 +71,7 @@ var reading_data = {
             "and maybe enter some more contests." +
             " Great job, Mandy! Remember us when you are famous!",
         ],
-        audio: ["../audios/p27/Star_Student.mp3"],
+        audio: ["../audios/P27/Star_Student.mp3"],
         titlesAudio: [""],
         titleTexts: ["Start Student"],
         top_image: ["../images/pages/news-letter/2-img-title.png"],
@@ -84,7 +84,7 @@ var reading_data = {
           "What doyou think they are saying?",
           "With a friend, act out the conversation! ",
         ],
-        audio: ["../audios/p27/Pg4_1.2_Adult_Lady.mp3"],
+        audio: ["../audios/P27/Pg4_1.2_Adult_Lady.mp3"],
         titlesAudio: [""],
         titleTexts: [""],
         top_image: ["../images/pages/news-letter/3-img.png"],

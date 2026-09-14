@@ -24,7 +24,7 @@ var fillin_data = {
   mainTitle: "../images/pages/sb-icons/reading.png",
   mainTitleIcon: "../images/pages/sb-icons/adv_icon_1.png",
   mainTitleIconPos: { right: "90px" },
-  mainTitleAudio: "../audios/p8/READING.mp3",
+  mainTitleAudio: "../audios/P8/READING.mp3",
   subTitleTextLeft: "<span class='title-order'>2</span> <b>You do it!</b>",
   subTitleTextRight:
     "<span class='blue_text'>Answer the following questions about the article.</span>",

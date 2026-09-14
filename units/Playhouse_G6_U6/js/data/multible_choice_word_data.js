@@ -23,7 +23,7 @@ var mcq_data = {
   numinrow: [[1]],
   mainTitle: "../images/pages/sb-icons/language-building.png",
   mainTitleIcon: "../images/pages/sb-icons/gram_main_title_icon.png",
-  mainTitleAudio: "../audios/p53/LANGUAGE_BUILDING.mp3",
+  mainTitleAudio: "../audios/P53/LANGUAGE_BUILDING.mp3",
   mainTitleIconPos: { right: "100px" },
   subTitleTextLeft: '<span class="title-order">2</span> Circle it!',
   subTitleTextRight: "Read each sentence below. Circle the adverb of degree.",

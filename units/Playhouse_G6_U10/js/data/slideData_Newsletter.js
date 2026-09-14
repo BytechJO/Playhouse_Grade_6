@@ -4,7 +4,7 @@ var stereo_data = {
   bgColor_rgb: "rgb(0, 183, 206)",
   playListData: [
     {
-      audiourl: "../audios/p95/demo.mp3",
+      audiourl: "../audios/P95/demo.mp3",
     },
     {
       url: "",
@@ -21,11 +21,11 @@ var reading_data = {
   mainTitle: "",
   mainTitleIcon: "",
   mainTitleIconPos: { right: "100px" },
-  mainTitleAudio: "../audios/p95/under.mp3",
+  mainTitleAudio: "../audios/P95/under.mp3",
   subTitleTextLeft: "PLAYHOUSE NEWSLETTER",
   subTitleTextRight: "",
   subTitleIcons: [""],
-  subTitleAudio: "../audios/p95/PLAYHOUSE_NEWSLETTER.mp3",
+  subTitleAudio: "../audios/P95/PLAYHOUSE_NEWSLETTER.mp3",
   slides: [
     {
       // "layout": "adventure_images_with_text",
@@ -54,7 +54,7 @@ var reading_data = {
             "into gardens and orchards. Hopefully, this will keep them from being used as rubbish dumps, and the gardens will also" +
             "provide healthy food for people.",
         ],
-        audio: ["../audios/p95/A_New_Way_to_Exercise.mp3"],
+        audio: ["../audios/P95/A_New_Way_to_Exercise.mp3"],
         titlesAudio: [""],
         titleTexts: [""],
         top_image: ["../images/pages/news-letter/1-news-title.png"], //
@@ -71,7 +71,7 @@ var reading_data = {
             "Molly's team crossed the finish line before the mayor, and they won a special plaque.<br>" +
             "<span style='text-align: right;'>by Jenny <br> Photo by Yoshi</span>",
         ],
-        audio: ["../audios/p95/Star_Student.mp3"],
+        audio: ["../audios/P95/Star_Student.mp3"],
         titlesAudio: [""],
         titleTexts: ["Start Student"],
         top_image: ["../images/pages/news-letter/2-img-title.png"],
@@ -84,7 +84,7 @@ var reading_data = {
           "What doyou think they are saying?",
           "With a friend, act out the conversation! ",
         ],
-        audio: ["../audios/p95/Pg4_1.2_Adult_Lady.mp3"],
+        audio: ["../audios/P95/Pg4_1.2_Adult_Lady.mp3"],
         titlesAudio: [""],
         titleTexts: [""],
         top_image: ["../images/pages/news-letter/3-img.png"],

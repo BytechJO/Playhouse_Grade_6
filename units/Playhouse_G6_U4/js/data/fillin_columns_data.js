@@ -20,7 +20,7 @@ var fillin_data = {
   mainTitle: "../images/pages/sb-icons/reading.png",
   mainTitleIcon: "../images/pages/sb-icons/phonics_3_icon.png",
   mainTitleIconPos: { right: "90px" },
-  mainTitleAudio: "../audios/p36/READING.mp3",
+  mainTitleAudio: "../audios/P36/READING.mp3",
 
   subTitleTextLeft: '<span class="title-order">2</span> You do it! ',
   subTitleTextRight: "Answer the following questions about the blog.",

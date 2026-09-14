@@ -22,7 +22,7 @@ var reading_data = {
   mainTitle: "../images/pages/sb-icons/language-building.png",
   mainTitleIcon: "../images/pages/sb-icons/gram_main_title_icon.png",
   mainTitleIconPos: { right: "100px" },
-  mainTitleAudio: "../audios/p53/LANGUAGE_BUILDING.mp3",
+  mainTitleAudio: "../audios/P53/LANGUAGE_BUILDING.mp3",
   subTitleTextLeft: "<span class='title-order'>3</span> Think about it!",
   subTitleTextRight:
     "Look at each picture below, and in groups make sentence using ‘<span class='red_text'>so</span>’, ‘<span class='red_text'>such</span>’, ‘<span class='red_text'>pretty</span>’ or ‘<span class='red_text'>quite</span>’ to describe it.",

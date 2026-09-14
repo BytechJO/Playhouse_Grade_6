@@ -24,7 +24,7 @@ var fillin_data = {
 
   mainTitle: "../images/pages/sb-icons/gram_main_title.png",
   mainTitleIcon: "../images/pages/sb-icons/gram_main_title_icon.png",
-  mainTitleAudio: "../audios/p70/GRAMMAR.mp3",
+  mainTitleAudio: "../audios/P70/GRAMMAR.mp3",
   mainTitleIconPos: { right: "72px" },
 
   subTitleTextLeft: '<span class="title-order">3</span> Fix it!',

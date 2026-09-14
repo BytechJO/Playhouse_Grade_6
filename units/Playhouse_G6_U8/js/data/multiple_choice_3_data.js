@@ -5,7 +5,7 @@ var stereo_data = {
   type: "text",
   playListData: [
     {
-      audiourl: "../audios/p69/2.mp3",
+      audiourl: "../audios/P69/2.mp3",
     },
     {
       url: "",
@@ -24,12 +24,12 @@ var mcq_data = {
   mainTitle: "../images/pages/sb-icons/conv_main_title.png",
   mainTitleIcon: "../images/pages/sb-icons/conv_main_title_icon.png",
   mainTitleIconPos: { right: "90px" },
-  mainTitleAudio: "../audios/p69/CONVERSATION.mp3",
+  mainTitleAudio: "../audios/P69/CONVERSATION.mp3",
   subTitleTextLeft: "<span class='title-order'>2</span> Listen to it!",
   subTitleTextRight:
     "Listen to rest of the conversation and circle the places that the two students have visited before.",
   subTitleIcons: [],
-  subTitleAudio: "../audios/p69/2_Listen_to_it!.mp3",
+  subTitleAudio: "../audios/P69/2_Listen_to_it!.mp3",
 
   select: "multiple",
   shape: "roundrect",

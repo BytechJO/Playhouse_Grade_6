@@ -5,7 +5,7 @@ var stereo_data = {
   type: "text",
   playListData: [
     {
-      audiourl: "../audios/p74/1.mp3",
+      audiourl: "../audios/P74/1.mp3",
     },
     {
       url: "",
@@ -22,12 +22,12 @@ var reading_data = {
   mainTitle: "../images/pages/sb-icons/writing.png",
   mainTitleIcon: "../images/pages/sb-icons/phonics_3_icon.png",
   mainTitleIconPos: { right: "100px" },
-  mainTitleAudio: "../audios/p74/WRITING.mp3",
+  mainTitleAudio: "../audios/P74/WRITING.mp3",
   subTitleTextLeft: "<span class='title-order'>1</span> The next step!",
   subTitleTextRight:
     "In Unit 7, you did the prewriting for your biography. Now you are ready to put the information together. Check to be sure your prewriting notes are well organised. If they are, you can start writing your biography! Putting your biography together is as easy as 1, 2, 3!",
   subTitleIcons: [],
-  subTitleAudio: "../audios/p74/1_The_next_step!.mp3",
+  subTitleAudio: "../audios/P74/1_The_next_step!.mp3",
   slides: [
     {
       layout: "grid_columns",

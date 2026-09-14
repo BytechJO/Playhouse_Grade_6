@@ -10,7 +10,7 @@ var preference_choose_data = {
   mainTitle: "../images/pages/sb-icons/language-building.png",
   mainTitleIcon: "../images/pages/sb-icons/phonics_main_title_icon.png",
   mainTitleIconPos: { right: "100px" },
-  mainTitleAudio: "../audios/p101/LANGUAGE_BUILDING.mp3",
+  mainTitleAudio: "../audios/P101/LANGUAGE_BUILDING.mp3",
   subTitleTextLeft: "<span class='title-order'>2</span> Choose it!",
   subTitleTextRight:
     "Complete each sentence by choosing the correct preference (<span class='red_text'>prefer / would rather</span>).",

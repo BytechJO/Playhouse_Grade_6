@@ -4,7 +4,7 @@ var stereo_data = {
   bgColor_rgb: "rgb(0, 183, 206)",
   playListData: [
     {
-      audiourl: "../audios/p75/demo.mp3",
+      audiourl: "../audios/P75/demo.mp3",
     },
     {
       url: "",
@@ -21,11 +21,11 @@ var reading_data = {
   mainTitle: "",
   mainTitleIcon: "",
   mainTitleIconPos: { right: "100px" },
-  mainTitleAudio: "../audios/p75/under.mp3",
+  mainTitleAudio: "../audios/P75/under.mp3",
   subTitleTextLeft: "PLAYHOUSE NEWSLETTER",
   subTitleTextRight: "",
   subTitleIcons: [""],
-  subTitleAudio: "../audios/p75/PLAYHOUSE_NEWSLETTER.mp3",
+  subTitleAudio: "../audios/P75/PLAYHOUSE_NEWSLETTER.mp3",
   slides: [
     {
       // "layout": "adventure_images_with_text",
@@ -56,7 +56,7 @@ var reading_data = {
             "Joshua grew up in Nova Scotia, Canada, but he spent much of his life on the ocean. Intrestingly he disappeared on a" +
             "winter trip to the West Indies, evidently lost at sea.",
         ],
-        audio: ["../audios/p75/In_Honour_Of.mp3"],
+        audio: ["../audios/P75/In_Honour_Of.mp3"],
         titlesAudio: [""],
         titleTexts: [""],
         top_image: ["../images/pages/news-letter/1-news-title.png"], //
@@ -73,7 +73,7 @@ var reading_data = {
             "For me, I think I will wait! <br>" +
             "<span style='float: right;'>by Lilly <br> Photo by Yoshi</span>",
         ],
-        audio: ["../audios/p75/Star_Student.mp3"],
+        audio: ["../audios/P75/Star_Student.mp3"],
         titlesAudio: [""],
         titleTexts: ["Start Student"],
         top_image: ["../images/pages/news-letter/2-img-title.png"],
@@ -86,7 +86,7 @@ var reading_data = {
           "What do you think they are saying?",
           "With a friend, act out the conversation! ",
         ],
-        audio: ["../audios/p75/Pg4_1.2_Adult_Lady.mp3"],
+        audio: ["../audios/P75/Pg4_1.2_Adult_Lady.mp3"],
         titlesAudio: [""],
         titleTexts: [""],
         top_image: ["../images/pages/news-letter/3-img.png"],

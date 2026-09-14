@@ -4,7 +4,7 @@ var stereo_data = {
   bgColor_rgb: "rgb(0, 183, 206)",
   playListData: [
     {
-      audiourl: "../audios/p19/demo.mp3",
+      audiourl: "../audios/P19/demo.mp3",
     },
     {
       url: "",
@@ -16,16 +16,16 @@ var stereo_data = {
       url: "",
     },
   ],
-}; 
+};
 var reading_data = {
   mainTitle: "",
   mainTitleIcon: "",
   mainTitleIconPos: { right: "100px" },
-  mainTitleAudio: "../audios/p19/under.mp3",
+  mainTitleAudio: "../audios/P19/under.mp3",
   subTitleTextLeft: "PLAYHOUSE NEWSLETTER",
   subTitleTextRight: "",
   subTitleIcons: [""],
-  subTitleAudio: "../audios/p19/PLAYHOUSE_NEWSLETTER.mp3",
+  subTitleAudio: "../audios/P19/PLAYHOUSE_NEWSLETTER.mp3",
   slides: [
     {
       // "layout": "adventure_images_with_text",
@@ -58,7 +58,7 @@ var reading_data = {
             "Bring something to autograph! If you do get lucky, you don’t want to have to scramble around in your bag for a piece of paper! Just keep it small and simple; you will probably only have 30 seconds or so with your favourite star." +
             "Be flexible; sometimes the best scenes to watch are shot at night. They are also less crowded with spectators.",
         ],
-        audio: ["../audios/p19/Want_to_Watch_a_Film_Being_Made.mp3"],
+        audio: ["../audios/P19/Want_to_Watch_a_Film_Being_Made.mp3"],
         titlesAudio: [""],
         titleTexts: [""],
         top_image: ["../images/pages/news-letter/1-news-title.png"], //
@@ -75,7 +75,7 @@ var reading_data = {
             "Thanks for being a fan.’ " +
             "How exciting, Brad! Thanks for sharing your story with us! ",
         ],
-        audio: ["../audios/p19/Star_Student.mp3"],
+        audio: ["../audios/P19/Star_Student.mp3"],
         titlesAudio: [""],
         titleTexts: ["Start Student"],
         top_image: ["../images/pages/news-letter/2-img-title.png"],
@@ -88,7 +88,7 @@ var reading_data = {
           "What doyou think they are saying?",
           "With a friend, act out the conversation! ",
         ],
-        audio: ["../audios/p19/Pg4_1.2_Adult_Lady.mp3"],
+        audio: ["../audios/P19/Pg4_1.2_Adult_Lady.mp3"],
         titlesAudio: [""],
         titleTexts: [""],
         top_image: ["../images/pages/news-letter/3-img.png"],

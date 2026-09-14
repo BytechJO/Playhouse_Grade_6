@@ -5,7 +5,7 @@ var stereo_data = {
   type: "text",
   playListData: [
     {
-      audiourl: "../audios/p18/1.mp3",
+      audiourl: "../audios/P18/1.mp3",
     },
     {
       url: "",
@@ -20,7 +20,7 @@ var stereo_data = {
 };
 
 var fillin_data = {
-  layout: 1, 
+  layout: 1,
 
   numinrow: [[1]],
 
@@ -32,7 +32,7 @@ var fillin_data = {
     right: "90px",
   },
 
-  mainTitleAudio: "../audios/p18/WRITING.mp3",
+  mainTitleAudio: "../audios/P18/WRITING.mp3",
 
   subTitleTextLeft: "<span class='title-order'>2</span> <b>Write it!</b>",
 
@@ -41,7 +41,7 @@ var fillin_data = {
 
   subTitleIcons: [""],
 
-  subTitleAudio: "../audios/p18/2_Write_it.mp3",
+  subTitleAudio: "../audios/P18/2_Write_it.mp3",
 
   numbering: "none",
 

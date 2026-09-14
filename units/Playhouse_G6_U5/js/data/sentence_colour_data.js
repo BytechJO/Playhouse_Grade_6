@@ -16,7 +16,7 @@ var sentence_colour_data = {
   // =====================================================
   mainTitle: "../images/pages/sb-icons/gram_main_title.png",
   mainTitleIcon: "../images/pages/sb-icons/gram_main_title_icon.png",
-  mainTitleAudio: "../audios/p42/GRAMMAR.mp3",
+  mainTitleAudio: "../audios/P42/GRAMMAR.mp3",
   mainTitleIconPos: { right: "80px" },
   subTitleTextLeft: "<span class='title-order'>3</span> Colour it! ",
   subTitleTextRight:

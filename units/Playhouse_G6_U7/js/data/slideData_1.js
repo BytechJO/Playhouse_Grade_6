@@ -5,7 +5,7 @@ var stereo_data = {
   type: "text",
   playListData: [
     {
-      audiourl: "../audios/p61/1.mp3",
+      audiourl: "../audios/P61/1.mp3",
     },
     {
       url: "",
@@ -22,13 +22,13 @@ var reading_data = {
   mainTitle: "../images/pages/sb-icons/conv_main_title.png",
   mainTitleIcon: "../images/pages/sb-icons/conv_main_title_icon.png",
   mainTitleIconPos: { right: "90px" },
-  mainTitleAudio: "../audios/p61/CONVERSATION.mp3",
+  mainTitleAudio: "../audios/P61/CONVERSATION.mp3",
   subTitleTextLeft:
     "<span class='title-order'>1</span> Listen and read. Then act it out with a friend.",
   subTitleTextRight: "",
   subTitleIcons: [],
   subTitleAudio:
-    "../audios/p61/1_Listen_and_read_Then_act_it_out_with_a_friend.mp3",
+    "../audios/P61/1_Listen_and_read_Then_act_it_out_with_a_friend.mp3",
   slides: [
     {
       layout: "grid_columns",
@@ -38,14 +38,14 @@ var reading_data = {
       parent_class_name: "grid_with_border",
       group_styles: "",
       audio: [
-        "../audios/p61/Pg6_2.1_Stella.mp3",
-        "../audios/p61/dough.mp3",
-        "../audios/p61/sauce.mp3",
-        "../audios/p61/sprinkle.mp3",
-        "../audios/p61/cheese.mp3",
-        "../audios/p61/add.mp3",
-        "../audios/p61/pepperoni.mp3",
-        "../audios/p61/slice.mp3",
+        "../audios/P61/Pg6_2.1_Stella.mp3",
+        "../audios/P61/dough.mp3",
+        "../audios/P61/sauce.mp3",
+        "../audios/P61/sprinkle.mp3",
+        "../audios/P61/cheese.mp3",
+        "../audios/P61/add.mp3",
+        "../audios/P61/pepperoni.mp3",
+        "../audios/P61/slice.mp3",
       ],
       word: [
         "<span class='blue_text'>Mrs. Wright</span>: ",
@@ -79,10 +79,10 @@ var reading_data = {
       ],
       bottomImage: ["../images/pages/page-1/1-background-buttom.png"],
       bottomAudio: [
-        "../audios/p61/Pg6_2.1_Stella.mp3",
-        "../audios/p61/dough.mp3",
-        "../audios/p61/sauce.mp3",
-        "../audios/p61/sprinkle.mp3",
+        "../audios/P61/Pg6_2.1_Stella.mp3",
+        "../audios/P61/dough.mp3",
+        "../audios/P61/sauce.mp3",
+        "../audios/P61/sprinkle.mp3",
       ],
       bottomWord: [
         "<span class='blue_text'>Useful Expressions</span>",

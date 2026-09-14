@@ -4,7 +4,7 @@ var stereo_data = {
   bgColor_rgb: "rgb(0, 183, 206)",
   playListData: [
     {
-      audiourl: "../audios/p83/demo.mp3",
+      audiourl: "../audios/P83/demo.mp3",
     },
     {
       url: "",
@@ -21,11 +21,11 @@ var reading_data = {
   mainTitle: "",
   mainTitleIcon: "",
   mainTitleIconPos: { right: "100px" },
-  mainTitleAudio: "../audios/p83/under.mp3",
+  mainTitleAudio: "../audios/P83/under.mp3",
   subTitleTextLeft: "PLAYHOUSE NEWSLETTER",
   subTitleTextRight: "",
   subTitleIcons: [""],
-  subTitleAudio: "../audios/p83/PLAYHOUSE_NEWSLETTER.mp3",
+  subTitleAudio: "../audios/P83/PLAYHOUSE_NEWSLETTER.mp3",
   slides: [
     {
       // "layout": "adventure_images_with_text",
@@ -55,7 +55,7 @@ var reading_data = {
             "• emergency telephone numbers, like the electric company, neighbours and relatives.<br>" +
             "• medicines that someone in your family might need.",
         ],
-        audio: ["../audios/p83/Weather_Safety.mp3"],
+        audio: ["../audios/P83/Weather_Safety.mp3"],
         titlesAudio: [""],
         titleTexts: [""],
         top_image: ["../images/pages/news-letter/1-news-title.png"], //
@@ -72,7 +72,7 @@ var reading_data = {
             "Thanks, Zoe! Now we can find out the weather in our town at any time! <br>" +
             "<span class='right-text'>by Jenny <br> Photo by Yoshi </span>",
         ],
-        audio: ["../audios/p83/Star_Student.mp3"],
+        audio: ["../audios/P83/Star_Student.mp3"],
         titlesAudio: [""],
         titleTexts: ["Start Student"],
         top_image: ["../images/pages/news-letter/2-img-title.png"],
@@ -85,7 +85,7 @@ var reading_data = {
           "What doyou think they are saying?",
           "With a friend, act out the conversation! ",
         ],
-        audio: ["../audios/p83/Pg4_1.2_Adult_Lady.mp3"],
+        audio: ["../audios/P83/Pg4_1.2_Adult_Lady.mp3"],
         titlesAudio: [""],
         titleTexts: [""],
         top_image: ["../images/pages/news-letter/3-img.png"],

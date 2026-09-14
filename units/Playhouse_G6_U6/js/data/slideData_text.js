@@ -6,7 +6,7 @@ var stereo_data = {
 
   playListData: [
     {
-      audiourl: "../audios/p52/1.mp3",
+      audiourl: "../audios/P52/1.mp3",
     },
     {
       url: "",
@@ -29,7 +29,7 @@ var reading_data = {
     right: "80px",
   },
 
-  mainTitleAudio: "../audios/p52/READING.mp3",
+  mainTitleAudio: "../audios/P52/READING.mp3",
 
   subTitleTextLeft: "<span class='title-order'>1</span> Read about it!",
 
@@ -37,7 +37,7 @@ var reading_data = {
 
   subTitleIcons: [""],
 
-  subTitleAudio: "../audios/p52/1_Read_about_it!.mp3",
+  subTitleAudio: "../audios/P52/1_Read_about_it!.mp3",
 
   numberofcolumns: 1,
 
@@ -49,9 +49,9 @@ var reading_data = {
 
       listen: {
         audio: [
-          "../audios/p52/Pg4_1.2_Adult_Lady.mp3",
-          "../audios/p52/Pg4_1.3_Adult Lady.mp3",
-          "../audios/p52/Pg4_1.4_Adult Lady.mp3",
+          "../audios/P52/Pg4_1.2_Adult_Lady.mp3",
+          "../audios/P52/Pg4_1.3_Adult Lady.mp3",
+          "../audios/P52/Pg4_1.4_Adult Lady.mp3",
         ],
 
         titlesAudio: [""],

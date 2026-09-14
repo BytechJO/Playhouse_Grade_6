@@ -24,7 +24,7 @@ var fillin_data = {
 
   mainTitle: "../images/pages/sb-icons/gram_main_title.png",
   mainTitleIcon: "../images/pages/sb-icons/gram_main_title_icon.png",
-  mainTitleAudio: "../audios/p106/GRAMMAR.mp3",
+  mainTitleAudio: "../audios/P106/GRAMMAR.mp3",
   mainTitleIconPos: { right: "80px" },
 
   subTitleTextLeft: '<span class="title-order">3</span> Write it! ',

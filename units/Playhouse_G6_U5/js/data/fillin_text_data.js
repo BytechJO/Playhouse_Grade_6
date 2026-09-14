@@ -4,7 +4,7 @@ var stereo_data = {
   bgColor_rgb: "rgb(0, 183, 206)",
   playListData: [
     {
-      audiourl: "../audios/p41/2.mp3",
+      audiourl: "../audios/P41/2.mp3",
     },
     {
       url: "",
@@ -22,13 +22,13 @@ var fillin_data = {
   numinrow: [[1], [1], [1], [1], [1]],
   mainTitle: "../images/pages/sb-icons/conv_main_title.png",
   mainTitleIcon: "../images/pages/sb-icons/conv_main_title_icon.png",
-  mainTitleAudio: "../audios/p41/CONVERSATION.mp3",
+  mainTitleAudio: "../audios/P41/CONVERSATION.mp3",
   mainTitleIconPos: { right: "90px" },
   subTitleTextLeft: '<span class="title-order">2</span> Listen to it!',
   subTitleTextRight:
     "Listen to Jake talk about Braille and how it was developed. Then fill in the blanks below.",
   subTitleIcons: [],
-  subTitleAudio: "../audios/p41/2_Listen_to_it!.mp3",
+  subTitleAudio: "../audios/P41/2_Listen_to_it!.mp3",
   image: "",
   imageposition: "back", // "front" (or) "back"
   numbering: "alphabet", // "alphabet" (or) "number"
@@ -38,7 +38,7 @@ var fillin_data = {
     {
       singleword: false,
       text: "[_]developed the Braille system.",
-      textaudios: ["../audios/p41/under.mp3"],
+      textaudios: ["../audios/P41/under.mp3"],
       audio: "",
       audioenable: "default",
       image: "",
@@ -55,7 +55,7 @@ var fillin_data = {
     {
       singleword: false,
       text: "Braille uses a grid of[_]dots.",
-      textaudios: ["../audios/p41/under.mp3"],
+      textaudios: ["../audios/P41/under.mp3"],
       audio: "",
       audioenable: "default",
       image: "",
@@ -72,7 +72,7 @@ var fillin_data = {
     {
       singleword: false,
       text: "Napoleon had a worker develop[_], a Braille-like system, so his army could communicate silently and at night.",
-      textaudios: ["../audios/p41/under.mp3"],
+      textaudios: ["../audios/P41/under.mp3"],
       audio: "",
       audioenable: "default",
       image: "",
@@ -89,7 +89,7 @@ var fillin_data = {
     {
       singleword: false,
       text: "The army’s system didn’t work, but schools for the blind were able to develop and use systems that did work. [_] became the most successful of these types of writing.",
-      textaudios: ["../audios/p41/under.mp3"],
+      textaudios: ["../audios/P41/under.mp3"],
       audio: "",
       audioenable: "default",
       image: "",
@@ -106,7 +106,7 @@ var fillin_data = {
     {
       singleword: false,
       text: "Louis Braille was a[_]at a school for the blind in France.",
-      textaudios: ["../audios/p41/under.mp3"],
+      textaudios: ["../audios/P41/under.mp3"],
       audio: "",
       audioenable: "default",
       image: "",

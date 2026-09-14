@@ -23,7 +23,7 @@ var fillin_data = {
   numinrow: [[1], [1], [1], [1], [1]],
   mainTitle: "../images/pages/sb-icons/gram_main_title.png",
   mainTitleIcon: "../images/pages/sb-icons/gram_main_title_icon.png",
-  mainTitleAudio: "../audios/p62/GRAMMAR.mp3",
+  mainTitleAudio: "../audios/P62/GRAMMAR.mp3",
   mainTitleIconPos: { right: "80px" },
   subTitleTextLeft: '<span class="title-order">3</span> You do it!',
   subTitleTextRight:

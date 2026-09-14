@@ -20,7 +20,7 @@ var mcq_data = {
   mainTitle: "../images/pages/sb-icons/gram_main_title.png",
   mainTitleIcon: "../images/pages/sb-icons/gram_main_title_icon.png",
   mainTitleIconPos: { right: "80px" },
-  mainTitleAudio: "../audios/p70/GRAMMAR.mp3",
+  mainTitleAudio: "../audios/P70/GRAMMAR.mp3",
 
   subTitleTextLeft: '<span class="title-order">2</span> Circle it!',
 

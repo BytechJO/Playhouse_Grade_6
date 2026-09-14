@@ -4,7 +4,7 @@ var stereo_data = {
   bgColor_rgb: "rgb(0, 183, 206)",
   playListData: [
     {
-      audiourl: "../audios/p103/demo.mp3",
+      audiourl: "../audios/P103/demo.mp3",
     },
     {
       url: "",
@@ -21,11 +21,11 @@ var reading_data = {
   mainTitle: "",
   mainTitleIcon: "",
   mainTitleIconPos: { right: "100px" },
-  mainTitleAudio: "../audios/p103/under.mp3",
+  mainTitleAudio: "../audios/P103/under.mp3",
   subTitleTextLeft: "PLAYHOUSE NEWSLETTER",
   subTitleTextRight: "",
   subTitleIcons: [""],
-  subTitleAudio: "../audios/p103/PLAYHOUSE_NEWSLETTER.mp3",
+  subTitleAudio: "../audios/P103/PLAYHOUSE_NEWSLETTER.mp3",
   slides: [
     {
       // "layout": "adventure_images_with_text",
@@ -53,7 +53,7 @@ var reading_data = {
             "<span class='blue_text'>2 Jazz up your fitness area!</span> <br> " +
             "Play music, add lots of motivating posters and wear bright colours! All these things will make you feel more excited and will keep you on your fitness programme. Have fun getting fit!",
         ],
-        audio: ["../audios/p103/Lets_Get_in_Shape.mp3"],
+        audio: ["../audios/P103/Lets_Get_in_Shape.mp3"],
         titlesAudio: [""],
         titleTexts: [""],
         top_image: ["../images/pages/news-letter/1-news-title.png"], //
@@ -68,7 +68,7 @@ var reading_data = {
             "Every day after school, Brad went to his grandfather‘s house, and they took a walk. After just two months, Brad‘s grandfather got much better. Even the doctor says Brad‘s grandfather is better than before. You‘re a great grandson, Brad!<br>" +
             "<span style='text-align: right; display:block'>by Lilly <br> Photo by Yoshi</span>",
         ],
-        audio: ["../audios/p103/Star_Student.mp3"],
+        audio: ["../audios/P103/Star_Student.mp3"],
         titlesAudio: [""],
         titleTexts: ["Start Student"],
         top_image: ["../images/pages/news-letter/2-img-title.png"],
@@ -81,7 +81,7 @@ var reading_data = {
           "What doyou think they are saying?",
           "With a friend, act out the conversation! ",
         ],
-        audio: ["../audios/p103/Pg4_1.2_Adult_Lady.mp3"],
+        audio: ["../audios/P103/Pg4_1.2_Adult_Lady.mp3"],
         titlesAudio: [""],
         titleTexts: [""],
         top_image: ["../images/pages/news-letter/3-img.png"],

@@ -16,17 +16,17 @@ var stereo_data = {
     {
       url: "",
     },
-  ], 
+  ],
 };
 var reading_data = {
   mainTitle: "../images/pages/sb-icons/language-building.png",
   mainTitleIcon: "../images/pages/sb-icons/phonics_main_title_icon.png",
   mainTitleIconPos: { right: "90px" },
-  mainTitleAudio: "../audios/p17/LANGUAGE_BUILDING.mp3",
+  mainTitleAudio: "../audios/P17/LANGUAGE_BUILDING.mp3",
   subTitleTextLeft: "<span class='title-order'>1</span> Read about it.",
   subTitleTextRight: "",
   subTitleIcons: [""],
-  subTitleAudio: "../audios/p18/1_Read_about_it!.mp3",
+  subTitleAudio: "../audios/P18/1_Read_about_it!.mp3",
   slides: [
     {
       layout: "grid_columns",

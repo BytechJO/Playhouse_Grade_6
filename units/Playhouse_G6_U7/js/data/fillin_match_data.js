@@ -23,7 +23,7 @@ var fillin_data = {
   numinrow: [[1, 1, 1, 1, 1, 1, 1, 1]],
   mainTitle: "../images/pages/sb-icons/language-building.png",
   mainTitleIcon: "../images/pages/sb-icons/gram_main_title_icon.png",
-  mainTitleAudio: "../audios/p65/LANGUAGE_BUILDING.mp3",
+  mainTitleAudio: "../audios/P65/LANGUAGE_BUILDING.mp3",
   mainTitleIconPos: { right: "100px" },
   subTitleTextLeft: '<span class="title-order">2</span> Match it!',
   subTitleTextRight: "Match each interjection to its correct sentence.",

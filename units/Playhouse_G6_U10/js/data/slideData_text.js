@@ -5,7 +5,7 @@ var stereo_data = {
   type: "slider",
   playListData: [
     {
-      audiourl: "../audios/p92/1.mp3",
+      audiourl: "../audios/P92/1.mp3",
     },
     {
       url: "",
@@ -22,11 +22,11 @@ var reading_data = {
   mainTitle: "../images/pages/sb-icons/reading.png",
   mainTitleIcon: "../images/pages/sb-icons/phonics_3_icon.png",
   mainTitleIconPos: { right: "80px" },
-  mainTitleAudio: "../audios/p92/READING.mp3",
+  mainTitleAudio: "../audios/P92/READING.mp3",
   subTitleTextLeft: "<span class='title-order'>1</span> Read about it!",
   subTitleTextRight: "Read the informational text below.",
   subTitleIcons: [""],
-  subTitleAudio: "../audios/p92/1_Read_about_it!.mp3",
+  subTitleAudio: "../audios/P92/1_Read_about_it!.mp3",
   numberofcolumns: 1,
   slides: [
     {
@@ -35,9 +35,9 @@ var reading_data = {
 
       listen: {
         audio: [
-          "../audios/p92/Pg4_1.2_Adult_Lady.mp3",
-          "../audios/p92/Pg4_1.3_Adult Lady.mp3",
-          "../audios/p92/Pg4_1.4_Adult Lady.mp3",
+          "../audios/P92/Pg4_1.2_Adult_Lady.mp3",
+          "../audios/P92/Pg4_1.3_Adult Lady.mp3",
+          "../audios/P92/Pg4_1.4_Adult Lady.mp3",
         ],
         titlesAudio: [""],
         titleTexts: [""],
@@ -74,8 +74,7 @@ var reading_data = {
         ],
       },
       //////////////////////////////////////////////////////////////////////////////////////////////////////
-      title:
-        "",
+      title: "",
       array_text: [
         "<div class='reading_only_image'>" +
           "<img src='../images/pages/activities/reading.png'>" +

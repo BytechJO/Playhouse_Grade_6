@@ -5,7 +5,7 @@ var stereo_data = {
   type: "slider",
   playListData: [
     {
-      audiourl: "../audios/p8/1.mp3",
+      audiourl: "../audios/P8/1.mp3",
     },
     {
       url: "",
@@ -22,11 +22,11 @@ var reading_data = {
   mainTitle: "../images/pages/sb-icons/reading.png",
   mainTitleIcon: "../images/pages/sb-icons/adv_icon_1.png",
   mainTitleIconPos: { right: "80px" },
-  mainTitleAudio: "../audios/p8/READING.mp3",
+  mainTitleAudio: "../audios/P8/READING.mp3",
   subTitleTextLeft: "<span class='title-order'>1</span> Read about it!",
   subTitleTextRight: "Read the information text below.",
   subTitleIcons: [""],
-  subTitleAudio: "../audios/p8/1_Read_about_it!.mp3",
+  subTitleAudio: "../audios/P8/1_Read_about_it!.mp3",
   numberofcolumns: 1,
   slides: [
     {
@@ -35,9 +35,9 @@ var reading_data = {
 
       listen: {
         audio: [
-          "../audios/p8/Pg4_1.2_Adult_Lady.mp3",
-          "../audios/p8/Pg4_1.3_Adult Lady.mp3",
-          "../audios/p8/Pg4_1.4_Adult Lady.mp3",
+          "../audios/P8/Pg4_1.2_Adult_Lady.mp3",
+          "../audios/P8/Pg4_1.3_Adult Lady.mp3",
+          "../audios/P8/Pg4_1.4_Adult Lady.mp3",
         ],
         titlesAudio: [""],
         titleTexts: [""],
@@ -125,12 +125,12 @@ var mcq_data = {
   mainTitle: "../images/pages/sb-icons/conv_main_title.png",
   mainTitleIcon: "../images/pages/sb-icons/conv_main_title_icon.png",
   mainTitleIconPos: { right: "90px" },
-  mainTitleAudio: "../audios/p8/under.mp3",
+  mainTitleAudio: "../audios/P8/under.mp3",
   subTitleTextLeft: "",
   subTitleTextRight: "",
   subTitleIcons: [""],
-  subTitleAudio: "../audios/p8/under.mp3",
-  subTitleAudio: "../audios/p8/under.mp3",
+  subTitleAudio: "../audios/P8/under.mp3",
+  subTitleAudio: "../audios/P8/under.mp3",
   select: "single", // single (or) multiple
   shape: "roundrect", // circle (or) roundrect (or) rectangle (or) svg (or) cross (or) checkbox
   bgcolor: "none",

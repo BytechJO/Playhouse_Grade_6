@@ -4,7 +4,7 @@ var stereo_data = {
   bgColor_rgb: "rgb(0, 183, 206)",
   playListData: [
     {
-      audiourl: "../audios/p67/demo.mp3",
+      audiourl: "../audios/P67/demo.mp3",
     },
     {
       url: "",
@@ -21,11 +21,11 @@ var reading_data = {
   mainTitle: "",
   mainTitleIcon: "",
   mainTitleIconPos: { right: "100px" },
-  mainTitleAudio: "../audios/p67/under.mp3",
+  mainTitleAudio: "../audios/P67/under.mp3",
   subTitleTextLeft: "PLAYHOUSE NEWSLETTER",
   subTitleTextRight: "",
   subTitleIcons: [""],
-  subTitleAudio: "../audios/p67/PLAYHOUSE_NEWSLETTER.mp3",
+  subTitleAudio: "../audios/P67/PLAYHOUSE_NEWSLETTER.mp3",
   slides: [
     {
       // "layout": "adventure_images_with_text",
@@ -54,7 +54,7 @@ var reading_data = {
             "survived and helped NASA to collect lots of information about how people and animals live in space." +
             "When these animals survived, scientists started sending people to space instead!",
         ],
-        audio: ["../audios/p67/Thats_a_Cool_Monkey.mp3"],
+        audio: ["../audios/P67/Thats_a_Cool_Monkey.mp3"],
         titlesAudio: [""],
         titleTexts: [""],
         top_image: ["../images/pages/news-letter/1-news-title.png"], //
@@ -73,7 +73,7 @@ var reading_data = {
             "safe and comfortable for the animals. What do you think?" +
             "<br> by Jenny <br> Photo by Yoshi",
         ],
-        audio: ["../audios/p67/Star_Student.mp3"],
+        audio: ["../audios/P67/Star_Student.mp3"],
         titlesAudio: [""],
         titleTexts: ["Start Student"],
         top_image: ["../images/pages/news-letter/2-img-title.png"],
@@ -86,7 +86,7 @@ var reading_data = {
           "What doyou think they are saying?",
           "With a friend, act out the conversation! ",
         ],
-        audio: ["../audios/p67/Pg4_1.2_Adult_Lady.mp3"],
+        audio: ["../audios/P67/Pg4_1.2_Adult_Lady.mp3"],
         titlesAudio: [""],
         titleTexts: [""],
         top_image: ["../images/pages/news-letter/3-img.png"],

@@ -5,7 +5,7 @@ var stereo_data = {
   type: "text",
   playListData: [
     {
-      audiourl: "../audios/p7/1.mp3",
+      audiourl: "../audios/P7/1.mp3",
     },
     {
       url: "",
@@ -24,16 +24,16 @@ var fillin_data = {
   mainTitle: "../images/pages/sb-icons/gramprac_main_title.png",
   mainTitleIcon: "../images/pages/sb-icons/gram_main_title_icon.png",
   mainTitleIconPos: { right: "100px" },
-  mainTitleAudio: "../audios/p7/G_GRAMMAR_PRACTICE.mp3",
+  mainTitleAudio: "../audios/P7/G_GRAMMAR_PRACTICE.mp3",
   subTitleTextLeft: "<span class='title-order'>1</span> <b>Listen to it!</b>",
   subTitleTextRight:
     "<span class='blue_text'>Listen to the following conversation. Then use the prepositions of time in the brackets to answer the questions.</span>",
   subTitleIcons: [""],
-  subTitleAudio: "../audios/p7/1_Listen_to_it!.mp3",
+  subTitleAudio: "../audios/P7/1_Listen_to_it!.mp3",
   activityheading: "",
-  activityheading_audio: "../audios/p7/under.mp3",
+  activityheading_audio: "../audios/P7/under.mp3",
   main_activityheading: "../images/pages/activities/GRAMMAR.jpg",
-  main_activityheading_audio: "../audios/p7/under.mp3",
+  main_activityheading_audio: "../audios/P7/under.mp3",
   activitysubheading: "",
   activityicon: "../images/icons/key_icon.png",
   image: "../images/pages/activities/ASP_3_SB_U14_P84_I1.png",
@@ -42,13 +42,13 @@ var fillin_data = {
   numberstartfrom: "a",
   options: [],
   images: [
-    { img: "../images/pages/activities/p7_1.png", top: "240px", left: "150px" },
+    { img: "../images/pages/activities/P7_1.png", top: "240px", left: "150px" },
   ],
   questions: [
     {
       singleword: false,
       text: "1 When will Lori go to the library? (<span class='red'>around</span>)[_]",
-      textaudios: ["../audios/p7/under.mp3"],
+      textaudios: ["../audios/P7/under.mp3"],
       audio: "",
       audioenable: "default", // correct (or) default
       image: "",
@@ -74,7 +74,7 @@ var fillin_data = {
     {
       singleword: false,
       text: "2 How long will she stay at the library? (<span class='red'>until</span>)[_]",
-      textaudios: ["../audios/p7/under.mp3", "../audios/p7/under.mp3"],
+      textaudios: ["../audios/P7/under.mp3", "../audios/P7/under.mp3"],
       audio: "",
       audioenable: "default", // correct (or) default
       image: "",
@@ -100,7 +100,7 @@ var fillin_data = {
     {
       singleword: false,
       text: "3 Why won’t Craig come with the others? (<span class='red'>after</span>)[_]",
-      textaudios: ["../audios/p7/under.mp3", "../audios/p7/under.mp3"],
+      textaudios: ["../audios/P7/under.mp3", "../audios/P7/under.mp3"],
       audio: "",
       audioenable: "default", // correct (or) default
       image: "",
@@ -125,7 +125,7 @@ var fillin_data = {
     {
       singleword: false,
       text: "4 When will the students go to the Autumn Fair? (<span class='red'>in</span>)[_]",
-      textaudios: ["../audios/p7/under.mp3", "../audios/p7/under.mp3"],
+      textaudios: ["../audios/P7/under.mp3", "../audios/P7/under.mp3"],
       audio: "",
       audioenable: "default", // correct (or) default
       image: "",

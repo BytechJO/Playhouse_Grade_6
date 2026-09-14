@@ -23,7 +23,7 @@ var mcq_data = {
   numinrow: [[1]],
   mainTitle: "../images/pages/sb-icons/reading.png",
   mainTitleIcon: "../images/pages/sb-icons/phonics_3_icon.png",
-  mainTitleAudio: "../audios/p72/READING.mp3",
+  mainTitleAudio: "../audios/P72/READING.mp3",
   mainTitleIconPos: { right: "80px" },
   subTitleTextLeft: '<span class="title-order">2</span> Answer it!',
   subTitleTextRight:

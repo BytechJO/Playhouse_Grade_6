@@ -24,7 +24,7 @@ var mcq_data = {
   mainTitle: "../images/pages/sb-icons/language-building.png",
   mainTitleIcon: "../images/pages/sb-icons/adv_icon_1.png",
   mainTitleIconPos: { right: "100px" },
-  mainTitleAudio: "../audios/p65/LANGUAGE_BUILDING.mp3",
+  mainTitleAudio: "../audios/P65/LANGUAGE_BUILDING.mp3",
   subTitleTextLeft: "<span class='title-order'>3</span> Underline it!",
   subTitleTextRight: "Read each sentence. Underline the interjection.",
   subTitleIcons: [""],

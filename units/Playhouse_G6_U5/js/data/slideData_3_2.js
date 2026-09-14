@@ -21,7 +21,7 @@ var reading_data = {
   mainTitle: "../images/pages/sb-icons/writing.png",
   mainTitleIcon: "../images/pages/sb-icons/adv_icon_1.png",
   mainTitleIconPos: { right: "90px" },
-  mainTitleAudio: "../audios/p46/WRITING.mp3",
+  mainTitleAudio: "../audios/P46/WRITING.mp3",
   subTitleTextLeft: "<span class='title-order'>3</span> You do it!",
   subTitleTextRight:
     "If you have access to the internet or a library, pick one of the topics from the chart above and research it.",

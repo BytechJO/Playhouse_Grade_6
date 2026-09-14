@@ -24,7 +24,7 @@ var fillin_data = {
   mainTitle: "../images/pages/sb-icons/language-building.png",
   mainTitleIcon: "../images/pages/sb-icons/phonics_main_title_icon.png",
   mainTitleIconPos: { right: "60px" },
-  mainTitleAudio: "../audios/p25/LANGUAGE_BUILDING.mp3",
+  mainTitleAudio: "../audios/P25/LANGUAGE_BUILDING.mp3",
   subTitleTextLeft: '<span class="title-order">3</span> Write it!',
   subTitleTextRight:
     "Write a sentence and ask a friend to find the prepositional phrase.",

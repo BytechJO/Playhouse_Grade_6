@@ -6,7 +6,7 @@ var stereo_data = {
 
   playListData: [
     {
-      audiourl: "../audios/p52/1.mp3",
+      audiourl: "../audios/P52/1.mp3",
     },
     {
       url: "",
@@ -29,7 +29,7 @@ var reading_data = {
     right: "80px",
   },
 
-  mainTitleAudio: "../audios/p52/READING.mp3",
+  mainTitleAudio: "../audios/P52/READING.mp3",
 
   subTitleTextLeft: "<span class='title-order'>2</span> You do it!",
 

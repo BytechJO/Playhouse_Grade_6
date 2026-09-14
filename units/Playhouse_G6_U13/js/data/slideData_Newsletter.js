@@ -4,7 +4,7 @@ var stereo_data = {
   bgColor_rgb: "rgb(0, 183, 206)",
   playListData: [
     {
-      audiourl: "../audios/p123/demo.mp3",
+      audiourl: "../audios/P123/demo.mp3",
     },
     {
       url: "",
@@ -21,11 +21,11 @@ var reading_data = {
   mainTitle: "",
   mainTitleIcon: "",
   mainTitleIconPos: { right: "100px" },
-  mainTitleAudio: "../audios/p123/under.mp3",
+  mainTitleAudio: "../audios/P123/under.mp3",
   subTitleTextLeft: "PLAYHOUSE NEWSLETTER",
   subTitleTextRight: "",
   subTitleIcons: [""],
-  subTitleAudio: "../audios/p123/PLAYHOUSE_NEWSLETTER.mp3",
+  subTitleAudio: "../audios/P123/PLAYHOUSE_NEWSLETTER.mp3",
   slides: [
     {
       // "layout": "adventure_images_with_text",
@@ -58,7 +58,7 @@ var reading_data = {
             "If you can answer ‘yes‘ or ‘sometimes‘ to any of these questions, you may be internet addicted. Talk to your parents and" +
             "find ways to work together as a family to get off the internet. Go out and do more things with friends and family!",
         ],
-        audio: ["../audios/p123/Are_You_Addicted_to_Facebook.mp3"],
+        audio: ["../audios/P123/Are_You_Addicted_to_Facebook.mp3"],
         titlesAudio: [""],
         titleTexts: [""],
         top_image: ["../images/pages/news-letter/1-news-title.png"], //
@@ -75,7 +75,7 @@ var reading_data = {
             "Thanks, Jack and family, for being heroes in our eyes!<br>" +
             "<span style='text-align: right; display:block'>by Jenny <br> Photo by Yoshi</span>",
         ],
-        audio: ["../audios/p123/Star_Student.mp3"],
+        audio: ["../audios/P123/Star_Student.mp3"],
         titlesAudio: [""],
         titleTexts: ["Start Student"],
         top_image: ["../images/pages/news-letter/2-img-title.png"],
@@ -88,7 +88,7 @@ var reading_data = {
           "What doyou think they are saying?",
           "With a friend, act out the conversation! ",
         ],
-        audio: ["../audios/p123/Pg4_1.2_Adult_Lady.mp3"],
+        audio: ["../audios/P123/Pg4_1.2_Adult_Lady.mp3"],
         titlesAudio: [""],
         titleTexts: [""],
         top_image: ["../images/pages/news-letter/3-img.png"],

@@ -17,14 +17,14 @@ var stereo_data = {
       url: "",
     },
   ],
-}; 
+};
 var fillin_data = {
   layout: 1,
   numinrow: [[1], [1], [1], [1], [1]],
   mainTitle: "../images/pages/sb-icons/language-building.png",
   mainTitleIcon: "../images/pages/sb-icons/phonics_main_title_icon.png",
   mainTitleIconPos: { right: "90px" },
-  mainTitleAudio: "../audios/p17/LANGUAGE_BUILDING.mp3",
+  mainTitleAudio: "../audios/P17/LANGUAGE_BUILDING.mp3",
   subTitleTextLeft: "<span class='title-order'>3</span> <b>Play it!</b>",
   subTitleTextRight:
     "Play ‘noughts and crosses’ in groups or in pairs. Look at a box and make a sentence using that word correctly. If you get it correct, put an ‘X’ or an ‘O’. The first to get three in a row wins!",

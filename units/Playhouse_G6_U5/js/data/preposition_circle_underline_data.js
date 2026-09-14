@@ -23,7 +23,7 @@ var prep_circle_underline_data = {
   layout: 1,
   mainTitle: "../images/pages/sb-icons/gram_main_title.png",
   mainTitleIcon: "../images/pages/sb-icons/gram_main_title_icon.png",
-  mainTitleAudio: "../audios/p42/GRAMMAR.mp3",
+  mainTitleAudio: "../audios/P42/GRAMMAR.mp3",
   mainTitleIconPos: { right: "80px" },
   subTitleTextLeft: "<span class='title-order'>2</span> Find it!",
   subTitleTextRight:

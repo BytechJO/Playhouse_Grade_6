@@ -23,7 +23,7 @@ var fillin_data = {
   mainTitle: "../images/pages/sb-icons/reading.png",
   mainTitleIcon: "../images/pages/sb-icons/phonics_3_icon.png",
   mainTitleIconPos: { right: "80px" },
-  mainTitleAudio: "../audios/p100/READING.mp3",
+  mainTitleAudio: "../audios/P100/READING.mp3",
   subTitleTextLeft: '<span class="title-order">3</span> Write it!',
   subTitleTextRight:
     "Write a health plan like Jared‘s that would work for you. You can write in your notebook.",

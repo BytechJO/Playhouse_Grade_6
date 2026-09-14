@@ -29,7 +29,7 @@ var mcq_data = {
     right: "80px",
   },
 
-  mainTitleAudio: "../audios/p92/READING.mp3",
+  mainTitleAudio: "../audios/P92/READING.mp3",
 
   subTitleTextLeft: "<span class='title-order'>2</span> You do it!",
 
