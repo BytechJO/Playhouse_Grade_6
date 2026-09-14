@@ -5,7 +5,7 @@ var stereo_data = {
   type: "text",
   playListData: [
     {
-      audiourl: "../audios/page_39/PLAYHOUSE_2_WB_UNIT_8_TRACK_02_01.mp3",
+      audiourl: "../audios/Page_39/PLAYHOUSE_2_WB_UNIT_8_TRACK_02_01.mp3",
     },
     {
       url: "",

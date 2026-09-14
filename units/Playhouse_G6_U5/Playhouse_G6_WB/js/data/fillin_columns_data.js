@@ -5,7 +5,7 @@ var stereo_data = {
   type: "text",
   playListData: [
     {
-      audiourl: "../audios/p25/2.mp3",
+      audiourl: "../audios/P25/2.mp3",
     },
     {
       url: "",
@@ -24,13 +24,13 @@ var fillin_data = {
   mainTitle: "../images/pages/sb-icons/CONVERSATION.jpg",
   mainTitleIcon: "",
   mainTitleIconPos: { right: "-18px" },
-  mainTitleAudio: "../audios/p25/CONVERSATION.mp3",
+  mainTitleAudio: "../audios/P25/CONVERSATION.mp3",
   subTitleTextLeft:
     '<span class="blue_text">2</span> Answer it! Answer the questions about the conversation.',
   subTitleTextRight: "",
   subTitleIcons: [],
   subTitleAudio:
-    "../audios/p25/2_Answer_it!_Answer_the_questions_about_the_conversation.mp3",
+    "../audios/P25/2_Answer_it!_Answer_the_questions_about_the_conversation.mp3",
   defaultAnswer: -1,
   image: "",
   helpPopup: {
@@ -105,7 +105,7 @@ var fillin_data = {
     {
       textfront:
         "Why do you think Person A thought that sign language was strange?",
-      audio: "../audios/p25/under.mp3",
+      audio: "../audios/P25/under.mp3",
       audioenable: "default", // correct (or) default
       image: "",
       answer: [
@@ -117,7 +117,7 @@ var fillin_data = {
     },
     {
       textfront: "What helps Person A to change their thinking? ",
-      audio: "../audios/p25/under.mp3",
+      audio: "../audios/P25/under.mp3",
       audioenable: "default", // correct (or) default
       image: "",
       answer: [""],
@@ -128,7 +128,7 @@ var fillin_data = {
     {
       textfront:
         "Think of a time when learning about a subject helped you understand it better and like it more. Tell about that time here: ",
-      audio: "../audios/p25/under.mp3",
+      audio: "../audios/P25/under.mp3",
       audioenable: "default", // correct (or) default
       image: "",
       answer: [""],

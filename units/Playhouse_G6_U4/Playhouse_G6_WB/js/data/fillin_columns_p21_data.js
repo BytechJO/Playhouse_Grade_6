@@ -5,7 +5,7 @@ var stereo_data = {
   type: "text",
   playListData: [
     {
-      audiourl: "../audios/p21/1.mp3",
+      audiourl: "../audios/P21/1.mp3",
     },
     {
       url: "",
@@ -24,13 +24,13 @@ var fillin_data = {
   mainTitle: "../images/pages/sb-icons/grammer_main_title.png",
   mainTitleIcon: "",
   mainTitleIconPos: { right: "80px" },
-  mainTitleAudio: "../audios/p21/GRAMMAR.mp3",
+  mainTitleAudio: "../audios/P21/GRAMMAR.mp3",
   subTitleTextLeft:
     '<span class="blue_text">1</span> Change it! Change the direct quote into a sentence with ‘<b>said</b>‘ or ‘<b>told</b>‘',
   subTitleTextRight: "",
   subTitleIcons: [],
   subTitleAudio:
-    "../audios/p21/1_Change_it!_Change_the_direct_quote_into_a_sentence_with_‘said‘_or_‘told‘.mp3",
+    "../audios/P21/1_Change_it!_Change_the_direct_quote_into_a_sentence_with_‘said‘_or_‘told‘.mp3",
   defaultAnswer: -1,
   leftList: "",
   image: "",
@@ -38,7 +38,7 @@ var fillin_data = {
     {
       textfront:
         "‘Alice, write your name on your paper first,’ said the teacher.",
-      audio: "../audios/p21/under.mp3",
+      audio: "../audios/P21/under.mp3",
       audioenable: "default",
       image: "",
 
@@ -59,7 +59,7 @@ var fillin_data = {
     {
       textfront:
         "Lisa said, ‘Call me as soon as you finish dinner with your family.’",
-      audio: "../audios/p21/under.mp3",
+      audio: "../audios/P21/under.mp3",
       audioenable: "default",
       image: "",
 
@@ -82,7 +82,7 @@ var fillin_data = {
     {
       textfront:
         "My sister said, ‘Steven, remember to wash the dishes before you go.’",
-      audio: "../audios/p21/under.mp3",
+      audio: "../audios/P21/under.mp3",
       audioenable: "default",
       image: "",
 
@@ -104,7 +104,7 @@ var fillin_data = {
 
     {
       textfront: "‘The team practises many hours each day,’ said Greg.",
-      audio: "../audios/p21/under.mp3",
+      audio: "../audios/P21/under.mp3",
       audioenable: "default",
       image: "",
 
@@ -125,7 +125,7 @@ var fillin_data = {
 
     {
       textfront: "The teacher said, ‘I’d like to meet our new student.’",
-      audio: "../audios/p21/under.mp3",
+      audio: "../audios/P21/under.mp3",
       audioenable: "default",
       image: "",
 
@@ -153,7 +153,7 @@ var fillin_data = {
     {
       textfront:
         "The captain said, ‘Chris, I’d like to ask you a few questions.’",
-      audio: "../audios/p21/under.mp3",
+      audio: "../audios/P21/under.mp3",
       audioenable: "default",
       image: "",
 
@@ -175,7 +175,7 @@ var fillin_data = {
 
     {
       textfront: "I said, ‘Please come to our house at 5:00 for dinner.’",
-      audio: "../audios/p21/under.mp3",
+      audio: "../audios/P21/under.mp3",
       audioenable: "default",
       image: "",
 
@@ -196,7 +196,7 @@ var fillin_data = {
     {
       textfront:
         "‘Paul, clean your room first, and then maybe we can go to the park,’ Dad said.",
-      audio: "../audios/p21/under.mp3",
+      audio: "../audios/P21/under.mp3",
       audioenable: "default",
       image: "",
 
@@ -223,7 +223,7 @@ var fillin_data = {
     {
       textfront:
         "‘It will be cloudy with a chance of snow,’ the weather reporter said.",
-      audio: "../audios/p21/under.mp3",
+      audio: "../audios/P21/under.mp3",
       audioenable: "default",
       image: "",
 

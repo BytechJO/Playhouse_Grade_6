@@ -43,14 +43,14 @@ var reading_data = {
       group_styles: "",
 
       audio: [
-        "../audios/p50/Pg6_2.1_Stella.mp3",
-        "../audios/p50/dough.mp3",
-        "../audios/p50/sauce.mp3",
-        "../audios/p50/sprinkle.mp3",
-        "../audios/p50/cheese.mp3",
-        "../audios/p50/add.mp3",
-        "../audios/p50/pepperoni.mp3",
-        "../audios/p50/slice.mp3",
+        "../audios/P50/Pg6_2.1_Stella.mp3",
+        "../audios/P50/dough.mp3",
+        "../audios/P50/sauce.mp3",
+        "../audios/P50/sprinkle.mp3",
+        "../audios/P50/cheese.mp3",
+        "../audios/P50/add.mp3",
+        "../audios/P50/pepperoni.mp3",
+        "../audios/P50/slice.mp3",
       ],
 
       word: [

@@ -5,7 +5,7 @@ var stereo_data = {
   type: "text",
   playListData: [
     {
-      audiourl: "../audios/p30/1.mp3",
+      audiourl: "../audios/P30/1.mp3",
     },
     {
       url: "",
@@ -22,11 +22,11 @@ var reading_data = {
   mainTitle: "../images/pages/sb-icons/CONVERSATION.jpg",
   mainTitleIcon: "",
   mainTitleIconPos: { right: "90px" },
-  mainTitleAudio: "../audios/p30/CONVERSATION.mp3",
+  mainTitleAudio: "../audios/P30/CONVERSATION.mp3",
   subTitleTextLeft: "<span class='blue_text'>1</span> Read it and say it! ",
   subTitleTextRight: "",
   subTitleIcons: [""],
-  subTitleAudio: "../audios/p30/1_Read_it_and_say_it!.mp3",
+  subTitleAudio: "../audios/P30/1_Read_it_and_say_it!.mp3",
   slides: [
     {
       layout: "grid_columns",
@@ -36,14 +36,14 @@ var reading_data = {
       parent_class_name: "grid_with_border",
       group_styles: "",
       audio: [
-        "../audios/p30/Pg6_2.1_Stella.mp3",
-        "../audios/p30/dough.mp3",
-        "../audios/p30/sauce.mp3",
-        "../audios/p30/sprinkle.mp3",
-        "../audios/p30/cheese.mp3",
-        "../audios/p30/add.mp3",
-        "../audios/p30/pepperoni.mp3",
-        "../audios/p30/slice.mp3",
+        "../audios/P30/Pg6_2.1_Stella.mp3",
+        "../audios/P30/dough.mp3",
+        "../audios/P30/sauce.mp3",
+        "../audios/P30/sprinkle.mp3",
+        "../audios/P30/cheese.mp3",
+        "../audios/P30/add.mp3",
+        "../audios/P30/pepperoni.mp3",
+        "../audios/P30/slice.mp3",
       ],
       word: [
         "<span class='bold_text'>Greg:</span>",

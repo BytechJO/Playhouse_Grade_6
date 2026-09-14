@@ -5,7 +5,7 @@ var stereo_data = {
   type: "text",
   playListData: [
     {
-      audiourl: "../audios/p47/1.mp3",
+      audiourl: "../audios/P47/1.mp3",
     },
     {
       url: "",
@@ -24,13 +24,13 @@ var mcq_data = {
   mainTitle: "../images/pages/sb-icons/LANGUAGE_BUILDING.jpg",
   mainTitleIcon: "",
   mainTitleIconPos: { right: "-18px" },
-  mainTitleAudio: "../audios/p47/LANGUAGE_BUILDING.mp3",
+  mainTitleAudio: "../audios/P47/LANGUAGE_BUILDING.mp3",
   subTitleTextLeft:
     "<span class='blue_text'>1</span> Choose it! Select the correct idiom from each pair to complete the sentence.",
   subTitleTextRight: "",
   subTitleIcons: [],
   subTitleAudio:
-    "../audios/p47/1_Choose_it!_Select_the_correct_idiom_from_each_pair_to_complete_the_sentence.mp3",
+    "../audios/P47/1_Choose_it!_Select_the_correct_idiom_from_each_pair_to_complete_the_sentence.mp3",
   activityicon: "../images/icons/hand_icon.png",
   select: "single", // single (or) multiple
   shape: "roundrect", // circle (or) roundrect (or) rectangle (or) svg (or) cross (or) checkbox
@@ -61,8 +61,7 @@ var mcq_data = {
       audioenable: "correct", // correct (or) default
     },
     {
-      question:
-        "Dad made a hole-in-one during his golf game. He is  ([_]).",
+      question: "Dad made a hole-in-one during his golf game. He is  ([_]).",
       options: [["snowed under", "on cloud nine"]],
       answer: [2],
       inputbox: "yes",
@@ -71,8 +70,7 @@ var mcq_data = {
       audioenable: "correct", // correct (or) default
     },
     {
-      question:
-        "Ted has so much homework this weekend. He is really  ([_]).",
+      question: "Ted has so much homework this weekend. He is really  ([_]).",
       options: [["under the weather ", "snowed under"]],
       answer: [2],
       inputbox: "yes",

@@ -4,7 +4,7 @@ var stereo_data = {
   "bgColor_rgb":"rgb(0, 183, 206)",
   "playListData" : [
       {
-        'audiourl': '../audios/p139/demo.mp3',
+        'audiourl': '../audios/P139/demo.mp3',
       },
       {
         'url': '',
@@ -21,11 +21,11 @@ var reading_data = {
     "mainTitle": "",
     "mainTitleIcon": "",
     "mainTitleIconPos": {"right": "100px"},
-    "mainTitleAudio": "../audios/p139/under.mp3",
+    "mainTitleAudio": "../audios/P139/under.mp3",
     "subTitleTextLeft": "PLAYHOUSE NEWSLETTER",
     "subTitleTextRight": "",
     "subTitleIcons": [""],
-    "subTitleAudio": "../audios/p139/PLAYHOUSE_NEWSLETTER.mp3",
+    "subTitleAudio": "../audios/P139/PLAYHOUSE_NEWSLETTER.mp3",
     "slides": [
         {
             // "layout": "adventure_images_with_text",
@@ -36,7 +36,7 @@ var reading_data = {
             "starImage": "../images/pages/news-letter/2-img-2-title.png",
             "convImage": "../images/pages/news-letter/3-img-title.png",
 
-            "titleAudio": "../audios/p139/under.mp3",
+            "titleAudio": "../audios/P139/under.mp3",
            
             'listen': {
               "text":  [
@@ -52,7 +52,7 @@ var reading_data = {
                 " photos of their activities on the page. <br>"+
                 "School counsellor, Ms. Tokitowt, says that this club helps new kids adjust to their new school and eases leaving their old friends behind.",
                ],
-               "audio": ["../audios/p139/Friendship_Club.mp3"],
+               "audio": ["../audios/P139/Friendship_Club.mp3"],
                 "titlesAudio":[""],
                 "titleTexts":[""],
                 "top_image":["../images/pages/news-letter/1-news-title.png"],//
@@ -64,7 +64,7 @@ var reading_data = {
                   "Our star student for this edition of the Playhouse Newsletter is Ross Haven. Ross has been at Waritsat School since he started kindergarten. He remembers what the school was like before we got our new library and gym. Ross and his big brother have been taking pictures of the school every year and have made a photo album of our history. It is on display in the library's history section. Stop by and take a look at our school's memories!<br>"+
                   "<span style='text-align: right; display:block'>by Jenny <br> Photo by Yoshi</span>"
                 ],
-                "audio": ["../audios/p139/Star_Student.mp3"],
+                "audio": ["../audios/P139/Star_Student.mp3"],
                 "titlesAudio":[""],
                 "titleTexts":["Start Student"],
                 "top_image":["../images/pages/news-letter/2-img-title.png"],
@@ -77,7 +77,7 @@ var reading_data = {
                   "What doyou think they are saying?",
                   "With a friend, act out the conversation! ",
                 ],
-                "audio": ["../audios/p139/Pg4_1.2_Adult_Lady.mp3"],
+                "audio": ["../audios/P139/Pg4_1.2_Adult_Lady.mp3"],
                 "titlesAudio":[""],
                 "titleTexts":[""],
                 "top_image":["../images/pages/news-letter/3-img.png"],
@@ -85,7 +85,7 @@ var reading_data = {
             },
             ///////////////////////////////////////////////////////////////////////////////////////////////////////// 4 //
             'listen4': {
-                "audio": ["../audios/p139/Pg4_1.2_Adult_Lady.mp3"],
+                "audio": ["../audios/P139/Pg4_1.2_Adult_Lady.mp3"],
                 "titlesAudio":[""],
                 "titleTexts":[""],
                 "top_image":["../images/pages/news-letter/1-conv-img.png"],

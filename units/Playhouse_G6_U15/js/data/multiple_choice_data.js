@@ -5,7 +5,7 @@ var stereo_data = {
     "type":"text",
     "playListData" : [
         {
-          'audiourl': '../audios/p133/2.mp3',
+          'audiourl': '../audios/P133/2.mp3',
         },
         {
           'url': '',
@@ -24,11 +24,11 @@ var mcq_data = {
     "mainTitle"             : "../images/pages/sb-icons/conv_main_title.png",
     "mainTitleIcon"         : "../images/pages/sb-icons/conv_main_title_icon.png",
     "mainTitleIconPos"      : {"right": "85px"},
-    "mainTitleAudio"        : "../audios/p133/CONVERSATION.mp3",
+    "mainTitleAudio"        : "../audios/P133/CONVERSATION.mp3",
     "subTitleTextLeft"      : "<span class='title-order'>2</span> Listen to it!",
     "subTitleTextRight"     : "Listen to each of the Playhouse Kids talk about their friends. Circle the Word Power word that best describes each picture.",
     "subTitleIcons"         : [],
-    "subTitleAudio"         : "../audios/p133/2_Listen_to_it!.mp3",
+    "subTitleAudio"         : "../audios/P133/2_Listen_to_it!.mp3",
     "select"                : "single", // single (or) multiple
     "shape"                 : "roundrect", // circle (or) roundrect (or) rectangle (or) svg (or) cross (or) checkbox
     "bgcolor"               : "none",

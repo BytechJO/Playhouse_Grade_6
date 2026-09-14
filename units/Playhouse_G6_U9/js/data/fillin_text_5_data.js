@@ -5,7 +5,7 @@ var stereo_data = {
   type: "text",
   playListData: [
     {
-      audiourl: "../audios/p74/demo.mp3",
+      audiourl: "../audios/P74/demo.mp3",
     },
     {
       url: "",
@@ -42,7 +42,7 @@ var fillin_data = {
       topText: "<b>under the weather</b> <br/>meaning: feeling sick",
       singleword: false,
       text: "Middle school is <br/>a big step from <br/>elementary school.[_]",
-      textaudios: ["../audios/p74/under.mp3"],
+      textaudios: ["../audios/P74/under.mp3"],
       audio: "",
       audioenable: "default", // correct (or) default
       image: "../images/pages/activities/imgq1.PNG",
@@ -58,7 +58,7 @@ var fillin_data = {
         "<b>hanging out</b> <br/>meaning: spending time <br/>with someone",
       singleword: false,
       text: "When his team <br/>won, Sam was on <br/>top of the world. [_]",
-      textaudios: ["../audios/p74/under.mp3", "../audios/p74/under.mp3"],
+      textaudios: ["../audios/P74/under.mp3", "../audios/P74/under.mp3"],
       audio: "",
       audioenable: "default", // correct (or) default
       image: "../images/pages/activities/imgq2.PNG",
@@ -73,7 +73,7 @@ var fillin_data = {
       topText: "<b>a big step</b> <br/>meaning: a big change",
       singleword: false,
       text: "Jess and I will be <br/>hanging out at the <br/>park after school. [_]",
-      textaudios: ["../audios/p74/under.mp3", "../audios/p74/under.mp3"],
+      textaudios: ["../audios/P74/under.mp3", "../audios/P74/under.mp3"],
       audio: "",
       audioenable: "default", // correct (or) default
       image: "../images/pages/activities/imgq3.PNG",
@@ -88,7 +88,7 @@ var fillin_data = {
       topText: "<b>on top of the world</b> <br/>meaning: feeling great",
       singleword: false,
       text: "Megan is feeling <br/>under the weather. [_]",
-      textaudios: ["../audios/p74/under.mp3", "../audios/p74/under.mp3"],
+      textaudios: ["../audios/P74/under.mp3", "../audios/P74/under.mp3"],
       audio: "",
       audioenable: "default", // correct (or) default
       image: "../images/pages/activities/imgq4.PNG",

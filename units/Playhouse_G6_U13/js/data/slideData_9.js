@@ -26,7 +26,7 @@ var reading_data = {
     "subTitleTextLeft": "<span class='title-order'>3</span> Talk about it!",
     "subTitleTextRight": "In groups, look at the pictures and think of first conditional sentences they might be saying.",
     "subTitleIcons": [],
-    "subTitleAudio": "../audios/p102/1_Read_about_it!.mp3",
+    "subTitleAudio": "../audios/P102/1_Read_about_it!.mp3",
     "slides": [
         {
             "layout": "grid_columns",
@@ -34,7 +34,7 @@ var reading_data = {
             "mainImage": [""],
             "parent_class_name": "full_grid_with_background_image slide-9",
             "group_styles": "",
-            "audio": ["../audios/p102/Pg6_2.1_Stella.mp3","../audios/p102/dough.mp3","../audios/p102/sauce.mp3","../audios/p102/sprinkle.mp3","../audios/p102/cheese.mp3","../audios/p102/add.mp3","../audios/p102/pepperoni.mp3","../audios/p102/slice.mp3"],
+            "audio": ["../audios/P102/Pg6_2.1_Stella.mp3","../audios/P102/dough.mp3","../audios/P102/sauce.mp3","../audios/P102/sprinkle.mp3","../audios/P102/cheese.mp3","../audios/P102/add.mp3","../audios/P102/pepperoni.mp3","../audios/P102/slice.mp3"],
             "word": [
                 "<img src='../images/pages/activities/img1.PNG' class='img_l'/>",
                 "<img src='../images/pages/activities/img2.PNG' class='img_c'/>",

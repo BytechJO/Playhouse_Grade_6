@@ -5,7 +5,7 @@ var stereo_data = {
   type: "text",
   playListData: [
     {
-      audiourl: "../audios/p67/2.mp3",
+      audiourl: "../audios/P67/2.mp3",
     },
     {
       url: "",
@@ -24,13 +24,13 @@ var fillin_data = {
   mainTitle: "../images/pages/sb-icons/LANGUAGE_BUILDING.jpg",
   mainTitleIcon: "",
   mainTitleIconPos: { right: "-18px" },
-  mainTitleAudio: "../audios/p67/LANGUAGE_BUILDING.mp3",
+  mainTitleAudio: "../audios/P67/LANGUAGE_BUILDING.mp3",
   subTitleTextLeft:
     '<span class="red_text">2</span> Complete it! Add the words you formed in Exercise 1 to make the sentences complete.',
   subTitleTextRight: "",
   subTitleIcons: [],
   subTitleAudio:
-    "../audios/p67/2_Complete_it!_Add_the_words_you_formed_in_Exercise_1_to_make_the_sentences_complete.mp3",
+    "../audios/P67/2_Complete_it!_Add_the_words_you_formed_in_Exercise_1_to_make_the_sentences_complete.mp3",
   image: "../images/pages/activities/5-img-1.png",
   imageposition: "back", // "front" (or) "back"
   defaultAnswer: 1,
@@ -50,7 +50,7 @@ var fillin_data = {
     {
       singleword: false,
       text: "The Manx cat has no tail. It is an [_] cat.",
-      textaudios: ["../audios/p67/under.mp3"],
+      textaudios: ["../audios/P67/under.mp3"],
       audio: "",
       audioenable: "default", // correct (or) default
       image: "",
@@ -64,7 +64,7 @@ var fillin_data = {
     {
       singleword: false,
       text: "I never dreamt that the football score would be 10 to 1. The game was[_].",
-      textaudios: ["../audios/p67/under.mp3", "../audios/p67/under.mp3"],
+      textaudios: ["../audios/P67/under.mp3", "../audios/P67/under.mp3"],
       audio: "",
       audioenable: "default", // correct (or) default
       image: "",
@@ -78,7 +78,7 @@ var fillin_data = {
     {
       singleword: false,
       text: "I felt like I was sleeping on rocks. This bed is so [_].",
-      textaudios: ["../audios/p67/under.mp3", "../audios/p67/under.mp3"],
+      textaudios: ["../audios/P67/under.mp3", "../audios/P67/under.mp3"],
       audio: "",
       audioenable: "default", // correct (or) default
       image: "",
@@ -92,7 +92,7 @@ var fillin_data = {
     {
       singleword: false,
       text: "Nobody in my school has heard of this author. She is rather[_].",
-      textaudios: ["../audios/p67/under.mp3", "../audios/p67/under.mp3"],
+      textaudios: ["../audios/P67/under.mp3", "../audios/P67/under.mp3"],
       audio: "",
       audioenable: "default", // correct (or) default
       image: "",
@@ -106,7 +106,7 @@ var fillin_data = {
     {
       singleword: false,
       text: "He is always breaking and losing things. I have never seen somebody so [_].",
-      textaudios: ["../audios/p67/under.mp3", "../audios/p67/under.mp3"],
+      textaudios: ["../audios/P67/under.mp3", "../audios/P67/under.mp3"],
       audio: "",
       audioenable: "default", // correct (or) default
       image: "",
@@ -120,7 +120,7 @@ var fillin_data = {
     {
       singleword: false,
       text: "Before you clean the fish tank,[_]it from the electrical socket.",
-      textaudios: ["../audios/p67/under.mp3", "../audios/p67/under.mp3"],
+      textaudios: ["../audios/P67/under.mp3", "../audios/P67/under.mp3"],
       audio: "",
       audioenable: "default", // correct (or) default
       image: "",

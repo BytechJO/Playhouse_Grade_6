@@ -5,7 +5,7 @@ var stereo_data = {
   type: "text",
   playListData: [
     {
-      audiourl: "../audios/p46/1.mp3",
+      audiourl: "../audios/P46/1.mp3",
     },
     {
       url: "",
@@ -24,13 +24,13 @@ var fillin_data = {
   mainTitle: "../images/pages/sb-icons/grammer_main_title.png",
   mainTitleIcon: "",
   mainTitleIconPos: { right: "-18px" },
-  mainTitleAudio: "../audios/p46/GRAMMAR.mp3",
+  mainTitleAudio: "../audios/P46/GRAMMAR.mp3",
   subTitleTextLeft:
     "<span class='blue_text'>1</span> Write it! Read each sentence. Write the correct verb form (simple future or future perfect) for the verb in brackets.",
   subTitleTextRight: "",
   subTitleIcons: [],
   subTitleAudio:
-    "../audios/p46/1_Write_it!_Read_each_sentence_Write_the_correct_verb_form_(simple_future_or_future_perfect)_for_the.mp3",
+    "../audios/P46/1_Write_it!_Read_each_sentence_Write_the_correct_verb_form_(simple_future_or_future_perfect)_for_the.mp3",
   image: "../images/pages/activities/2-img-1.png",
   imageposition: "back", // "front" (or) "back"
   numbering: "none", // "alphabet" (or) "number"
@@ -40,7 +40,7 @@ var fillin_data = {
     {
       singleword: false,
       text: "<b>1</b> &nbsp; By 2030 holidaymakers [_] (<span class='blue_text'>travel</span>) to the moon.",
-      textaudios: ["../audios/p46/under.mp3"],
+      textaudios: ["../audios/P46/under.mp3"],
       audio: "",
       audioenable: "default",
       image: "",
@@ -55,7 +55,7 @@ var fillin_data = {
     {
       singleword: false,
       text: "&nbsp; Do you think that you [_] (<span class='blue_text'>travel</span>) to the moon.",
-      textaudios: ["../audios/p46/under.mp3", "../audios/p46/under.mp3"],
+      textaudios: ["../audios/P46/under.mp3", "../audios/P46/under.mp3"],
       audio: "",
       audioenable: "default",
       image: "",
@@ -70,7 +70,7 @@ var fillin_data = {
     {
       singleword: false,
       text: "<b>2</b> &nbsp; By this time tomorrow, I [_] (<span class='blue_text'>finish</span>) the report.",
-      textaudios: ["../audios/p46/under.mp3", "../audios/p46/under.mp3"],
+      textaudios: ["../audios/P46/under.mp3", "../audios/P46/under.mp3"],
       audio: "",
       audioenable: "default",
       image: "",
@@ -85,7 +85,7 @@ var fillin_data = {
     {
       singleword: false,
       text: "&nbsp; I [_] (<span class='blue_text'>finish</span>) the report later.",
-      textaudios: ["../audios/p46/under.mp3", "../audios/p46/under.mp3"],
+      textaudios: ["../audios/P46/under.mp3", "../audios/P46/under.mp3"],
       audio: "",
       audioenable: "default",
       image: "",
@@ -100,7 +100,7 @@ var fillin_data = {
     {
       singleword: false,
       text: "<b>3</b> &nbsp; The heatwave [_] (<span class='blue_text'>last</span>) four days.",
-      textaudios: ["../audios/p46/under.mp3", "../audios/p46/under.mp3"],
+      textaudios: ["../audios/P46/under.mp3", "../audios/P46/under.mp3"],
       audio: "",
       audioenable: "default",
       image: "",
@@ -115,7 +115,7 @@ var fillin_data = {
     {
       singleword: false,
       text: "&nbsp; By Thursday the heatwave [_] (<span class='blue_text'>last</span>) a week.",
-      textaudios: ["../audios/p46/under.mp3", "../audios/p46/under.mp3"],
+      textaudios: ["../audios/P46/under.mp3", "../audios/P46/under.mp3"],
       audio: "",
       audioenable: "default",
       image: "",
@@ -130,7 +130,7 @@ var fillin_data = {
     {
       singleword: false,
       text: "<b>4</b> &nbsp; At this time tomorrow morning, they [_] (<span class='blue_text'>begin</span>) building the house.",
-      textaudios: ["../audios/p46/under.mp3", "../audios/p46/under.mp3"],
+      textaudios: ["../audios/P46/under.mp3", "../audios/P46/under.mp3"],
       audio: "",
       audioenable: "default",
       image: "",
@@ -145,7 +145,7 @@ var fillin_data = {
     {
       singleword: false,
       text: "&nbsp; The builders [_] (<span class='blue_text'>begin</span>) by laying the foundation.",
-      textaudios: ["../audios/p46/under.mp3", "../audios/p46/under.mp3"],
+      textaudios: ["../audios/P46/under.mp3", "../audios/P46/under.mp3"],
       audio: "",
       audioenable: "default",
       image: "",

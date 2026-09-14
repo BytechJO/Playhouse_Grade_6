@@ -5,7 +5,7 @@ var stereo_data = {
   type: "text",
   playListData: [
     {
-      audiourl: "../audios/p17/1.mp3",
+      audiourl: "../audios/P17/1.mp3",
     },
     {
       url: "",
@@ -25,14 +25,14 @@ var prep_circle_underline_data = {
   mainTitle: "../images/pages/sb-icons/LANGUAGE_BUILDING.jpg",
   mainTitleIcon: "../images/pages/sb-icons/readwrite_main_title_icon.png",
   mainTitleIconPos: { right: "-43px" },
-  mainTitleAudio: "../audios/p17/LANGUAGE_BUILDING.mp3",
+  mainTitleAudio: "../audios/P17/LANGUAGE_BUILDING.mp3",
 
   subTitleTextLeft:
     "<span class='title-order'>2</span> You do it! Below is a conversation. Underline the simple future sentences and circle the future perfect sentences.",
 
   subTitleTextRight: "",
   subTitleIcons: [],
-  subTitleAudio: "../audios/p17/1.mp3",
+  subTitleAudio: "../audios/P17/1.mp3",
 
   toolDefault: "underline",
 

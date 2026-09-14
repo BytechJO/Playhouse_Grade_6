@@ -5,7 +5,7 @@ var stereo_data = {
   type: "text",
   playListData: [
     {
-      audiourl: "../audios/p102/1.mp3",
+      audiourl: "../audios/P102/1.mp3",
     },
     {
       url: "",
@@ -27,7 +27,7 @@ var reading_data = {
   subTitleTextRight:
     "In groups of three, cut a piece of paper into 14 small pieces and write 1, 2 or 3 on each piece of paper. Put the pieces of paper in a pile in the middle of the table. Take turns choosing a piece of paper and moving your marker that many spaces. Answer the question correctly and you can stay. If you answer it incorrectly, you have to go back two spaces. The first one to end wins!",
   subTitleIcons: [],
-  subTitleAudio: "../audios/p102/1_Read_about_it!.mp3",
+  subTitleAudio: "../audios/P102/1_Read_about_it!.mp3",
   slides: [
     {
       layout: "grid_columns",
@@ -36,14 +36,14 @@ var reading_data = {
       parent_class_name: "full_grid_with_background_image slide-9",
       group_styles: "",
       audio: [
-        "../audios/p102/Pg6_2.1_Stella.mp3",
-        "../audios/p102/dough.mp3",
-        "../audios/p102/sauce.mp3",
-        "../audios/p102/sprinkle.mp3",
-        "../audios/p102/cheese.mp3",
-        "../audios/p102/add.mp3",
-        "../audios/p102/pepperoni.mp3",
-        "../audios/p102/slice.mp3",
+        "../audios/P102/Pg6_2.1_Stella.mp3",
+        "../audios/P102/dough.mp3",
+        "../audios/P102/sauce.mp3",
+        "../audios/P102/sprinkle.mp3",
+        "../audios/P102/cheese.mp3",
+        "../audios/P102/add.mp3",
+        "../audios/P102/pepperoni.mp3",
+        "../audios/P102/slice.mp3",
       ],
       word: [],
       imagePlacePos: [],

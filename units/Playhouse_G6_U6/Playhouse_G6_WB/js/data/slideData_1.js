@@ -22,13 +22,13 @@ var reading_data = {
   mainTitle: "../images/pages/sb-icons/WRITING.jpg",
   mainTitleIcon: "",
   mainTitleIconPos: { right: "90px" },
-  mainTitleAudio: "../audios/p33/WRITING.mp3",
+  mainTitleAudio: "../audios/P33/WRITING.mp3",
   subTitleTextLeft:
     "<span class='blue_text'>1</span> Write about it! Given the information below, choose two subjects and write one paragraph for each subject telling who, what, when, where, how and why on a separate piece of paper or in your noteb",
   subTitleTextRight: "",
   subTitleIcons: [""],
   subTitleAudio:
-    "../audios/p33/1_Write_about_it!_Given_the_information_below_choose_two_subjects_and_write_one_paragraph_for.mp3",
+    "../audios/P33/1_Write_about_it!_Given_the_information_below_choose_two_subjects_and_write_one_paragraph_for.mp3",
   slides: [
     {
       layout: "four_boxes_with_center_images",

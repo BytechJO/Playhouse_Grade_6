@@ -5,7 +5,7 @@
   "type":"text",
   "playListData" : [
       {
-        'audiourl': '../audios/page_36/demo.mp3',
+        'audiourl': '../audios/Page_36/demo.mp3',
       },
       {
         'url': '',

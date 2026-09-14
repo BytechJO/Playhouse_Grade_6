@@ -5,7 +5,7 @@ var stereo_data = {
   type: "text",
   playListData: [
     {
-      audiourl: "../audios/p28/1.mp3",
+      audiourl: "../audios/P28/1.mp3",
     },
     {
       url: "",
@@ -23,13 +23,13 @@ var _activity_json = {
   mainTitle: "../images/pages/sb-icons/WRITING.jpg",
   mainTitleIcon: "",
   mainTitleIconPos: { right: "50px" },
-  mainTitleAudio: "../audios/p28/WRITING.mp3",
+  mainTitleAudio: "../audios/P28/WRITING.mp3",
   subTitleTextLeft:
     "<span class='title-order'>1</span> Clean it up! The keywords for the subjects below are all mixed up. Put the keywords under each subject. Try looking up some of them on the internet. Which ones are good for finding lots of information?",
   subTitleTextRight: "",
   subTitleIcons: [],
   subTitleAudio:
-    "../audios/p28/1_Clean_it_up!_The_keywords_for_the_subjects_below_are_all_mixed_up_Put_the_keywords_under_each.mp3",
+    "../audios/P28/1_Clean_it_up!_The_keywords_for_the_subjects_below_are_all_mixed_up_Put_the_keywords_under_each.mp3",
   type: "drag_drop_with_image",
   numOfRow: 12,
   numOfCol: 3,
@@ -139,10 +139,10 @@ var _activity_json = {
     "finger counting",
   ],
   audio: [
-    "../audios/p74/leafy.mp3",
-    "../audios/p74/dark.mp3",
-    "../audios/p74/stone.mp3",
-    "../audios/p74/scary.mp3",
+    "../audios/P74/leafy.mp3",
+    "../audios/P74/dark.mp3",
+    "../audios/P74/stone.mp3",
+    "../audios/P74/scary.mp3",
   ],
   answerGroups: {
     braille: [

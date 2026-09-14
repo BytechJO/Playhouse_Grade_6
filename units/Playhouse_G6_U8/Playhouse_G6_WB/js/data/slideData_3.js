@@ -5,7 +5,7 @@ var stereo_data = {
   type: "text",
   playListData: [
     {
-      audiourl: "../audios/p43/1.mp3",
+      audiourl: "../audios/P43/1.mp3",
     },
     {
       url: "",
@@ -22,12 +22,12 @@ var reading_data = {
   mainTitle: "../images/pages/sb-icons/WRITING.jpg",
   mainTitleIcon: "",
   mainTitleIconPos: { right: "90px" },
-  mainTitleAudio: "../audios/p43/WRITING.mp3",
+  mainTitleAudio: "../audios/P43/WRITING.mp3",
   subTitleTextLeft:
     "<span class='blue_text'>1</span> <b>Begin your story!</b> It‘s time to write the first draft of your autobiography. Use the prewriting from page 38 to get you started, and then follow the form below. Use a separate piece of paper or your notebook to write your autobiograph",
   subTitleTextRight: "",
   subTitleIcons: [""],
-  subTitleAudio: "../audios/p43/1_Begin_your_story!.mp3",
+  subTitleAudio: "../audios/P43/1_Begin_your_story!.mp3",
   slides: [
     {
       layout: "grid_columns",
@@ -37,14 +37,14 @@ var reading_data = {
       parent_class_name: "grid_sent",
       group_styles: "",
       audio: [
-        "../audios/p43/Pg6_2.1_Stella.mp3",
-        "../audios/p43/dough.mp3",
-        "../audios/p43/sauce.mp3",
-        "../audios/p43/sprinkle.mp3",
-        "../audios/p43/cheese.mp3",
-        "../audios/p43/add.mp3",
-        "../audios/p43/pepperoni.mp3",
-        "../audios/p43/slice.mp3",
+        "../audios/P43/Pg6_2.1_Stella.mp3",
+        "../audios/P43/dough.mp3",
+        "../audios/P43/sauce.mp3",
+        "../audios/P43/sprinkle.mp3",
+        "../audios/P43/cheese.mp3",
+        "../audios/P43/add.mp3",
+        "../audios/P43/pepperoni.mp3",
+        "../audios/P43/slice.mp3",
       ],
       word: [
         "<b>Title</b>",

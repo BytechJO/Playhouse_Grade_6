@@ -8,7 +8,7 @@ var stereo_data = {
   type: "text",
   playListData: [
     {
-      audiourl: "../audios/p6/1.mp3",
+      audiourl: "../audios/P6/1.mp3",
     },
     {
       url: "",
@@ -27,18 +27,18 @@ var fillin_data = {
   mainTitle: "../images/pages/sb-icons/grammer_main_title.png",
   mainTitleIcon: "",
   mainTitleIconPos: { right: "-18px" },
-  mainTitleAudio: "../audios/p6/GRAMMAR.mp3",
+  mainTitleAudio: "../audios/P6/GRAMMAR.mp3",
   subTitleTextLeft:
     "1 Put it back together!&nbsp;The sentences have the wrong prepositions or adverbs of time<br>in them. Find them and correct them. Some have several possible answers.",
   subTitleTextRight: "",
   subTitleIcons: [],
   subTitleAudio:
-    "../audios/p6/1_Put_it_back_together!_The_sentences_have_the_wrong_prepositions_or_adverbs_of_time_in_them_Find.mp3",
+    "../audios/P6/1_Put_it_back_together!_The_sentences_have_the_wrong_prepositions_or_adverbs_of_time_in_them_Find.mp3",
   ///////////////////////////
   // "activityheading": 'Put it back together!&nbsp;The sentences have the wrong prepositions or adverbs of time<br>in them. Find them and correct them. Some have several possible answers.',
-  // "activityheading_audio": "../audios/p6/GRAMMAR.mp3",
+  // "activityheading_audio": "../audios/P6/GRAMMAR.mp3",
   // "main_activityheading": "../images/pages/activities/GRAMMAR.jpg",
-  // "main_activityheading_audio": "../audios/p6/1_Put_it_back_together!_The_sentences_have_the_wrong_prepositions_or_adverbs_of_time_in_them_Find.mp3",
+  // "main_activityheading_audio": "../audios/P6/1_Put_it_back_together!_The_sentences_have_the_wrong_prepositions_or_adverbs_of_time_in_them_Find.mp3",
   // "activityicon": "../images/icons/key_icon.png",
   image: "../images/pages/activities/ASP_3_SB_U14_P84_I1.png",
   imageposition: "back", // "front" (or) "back"
@@ -54,18 +54,18 @@ var fillin_data = {
     "6 &nbsp; Let’s wake up after 6:00 am and get to school first.",
   ],
   sentences_audio: [
-    "../audios/p6/under.mp3",
-    "../audios/p6/under.mp3",
-    "../audios/p6/under.mp3",
-    "../audios/p6/under.mp3",
-    "../audios/p6/under.mp3",
-    "../audios/p6/under.mp3",
+    "../audios/P6/under.mp3",
+    "../audios/P6/under.mp3",
+    "../audios/P6/under.mp3",
+    "../audios/P6/under.mp3",
+    "../audios/P6/under.mp3",
+    "../audios/P6/under.mp3",
   ],
   questions: [
     {
       textfronttt: "",
       textbackkk: "",
-      audio: "../audios/p6/under.mp3",
+      audio: "../audios/P6/under.mp3",
       audioenable: "default",
       image: "",
       answer: ["We should go skiing in the afternoon"],
@@ -79,7 +79,7 @@ var fillin_data = {
     {
       textfronttt: "",
       textbackkk: "",
-      audio: "../audios/p6/under.mp3",
+      audio: "../audios/P6/under.mp3",
       audioenable: "default",
       image: "",
       answer: ["I will come to your house at 2:00"],
@@ -99,7 +99,7 @@ var fillin_data = {
     {
       textfronttt: "",
       textbackkk: "",
-      audio: "../audios/p6/under.mp3",
+      audio: "../audios/P6/under.mp3",
       audioenable: "default",
       image: "",
       answer: ["We can go swimming before it starts raining"],
@@ -118,7 +118,7 @@ var fillin_data = {
     {
       textfronttt: "",
       textbackkk: "",
-      audio: "../audios/p6/under.mp3",
+      audio: "../audios/P6/under.mp3",
       audioenable: "default",
       image: "",
       answer: ["I have a test on Thursday"],
@@ -132,7 +132,7 @@ var fillin_data = {
     {
       textfronttt: "",
       textbackkk: "",
-      audio: "../audios/p6/under.mp3",
+      audio: "../audios/P6/under.mp3",
       audioenable: "default",
       image: "",
       answer: ["The programme will last until 8:30 pm"],
@@ -146,7 +146,7 @@ var fillin_data = {
     {
       textfronttt: "",
       textbackkk: "",
-      audio: "../audios/p6/under.mp3",
+      audio: "../audios/P6/under.mp3",
       audioenable: "default",
       image: "",
       answer: ["Let’s wake up before 6:00 am and get to school first"],

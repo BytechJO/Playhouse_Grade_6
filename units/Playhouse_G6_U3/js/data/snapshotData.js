@@ -131,8 +131,8 @@ var Popups_data = {
         titlesAudio: ["../audios/P20/1_Listen_and_say.mp3"],
         image: [],
         audio: [
-          "../audios/p32/Pg5_2.2_Adult Lady.mp3",
-          "../audios/p32/Pg5_2.3_Adult Lady.mp3",
+          "../audios/P32/Pg5_2.2_Adult Lady.mp3",
+          "../audios/P32/Pg5_2.3_Adult Lady.mp3",
         ],
       },
     },

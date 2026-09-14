@@ -5,7 +5,7 @@ var stereo_data = {
   type: "text",
   playListData: [
     {
-      audiourl: "../audios/p18/1.mp3",
+      audiourl: "../audios/P18/1.mp3",
     },
     {
       url: "",
@@ -35,7 +35,7 @@ var fillin_data = {
 
   subTitleIcons: [""],
 
-  subTitleAudio: "../audios/p18/2_Write_it.mp3",
+  subTitleAudio: "../audios/P18/2_Write_it.mp3",
 
   numbering: "none",
 

@@ -5,7 +5,7 @@ var stereo_data = {
     "type":"toggle_slide",
     "playListData" : [
         {
-          'audiourl': '../audios/page_34/PLAYHOUSE_1_SB_UNIT_4_TRACK_03_01.mp3',
+          'audiourl': '../audios/Page_34/PLAYHOUSE_1_SB_UNIT_4_TRACK_03_01.mp3',
         },
         {
           'url': '',
@@ -41,7 +41,7 @@ var reading_data = {
         "mainImage": ["../images/pages/page-3/1-background.png"],
         "parent_class_name": "grid_with_background_image",
         "group_styles": "",
-        "audio": ["../audios/Pg6_2.1_Stella.mp3","../audios/dough.mp3","../audios/sauce.mp3","../audios/sprinkle.mp3","../audios/cheese.mp3","../audios/add.mp3","../audios/pepperoni.mp3","../audios/slice.mp3"],
+        "audio": ["../audios/Pg6_2.1_Stella.mp3","../audios/dough.mp3","../audios/sauce.mp3","../audios/sprinkle.mp3","../audios/cheese.mp3","../audios/add.mp3","../audios/Pepperoni.mp3","../audios/slice.mp3"],
         "word": [
             "<span class='blue_text'>Prepositions of Time</span>",
             "Some prepositions that are used to talk about a time relationship are the following:",

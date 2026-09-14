@@ -5,7 +5,7 @@ var stereo_data = {
   type: "text",
   playListData: [
     {
-      audiourl: "../audios/p30/demo.mp3",
+      audiourl: "../audios/P30/demo.mp3",
     },
     {
       url: "",
@@ -24,13 +24,13 @@ var fillin_data = {
   mainTitle: "../images/pages/sb-icons/CONVERSATION.jpg",
   mainTitleIcon: "",
   mainTitleIconPos: { right: "-18px" },
-  mainTitleAudio: "../audios/p30/CONVERSATION.mp3",
+  mainTitleAudio: "../audios/P30/CONVERSATION.mp3",
   subTitleTextLeft:
     '<span class="blue_text">3</span> Write it! Write the Word Power words that you find in the conversation on the lines below.',
   subTitleTextRight: "",
   subTitleIcons: [],
   subTitleAudio:
-    "../audios/p30/3_Write_it!_Write_the_Word_Power_words_that_you_find_in_the_conversation_on_the_lines_below.mp3",
+    "../audios/P30/3_Write_it!_Write_the_Word_Power_words_that_you_find_in_the_conversation_on_the_lines_below.mp3",
   image: "",
   imageposition: "back", // "front" (or) "back"
   defaultAnswer: 1,
@@ -116,7 +116,7 @@ var fillin_data = {
     {
       singleword: false,
       text: "[_]",
-      textaudios: ["../audios/p30/under.mp3"],
+      textaudios: ["../audios/P30/under.mp3"],
       audio: "",
       audioenable: "default", // correct (or) default
       image: "",
@@ -130,7 +130,7 @@ var fillin_data = {
     {
       singleword: false,
       text: "[_]",
-      textaudios: ["../audios/p30/under.mp3", "../audios/p30/under.mp3"],
+      textaudios: ["../audios/P30/under.mp3", "../audios/P30/under.mp3"],
       audio: "",
       audioenable: "default", // correct (or) default
       image: "",
@@ -144,7 +144,7 @@ var fillin_data = {
     {
       singleword: false,
       text: "[_]",
-      textaudios: ["../audios/p30/under.mp3", "../audios/p30/under.mp3"],
+      textaudios: ["../audios/P30/under.mp3", "../audios/P30/under.mp3"],
       audio: "",
       audioenable: "default", // correct (or) default
       image: "",
@@ -158,7 +158,7 @@ var fillin_data = {
     {
       singleword: false,
       text: "[_]",
-      textaudios: ["../audios/p30/under.mp3", "../audios/p30/under.mp3"],
+      textaudios: ["../audios/P30/under.mp3", "../audios/P30/under.mp3"],
       audio: "",
       audioenable: "default", // correct (or) default
       image: "",
@@ -172,7 +172,7 @@ var fillin_data = {
     {
       singleword: false,
       text: "[_]",
-      textaudios: ["../audios/p30/under.mp3", "../audios/p30/under.mp3"],
+      textaudios: ["../audios/P30/under.mp3", "../audios/P30/under.mp3"],
       audio: "",
       audioenable: "default", // correct (or) default
       image: "",
@@ -186,7 +186,7 @@ var fillin_data = {
     {
       singleword: false,
       text: "[_]",
-      textaudios: ["../audios/p30/under.mp3", "../audios/p30/under.mp3"],
+      textaudios: ["../audios/P30/under.mp3", "../audios/P30/under.mp3"],
       audio: "",
       audioenable: "default", // correct (or) default
       image: "",
@@ -200,7 +200,7 @@ var fillin_data = {
     {
       singleword: false,
       text: "[_]",
-      textaudios: ["../audios/p30/under.mp3", "../audios/p30/under.mp3"],
+      textaudios: ["../audios/P30/under.mp3", "../audios/P30/under.mp3"],
       audio: "",
       audioenable: "default", // correct (or) default
       image: "",
@@ -214,7 +214,7 @@ var fillin_data = {
     {
       singleword: false,
       text: "[_]",
-      textaudios: ["../audios/p30/under.mp3", "../audios/p30/under.mp3"],
+      textaudios: ["../audios/P30/under.mp3", "../audios/P30/under.mp3"],
       audio: "",
       audioenable: "default", // correct (or) default
       image: "",
@@ -228,7 +228,7 @@ var fillin_data = {
     {
       singleword: false,
       text: "[_]",
-      textaudios: ["../audios/p30/under.mp3", "../audios/p30/under.mp3"],
+      textaudios: ["../audios/P30/under.mp3", "../audios/P30/under.mp3"],
       audio: "",
       audioenable: "default", // correct (or) default
       image: "",
@@ -242,7 +242,7 @@ var fillin_data = {
     {
       singleword: false,
       text: "[_]",
-      textaudios: ["../audios/p30/under.mp3", "../audios/p30/under.mp3"],
+      textaudios: ["../audios/P30/under.mp3", "../audios/P30/under.mp3"],
       audio: "",
       audioenable: "default", // correct (or) default
       image: "",

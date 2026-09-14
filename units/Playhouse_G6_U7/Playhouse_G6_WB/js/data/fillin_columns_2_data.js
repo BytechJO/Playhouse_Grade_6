@@ -5,7 +5,7 @@ var stereo_data = {
   type: "text",
   playListData: [
     {
-      audiourl: "../audios/p36/1.mp3",
+      audiourl: "../audios/P36/1.mp3",
     },
     {
       url: "",
@@ -24,20 +24,20 @@ var fillin_data = {
   mainTitle: "../images/pages/sb-icons/grammer_main_title.png",
   mainTitleIcon: "",
   mainTitleIconPos: { right: "-18px" },
-  mainTitleAudio: "../audios/p36/GRAMMAR.mp3",
+  mainTitleAudio: "../audios/P36/GRAMMAR.mp3",
   subTitleTextLeft:
     '<span class="blue_text">1</span> Change it! Change each sentence from the past (P), present (PR) or future (F) tense to the tense written in the brackets. Write the new sentence on the line.',
   subTitleTextRight: "",
   subTitleIcons: [],
   subTitleAudio:
-    "../audios/p36/1_Change_it!_Change_each_sentence_from_the_past_(P)_present_(PR)_or_future_(F)_tense_to_the_tense.mp3",
+    "../audios/P36/1_Change_it!_Change_each_sentence_from_the_past_(P)_present_(PR)_or_future_(F)_tense_to_the_tense.mp3",
   defaultAnswer: -1,
   leftList: "",
   image: "",
   questions: [
     {
       textfront: "I practised the piano every day this week. (F)",
-      audio: "../audios/p36/under.mp3",
+      audio: "../audios/P36/under.mp3",
       audioenable: "default",
       image: "",
 
@@ -56,7 +56,7 @@ var fillin_data = {
 
     {
       textfront: "We will take the history test on Monday. (P)",
-      audio: "../audios/p36/under.mp3",
+      audio: "../audios/P36/under.mp3",
       audioenable: "default",
       image: "",
 
@@ -70,7 +70,7 @@ var fillin_data = {
 
     {
       textfront: "Pat and Tom walk to the post office. (F)",
-      audio: "../audios/p36/under.mp3",
+      audio: "../audios/P36/under.mp3",
       audioenable: "default",
       image: "",
 
@@ -84,7 +84,7 @@ var fillin_data = {
 
     {
       textfront: "The dentist cleaned my teeth and repaired my cavities. (PR)",
-      audio: "../audios/p36/under.mp3",
+      audio: "../audios/P36/under.mp3",
       audioenable: "default",
       image: "",
 
@@ -99,7 +99,7 @@ var fillin_data = {
     {
       textfront:
         "Andy and Susan are playing a board game in the living room. (P)",
-      audio: "../audios/p36/under.mp3",
+      audio: "../audios/P36/under.mp3",
       audioenable: "default",
       image: "",
 
@@ -113,7 +113,7 @@ var fillin_data = {
 
     {
       textfront: "The astronaut will go on spacewalks. (PR)",
-      audio: "../audios/p36/under.mp3",
+      audio: "../audios/P36/under.mp3",
       audioenable: "default",
       image: "",
 
@@ -127,7 +127,7 @@ var fillin_data = {
 
     {
       textfront: "The rocket blasts off after countdown. (F)",
-      audio: "../audios/p36/under.mp3",
+      audio: "../audios/P36/under.mp3",
       audioenable: "default",
       image: "",
 
@@ -141,7 +141,7 @@ var fillin_data = {
 
     {
       textfront: "We watched the stars during the clear nights. (PR)",
-      audio: "../audios/p36/under.mp3",
+      audio: "../audios/P36/under.mp3",
       audioenable: "default",
       image: "",
 

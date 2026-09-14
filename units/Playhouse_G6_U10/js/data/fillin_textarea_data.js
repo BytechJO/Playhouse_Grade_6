@@ -5,7 +5,7 @@ var stereo_data = {
   type: "text",
   playListData: [
     {
-      audiourl: "../audios/p26/1.mp3",
+      audiourl: "../audios/P26/1.mp3",
     },
     {
       url: "",
@@ -31,9 +31,9 @@ var fillin_data = {
   subTitleIcons: [],
   subTitleAudio: "../audios/under.mp3",
   activityheading: "",
-  activityheading_audio: "../audios/p26/under.mp3",
+  activityheading_audio: "../audios/P26/under.mp3",
   main_activityheading: "../images/pages/WRITING.jpg",
-  main_activityheading_audio: "../audios/p26/under.mp3",
+  main_activityheading_audio: "../audios/P26/under.mp3",
   activityicon: "../images/icons/key_icon.png",
   defaultAnswer: 1,
 };

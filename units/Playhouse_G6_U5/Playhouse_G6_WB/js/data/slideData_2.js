@@ -5,7 +5,7 @@ var stereo_data = {
   type: "text",
   playListData: [
     {
-      audiourl: "../audios/p24/1.mp3",
+      audiourl: "../audios/P24/1.mp3",
     },
     {
       url: "",
@@ -22,13 +22,13 @@ var reading_data = {
   mainTitle: "../images/pages/sb-icons/word_main_title.png",
   mainTitleIcon: "../images/pages/sb-icons/word_main_title_icon.png",
   mainTitleIconPos: { right: "-18px" },
-  mainTitleAudio: "../audios/p24/WORD_POWER.mp3",
+  mainTitleAudio: "../audios/P24/WORD_POWER.mp3",
   subTitleTextLeft:
     "<span class='title-order'>2</span> Spell it! Using the manual alphabet for the deaf, ‘say‘ the names of the people in your family. Can they understand you?",
   subTitleTextRight: "",
   subTitleIcons: [""],
   subTitleAudio:
-    "../audios/p24/2_Spell_it!_Using_the_manual_alphabet_for_the_deaf_‘say‘_the_names_of_the_people_in_your_family.mp3",
+    "../audios/P24/2_Spell_it!_Using_the_manual_alphabet_for_the_deaf_‘say‘_the_names_of_the_people_in_your_family.mp3",
   slides: [
     {
       layout: "grid_columns",
@@ -38,14 +38,14 @@ var reading_data = {
       parent_class_name: "grid_with_imgs",
       group_styles: "",
       audio: [
-        "../audios/p25/Pg6_2.1_Stella.mp3",
-        "../audios/p25/dough.mp3",
-        "../audios/p25/sauce.mp3",
-        "../audios/p25/sprinkle.mp3",
-        "../audios/p25/cheese.mp3",
-        "../audios/p25/add.mp3",
-        "../audios/p25/pepperoni.mp3",
-        "../audios/p25/slice.mp3",
+        "../audios/P25/Pg6_2.1_Stella.mp3",
+        "../audios/P25/dough.mp3",
+        "../audios/P25/sauce.mp3",
+        "../audios/P25/sprinkle.mp3",
+        "../audios/P25/cheese.mp3",
+        "../audios/P25/add.mp3",
+        "../audios/P25/pepperoni.mp3",
+        "../audios/P25/slice.mp3",
       ],
       word: [
         "<p style=' margin-bottom: 20px;: 0; font-size: 60px; text-align: center;'>A</p><img src='../images/pages/activities/img2.PNG' style='width: 100%;'/>",

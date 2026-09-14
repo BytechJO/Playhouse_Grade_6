@@ -5,7 +5,7 @@ var stereo_data = {
     "type":"toggle_slide",
     "playListData" : [
         {
-          'audiourl': '../audios/page_34/PLAYHOUSE_1_SB_UNIT_4_TRACK_03_01.mp3',
+          'audiourl': '../audios/Page_34/PLAYHOUSE_1_SB_UNIT_4_TRACK_03_01.mp3',
         },
         {
           'url': '',
@@ -36,7 +36,7 @@ var reading_data = {
             "top_right_image": ["../images/pages/page-2/1-img.png"],
             "parent_class_name": "grid_with_border",
             "group_styles": "",
-            "audio": ["../audios/Pg6_2.1_Stella.mp3","../audios/dough.mp3","../audios/sauce.mp3","../audios/sprinkle.mp3","../audios/cheese.mp3","../audios/add.mp3","../audios/pepperoni.mp3","../audios/slice.mp3"],
+            "audio": ["../audios/Pg6_2.1_Stella.mp3","../audios/dough.mp3","../audios/sauce.mp3","../audios/sprinkle.mp3","../audios/cheese.mp3","../audios/add.mp3","../audios/Pepperoni.mp3","../audios/slice.mp3"],
             "word": [
                 "<span class='darkBlue_text'>Before the school trip ... </span>",
                 "<span class='blue_text'>Teacher</span>: ",

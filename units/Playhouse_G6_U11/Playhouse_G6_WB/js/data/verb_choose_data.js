@@ -5,7 +5,7 @@ var stereo_data = {
   type: "text",
   playListData: [
     {
-      audiourl: "../audios/p56/2.mp3",
+      audiourl: "../audios/P56/2.mp3",
     },
     {
       url: "",
@@ -23,7 +23,7 @@ var verb_choose_data = {
 
   mainTitleIcon: "",
 
-  mainTitleAudio: "../audios/p56/GRAMMAR.mp3",
+  mainTitleAudio: "../audios/P56/GRAMMAR.mp3",
 
   mainTitleIconPos: {
     right: "80px",
@@ -37,7 +37,7 @@ var verb_choose_data = {
   subTitleIcons: [],
 
   subTitleAudio:
-    "../audios/p56/2_Circle_it!_Choose_the_correct_form_of_the_verb_to_complete_each_sentence.mp3",
+    "../audios/P56/2_Circle_it!_Choose_the_correct_form_of_the_verb_to_complete_each_sentence.mp3",
 
   questions: [
     // =====================================================

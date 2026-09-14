@@ -5,7 +5,7 @@ var stereo_data = {
     "type":"slider",
     "playListData" : [
         {
-          'audiourl': '../audios/p136/1.mp3',
+          'audiourl': '../audios/P136/1.mp3',
         },
         {
           'url': '',
@@ -22,11 +22,11 @@ var reading_data = {
     "mainTitle": "../images/pages/sb-icons/reading.png",
     "mainTitleIcon": "../images/pages/sb-icons/phonics_3_icon.png",
     "mainTitleIconPos": {"right": "80px"},
-    "mainTitleAudio": "../audios/p136/READING.mp3",
+    "mainTitleAudio": "../audios/P136/READING.mp3",
     "subTitleTextLeft": "<span class='title-order'>1</span> Read about it!",
     "subTitleTextRight": "Read the fictional narrative below.",
     "subTitleIcons": [""],
-    "subTitleAudio": "../audios/p136/1_Read_about_it!.mp3",
+    "subTitleAudio": "../audios/P136/1_Read_about_it!.mp3",
     "numberofcolumns":  1,
     "slides": [
         {
@@ -34,7 +34,7 @@ var reading_data = {
             "mainImage": "../images/pages/news-letter/2-img-1.png",
             
             'listen': {
-                "audio": ["../audios/p136/Pg4_1.2_Adult_Lady.mp3","../audios/p136/Pg4_1.3_Adult Lady.mp3", "../audios/p136/Pg4_1.4_Adult Lady.mp3"],
+                "audio": ["../audios/P136/Pg4_1.2_Adult_Lady.mp3","../audios/P136/Pg4_1.3_Adult Lady.mp3", "../audios/P136/Pg4_1.4_Adult Lady.mp3"],
                 "titlesAudio":[""],
                 "titleTexts":[""],
                 "top_image":["../images/pages/news-letter/1-conv-img.png"],

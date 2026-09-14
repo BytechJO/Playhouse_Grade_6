@@ -5,7 +5,7 @@ var stereo_data = {
   type: "text",
   playListData: [
     {
-      audiourl: "../audios/p25/1.mp3",
+      audiourl: "../audios/P25/1.mp3",
     },
     {
       url: "",
@@ -22,11 +22,11 @@ var reading_data = {
   mainTitle: "../images/pages/sb-icons/CONVERSATION.jpg",
   mainTitleIcon: "",
   mainTitleIconPos: { right: "90px" },
-  mainTitleAudio: "../audios/p25/CONVERSATION.mp3",
+  mainTitleAudio: "../audios/P25/CONVERSATION.mp3",
   subTitleTextLeft: "<span class='title-order'>1</span> Read it and say it!",
   subTitleTextRight: "",
   subTitleIcons: [""],
-  subTitleAudio: "../audios/p25/1_Read_it_and_say_it!.mp3",
+  subTitleAudio: "../audios/P25/1_Read_it_and_say_it!.mp3",
   slides: [
     {
       layout: "grid_columns",
@@ -36,14 +36,14 @@ var reading_data = {
       parent_class_name: "grid_with_border",
       group_styles: "",
       audio: [
-        "../audios/p25/Pg6_2.1_Stella.mp3",
-        "../audios/p25/dough.mp3",
-        "../audios/p25/sauce.mp3",
-        "../audios/p25/sprinkle.mp3",
-        "../audios/p25/cheese.mp3",
-        "../audios/p25/add.mp3",
-        "../audios/p25/pepperoni.mp3",
-        "../audios/p25/slice.mp3",
+        "../audios/P25/Pg6_2.1_Stella.mp3",
+        "../audios/P25/dough.mp3",
+        "../audios/P25/sauce.mp3",
+        "../audios/P25/sprinkle.mp3",
+        "../audios/P25/cheese.mp3",
+        "../audios/P25/add.mp3",
+        "../audios/P25/pepperoni.mp3",
+        "../audios/P25/slice.mp3",
       ],
       word: [
         // "<span class='darkBlue_text'>Before the school trip ... </span>",

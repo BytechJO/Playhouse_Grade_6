@@ -5,7 +5,7 @@ var stereo_data = {
     "type":"text",
     "playListData" : [
         {
-          'audiourl': '../audios/p133/1.mp3',
+          'audiourl': '../audios/P133/1.mp3',
         },
         {
           'url': '',
@@ -22,11 +22,11 @@ var reading_data = {
     "mainTitle": "../images/pages/sb-icons/conv_main_title.png",
     "mainTitleIcon": "../images/pages/sb-icons/conv_main_title_icon.png",
     "mainTitleIconPos": {"right": "90px"},
-    "mainTitleAudio": "../audios/p133/CONVERSATION.mp3",
+    "mainTitleAudio": "../audios/P133/CONVERSATION.mp3",
     "subTitleTextLeft": "<span class='title-order'>1</span> Listen and read. Then act it out with a friend.",
     "subTitleTextRight": "",
     "subTitleIcons": [],
-    "subTitleAudio": "../audios/p133/1_Listen_and_read_Then_act_it_out_with_a_friend.mp3",
+    "subTitleAudio": "../audios/P133/1_Listen_and_read_Then_act_it_out_with_a_friend.mp3",
     "slides": [
         {
 
@@ -35,7 +35,7 @@ var reading_data = {
             "top_right_image": [],
             "parent_class_name": "grid_with_border",
             "group_styles": "padding-top: 20px; padding-bottom: 50px;",
-            "audio": ["../audios/p133/Pg6_2.1_Stella.mp3","../audios/p133/dough.mp3","../audios/p133/sauce.mp3","../audios/p133/sprinkle.mp3","../audios/p133/cheese.mp3","../audios/p133/add.mp3","../audios/p133/pepperoni.mp3","../audios/p133/slice.mp3"],
+            "audio": ["../audios/P133/Pg6_2.1_Stella.mp3","../audios/P133/dough.mp3","../audios/P133/sauce.mp3","../audios/P133/sprinkle.mp3","../audios/P133/cheese.mp3","../audios/P133/add.mp3","../audios/P133/pepperoni.mp3","../audios/P133/slice.mp3"],
             "word": [
                 "<span class='blue_text'>Lilly:</span> ",
                 "Hi, Jenny. Did you find anyone to help you with International Day?",
@@ -72,7 +72,7 @@ var reading_data = {
                 // {"colWidth": [1,11], "colData": [1,1] },
             ],
             "bottomImage": ["../images/pages/page-1/1-background-buttom.png"],
-            "bottomAudio": ["../audios/p133/Pg6_2.1_Stella.mp3","../audios/p133/dough.mp3","../audios/p133/sauce.mp3","../audios/p133/sprinkle.mp3"],
+            "bottomAudio": ["../audios/P133/Pg6_2.1_Stella.mp3","../audios/P133/dough.mp3","../audios/P133/sauce.mp3","../audios/P133/sprinkle.mp3"],
             "bottomWord": [
                 "<span class='blue_text'>Useful Expressions</span>",
                 "What good would it do...",

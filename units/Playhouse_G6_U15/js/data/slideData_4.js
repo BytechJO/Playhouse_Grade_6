@@ -5,7 +5,7 @@ var stereo_data = {
   "type":"toggle_slide",
   "playListData" : [
       {
-        'audiourl': '../audios/p134/1.mp3',
+        'audiourl': '../audios/P134/1.mp3',
       },
       {
         'url': '',
@@ -21,12 +21,12 @@ var stereo_data = {
 var reading_data = {
   "mainTitle": "../images/pages/sb-icons/gram_main_title.png",
   "mainTitleIcon": "../images/pages/sb-icons/gram_main_title_icon.png",
-  "mainTitleAudio": "../audios/p134/GRAMMAR.mp3",
+  "mainTitleAudio": "../audios/P134/GRAMMAR.mp3",
   "mainTitleIconPos"      : {"right": "80px"},
   "subTitleTextLeft": "<span class='title-order'>1</span> Look and say.",
   "subTitleTextRight": "",
   "subTitleIcons": [],
-  "subTitleAudio": "../audios/p134/1_Look_and_say.mp3",
+  "subTitleAudio": "../audios/P134/1_Look_and_say.mp3",
   "slides": [
   {
       
@@ -38,7 +38,7 @@ var reading_data = {
       "rule_toggle_btn":"slide_1",
       "example_toggle_btn":"slide_2",
       "letters":["G","R","A","M","M","E","R"],
-      "audio": ["../audios/p134/Pg6_2.1_Stella.mp3","../audios/p134/dough.mp3","../audios/p134/sauce.mp3","../audios/p134/sprinkle.mp3","../audios/p134/cheese.mp3","../audios/p134/add.mp3","../audios/p134/pepperoni.mp3","../audios/p134/slice.mp3"],
+      "audio": ["../audios/P134/Pg6_2.1_Stella.mp3","../audios/P134/dough.mp3","../audios/P134/sauce.mp3","../audios/P134/sprinkle.mp3","../audios/P134/cheese.mp3","../audios/P134/add.mp3","../audios/P134/pepperoni.mp3","../audios/P134/slice.mp3"],
       "word": [
 
           "We use the <span class='blue_text'>past perfect</span> tense for an action that happened in the past and had already been completed before a certain time.",

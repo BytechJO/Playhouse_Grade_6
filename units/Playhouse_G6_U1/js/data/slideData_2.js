@@ -5,7 +5,7 @@ var stereo_data = {
   type: "toggle_slide",
   playListData: [
     {
-      audiourl: "../audios/p5/1.mp3",
+      audiourl: "../audios/P5/1.mp3",
     },
     {
       url: "",
@@ -22,13 +22,13 @@ var reading_data = {
   mainTitle: "../images/pages/sb-icons/conv_main_title.png",
   mainTitleIcon: "../images/pages/sb-icons/conv_main_title_icon.png",
   mainTitleIconPos: { right: "90px" },
-  mainTitleAudio: "../audios/p5/CONVERSATION.mp3",
+  mainTitleAudio: "../audios/P5/CONVERSATION.mp3",
   subTitleTextLeft:
     "<span class='title-order'>1</span> Listen and read. Then act it out with a friend.",
   subTitleTextRight: "",
   subTitleIcons: [],
   subTitleAudio:
-    "../audios/p5/1_Listen_and_read_Then_act_it_out_with_a_friend.mp3",
+    "../audios/P5/1_Listen_and_read_Then_act_it_out_with_a_friend.mp3",
   slides: [
     {
       layout: "grid_columns",
@@ -38,14 +38,14 @@ var reading_data = {
       parent_class_name: "grid_with_border",
       group_styles: "padding-top: 20px; padding-bottom: 50px;",
       audio: [
-        "../audios/p5/Pg6_2.1_Stella.mp3",
-        "../audios/p5/dough.mp3",
-        "../audios/p5/sauce.mp3",
-        "../audios/p5/sprinkle.mp3",
-        "../audios/p5/cheese.mp3",
-        "../audios/p5/add.mp3",
-        "../audios/p5/pepperoni.mp3",
-        "../audios/p5/slice.mp3",
+        "../audios/P5/Pg6_2.1_Stella.mp3",
+        "../audios/P5/dough.mp3",
+        "../audios/P5/sauce.mp3",
+        "../audios/P5/sprinkle.mp3",
+        "../audios/P5/cheese.mp3",
+        "../audios/P5/add.mp3",
+        "../audios/P5/pepperoni.mp3",
+        "../audios/P5/slice.mp3",
       ],
       word: [
         "<span class='darkBlue_text'>Before the school trip ... </span>",
@@ -99,10 +99,10 @@ var reading_data = {
       ],
       bottomImage: ["../images/pages/page-1/1-background-buttom.png"],
       bottomAudio: [
-        "../audios/p5/Pg6_2.1_Stella.mp3",
-        "../audios/p5/dough.mp3",
-        "../audios/p5/sauce.mp3",
-        "../audios/p5/sprinkle.mp3",
+        "../audios/P5/Pg6_2.1_Stella.mp3",
+        "../audios/P5/dough.mp3",
+        "../audios/P5/sauce.mp3",
+        "../audios/P5/sprinkle.mp3",
       ],
       bottomWord: [
         "Useful Expressions",

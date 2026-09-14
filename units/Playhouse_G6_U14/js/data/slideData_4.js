@@ -5,7 +5,7 @@ var stereo_data = {
   "type":"toggle_slide",
   "playListData" : [
       {
-        'audiourl': '../audios/p126/1.mp3',
+        'audiourl': '../audios/P126/1.mp3',
       },
       {
         'url': '',
@@ -21,12 +21,12 @@ var stereo_data = {
 var reading_data = {
   "mainTitle": "../images/pages/sb-icons/gram_main_title.png",
   "mainTitleIcon": "../images/pages/sb-icons/gram_main_title_icon.png",
-  "mainTitleAudio": "../audios/p126/GRAMMAR.mp3",
+  "mainTitleAudio": "../audios/P126/GRAMMAR.mp3",
   "mainTitleIconPos"      : {"right": "80px"},
   "subTitleTextLeft": "<span class='title-order'>1</span> Look and say.",
   "subTitleTextRight": "",
   "subTitleIcons": [],
-  "subTitleAudio": "../audios/p126/1_Look_and_say.mp3",
+  "subTitleAudio": "../audios/P126/1_Look_and_say.mp3",
   "slides": [
   {
       
@@ -38,7 +38,7 @@ var reading_data = {
       "rule_toggle_btn":"slide_1",
       "example_toggle_btn":"slide_2",
       "letters":["G","R","A","M","M","E","R"],
-      "audio": ["../audios/p126/Pg6_2.1_Stella.mp3","../audios/p126/dough.mp3","../audios/p126/sauce.mp3","../audios/p126/sprinkle.mp3","../audios/p126/cheese.mp3","../audios/p126/add.mp3","../audios/p126/pepperoni.mp3","../audios/p126/slice.mp3"],
+      "audio": ["../audios/P126/Pg6_2.1_Stella.mp3","../audios/P126/dough.mp3","../audios/P126/sauce.mp3","../audios/P126/sprinkle.mp3","../audios/P126/cheese.mp3","../audios/P126/add.mp3","../audios/P126/pepperoni.mp3","../audios/P126/slice.mp3"],
       "word": [
 
           "We use <span class='blue_text'>reported speech</span> when we want to tell someone what another person said",

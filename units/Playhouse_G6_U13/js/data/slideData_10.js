@@ -5,7 +5,7 @@ var stereo_data = {
   type: "text",
   playListData: [
     {
-      audiourl: "../audios/p102/1.mp3",
+      audiourl: "../audios/P102/1.mp3",
     },
     {
       url: "",
@@ -35,14 +35,14 @@ var reading_data = {
       parent_class_name: "full_grid_with_background_image slide-10",
       group_styles: "",
       audio: [
-        "../audios/p102/Pg6_2.1_Stella.mp3",
-        "../audios/p102/dough.mp3",
-        "../audios/p102/sauce.mp3",
-        "../audios/p102/sprinkle.mp3",
-        "../audios/p102/cheese.mp3",
-        "../audios/p102/add.mp3",
-        "../audios/p102/pepperoni.mp3",
-        "../audios/p102/slice.mp3",
+        "../audios/P102/Pg6_2.1_Stella.mp3",
+        "../audios/P102/dough.mp3",
+        "../audios/P102/sauce.mp3",
+        "../audios/P102/sprinkle.mp3",
+        "../audios/P102/cheese.mp3",
+        "../audios/P102/add.mp3",
+        "../audios/P102/pepperoni.mp3",
+        "../audios/P102/slice.mp3",
       ],
       word: [
         "Writing tips or rules about a topic is a good way to give quick information. Before you write" +

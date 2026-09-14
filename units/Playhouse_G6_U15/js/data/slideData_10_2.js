@@ -5,7 +5,7 @@ var stereo_data = {
     "type":"text",
     "playListData" : [
         {
-          'audiourl': '../audios/p138/1.mp3',
+          'audiourl': '../audios/P138/1.mp3',
         },
         {
           'url': '',
@@ -22,11 +22,11 @@ var reading_data = {
     "mainTitle": "../images/pages/sb-icons/writing.png",
     "mainTitleIcon": "../images/pages/sb-icons/gram_main_title_icon.png",
     "mainTitleIconPos": {"right": "80px"},
-    "mainTitleAudio": "../audios/p138/WRITING.mp3",
+    "mainTitleAudio": "../audios/P138/WRITING.mp3",
     "subTitleTextLeft": "<span class='title-order'>1</span> Read about it.",
     "subTitleTextRight": "Writing to a pen friend is easy. You can do the following:",
     "subTitleIcons": [""],
-    "subTitleAudio": "../audios/p138/1_Read_about_it!.mp3",
+    "subTitleAudio": "../audios/P138/1_Read_about_it!.mp3",
     "slides": [
         {
             "layout": "grid_columns",
@@ -34,7 +34,7 @@ var reading_data = {
             "mainImage": [""],
             "parent_class_name": "full_grid_with_background_image slide-10-2",
             "group_styles": "",
-            "audio": ["../audios/Pg6_2.1_Stella.mp3","../audios/dough.mp3","../audios/sauce.mp3","../audios/sprinkle.mp3","../audios/cheese.mp3","../audios/add.mp3","../audios/pepperoni.mp3","../audios/slice.mp3"],
+            "audio": ["../audios/Pg6_2.1_Stella.mp3","../audios/dough.mp3","../audios/sauce.mp3","../audios/sprinkle.mp3","../audios/cheese.mp3","../audios/add.mp3","../audios/Pepperoni.mp3","../audios/slice.mp3"],
             "word": [
                 "- give your name and age,",
                 "- tell your new friend if you are a boy or girl,",

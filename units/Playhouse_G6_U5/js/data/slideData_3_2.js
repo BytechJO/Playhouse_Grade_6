@@ -43,7 +43,7 @@ var reading_data = {
         "../audios/sprinkle.mp3",
         "../audios/cheese.mp3",
         "../audios/add.mp3",
-        "../audios/pepperoni.mp3",
+        "../audios/Pepperoni.mp3",
         "../audios/slice.mp3",
       ],
       word: [

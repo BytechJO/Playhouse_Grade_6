@@ -5,7 +5,7 @@ var stereo_data = {
   type: "text",
   playListData: [
     {
-      audiourl: "../audios/p14/1.mp3",
+      audiourl: "../audios/P14/1.mp3",
     },
     {
       url: "",
@@ -21,18 +21,18 @@ var stereo_data = {
 var _activity_json = {
   mainTitle: "../images/pages/sb-icons/word_main_title.png",
   mainTitleIcon: "../images/pages/sb-icons/word_main_title_icon.png",
-  mainTitleAudio: "../audios/p14/WORD_POWER.mp3",
+  mainTitleAudio: "../audios/P14/WORD_POWER.mp3",
   mainTitleIconPos: { right: "-18px" },
   subTitleTextLeft:
     "<span class='title-order'>1</span> Complete it! Read the passages below and fill in the blanks with the Word Power words.",
   subTitleTextRight: "",
   subTitleIcons: [],
   subTitleAudio:
-    "../audios/p14/1_Complete_it!_Read_the_passages_below_and_fill_in_the_blanks_with_the_Word_Power_words.mp3",
+    "../audios/P14/1_Complete_it!_Read_the_passages_below_and_fill_in_the_blanks_with_the_Word_Power_words.mp3",
   image: "mouse_icon.png",
   images: [],
   activityheading: "",
-  activityheading_audio: "../audios/p14/under.mp3",
+  activityheading_audio: "../audios/P14/under.mp3",
   type: "drag_drop",
   questions: [
     [

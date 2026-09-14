@@ -4,7 +4,7 @@ var stereo_data = {
   "bgColor_rgb":"rgb(0, 183, 206)",
   "playListData" : [
       {
-        'audiourl': '../audios/p131/demo.mp3',
+        'audiourl': '../audios/P131/demo.mp3',
       },
       {
         'url': '',
@@ -21,11 +21,11 @@ var reading_data = {
     "mainTitle": "",
     "mainTitleIcon": "",
     "mainTitleIconPos": {"right": "100px"},
-    "mainTitleAudio": "../audios/p131/under.mp3",
+    "mainTitleAudio": "../audios/P131/under.mp3",
     "subTitleTextLeft": "PLAYHOUSE NEWSLETTER",
     "subTitleTextRight": "",
     "subTitleIcons": [""],
-    "subTitleAudio": "../audios/p131/PLAYHOUSE_NEWSLETTER.mp3",
+    "subTitleAudio": "../audios/P131/PLAYHOUSE_NEWSLETTER.mp3",
     "slides": [
         {
             // "layout": "adventure_images_with_text",
@@ -36,7 +36,7 @@ var reading_data = {
             "starImage": "../images/pages/news-letter/2-img-2-title.png",
             "convImage": "../images/pages/news-letter/3-img-title.png",
 
-            "titleAudio": "../audios/p131/Pg6_2.1_Stella.mp3",
+            "titleAudio": "../audios/P131/Pg6_2.1_Stella.mp3",
            
             'listen': {
               "text":  [
@@ -52,7 +52,7 @@ var reading_data = {
                 "will eat lunch on the football pitch. If your family has students from both grade groups, they can choose where to eat. We "+
                 "hope you and your families enjoy a wonderful day on Friday!",
                ],
-               "audio": ["../audios/p131/Family_Day.mp3"],
+               "audio": ["../audios/P131/Family_Day.mp3"],
                 "titlesAudio":[""],
                 "titleTexts":[""],
                 "top_image":["../images/pages/news-letter/1-news-title.png"],//
@@ -69,7 +69,7 @@ var reading_data = {
                   "We're sure it will be a great success! Thanks, Bryan and Ryan, for a great family day and all your hard work!<br>"+
                   "<span style='text-align: right; display:block'>by Jenny <br> Photo by Yoshi</span>"
                 ],
-                "audio": ["../audios/p131/Star_Student.mp3"],
+                "audio": ["../audios/P131/Star_Student.mp3"],
                 "titlesAudio":[""],
                 "titleTexts":["Start Student"],
                 "top_image":["../images/pages/news-letter/2-img-title.png"],
@@ -82,7 +82,7 @@ var reading_data = {
                   "What doyou think they are saying?",
                   "With a friend, act out the conversation! ",
                 ],
-                "audio": ["../audios/p131/Pg4_1.2_Adult_Lady.mp3"],
+                "audio": ["../audios/P131/Pg4_1.2_Adult_Lady.mp3"],
                 "titlesAudio":[""],
                 "titleTexts":[""],
                 "top_image":["../images/pages/news-letter/3-img.png"],
@@ -90,7 +90,7 @@ var reading_data = {
             },
             ///////////////////////////////////////////////////////////////////////////////////////////////////////// 4 //
             'listen4': {
-                "audio": ["../audios/p131/Pg4_1.2_Adult_Lady.mp3"],
+                "audio": ["../audios/P131/Pg4_1.2_Adult_Lady.mp3"],
                 "titlesAudio":[""],
                 "titleTexts":[""],
                 "top_image":["../images/pages/news-letter/1-conv-img.png"],

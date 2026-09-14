@@ -37,7 +37,7 @@ var reading_data = {
             "middleImage": ["../images/pages/page-2/conv-2-img-2.png"],
             "parent_class_name": "grid_with_border",
             "group_styles": "border: none;",
-            "audio": ["../audios/Pg6_2.1_Stella.mp3","../audios/dough.mp3","../audios/sauce.mp3","../audios/sprinkle.mp3","../audios/cheese.mp3","../audios/add.mp3","../audios/pepperoni.mp3","../audios/slice.mp3"],
+            "audio": ["../audios/Pg6_2.1_Stella.mp3","../audios/dough.mp3","../audios/sauce.mp3","../audios/sprinkle.mp3","../audios/cheese.mp3","../audios/add.mp3","../audios/Pepperoni.mp3","../audios/slice.mp3"],
             "word": [
                 "Listen to the kids’ news programme and answer the questions.",
                 "1 The gym teacher, Ms. Elipas, is the founder of",

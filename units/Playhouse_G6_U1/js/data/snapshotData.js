@@ -2,14 +2,14 @@ var snapshot_data = {
   snapshot: [
     {
       audio: [
-        "../audios/p4/pizza.mp3",
-        "../audios/p4/dough.mp3",
-        "../audios/p4/sauce.mp3",
-        "../audios/p4/sprinkle.mp3",
-        "../audios/p4/cheese.mp3",
-        "../audios/p4/add.mp3",
-        "../audios/p4/pepperoni.mp3",
-        "../audios/p4/slice.mp3",
+        "../audios/P4/pizza.mp3",
+        "../audios/P4/dough.mp3",
+        "../audios/P4/sauce.mp3",
+        "../audios/P4/sprinkle.mp3",
+        "../audios/P4/cheese.mp3",
+        "../audios/P4/add.mp3",
+        "../audios/P4/pepperoni.mp3",
+        "../audios/P4/slice.mp3",
       ],
       image: [
         "../images/pages/snapshots/ARC_2_1_SB_U1_P5_word1.png",
@@ -49,19 +49,19 @@ var Popups_data = {
     {
       // 'apk': {
       //   "text": ["<div><p>I need your help.<br />Can you help me find the restaurant in the picture?</p></div>"],
-      //   "audio": ["../audios/p4/pizza.mp3"]},
+      //   "audio": ["../audios/P4/pizza.mp3"]},
       // 'ccss': {
       //   "text": ["<span>1 Goodbye!</span>","<span>2 How are you?</span>","<span>3 Fine, thank you.</span>","<span>4 Hello!</span>","<span>5 Good morning!</span>"],
-      //   "audio": ["../audios/p4/Pg4_Vocabulary_Adult Lady.mp3","../audios/p4/dough.mp3", "../audios/p4/pizza.mp3","../audios/p4/dough.mp3", "../audios/p4/pizza.mp3"]},
+      //   "audio": ["../audios/P4/Pg4_Vocabulary_Adult Lady.mp3","../audios/P4/dough.mp3", "../audios/P4/pizza.mp3","../audios/P4/dough.mp3", "../audios/P4/pizza.mp3"]},
       listen: {
         backgroundImage: "../images/pages/page-1/1-word-background.png",
         mainTitle: "../images/pages/page-1/1-title.png",
         titleTexts: ["<span class='blue_text'>2</span> Listen again and read."],
         titleIcons: [""],
         titlesAudio: [
-          "../audios/p4/Pg4_1.2_Adult_Lady.mp3",
-          "../audios/p4/Pg4_1.3_Adult Lady.mp3",
-          "../audios/p4/Pg4_1.4_Adult Lady.mp3",
+          "../audios/P4/Pg4_1.2_Adult_Lady.mp3",
+          "../audios/P4/Pg4_1.3_Adult Lady.mp3",
+          "../audios/P4/Pg4_1.4_Adult Lady.mp3",
         ],
         image: [
           "../images/pages/snapshots/page-1/popup-3-elem-1.png",
@@ -90,18 +90,18 @@ var Popups_data = {
           "<span class='number_bold'>12</span> teleprompter",
         ],
         audio: [
-          "../audios/p4/1_studio.mp3",
-          "../audios/p4/2_on_air.mp3",
-          "../audios/p4/3_channel.mp3",
-          "../audios/p4/4_sound_engineer.mp3",
-          "../audios/p4/5_camera_operator.mp3",
-          "../audios/p4/6_programme.mp3",
-          "../audios/p4/7_reporter.mp3",
-          "../audios/p4/8_breaking_news.mp3",
-          "../audios/p4/9_microphone.mp3",
-          "../audios/p4/10_anchor.mp3",
-          "../audios/p4/11_live_broadcast.mp3",
-          "../audios/p4/12_teleprompter.mp3",
+          "../audios/P4/1_studio.mp3",
+          "../audios/P4/2_on_air.mp3",
+          "../audios/P4/3_channel.mp3",
+          "../audios/P4/4_sound_engineer.mp3",
+          "../audios/P4/5_camera_operator.mp3",
+          "../audios/P4/6_programme.mp3",
+          "../audios/P4/7_reporter.mp3",
+          "../audios/P4/8_breaking_news.mp3",
+          "../audios/P4/9_microphone.mp3",
+          "../audios/P4/10_anchor.mp3",
+          "../audios/P4/11_live_broadcast.mp3",
+          "../audios/P4/12_teleprompter.mp3",
         ],
       },
       listen2: {
@@ -116,23 +116,23 @@ var Popups_data = {
           "../images/pages/page-1/2-img-2.png",
         ],
         audio: [
-          "../audios/p4/Pg5_2.2_Adult Lady.mp3",
-          "../audios/p4/Pg5_2.3_Adult Lady.mp3",
+          "../audios/P4/Pg5_2.2_Adult Lady.mp3",
+          "../audios/P4/Pg5_2.3_Adult Lady.mp3",
         ],
       },
       listen3: {
         // "leftImage": "../images/pages/snapshots/page-2/popup-2-left-img.png",
         mainTitle: "../images/pages/page-1/1-title.png",
-        mainTitle_audio: "../audios/p4/WORD_POWER.mp3",
+        mainTitle_audio: "../audios/P4/WORD_POWER.mp3",
         titleTexts: ["<span class='title-order'>1</span> Listen and say."],
         titleIcons: [""],
         titleTextRight:
           "<span class='blue_text'>Do your parents watch the news on TV, listen to the news on the radio or read the news on the internet? Do you think news is important?</span>",
-        titlesAudio: ["../audios/p4/1_Listen_and_say.mp3"],
+        titlesAudio: ["../audios/P4/1_Listen_and_say.mp3"],
         image: [],
         audio: [
-          "../audios/p32/Pg5_2.2_Adult Lady.mp3",
-          "../audios/p32/Pg5_2.3_Adult Lady.mp3",
+          "../audios/P32/Pg5_2.2_Adult Lady.mp3",
+          "../audios/P32/Pg5_2.3_Adult Lady.mp3",
         ],
       },
     },
@@ -166,7 +166,7 @@ var Popups_data = {
     "../images/pages/page-1/intro-11.png",
     "../images/pages/page-1/intro-12.png",
   ],
-   popupDirections: [
+  popupDirections: [
     "bottom", //1
     "bottom", //2
     "bottom", //3
@@ -195,17 +195,17 @@ var Popups_data = {
     "left: 63.22%; top: 87.5%;",
   ],
   imagesAudio: [
-    "../audios/p4/1_studio.mp3",
-    "../audios/p4/2_on_air.mp3",
-    "../audios/p4/3_channel.mp3",
-    "../audios/p4/4_sound_engineer.mp3",
-    "../audios/p4/5_camera_operator.mp3",
-    "../audios/p4/6_programme.mp3",
-    "../audios/p4/7_reporter.mp3",
-    "../audios/p4/8_breaking_news.mp3",
-    "../audios/p4/9_microphone.mp3",
-    "../audios/p4/10_anchor.mp3",
-    "../audios/p4/11_live_broadcast.mp3",
-    "../audios/p4/12_teleprompter.mp3",
+    "../audios/P4/1_studio.mp3",
+    "../audios/P4/2_on_air.mp3",
+    "../audios/P4/3_channel.mp3",
+    "../audios/P4/4_sound_engineer.mp3",
+    "../audios/P4/5_camera_operator.mp3",
+    "../audios/P4/6_programme.mp3",
+    "../audios/P4/7_reporter.mp3",
+    "../audios/P4/8_breaking_news.mp3",
+    "../audios/P4/9_microphone.mp3",
+    "../audios/P4/10_anchor.mp3",
+    "../audios/P4/11_live_broadcast.mp3",
+    "../audios/P4/12_teleprompter.mp3",
   ],
 };

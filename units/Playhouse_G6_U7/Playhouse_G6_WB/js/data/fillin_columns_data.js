@@ -5,7 +5,7 @@ var stereo_data = {
   type: "text",
   playListData: [
     {
-      audiourl: "../audios/p35/3.mp3",
+      audiourl: "../audios/P35/3.mp3",
     },
     {
       url: "",
@@ -24,13 +24,13 @@ var fillin_data = {
   mainTitle: "../images/pages/sb-icons/CONVERSATION.jpg",
   mainTitleIcon: "",
   mainTitleIconPos: { right: "-18px" },
-  mainTitleAudio: "../audios/p35/CONVERSATION.mp3",
+  mainTitleAudio: "../audios/P35/CONVERSATION.mp3",
   subTitleTextLeft:
     '<span class="blue_text">3</span> Answer it! Answer the questions about the first conversation.',
   subTitleTextRight: "",
   subTitleIcons: [],
   subTitleAudio:
-    "../audios/p35/3_Answer_it!_Answer_the_questions_about_the_first_conversation.mp3",
+    "../audios/P35/3_Answer_it!_Answer_the_questions_about_the_first_conversation.mp3",
   defaultAnswer: -1,
   leftList: "",
   image: "",
@@ -98,7 +98,7 @@ var fillin_data = {
   questions: [
     {
       textfront: "Where are the astronauts going?",
-      audio: "../audios/p35/under.mp3",
+      audio: "../audios/P35/under.mp3",
       audioenable: "default", // correct (or) default
       image: "",
       answer: ["The astronauts are going to Mars"],
@@ -107,7 +107,7 @@ var fillin_data = {
     },
     {
       textfront: "What is the temperature like on Mars?",
-      audio: "../audios/p35/under.mp3",
+      audio: "../audios/P35/under.mp3",
       audioenable: "default", // correct (or) default
       image: "",
       answer: ["The temperature on Mars is very cold"],
@@ -116,7 +116,7 @@ var fillin_data = {
     },
     {
       textfront: "Why are radars important for space travel?",
-      audio: "../audios/p35/under.mp3",
+      audio: "../audios/P35/under.mp3",
       audioenable: "default", // correct (or) default
       image: "",
       answer: [
@@ -128,7 +128,7 @@ var fillin_data = {
     {
       textfront:
         "Do you think the life of an astronaut is adventurous? Why or why not?",
-      audio: "../audios/p35/under.mp3",
+      audio: "../audios/P35/under.mp3",
       audioenable: "default", // correct (or) default
       image: "",
       answer: [""],

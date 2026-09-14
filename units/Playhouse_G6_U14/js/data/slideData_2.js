@@ -5,7 +5,7 @@ var stereo_data = {
     "type":"text",
     "playListData" : [
         {
-          'audiourl': '../audios/p125/1.mp3',
+          'audiourl': '../audios/P125/1.mp3',
         },
         {
           'url': '',
@@ -22,11 +22,11 @@ var reading_data = {
     "mainTitle": "../images/pages/sb-icons/conv_main_title.png",
     "mainTitleIcon": "../images/pages/sb-icons/conv_main_title_icon.png",
     "mainTitleIconPos": {"right": "90px"},
-    "mainTitleAudio": "../audios/p125/CONVERSATION.mp3",
+    "mainTitleAudio": "../audios/P125/CONVERSATION.mp3",
     "subTitleTextLeft": "<span class='title-order'>1</span> Listen and read. Then act it out with a friend.",
     "subTitleTextRight": "",
     "subTitleIcons": [],
-    "subTitleAudio": "../audios/p125/1_Listen_and_read_Then_act_it_out_with_a_friend.mp3",
+    "subTitleAudio": "../audios/P125/1_Listen_and_read_Then_act_it_out_with_a_friend.mp3",
     "slides": [
         {
 
@@ -35,7 +35,7 @@ var reading_data = {
             "top_right_image": [],
             "parent_class_name": "grid_with_border",
             "group_styles": "padding-top: 20px; padding-bottom: 50px;",
-            "audio": ["../audios/p125/Pg6_2.1_Stella.mp3","../audios/p125/dough.mp3","../audios/p125/sauce.mp3","../audios/p125/sprinkle.mp3","../audios/p125/cheese.mp3","../audios/p125/add.mp3","../audios/p125/pepperoni.mp3","../audios/p125/slice.mp3"],
+            "audio": ["../audios/P125/Pg6_2.1_Stella.mp3","../audios/P125/dough.mp3","../audios/P125/sauce.mp3","../audios/P125/sprinkle.mp3","../audios/P125/cheese.mp3","../audios/P125/add.mp3","../audios/P125/pepperoni.mp3","../audios/P125/slice.mp3"],
             "word": [
                 "<span class='blue_text'>Max:</span> ",
                 "Hi, Yoshi. I brought my photo album of our family reunion. Do you want <br> to look at the pictures with me?",
@@ -74,7 +74,7 @@ var reading_data = {
                 {"colWidth": [1,11], "colData": [1,1] },
             ],
             "bottomImage": ["../images/pages/page-1/1-background-buttom.png"],
-            "bottomAudio": ["../audios/p125/Pg6_2.1_Stella.mp3","../audios/p125/dough.mp3","../audios/p125/sauce.mp3","../audios/p125/sprinkle.mp3"],
+            "bottomAudio": ["../audios/P125/Pg6_2.1_Stella.mp3","../audios/P125/dough.mp3","../audios/P125/sauce.mp3","../audios/P125/sprinkle.mp3"],
             "bottomWord": [
                 "<span class='blue_text'>Useful Expressions</span>",
                 "How about ...",

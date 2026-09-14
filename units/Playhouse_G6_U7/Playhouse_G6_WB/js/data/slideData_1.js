@@ -6,7 +6,7 @@ var stereo_data = {
 
   playListData: [
     {
-      audiourl: "../audios/p38/1.mp3",
+      audiourl: "../audios/P38/1.mp3",
     },
     {
       url: "",
@@ -29,7 +29,7 @@ var reading_data = {
     right: "90px",
   },
 
-  mainTitleAudio: "../audios/p38/WRITING.mp3",
+  mainTitleAudio: "../audios/P38/WRITING.mp3",
 
   subTitleTextLeft:
     "<span class='blue_text'>1</span> Write it! A biography, as you know, is the story of somebody‘s life. An autobiography is the story a writer writes about their own life. You can write an autobiography about yourself! Follow the steps below to do the prewriting for your autobiography. In the next unit you can finish your life story",
@@ -39,7 +39,7 @@ var reading_data = {
   subTitleIcons: [""],
 
   subTitleAudio:
-    "../audios/p38/1_Write_it!_A_biography_as_you_know_is_the_story_of_somebody‘s_life_An.mp3",
+    "../audios/P38/1_Write_it!_A_biography_as_you_know_is_the_story_of_somebody‘s_life_An.mp3",
 
   slides: [
     // =========================================================
@@ -56,7 +56,7 @@ var reading_data = {
 
       group_styles: "",
 
-      audio: ["../audios/p38/My_Main_Idea_Statement.mp3", "", "", "", "", ""],
+      audio: ["../audios/P38/My_Main_Idea_Statement.mp3", "", "", "", "", ""],
 
       word: [
         "<b>My Main Idea Statement</b>",
@@ -120,7 +120,7 @@ var reading_data = {
       group_styles: "",
 
       audio: [
-        "../audios/p38/The_Main_Events_I’m_Including.mp3",
+        "../audios/P38/The_Main_Events_I’m_Including.mp3",
         "",
         "",
         "",
@@ -214,7 +214,7 @@ var reading_data = {
       group_styles: "",
 
       audio: [
-        "../audios/p38/What_Others_Say_About_Me.mp3",
+        "../audios/P38/What_Others_Say_About_Me.mp3",
         "",
         "",
         "",
@@ -291,7 +291,7 @@ var reading_data = {
 
       group_styles: "",
 
-      audio: ["../audios/p38/Pictures_I’ll_Put_In.mp3", "", "", "", "", ""],
+      audio: ["../audios/P38/Pictures_I’ll_Put_In.mp3", "", "", "", "", ""],
 
       word: [
         "<b>Pictures I’ll Put In</b>",

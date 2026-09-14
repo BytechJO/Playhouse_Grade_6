@@ -5,7 +5,7 @@ var stereo_data = {
   type: "text",
   playListData: [
     {
-      audiourl: "../audios/p41/1.mp3",
+      audiourl: "../audios/P41/1.mp3",
     },
     {
       url: "",
@@ -24,13 +24,13 @@ var mcq_data = {
   mainTitle: "../images/pages/sb-icons/grammer_main_title.png",
   mainTitleIcon: "",
   mainTitleIconPos: { right: "90px" },
-  mainTitleAudio: "../audios/p41/GRAMMAR.mp3",
+  mainTitleAudio: "../audios/P41/GRAMMAR.mp3",
   subTitleTextLeft:
     "<span class='title-order'>1</span> Choose it! Read the sentences. Underline the sentence that is written with the present perfect continuous tense.",
   subTitleTextRight: "",
   subTitleIcons: [],
   subTitleAudio:
-    "../audios/p41/1_Choose_it!_Read_the_sentences_Underline_the_sentence_that_is_written_with_the_present_perfect.mp3",
+    "../audios/P41/1_Choose_it!_Read_the_sentences_Underline_the_sentence_that_is_written_with_the_present_perfect.mp3",
   select: "single", // single (or) multiple
   shape: "roundrect", // circle (or) roundrect (or) rectangle (or) svg (or) cross (or) checkbox
   bgcolor: "none",

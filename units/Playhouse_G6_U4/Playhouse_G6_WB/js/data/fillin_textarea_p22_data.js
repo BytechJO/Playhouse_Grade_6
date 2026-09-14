@@ -5,7 +5,7 @@ var stereo_data = {
   type: "text",
   playListData: [
     {
-      audiourl: "../audios/p22/1.mp3",
+      audiourl: "../audios/P22/1.mp3",
     },
     {
       url: "",
@@ -24,13 +24,13 @@ var fillin_data = {
   mainTitle: "../images/pages/sb-icons/LANGUAGE_BUILDING.jpg",
   mainTitleIcon: "",
   mainTitleIconPos: { right: "-18px" },
-  mainTitleAudio: "../audios/p22/LANGUAGE_BUILDING.mp3",
+  mainTitleAudio: "../audios/P22/LANGUAGE_BUILDING.mp3",
   subTitleTextLeft:
     '<span class="title-order">1</span> Write it! The words below can be used as adjectives. Colours and numbers are also adjectives. Use eight or more of them to write about a holiday, how you got there and what you saw.',
   subTitleTextRight: "",
   subTitleIcons: [],
   subTitleAudio:
-    "../audios/p22/1_Write_it!_The_words_below_can_be_used_as_adjectives_Colours_and_numbers_are_also_adjectives.mp3",
+    "../audios/P22/1_Write_it!_The_words_below_can_be_used_as_adjectives_Colours_and_numbers_are_also_adjectives.mp3",
   defaultAnswer: 1,
   parent_class_name: "options_word",
   options: [

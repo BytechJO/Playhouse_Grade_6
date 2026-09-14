@@ -28,7 +28,7 @@ var conversation_change_data = {
   mainTitle: "../images/pages/sb-icons/CONVERSATION.jpg",
   mainTitleIcon: "",
   mainTitleIconPos: { right: "90px" },
-  mainTitleAudio: "../audios/p35/CONVERSATION.mp3",
+  mainTitleAudio: "../audios/P35/CONVERSATION.mp3",
 
   subTitleTextLeft:
     "<span class='blue_text'>2</span> " +
@@ -39,8 +39,7 @@ var conversation_change_data = {
 
   subTitleIcons: [],
 
-  subTitleAudio:
-    "../audios/P35/2.mp3",
+  subTitleAudio: "../audios/P35/2.mp3",
 
   activityheading: "",
 

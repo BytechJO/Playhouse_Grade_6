@@ -5,7 +5,7 @@ var stereo_data = {
   type: "text",
   playListData: [
     {
-      audiourl: "../audios/p74/demo.mp3",
+      audiourl: "../audios/P74/demo.mp3",
     },
     {
       url: "",
@@ -24,13 +24,13 @@ var fillin_data = {
   mainTitle: "",
   mainTitleIcon: "",
   mainTitleIconPos: { right: "-18px" },
-  mainTitleAudio: "../audios/p74/WORD_POWER.mp3",
+  mainTitleAudio: "../audios/P74/WORD_POWER.mp3",
   subTitleTextLeft:
     '<span class="green_text">1</span> Label it! <span class="blue_text">Look at each picture and label it using the Word Power words.</span>',
   subTitleTextRight: "",
   subTitleIcons: [],
   subTitleAudio:
-    "../audios/p74/2_Put_it_together!_All_the_parts_of_the_Word_Power_words_are_broken_into_scrambled_syllables_Put.mp3",
+    "../audios/P74/2_Put_it_together!_All_the_parts_of_the_Word_Power_words_are_broken_into_scrambled_syllables_Put.mp3",
   image: "",
   imageposition: "back", // "front" (or) "back"
   defaultAnswer: 1,
@@ -51,29 +51,29 @@ var fillin_data = {
     "<span class='bold'>l</span> star",
   ],
   optionsAudios: [
-    "../audios/p74/under.mp3",
-    "../audios/p74/under.mp3",
-    "../audios/p74/under.mp3",
-    "../audios/p74/under.mp3",
-    "../audios/p74/under.mp3",
-    "../audios/p74/under.mp3",
-    "../audios/p74/under.mp3",
-    "../audios/p74/under.mp3",
-    "../audios/p74/under.mp3",
-    "../audios/p74/under.mp3",
-    "../audios/p74/under.mp3",
-    "../audios/p74/under.mp3",
-    "../audios/p74/under.mp3",
-    "../audios/p74/under.mp3",
-    "../audios/p74/under.mp3",
-    "../audios/p74/under.mp3",
-    "../audios/p74/under.mp3",
+    "../audios/P74/under.mp3",
+    "../audios/P74/under.mp3",
+    "../audios/P74/under.mp3",
+    "../audios/P74/under.mp3",
+    "../audios/P74/under.mp3",
+    "../audios/P74/under.mp3",
+    "../audios/P74/under.mp3",
+    "../audios/P74/under.mp3",
+    "../audios/P74/under.mp3",
+    "../audios/P74/under.mp3",
+    "../audios/P74/under.mp3",
+    "../audios/P74/under.mp3",
+    "../audios/P74/under.mp3",
+    "../audios/P74/under.mp3",
+    "../audios/P74/under.mp3",
+    "../audios/P74/under.mp3",
+    "../audios/P74/under.mp3",
   ],
   questions: [
     {
       singleword: false,
       text: "[_][_]",
-      textaudios: ["../audios/p74/under.mp3"],
+      textaudios: ["../audios/P74/under.mp3"],
       audio: "",
       audioenable: "default", // correct (or) default
       image: "../images/pages/activities/img1.PNG",
@@ -87,7 +87,7 @@ var fillin_data = {
     {
       singleword: false,
       text: "[_][_]",
-      textaudios: ["../audios/p74/under.mp3", "../audios/p74/under.mp3"],
+      textaudios: ["../audios/P74/under.mp3", "../audios/P74/under.mp3"],
       audio: "",
       audioenable: "default", // correct (or) default
       image: "../images/pages/activities/img2.PNG",
@@ -101,7 +101,7 @@ var fillin_data = {
     {
       singleword: false,
       text: "[_][_]",
-      textaudios: ["../audios/p74/under.mp3", "../audios/p74/under.mp3"],
+      textaudios: ["../audios/P74/under.mp3", "../audios/P74/under.mp3"],
       audio: "",
       audioenable: "default", // correct (or) default
       image: "../images/pages/activities/img3.PNG",
@@ -115,7 +115,7 @@ var fillin_data = {
     {
       singleword: false,
       text: "[_][_]",
-      textaudios: ["../audios/p74/under.mp3", "../audios/p74/under.mp3"],
+      textaudios: ["../audios/P74/under.mp3", "../audios/P74/under.mp3"],
       audio: "",
       audioenable: "default", // correct (or) default
       image: "../images/pages/activities/img4.PNG",
@@ -129,7 +129,7 @@ var fillin_data = {
     {
       singleword: false,
       text: "[_][_]",
-      textaudios: ["../audios/p74/under.mp3"],
+      textaudios: ["../audios/P74/under.mp3"],
       audio: "",
       audioenable: "default", // correct (or) default
       image: "../images/pages/activities/img5.PNG",
@@ -143,7 +143,7 @@ var fillin_data = {
     {
       singleword: false,
       text: "[_][_]",
-      textaudios: ["../audios/p74/under.mp3", "../audios/p74/under.mp3"],
+      textaudios: ["../audios/P74/under.mp3", "../audios/P74/under.mp3"],
       audio: "",
       audioenable: "default", // correct (or) default
       image: "../images/pages/activities/img6.PNG",

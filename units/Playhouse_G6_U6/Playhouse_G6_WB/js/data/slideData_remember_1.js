@@ -5,7 +5,7 @@ var stereo_data = {
   type: "text",
   playListData: [
     {
-      audiourl: "../audios/p31/Remember!.mp3",
+      audiourl: "../audios/P31/Remember!.mp3",
     },
     {
       url: "",
@@ -22,11 +22,11 @@ var reading_data = {
   mainTitle: "../images/pages/sb-icons/grammer_main_title.png",
   mainTitleIcon: "",
   mainTitleIconPos: { right: "80px" },
-  mainTitleAudio: "../audios/p31/GRAMMAR.mp3",
+  mainTitleAudio: "../audios/P31/GRAMMAR.mp3",
   subTitleTextLeft: "",
   subTitleTextRight: "",
   subTitleIcons: [],
-  subTitleAudio: "../audios/p31/under.mp3",
+  subTitleAudio: "../audios/P31/under.mp3",
   slides: [
     {
       layout: "grid_columns",
@@ -34,17 +34,17 @@ var reading_data = {
       grid_main_title: ["../images/pages/sb-icons/remember.png"],
       parent_class_name: "grid_with_background_image remember",
       grid_main_title_text: "",
-      grid_main_title_text_audio: "../audios/p31/under.mp3",
+      grid_main_title_text_audio: "../audios/P31/under.mp3",
       group_styles: "",
       audio: [
-        "../audios/p31/Pg6_2.1_Stella.mp3",
-        "../audios/p31/dough.mp3",
-        "../audios/p31/sauce.mp3",
-        "../audios/p31/sprinkle.mp3",
-        "../audios/p31/cheese.mp3",
-        "../audios/p31/add.mp3",
-        "../audios/p31/pepperoni.mp3",
-        "../audios/p31/slice.mp3",
+        "../audios/P31/Pg6_2.1_Stella.mp3",
+        "../audios/P31/dough.mp3",
+        "../audios/P31/sauce.mp3",
+        "../audios/P31/sprinkle.mp3",
+        "../audios/P31/cheese.mp3",
+        "../audios/P31/add.mp3",
+        "../audios/P31/pepperoni.mp3",
+        "../audios/P31/slice.mp3",
       ],
       word: [
         "<span class='bold remember_title'>Simple Present Vs. Present Continuous</span>",

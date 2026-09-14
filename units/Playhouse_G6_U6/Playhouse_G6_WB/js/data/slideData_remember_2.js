@@ -5,7 +5,7 @@ var stereo_data = {
   type: "text",
   playListData: [
     {
-      audiourl: "../audios/p32/Remember!.mp3",
+      audiourl: "../audios/P32/Remember!.mp3",
     },
     {
       url: "",
@@ -22,11 +22,11 @@ var reading_data = {
   mainTitle: "../images/pages/sb-icons/LANGUAGE_BUILDING.jpg",
   mainTitleIcon: "",
   mainTitleIconPos: { right: "80px" },
-  mainTitleAudio: "../audios/p32/LANGUAGE_BUILDING.mp3",
+  mainTitleAudio: "../audios/P32/LANGUAGE_BUILDING.mp3",
   subTitleTextLeft: "",
   subTitleTextRight: "",
   subTitleIcons: [],
-  subTitleAudio: "../audios/p32/under.mp3",
+  subTitleAudio: "../audios/P32/under.mp3",
   slides: [
     {
       layout: "grid_columns",
@@ -34,17 +34,17 @@ var reading_data = {
       grid_main_title: ["../images/pages/sb-icons/remember.png"],
       parent_class_name: "grid_with_background_image remember",
       grid_main_title_text: "",
-      grid_main_title_text_audio: "../audios/p32/under.mp3",
+      grid_main_title_text_audio: "../audios/P32/under.mp3",
       group_styles: "",
       audio: [
-        "../audios/p32/Pg6_2.1_Stella.mp3",
-        "../audios/p32/dough.mp3",
-        "../audios/p32/sauce.mp3",
-        "../audios/p32/sprinkle.mp3",
-        "../audios/p32/cheese.mp3",
-        "../audios/p32/add.mp3",
-        "../audios/p32/pepperoni.mp3",
-        "../audios/p32/slice.mp3",
+        "../audios/P32/Pg6_2.1_Stella.mp3",
+        "../audios/P32/dough.mp3",
+        "../audios/P32/sauce.mp3",
+        "../audios/P32/sprinkle.mp3",
+        "../audios/P32/cheese.mp3",
+        "../audios/P32/add.mp3",
+        "../audios/P32/pepperoni.mp3",
+        "../audios/P32/slice.mp3",
       ],
       word: [
         "<span class='bold'>Adverbs of Degree: So, Such, Pretty and Quite</span>",

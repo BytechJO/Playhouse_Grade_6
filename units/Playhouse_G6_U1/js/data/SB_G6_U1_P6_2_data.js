@@ -6,7 +6,7 @@ var stereo_data = {
 
   playListData: [
     {
-      audiourl: "../audios/page_36/demo.mp3",
+      audiourl: "../audios/Page_36/demo.mp3",
     },
     {
       url: "",
@@ -33,7 +33,7 @@ var fillin_data = {
     right: "80px",
   },
 
-  mainTitleAudio: "../audios/p6/GRAMMAR.mp3",
+  mainTitleAudio: "../audios/P6/GRAMMAR.mp3",
 
   subTitleTextLeft: "<span class='title-order'>2</span> <b>Complete it!</b>",
 

@@ -34,7 +34,7 @@ var reading_data = {
             "mainImage": ["../images/pages/page-5/1-background_1.png"],
             "parent_class_name": "full_grid_with_background_image",
             "group_styles": "",
-            "audio": ["../audios/Pg6_2.1_Stella.mp3","../audios/dough.mp3","../audios/sauce.mp3","../audios/sprinkle.mp3","../audios/cheese.mp3","../audios/add.mp3","../audios/pepperoni.mp3","../audios/slice.mp3"],
+            "audio": ["../audios/Pg6_2.1_Stella.mp3","../audios/dough.mp3","../audios/sauce.mp3","../audios/sprinkle.mp3","../audios/cheese.mp3","../audios/add.mp3","../audios/Pepperoni.mp3","../audios/slice.mp3"],
             "word": [
                 "<span class='blue_text'>Common Reported Speech Verbs</span>",
                 "&nbsp;&nbsp;&nbsp;&nbsp; Depending on the type of speech reported, there are different ways of putting a sentence together.",

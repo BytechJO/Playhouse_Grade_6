@@ -5,7 +5,7 @@ var stereo_data = {
   type: "text",
   playListData: [
     {
-      audiourl: "../audios/p9/1.mp3",
+      audiourl: "../audios/P9/1.mp3",
     },
     {
       url: "",
@@ -24,15 +24,15 @@ var fillin_data = {
   mainTitle: "../images/pages/sb-icons/word_main_title.png",
   mainTitleIcon: "../images/pages/sb-icons/word_main_title_icon.png",
   mainTitleIconPos: { right: "-18px" },
-  mainTitleAudio: "../audios/p9/WORD_POWER.mp3",
+  mainTitleAudio: "../audios/P9/WORD_POWER.mp3",
   subTitleTextLeft:
     "<span class='blue_text'>1.</span> Group it! Put the Word Power words into the correct groups.",
   subTitleTextRight: "",
   subTitleIcons: [],
   subTitleAudio:
-    "../audios/p9/1_Group_it!_Put_the_Word_Power_words_into_the_correct_groups.mp3",
+    "../audios/P9/1_Group_it!_Put_the_Word_Power_words_into_the_correct_groups.mp3",
   activityheading: "",
-  activityheading_audio: "../audios/p9/under.mp3",
+  activityheading_audio: "../audios/P9/under.mp3",
   activitysubheading: "",
   activityicon: "../images/icons/key_icon.png",
   image: "",
@@ -54,10 +54,10 @@ var fillin_data = {
     "screenwriter",
   ],
   optionsAudios: [
-    "../audios/p9/under.mp3",
-    "../audios/p9/under.mp3",
-    "../audios/p9/under.mp3",
-    "../audios/p9/under.mp3",
+    "../audios/P9/under.mp3",
+    "../audios/P9/under.mp3",
+    "../audios/P9/under.mp3",
+    "../audios/P9/under.mp3",
   ],
   questions: [
     {
@@ -67,7 +67,7 @@ var fillin_data = {
       textaudios: [],
       image: "",
       option: "",
-      audio: "../audios/p9/in.mp3",
+      audio: "../audios/P9/in.mp3",
       audioenable: "default", // correct (or) default
       answer: ["producer", "screenwriter", "director"],
       alternateanswer: [[]],
@@ -83,7 +83,7 @@ var fillin_data = {
       textaudios: [],
       image: "",
       option: "",
-      audio: "../audios/p9/in.mp3",
+      audio: "../audios/P9/in.mp3",
       audioenable: "default", // correct (or) default
       answer: ["film", "script", "scene", "screen"],
       alternateanswer: [[]],
@@ -99,7 +99,7 @@ var fillin_data = {
       textaudios: [],
       image: "",
       option: "",
-      audio: "../audios/p9/in.mp3",
+      audio: "../audios/P9/in.mp3",
       audioenable: "default", // correct (or) default
       answer: [
         "comedy film",

@@ -5,7 +5,7 @@ var stereo_data = {
   type: "text",
   playListData: [
     {
-      audiourl: "../audios/p65/2.mp3",
+      audiourl: "../audios/P65/2.mp3",
     },
     {
       url: "",
@@ -24,13 +24,13 @@ var fillin_data = {
   mainTitle: "../images/pages/sb-icons/CONVERSATION.jpg",
   mainTitleIcon: "",
   mainTitleIconPos: { right: "-18px" },
-  mainTitleAudio: "../audios/p65/CONVERSATION.mp3",
+  mainTitleAudio: "../audios/P65/CONVERSATION.mp3",
   subTitleTextLeft:
     '<span class="blue_text">2</span> Answer it! Answer the questions about the conversation.',
   subTitleTextRight: "",
   subTitleIcons: [],
   subTitleAudio:
-    "../audios/p65/2_Answer_it!_Answer_the_questions_about_the_conversation.mp3",
+    "../audios/P65/2_Answer_it!_Answer_the_questions_about_the_conversation.mp3",
   defaultAnswer: -1,
   leftList: "",
   image: "",
@@ -108,7 +108,7 @@ var fillin_data = {
     {
       textfront:
         "Do Robin and Joshua use the internet to tell others about things that happen to them? What makes you think that?",
-      audio: "../audios/p65/under.mp3",
+      audio: "../audios/P65/under.mp3",
       audioenable: "default", // correct (or) default
       image: "",
       answer: [""],
@@ -117,7 +117,7 @@ var fillin_data = {
     },
     {
       textfront: "Is Robin online now? What makes you think that?",
-      audio: "../audios/p65/under.mp3",
+      audio: "../audios/P65/under.mp3",
       audioenable: "default", // correct (or) default
       image: "",
       answer: [""],
@@ -127,7 +127,7 @@ var fillin_data = {
     {
       textfront:
         "Do you think that social media is a good way to communicate with family and friends?",
-      audio: "../audios/p65/under.mp3",
+      audio: "../audios/P65/under.mp3",
       audioenable: "default", // correct (or) default
       image: "",
       answer: [""],

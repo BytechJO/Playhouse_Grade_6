@@ -5,7 +5,7 @@ var stereo_data = {
     "type":"text",
     "playListData" : [
         {
-          'audiourl': '../audios/p102/1.mp3',
+          'audiourl': '../audios/P102/1.mp3',
         },
         {
           'url': '',
@@ -22,11 +22,11 @@ var reading_data = {
     "mainTitle": "../images/pages/sb-icons/language-building.png",
     "mainTitleIcon": "../images/pages/sb-icons/gram_main_title_icon.png",
     "mainTitleIconPos": {"right": "100px"},
-    "mainTitleAudio": "../audios/p102/WRITING.mp3",
+    "mainTitleAudio": "../audios/P102/WRITING.mp3",
     "subTitleTextLeft": "<span class='title-order'>3</span> Play it!",
     "subTitleTextRight": "Triple: a game for three people.",
     "subTitleIcons": [],
-    "subTitleAudio": "../audios/p102/1_Read_about_it!.mp3",
+    "subTitleAudio": "../audios/P102/1_Read_about_it!.mp3",
     "slides": [
         {
             "layout": "grid_columns",
@@ -34,7 +34,7 @@ var reading_data = {
             "mainImage": [""],
             "parent_class_name": "full_grid_with_background_image slide-9",
             "group_styles": "",
-            "audio": ["../audios/p102/Pg6_2.1_Stella.mp3","../audios/p102/dough.mp3","../audios/p102/sauce.mp3","../audios/p102/sprinkle.mp3","../audios/p102/cheese.mp3","../audios/p102/add.mp3","../audios/p102/pepperoni.mp3","../audios/p102/slice.mp3"],
+            "audio": ["../audios/P102/Pg6_2.1_Stella.mp3","../audios/P102/dough.mp3","../audios/P102/sauce.mp3","../audios/P102/sprinkle.mp3","../audios/P102/cheese.mp3","../audios/P102/add.mp3","../audios/P102/pepperoni.mp3","../audios/P102/slice.mp3"],
             "word": [
                 "In group of three, make 24 game cards using pieces of paper or index" +
                 "cards. Write each of the verbs in the box above on a card. To begin the" +

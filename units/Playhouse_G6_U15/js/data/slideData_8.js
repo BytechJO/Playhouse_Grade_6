@@ -34,7 +34,7 @@ var reading_data = {
             "mainImage": ["../images/pages/page-5/1-background_1.png"],
             "parent_class_name": "full_grid_with_background_image",
             "group_styles": "",
-            "audio": ["../audios/Pg6_2.1_Stella.mp3","../audios/dough.mp3","../audios/sauce.mp3","../audios/sprinkle.mp3","../audios/cheese.mp3","../audios/add.mp3","../audios/pepperoni.mp3","../audios/slice.mp3"],
+            "audio": ["../audios/Pg6_2.1_Stella.mp3","../audios/dough.mp3","../audios/sauce.mp3","../audios/sprinkle.mp3","../audios/cheese.mp3","../audios/add.mp3","../audios/Pepperoni.mp3","../audios/slice.mp3"],
             "word": [
                 "Past Participle",
                 "Read the pen friend stories and circle the past participles. We use a past participle verb to speak about something that happened in the past. Past participles usually end in '-ed' for regular verbs, but are different for irregular verbs.",

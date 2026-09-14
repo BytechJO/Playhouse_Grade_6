@@ -5,7 +5,7 @@ var stereo_data = {
     "type":"text",
     "playListData" : [
         {
-          'audiourl': '../audios/p130/1.mp3',
+          'audiourl': '../audios/P130/1.mp3',
         },
         {
           'url': '',
@@ -22,11 +22,11 @@ var reading_data = {
     "mainTitle": "../images/pages/sb-icons/writing.png",
     "mainTitleIcon": "../images/pages/sb-icons/phonics_3_icon.png",
     "mainTitleIconPos": {"right": "100px"},
-    "mainTitleAudio": "../audios/p130/WRITING.mp3",
+    "mainTitleAudio": "../audios/P130/WRITING.mp3",
     "subTitleTextLeft": "<span class='title-order'>1</span> Write about it!",
     "subTitleTextRight": "Families are very important in our lives, but we don‘t always take time to thank the people in our family for the things they do. Today, take some time to write a thank you note to someone in your family.",
     "subTitleIcons": [],
-    "subTitleAudio": "../audios/p130/1_Write_about_it!.mp3",
+    "subTitleAudio": "../audios/P130/1_Write_about_it!.mp3",
     "slides": [
         {
             "layout": "grid_columns",
@@ -34,7 +34,7 @@ var reading_data = {
             "mainImage": [""],
             "parent_class_name": "full_grid_with_background_image slide-10",
             "group_styles": "",
-            "audio": ["../audios/p102/Pg6_2.1_Stella.mp3","../audios/p102/dough.mp3","../audios/p102/sauce.mp3","../audios/p102/sprinkle.mp3","../audios/p102/cheese.mp3","../audios/p102/add.mp3","../audios/p102/pepperoni.mp3","../audios/p102/slice.mp3"],
+            "audio": ["../audios/P102/Pg6_2.1_Stella.mp3","../audios/P102/dough.mp3","../audios/P102/sauce.mp3","../audios/P102/sprinkle.mp3","../audios/P102/cheese.mp3","../audios/P102/add.mp3","../audios/P102/pepperoni.mp3","../audios/P102/slice.mp3"],
             "word": [
                 "<div class='top-list'>Use the usual letter format with a greeting and a closing.<br/>"+
                 "You can use the form below to help you.<br/>"+

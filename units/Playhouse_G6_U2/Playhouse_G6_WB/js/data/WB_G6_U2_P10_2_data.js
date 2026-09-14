@@ -5,7 +5,7 @@ var stereo_data = {
   type: "text",
   playListData: [
     {
-      audiourl: "../audios/p10/2.mp3",
+      audiourl: "../audios/P10/2.mp3",
     },
     {
       url: "",
@@ -24,18 +24,18 @@ var fillin_data = {
   mainTitle: "../images/pages/sb-icons/CONVERSATION.jpg",
   mainTitleIcon: "",
   mainTitleIconPos: { right: "-18px" },
-  mainTitleAudio: "../audios/p10/CONVERSATION.mp3",
+  mainTitleAudio: "../audios/P10/CONVERSATION.mp3",
   subTitleTextLeft:
     '<span class="blue_text">2</span> Answer it! Answer the questions about the conversation.',
   subTitleTextRight: "",
   subTitleIcons: [],
   subTitleAudio:
-    "../audios/p10/2_Answer_it!_Answer_the_questions_about_the_conversation.mp3",
+    "../audios/P10/2_Answer_it!_Answer_the_questions_about_the_conversation.mp3",
   activityheading: "",
-  activityheading_audio: "../audios/p10/under.mp3",
+  activityheading_audio: "../audios/P10/under.mp3",
   activityicon: "../images/icons/key_icon.png",
   main_activityheading: "../images/pages/activities/WORD_POWER.jpg",
-  main_activityheading_audio: "../audios/p10/under.mp3",
+  main_activityheading_audio: "../audios/P10/under.mp3",
   defaultAnswer: -1,
   leftList:
     '<ol type="1" class="words-list"> <li><img style="max-width:31%" src="../images/pages/activities/AGW_U15_P146_I6.png"></li> <li><img style="max-width:31%" src="../images/pages/activities/AGW_U15_P146_I6.png"></li> <li><img style="max-width:31%" src="../images/pages/activities/AGW_U15_P146_I6.png"></li> <li><img style="max-width:31%" src="../images/pages/activities/AGW_U15_P146_I6.png"></li> <li><img style="max-width:31%" src="../images/pages/activities/AGW_U15_P146_I6.png"></li>  </ol>',
@@ -106,7 +106,7 @@ var fillin_data = {
     {
       textfront: "What doesn’t Actor 1 want to do?",
 
-      audio: "../audios/p10/under.mp3",
+      audio: "../audios/P10/under.mp3",
       audioenable: "default",
 
       image: "",
@@ -138,7 +138,7 @@ var fillin_data = {
     {
       textfront: "What does Actor 1 ask the director?",
 
-      audio: "../audios/p10/under.mp3",
+      audio: "../audios/P10/under.mp3",
       audioenable: "default",
 
       image: "",
@@ -166,7 +166,7 @@ var fillin_data = {
     {
       textfront: "Does the director say yes or no to what Actor 1 asks? Why?",
 
-      audio: "../audios/p10/under.mp3",
+      audio: "../audios/P10/under.mp3",
       audioenable: "default",
 
       image: "",
@@ -198,7 +198,7 @@ var fillin_data = {
       textfront:
         "How are action films and science fiction films different for the actors?",
 
-      audio: "../audios/p10/under.mp3",
+      audio: "../audios/P10/under.mp3",
       audioenable: "default",
 
       image: "",

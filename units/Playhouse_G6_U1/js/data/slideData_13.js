@@ -6,7 +6,7 @@ var stereo_data = {
     "type":"toggle_slide",
     "playListData" : [
         {
-          'audiourl': '../audios/page_34/PLAYHOUSE_1_SB_UNIT_4_TRACK_03_01.mp3',
+          'audiourl': '../audios/Page_34/PLAYHOUSE_1_SB_UNIT_4_TRACK_03_01.mp3',
         },
         {
           'url': '',

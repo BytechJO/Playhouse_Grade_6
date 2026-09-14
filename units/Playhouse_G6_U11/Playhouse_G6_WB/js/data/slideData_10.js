@@ -5,7 +5,7 @@ var stereo_data = {
   type: "text",
   playListData: [
     {
-      audiourl: "../audios/p58/2.mp3",
+      audiourl: "../audios/P58/2.mp3",
     },
     {
       url: "",
@@ -26,7 +26,7 @@ var reading_data = {
     right: "100px",
   },
 
-  mainTitleAudio: "../audios/p58/WRITING.mp3",
+  mainTitleAudio: "../audios/P58/WRITING.mp3",
 
   subTitleTextLeft:
     "<span class='blue_text'>2</span> " +

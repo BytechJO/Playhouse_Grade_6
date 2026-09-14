@@ -5,7 +5,7 @@ var stereo_data = {
   type: "text",
   playListData: [
     {
-      audiourl: "../audios/p27/2.mp3",
+      audiourl: "../audios/P27/2.mp3",
     },
     {
       url: "",
@@ -24,13 +24,13 @@ var fillin_data = {
   mainTitle: "../images/pages/sb-icons/LANGUAGE_BUILDING.jpg",
   mainTitleIcon: "",
   mainTitleIconPos: { right: "-18px" },
-  mainTitleAudio: "../audios/p27/LANGUAGE_BUILDING.mp3",
+  mainTitleAudio: "../audios/P27/LANGUAGE_BUILDING.mp3",
   subTitleTextLeft:
     "<span class='blue_text'>2</span> Turn it around! The noun with the suffix added is given. Write the base word.",
   subTitleTextRight: "",
   subTitleIcons: [],
   subTitleAudio:
-    "../audios/p27/2_Turn_it_around!_The_noun_with_the_suffix_added_is_given_Write_the_base_word.mp3",
+    "../audios/P27/2_Turn_it_around!_The_noun_with_the_suffix_added_is_given_Write_the_base_word.mp3",
   image: "../images/pages/activities/3-img-1.png",
   imageposition: "back", // "front" (or) "back"
   numbering: "number", // "alphabet" (or) "number"

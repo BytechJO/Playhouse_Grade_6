@@ -5,7 +5,7 @@ var stereo_data = {
   type: "text",
   playListData: [
     {
-      audiourl: "../audios/p30/2.mp3",
+      audiourl: "../audios/P30/2.mp3",
     },
     {
       url: "",
@@ -24,13 +24,13 @@ var fillin_data = {
   mainTitle: "../images/pages/sb-icons/CONVERSATION.jpg",
   mainTitleIcon: "",
   mainTitleIconPos: { right: "-18px" },
-  mainTitleAudio: "../audios/p30/CONVERSATION.mp3",
+  mainTitleAudio: "../audios/P30/CONVERSATION.mp3",
   subTitleTextLeft:
     '<span class="blue_text">2</span> Answer it! Answer the questions about the conversation.',
   subTitleTextRight: "",
   subTitleIcons: [],
   subTitleAudio:
-    "../audios/p30/2_Answer_it!_Answer_the_questions_about_the_conversation.mp3",
+    "../audios/P30/2_Answer_it!_Answer_the_questions_about_the_conversation.mp3",
   defaultAnswer: -1,
   leftList: "",
   image: "",
@@ -90,7 +90,7 @@ var fillin_data = {
     {
       textfront:
         "What is the name of the new computer item that Greg and Stacy do not know how to use?",
-      audio: "../audios/p30/under.mp3",
+      audio: "../audios/P30/under.mp3",
       audioenable: "default", // correct (or) default
       image: "",
       answer: [
@@ -101,7 +101,7 @@ var fillin_data = {
     },
     {
       textfront: "How will Greg help Stacy with her school report?",
-      audio: "../audios/p30/under.mp3",
+      audio: "../audios/P30/under.mp3",
       audioenable: "default", // correct (or) default
       image: "",
       answer: [
@@ -112,7 +112,7 @@ var fillin_data = {
     },
     {
       textfront: "Why does Stacy like new computer technology?",
-      audio: "../audios/p30/under.mp3",
+      audio: "../audios/P30/under.mp3",
       audioenable: "default", // correct (or) default
       image: "",
       answer: [

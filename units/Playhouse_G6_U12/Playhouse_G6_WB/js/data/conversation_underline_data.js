@@ -5,7 +5,7 @@ var stereo_data = {
   type: "text",
   playListData: [
     {
-      audiourl: "../audios/p60/1.mp3",
+      audiourl: "../audios/P60/1.mp3",
     },
     {
       url: "",
@@ -23,13 +23,13 @@ var conversation_underline_data = {
   mainTitle: "../images/pages/sb-icons/CONVERSATION.jpg",
   mainTitleIcon: "",
   mainTitleIconPos: { right: "90px" },
-  mainTitleAudio: "../audios/p60/CONVERSATION.mp3",
+  mainTitleAudio: "../audios/P60/CONVERSATION.mp3",
   subTitleTextLeft:
     "<span class='title-order'>3</span> Underline it! Underline the Word Power words in the conversation.",
   subTitleTextRight: "",
   subTitleIcons: [],
   subTitleAudio:
-    "../audios/p60/3_Underline_it!_Underline_the_Word_Power_words_in_the_conversation.mp3",
+    "../audios/P60/3_Underline_it!_Underline_the_Word_Power_words_in_the_conversation.mp3",
 
   correctWords: [
     "ice pack",
