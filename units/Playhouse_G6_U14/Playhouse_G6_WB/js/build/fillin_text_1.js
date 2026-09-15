@@ -169,9 +169,9 @@ function buildFillInBody(aObj) {
 
     htmlStmt += '<div class="ques">';
     htmlStmt +=
-      '<img class="link-imgl" src="../images/pages/activities/link.png"/>';
+      '<img class="link-imgl" src="../images/pages/activities/link.PNG"/>';
     htmlStmt +=
-      '<img class="link-imgr" src="../images/pages/activities/link.png"/>';
+      '<img class="link-imgr" src="../images/pages/activities/link.PNG"/>';
     for (x = 0; x < numOfQuestions; x++) {
       var tmpObj = aObj.questions[x];
 
