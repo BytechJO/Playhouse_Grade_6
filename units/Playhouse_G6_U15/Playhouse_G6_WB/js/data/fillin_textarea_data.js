@@ -21,7 +21,7 @@ var stereo_data = {
 var fillin_data = {
   layout: 4,
   numinrow: [[1, 1]],
-  mainTitle: "../images/pages/sb-icons/writing.jpg",
+  mainTitle: "../images/pages/sb-icons/WRITING.jpg",
   mainTitleIcon: "",
   mainTitleIconPos: { right: "-18px" },
   mainTitleAudio: "../audios/P78/WRITING.mp3",

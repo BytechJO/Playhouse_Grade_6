@@ -33,5 +33,15 @@ var _activityData = {
       visited: 0,
       score: 0,
     },
+    {
+      file: "page_4.html",
+      type: "actitout",
+      subtype: "",
+      build: "yes",
+      activityCtrls: "no",
+      layout: 1,
+      visited: 0,
+      score: 0,
+    },
   ],
 };

@@ -1,0 +1,281 @@
+/* =========================================================
+   OPTIONS
+========================================================= */
+
+.game_time_options {
+  width: 80%;
+  height: 100%;
+
+  position: relative;
+
+  overflow: hidden;
+}
+
+.func_ctrls {
+  display: none !important;
+}
+
+/* =========================================================
+   PAGE
+========================================================= */
+
+.game_time_page {
+  width: 100%;
+  height: 100%;
+
+  display: block !important;
+
+  padding: 0 0 25px;
+
+  margin: 0;
+
+  box-sizing: border-box;
+
+  overflow-y: auto;
+  overflow-x: hidden;
+
+  background: #f7fdff;
+}
+
+/* =========================================================
+   TITLE
+========================================================= */
+
+.game_time_title {
+ width: 100%;
+  min-height: 65px;
+
+  margin: 0 auto 12px;
+
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+
+  position: relative;
+
+  background: #a6e9f6;
+
+  border-bottom: 5px solid rgba(82, 171, 195, 0.3);
+
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+
+  box-sizing: border-box;
+
+  overflow: hidden;
+}
+
+/* =========================================================
+   INTRO
+========================================================= */
+
+.game_time_intro {
+  width: 88%;
+
+  margin: 7px auto 15px;
+
+  color: #04a7c7;
+
+  font-size: 22px;
+  line-height: 1.3;
+
+  font-weight: bold;
+
+  text-align: left;
+}
+
+/* =========================================================
+   GAMES HOLDER
+========================================================= */
+
+.game_time_games {
+  width: 88%;
+
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+
+  gap: 0;
+}
+
+/* =========================================================
+   GAME BOX
+========================================================= */
+
+.game_box {
+  width: 100%;
+
+  position: relative;
+
+  padding: 13px 12px 12px;
+
+  box-sizing: border-box;
+
+  border: 2px dashed #40bde7;
+
+  background: #fffdf8;
+}
+
+/* لا نكرر الحدود بين البوكسات */
+
+.game_box + .game_box {
+  border-top: none;
+}
+
+/* =========================================================
+   GAME TITLE
+========================================================= */
+
+.game_box_title {
+  width: 100%;
+
+  margin-bottom: 5px;
+
+  color: #333;
+
+  font-size: 22px;
+  font-weight: bold;
+
+  text-align: center;
+}
+
+/* =========================================================
+   GAME CONTENT
+========================================================= */
+
+.game_box_content {
+  width: 100%;
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 18px;
+}
+
+/* =========================================================
+   TEXT
+========================================================= */
+
+.game_box_text {
+  flex: 1;
+
+  min-width: 0;
+
+  color: #333;
+
+  font-size: 20px;
+  line-height: 1.32;
+
+  text-align: left;
+}
+
+/* =========================================================
+   IMAGE
+========================================================= */
+
+.game_box_image {
+  width: 200px;
+
+  min-width: 200px;
+
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.game_box_image img {
+  width: 100%;
+
+  max-height: 180px;
+
+  display: block;
+
+  object-fit: contain;
+}
+
+/* =========================================================
+   FIRST GAME IMAGE
+========================================================= */
+
+.game_box:nth-child(1) .game_box_image {
+  width: 190px;
+  min-width: 190px;
+}
+
+/* =========================================================
+   SECOND GAME IMAGE
+========================================================= */
+
+.game_box:nth-child(2) .game_box_image {
+  width: 210px;
+  min-width: 210px;
+}
+
+/* =========================================================
+   THIRD GAME IMAGE
+========================================================= */
+
+.game_box:nth-child(3) .game_box_image {
+  width: 230px;
+  min-width: 230px;
+}
+
+.game_box:nth-child(3) .game_box_image img {
+  max-height: 245px;
+}
+
+/* =========================================================
+   RESPONSIVE
+========================================================= */
+
+@media (max-width: 1100px) {
+  .game_time_intro,
+  .game_time_games {
+    width: 92%;
+  }
+
+  .game_time_title {
+    font-size: 24px;
+  }
+
+  .game_time_intro {
+    font-size: 15px;
+  }
+
+  .game_box_title {
+    font-size: 16px;
+  }
+
+  .game_box_text {
+    font-size: 13px;
+  }
+
+  .game_box_image {
+    width: 160px;
+    min-width: 160px;
+  }
+
+  .game_box:nth-child(1) .game_box_image,
+  .game_box:nth-child(2) .game_box_image,
+  .game_box:nth-child(3) .game_box_image {
+    width: 165px;
+    min-width: 165px;
+  }
+}
+
+/* =========================================================
+   SMALL SCREEN
+========================================================= */
+
+@media (max-width: 760px) {
+  .game_time_page {
+    min-width: 760px;
+  }
+
+  .game_time_intro,
+  .game_time_games {
+    width: 94%;
+  }
+}
