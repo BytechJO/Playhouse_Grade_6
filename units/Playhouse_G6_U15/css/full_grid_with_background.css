@@ -50,3 +50,670 @@
   border: solid 2px red;
   padding: 10px 30px;
 }
+/* =========================================================
+   PAST PARTICIPLE - CUSTOM LAYOUT
+========================================================= */
+
+.past_participle_layout {
+    width: 90%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+/* =========================================================
+   MAIN PAPER
+========================================================= */
+
+.pp_paper {
+    position: relative;
+
+    width: 88%;
+    min-height: 325px;
+
+    padding: 18px 55px 22px 65px;
+
+    background: #fbe8f0;
+
+    box-shadow:
+        5px 7px 3px rgba(0, 0, 0, 0.28);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    justify-content: flex-start;
+
+    box-sizing: border-box;
+}
+
+
+/* =========================================================
+   TAPE
+========================================================= */
+
+.pp_tape {
+    position: absolute;
+
+    width: 82px;
+    height: 28px;
+
+    background: rgba(165, 225, 190, 0.78);
+
+    z-index: 4;
+}
+
+
+.pp_tape_left {
+    top: -7px;
+    left: -22px;
+
+    transform: rotate(-31deg);
+}
+
+
+.pp_tape_right {
+    top: -7px;
+    right: -22px;
+
+    transform: rotate(29deg);
+}
+
+
+/* =========================================================
+   NOTEBOOK HOLES
+========================================================= */
+
+.pp_notebook_holes {
+    position: absolute;
+
+    left: 12px;
+    top: 32px;
+    bottom: 15px;
+
+    width: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    z-index: 3;
+}
+
+
+.pp_notebook_holes span {
+    display: block;
+
+    width: 13px;
+    height: 13px;
+
+    border-radius: 2px;
+
+    background: linear-gradient(
+        to right,
+        #d5d5d5,
+        #ffffff 48%,
+        #bcbcbc
+    );
+
+    box-shadow:
+        inset 2px 2px 3px rgba(0, 0, 0, 0.25);
+}
+
+
+/* =========================================================
+   TITLE
+========================================================= */
+
+.pp_title_audio {
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+}
+
+
+.pp_title {
+    color: #09abc6;
+
+    font-size: 27px;
+    line-height: 1.1;
+
+    font-weight: 700;
+
+    text-align: center;
+
+    margin-bottom: 4px;
+}
+
+
+/* =========================================================
+   DESCRIPTION
+========================================================= */
+
+.pp_description_audio {
+    width: 100%;
+}
+
+
+.pp_description {
+    width: 100%;
+
+    color: #222;
+
+    font-size: 22px;
+    line-height: 1.18;
+
+    font-weight: 600;
+
+    text-align: left;
+
+    margin-bottom: 14px;
+}
+
+
+.pp-blue {
+    color: #00abc6;
+
+    font-weight: 700;
+}
+
+
+/* =========================================================
+   TABLES WRAPPER
+========================================================= */
+
+.pp_tables {
+    width: 72%;
+
+    display: flex;
+
+    justify-content: space-between;
+    align-items: flex-start;
+
+    gap: 32px;
+
+    margin-top: 1px;
+}
+
+
+/* =========================================================
+   TABLE BOX
+========================================================= */
+
+.pp_table_box {
+    position: relative;
+
+    width: calc(50% - 16px);
+
+    padding-top: 23px;
+}
+
+
+/* =========================================================
+   FLOATING TABLE TITLE
+========================================================= */
+
+.pp_table_title {
+    position: absolute;
+
+    top: 0;
+    left: 50%;
+
+    transform: translateX(-50%);
+
+    width: 76%;
+
+    min-height: 37px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 2px 15px;
+
+    background: #fff;
+
+    border: 1.8px solid #148b53;
+
+    border-radius: 20px;
+
+    color: #00a4c0;
+
+    font-size: 21px;
+    line-height: 1;
+
+    font-weight: 700;
+
+    white-space: nowrap;
+
+    z-index: 2;
+
+    box-sizing: border-box;
+}
+
+
+/* =========================================================
+   TABLE
+========================================================= */
+
+.pp_table {
+    width: 100%;
+
+    padding: 16px 0 6px;
+
+    border: 1.8px solid #148b53;
+
+    border-radius: 20px;
+
+    overflow: hidden;
+
+    background: white;
+}
+
+
+/* =========================================================
+   ROW
+========================================================= */
+
+.pp_table_row {
+    width: 100%;
+
+    display: grid;
+
+    grid-template-columns: 1fr 1.25fr;
+
+    text-align: center;
+
+    font-size: 20px;
+    line-height: 1.1;
+
+    font-weight: 600;
+}
+
+
+.pp_table_row > div {
+    padding: 2px 8px;
+}
+
+
+/* CENTER DIVIDER */
+
+.pp_table_row > div:first-child {
+    border-right: 1.8px solid #148b53;
+}
+
+
+/* =========================================================
+   TABLE HEADER
+========================================================= */
+
+.pp_table_head {
+    font-size: 18px;
+
+    font-weight: 700;
+
+
+    border-bottom: 1.8px solid #148b53;
+
+    margin-bottom: 2px;
+}
+
+
+.pp_table_head > div {
+    padding-top: 2px;
+    padding-bottom: 3px;
+}
+
+
+.pp_table_head > div:first-child {
+    color: #df292f;
+}
+
+
+.pp_table_head > div:last-child {
+    color: #222;
+}
+
+
+/* =========================================================
+   VERB COLORS
+========================================================= */
+
+.pp_past {
+    color: #df292f;
+}
+
+
+.pp_participle {
+    color: #222;
+}
+
+
+/* =========================================================
+   DISABLE AUDIO HOVER MOVEMENT
+========================================================= */
+
+.past_participle_layout .audioIcon:hover {
+    transform: none;
+}
+
+
+/* =========================================================
+   RESPONSIVE
+========================================================= */
+
+@media (max-width: 991.98px) {
+
+    .pp_paper {
+        width: 94%;
+
+        padding-left: 55px;
+        padding-right: 35px;
+    }
+
+    .pp_description {
+        font-size: 19px;
+    }
+
+    .pp_tables {
+        width: 88%;
+
+        gap: 20px;
+    }
+
+    .pp_table_title {
+        font-size: 18px;
+    }
+
+    .pp_table_row {
+        font-size: 17px;
+    }
+}
+
+
+@media (max-width: 767.98px) {
+
+    .pp_paper {
+        width: 95%;
+
+        padding:
+            20px
+            25px
+            25px
+            50px;
+    }
+
+    .pp_tables {
+        width: 90%;
+
+        flex-direction: column;
+
+        align-items: center;
+    }
+
+    .pp_table_box {
+        width: 90%;
+    }
+}/* =========================================================
+   PEN FRIEND READING
+========================================================= */
+
+.pen_friend_reading {
+    width: 92%;
+    height: 100%;
+
+    margin: 0 auto;
+
+    padding: 8px 10px 25px;
+
+    box-sizing: border-box;
+
+    font-family: Arcon, Arial, sans-serif;
+
+    color: #333;
+
+    overflow-y: auto;
+}
+
+
+/* =========================================================
+   INTRO
+========================================================= */
+
+.pen_intro_box {
+    width: 100%;
+
+    min-height: 115px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 8px 12px 8px 50px;
+
+    box-sizing: border-box;
+
+    background: #fff59c;
+}
+
+
+.pen_intro_text {
+    flex: 1;
+
+    padding-right: 15px;
+
+    font-size: 24px;
+    line-height: 1.55;
+
+    text-align: left;
+}
+
+
+.pen_intro_image {
+    width: 180px;
+    min-width: 180px;
+    height: 105px;
+}
+
+
+.pen_intro_image img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+}
+
+
+/* =========================================================
+   STEPS
+========================================================= */
+
+.pen_steps {
+    width: 90%;
+
+    margin: 8px auto 0;
+
+    text-align: left;
+}
+
+
+.pen_steps_title {
+    margin-bottom: 4px;
+
+    color: #00a7c5;
+
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+.pen_steps ul {
+    margin: 0;
+
+    padding-left: 20px;
+
+    list-style: none;
+}
+
+
+.pen_steps li {
+    position: relative;
+
+    margin: 1px 0;
+
+    font-size: 22px;
+    line-height: 1.25;
+}
+
+
+.pen_steps li::before {
+    content: "-";
+
+    position: absolute;
+
+    left: -14px;
+}
+
+
+/* =========================================================
+   EXAMPLE TITLE
+========================================================= */
+
+.pen_example_title {
+    width: 90%;
+
+    margin: 8px auto;
+
+    color: #00a7c5;
+
+    font-size: 24px;
+    line-height: 1.25;
+
+    font-weight: bold;
+
+    text-align: left;
+}
+
+
+/* =========================================================
+   LETTER BOX
+========================================================= */
+
+.pen_letter_box {
+    width: 88%;
+
+    min-height: 265px;
+
+    margin: 5px auto 0;
+
+    padding: 15px 15px 12px;
+
+    display: flex;
+    align-items: flex-start;
+
+    box-sizing: border-box;
+
+    border: 2px solid #ef5757;
+
+    border-radius: 16px;
+
+    background: #fffdf4;
+}
+
+
+/* =========================================================
+   LETTER IMAGE
+========================================================= */
+
+.pen_letter_image {
+    width: 190px;
+    min-width: 190px;
+
+    margin-right: 10px;
+}
+
+
+.pen_letter_image img {
+    width: 100%;
+    height: auto;
+
+    object-fit: contain;
+}
+
+
+/* =========================================================
+   LETTER TEXT
+========================================================= */
+
+.pen_letter_text {
+    flex: 1;
+
+    padding: 3px 5px;
+
+    font-size: 22px;
+    line-height: 1.55;
+
+    text-align: left;
+
+    text-decoration-line: underline;
+    text-decoration-color: #888;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 5px;
+}
+
+
+/* =========================================================
+   RESPONSIVE
+========================================================= */
+
+@media (max-width: 1199.98px) {
+
+    .pen_intro_text {
+        font-size: 16px;
+    }
+
+    .pen_steps li {
+        font-size: 15px;
+    }
+
+    .pen_letter_text {
+        font-size: 14px;
+    }
+
+    .pen_intro_image {
+        width: 150px;
+        min-width: 150px;
+    }
+
+    .pen_letter_image {
+        width: 160px;
+        min-width: 160px;
+    }
+}
+
+
+@media (max-width: 767.98px) {
+
+    .pen_intro_box {
+        padding-left: 20px;
+    }
+
+    .pen_intro_image {
+        width: 120px;
+        min-width: 120px;
+    }
+
+    .pen_letter_box {
+        width: 95%;
+    }
+
+    .pen_letter_image {
+        width: 120px;
+        min-width: 120px;
+    }
+}

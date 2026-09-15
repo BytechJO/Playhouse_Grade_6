@@ -77,7 +77,7 @@
 
 }
 .fillin_gr{
-    width: 375px;
+    width: 430px;
     padding: 7px;
     border-radius: 20px;
 
@@ -102,7 +102,7 @@
 
 .fillin_set input {
     /* flex: 2 2 10px; */
-    width: 220px;
+    width: 320px;
     height: 35px;
     color: black;
     /* padding-left: 20px; */

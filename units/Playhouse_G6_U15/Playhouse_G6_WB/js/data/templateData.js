@@ -1,7 +1,7 @@
 var _data = {
   title: {
     grade: "Playhouse 2nd Edition",
-    unit: "Grade 1",
+    unit: "Grade 6",
   },
   header: {
     // "bgimage": "./images/AGW_1_SB_U15_header.png",
@@ -41,7 +41,7 @@ var _data = {
     booksbutton: {
       workbook: {
         icon: "../images/icons/book-2.png",
-        link: "./drag_drop_text_table.html",
+        link: "./page_1.html",
       },
       studentbook: {
         icon: "../images/icons/book-1.png",

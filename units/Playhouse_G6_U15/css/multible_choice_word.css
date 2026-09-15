@@ -183,4 +183,36 @@
         width: 36px;
         min-width: 36px;
     }
+}.mcq_box_content {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.picks_grp {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.mcq_question_image {
+    width: 170px;
+    height: 150px;
+    min-width: 170px;
+
+    margin-left: auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mcq_question_image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
 }

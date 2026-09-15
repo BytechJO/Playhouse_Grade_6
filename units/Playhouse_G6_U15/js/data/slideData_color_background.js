@@ -36,16 +36,16 @@ var reading_data = {
             "group_styles": "",
             "audio": ["../audios/Pg6_2.1_Stella.mp3","../audios/dough.mp3","../audios/sauce.mp3","../audios/sprinkle.mp3","../audios/cheese.mp3","../audios/add.mp3","../audios/Pepperoni.mp3","../audios/slice.mp3"],
             "word": [
-                "<img src='../images/pages/activities/3-img-1.png' class='pulse'>",
-                "<img src='../images/pages/activities/3-img-2.png' class='pulse'>",
-                "<img src='../images/pages/activities/3-img-3.png' class='pulse'>",
-                "<img src='../images/pages/activities/3-img-4.png' class='pulse'>",
+                "<img src='../images/pages/activities/3-img-1.png' class=''>",
+                "<img src='../images/pages/activities/3-img-2.png' class=''>",
+                "<img src='../images/pages/activities/3-img-3.png' class=''>",
+                "<img src='../images/pages/activities/3-img-4.png' class=''>",
 
             ],
             "imagePlacePos":[
                 // {"colWidth": [3,3,3,3], "colData": [1,1,1,1] },
-                {"colWidth": [6,6], "colData": [1,1] },
-                {"colWidth": [6,6], "colData": [1,1] },
+                    {"colWidth": [3,3,3,3], "colData": [1,1,1,1]}
+
 
 
             ]

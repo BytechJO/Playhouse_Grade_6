@@ -18,7 +18,7 @@ window.WordPuzzle = function(obj, dataObj){
 WordPuzzle.prototype = {
     init:function(ob){            
         ob.tabThroughCols = true;        
-        ob._userWordsHorizontal = [];
+        ob._userWordsHorizontal = []; 
         ob._userWordsVertical = [];
         ob.pose = 40;
         this.ob = ob;        

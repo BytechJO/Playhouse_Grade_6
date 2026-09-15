@@ -31,11 +31,13 @@ var _activity_json = {
   subTitleAudio:
     "../audios/P74/1_Group_it!_Put_the_Word_Power_words_into_the_group_you_want.mp3",
   type: "drag_drop_with_image",
-  numOfRow: 6,
+  numOfRow: 8,
   numOfCol: 2,
   questions: [
     "<b> Things I Want My Friends to Be </b>",
     "<b> Things I Don't Want My Friends to Be </b>",
+    "<span>___</span>",
+    "<span>___</span>",
     "<span>___</span>",
     "<span>___</span>",
     "<span>___</span>",

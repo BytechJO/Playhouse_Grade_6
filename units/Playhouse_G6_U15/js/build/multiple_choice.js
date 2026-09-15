@@ -76,7 +76,7 @@ function buildMcqBody(aObj) {
                     // htmlStmt += '<div class="question">'+tpOb.question+'</div>';
 
 					if(tpOb.image != undefined && tpOb.image != "") {
-						htmlStmt += '<div class="img_space"><img src="'+tpOb.image+'" class="pulse"></img></div>';
+						htmlStmt += '<div class="img_space"><img src="'+tpOb.image+'" class=""></img></div>';
 					}
 
 					htmlStmt += '</div>'; // - /q_part

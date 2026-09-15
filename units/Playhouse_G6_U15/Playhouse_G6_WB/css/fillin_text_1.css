@@ -1,213 +1,611 @@
-.all_cont{
-    height: 100%;
-    text-align: center;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-}
-.screen_elements{
-    width: 90%;
-    height: 100%;
-    flex-direction: column;
-    justify-content: space-around;
+/* =========================================================
+   MAIN CONTENT
+========================================================= */
+
+.all_cont {
+  width: 100%;
+  height: 100%;
+
+  text-align: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+
+  overflow: visible !important;
 }
 
-.group_elm{
-    width: 90%;
-    height: 300px;
-    display: flex;
-    flex-direction: unset;
-    flex-wrap: wrap;
-    /* justify-content: center; */
-    align-items: center;
-    justify-content: space-evenly;
+/* =========================================================
+   SCREEN
+========================================================= */
+
+.screen_elements {
+  width: 90%;
+  height: 100%;
+
+  display: flex !important;
+
+  flex-direction: column !important;
+
+  justify-content: flex-start !important;
+
+  align-items: center !important;
+
+  gap: 18px;
+
+  overflow: visible !important;
 }
+
+/* =========================================================
+   GROUP
+========================================================= */
+
+.group_elm {
+  width: 90%;
+  height: 300px;
+
+  flex: 0 0 auto;
+
+  display: flex;
+
+  flex-direction: row;
+
+  flex-wrap: nowrap;
+
+  align-items: center;
+
+  justify-content: space-evenly;
+}
+
+/* =========================================================
+   ACTIVITY TITLE
+========================================================= */
 
 .activityHeading b {
-    color: #000;
+  color: #000;
 }
 
-.q_num_space{
-    width: 40px;
-    font-weight: bold;
+/* =========================================================
+   QUESTION NUMBER
+========================================================= */
+
+.q_num_space {
+  width: 40px;
+
+  font-weight: bold;
 }
 
-.fillin_gr {
-    width: 100%;
+/* =========================================================
+   QUESTIONS WRAPPER
+========================================================= */
+
+.ques {
+  width: 775px;
+  height: 100%;
+
+  padding: 10px;
+
+  display: flex;
+
+  text-align: center;
+
+  flex-direction: row;
+
+  flex-wrap: wrap;
+
+  align-items: center;
+
+  justify-content: space-evenly;
+
+  box-sizing: border-box;
 }
 
-.img_space {
-    width: fit-content !important;
-    /* margin: 0px auto; */
-}
-  
-.img_space img {
-    height: 308px;
-    width: fit-content !important;
-    object-fit: contain;
-}
-
-.q_order{
-    width: 50px;
-    font-weight: bolder;
-}
-
-.txt-audioIcon {
-    color: rgb(0, 185, 242);
-    font-size: 27px;
-}
-
-.ques{
-    width: 775px;
-    height: 100%;
-    padding: 10px;
-    display: flex;
-    text-align: center;
-    flex-direction: unset;
-    flex-wrap: wrap;
-    /* justify-content: center; */
-    align-items: center;
-    justify-content: space-evenly;
-}
-
-.q_box{
-    width:  100%;
-    /* height: 70px; */
-}
+/* =========================================================
+   EACH QUESTION
+========================================================= */
 
 .fill_in .que {
-    width: 355px;
-    /* height: 142px; */
+  width: 355px;
+}
+
+.img_fillin_gr {
+  width: 355px;
+
+  position: relative;
+}
+
+/* =========================================================
+   FILLIN HOLDER
+========================================================= */
+
+.fillin_gr {
+  width: 100%;
 }
 
 .fillin_gr .q_space {
-    width: 100%;
-    margin-top: -34px;
+  width: 100%;
+
+  margin-top: 0;
 }
+
+/* =========================================================
+   INPUT HOLDER
+========================================================= */
 
 .fillin_set {
-    font-family: Arcon;
-    color: black;
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
+  width: 100%;
+
+  display: flex;
+
+  flex-wrap: wrap;
+
+  font-family: Arcon, Arial, sans-serif;
+
+  color: black;
 }
 
-.fillin_set input:focus{
-    outline: none;
-}
+/* =========================================================
+   INPUT
+========================================================= */
 
 .fillin_set input {
-    /* flex: 2 2 10px; */
-    width: 100%;
-    height: 40px;
-    color: black;
-    /* padding-left: 20px; */
-    text-align: center;
-    border: none;
-    margin: 0px 15px;
-    background: transparent;
-    border-bottom: 2px solid #595a5a;
+  width: 100%;
+
+  height: 40px;
+
+  margin: 0 15px;
+
+  padding: 0 10px;
+
+  color: black;
+
+  text-align: center;
+
+  border: none;
+
+  border-bottom: 2px solid #595a5a;
+
+  background: transparent;
+
+  outline: none;
+
+  font-size: 22px;
+
+  box-sizing: border-box;
 }
 
+.fillin_set input:focus {
+  outline: none;
+}
+
+/* =========================================================
+   AUDIO TEXT
+========================================================= */
+
+.txt-audioIcon {
+  color: rgb(0, 185, 242);
+
+  font-size: 27px;
+}
+
+/* =========================================================
+   Q BOX
+========================================================= */
+
+.q_box {
+  width: 100%;
+}
+
+/* =========================================================
+   QUESTION ORDER
+========================================================= */
+
+.q_order {
+  width: 50px;
+
+  font-weight: bolder;
+}
+
+/* =========================================================
+   IMAGE
+========================================================= */
+
+.img_space {
+  width: fit-content !important;
+
+  flex: 0 0 auto;
+}
+
+.img_space img {
+  height: 308px;
+
+  width: auto !important;
+
+  object-fit: contain;
+}
+
+/* =========================================================
+   CHECK / CROSS HOLDER
+========================================================= */
+
+.icon_wrap_holder {
+  position: relative;
+
+  width: 0;
+}
+
+/* =========================================================
+   CHECK / CROSS
+========================================================= */
+
 .icon_wrap {
-    /* position: absolute;
-    margin-top: -35px; 
-    right: 100px; */
+  position: absolute;
+
+  right: -25px;
+
+  top: 50%;
+
+  transform: translateY(-50%);
+
+  display: none;
 }
 
 .tick,
 .cross {
-    width: 35px;
+  width: 35px;
 }
 
 .tick img,
 .cross img {
-    width: 100%;
+  width: 100%;
 }
+
+/* =========================================================
+   IMAGE WRAP
+========================================================= */
 
 .image_wrap {
-    display: none;
+  display: none;
 }
 
-.clue_word {
-    width: 106px;
-    /* font-size: 22px; */
-    text-align: left;
-}
-
-.word_options {
-    width: 100%;
-    border-radius: 10px;
-    padding-left: 10px;
-    background-color: #c3f4ff8c;
-}
+/* =========================================================
+   OPTIONS MAIN HOLDER
+========================================================= */
 
 .word_opt_sticky {
-    width: 88%;
-    margin: 0px auto;
-    position: -webkit-sticky;
-    position: sticky;
-    position: -webkit-sticky;
-    top: 0;
-    z-index: 5;
-    border: 2px solid var(--temp);
-    border-radius: 10px;
+  width: 88%;
+
+  min-height: 118px;
+
+  flex: 0 0 auto;
+
+  margin: 10px auto 5px;
+
+  position: relative !important;
+
+  top: 0;
+
+  z-index: 10;
+
+  display: flex !important;
+
+  justify-content: center;
+
+  align-items: center;
+
+  border: none;
+
+  border-radius: 15px;
+
+  background-color: #dff3fb;
+
+  overflow: hidden;
 }
 
-.words-list li{
-    height: 110px;
-    font-weight: bolder;
-    color: black;
-    border: 1px solid black;
-    align-items: center;
-    display: flex;
-    justify-content: center;
+/* =========================================================
+   OPTIONS BOX
+========================================================= */
+
+.word_options {
+  width: 100%;
+
+  min-height: 118px;
+
+  padding: 8px 15px;
+
+  display: flex !important;
+
+  flex-wrap: wrap !important;
+
+  justify-content: flex-start !important;
+
+  align-items: center;
+
+  align-content: center;
+
+  box-sizing: border-box;
+
+  border-radius: 15px;
+
+  background-color: #dff3fb;
 }
 
-.right-content .p-0{
-    height: 110px;
-    border: 1px solid black;
+/* =========================================================
+   EACH OPTION
+========================================================= */
+
+.word_option_item {
+  height: 34px;
+
+  flex: 0 0 auto;
+
+  display: flex !important;
+
+  justify-content: center;
+
+  align-items: center;
+
+  box-sizing: border-box;
+
+  cursor: default;
+
+  transition:
+    opacity 0.2s ease,
+    transform 0.2s ease;
 }
+
+/* =========================================================
+   ROW 1
+   ITEMS 1 - 9
+========================================================= */
+
+.word_option_item:nth-child(-n + 9) {
+  width: 11.111%;
+}
+
+/* =========================================================
+   ROW 2
+   ITEMS 10 - 17
+========================================================= */
+
+.word_option_item:nth-child(n + 10):nth-child(-n + 17) {
+  width: 12.5%;
+}
+
+/* =========================================================
+   ROW 3
+   ITEMS 18 - 25
+========================================================= */
+
+.word_option_item:nth-child(n + 18):nth-child(-n + 25) {
+  width: 12.5%;
+}
+
+/* =========================================================
+   OPTION TEXT
+========================================================= */
+
+.clue_word {
+  width: 100%;
+
+  margin: 0;
+
+  padding: 0 4px;
+
+  text-align: center;
+
+  font-family: Arcon, Arial, sans-serif;
+
+  font-size: 22px;
+
+  font-weight: normal;
+
+  color: #111;
+
+  white-space: nowrap;
+
+  line-height: 1;
+}
+
+/* =========================================================
+   USED OPTION
+========================================================= */
+
+.word_option_item.option_used {
+  opacity: 0.42;
+}
+
+.word_option_item.option_used .clue_word {
+  text-decoration: line-through;
+
+  text-decoration-thickness: 2px;
+
+  text-decoration-color: #333;
+}
+
+/* =========================================================
+   OPTION HOVER
+========================================================= */
+
+.word_option_item:hover {
+  transform: scale(1.03);
+}
+
+/* =========================================================
+   WORD LIST
+========================================================= */
+
+.words-list li {
+  height: 110px;
+
+  font-weight: bolder;
+
+  color: black;
+
+  border: 1px solid black;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+}
+
+.right-content .p-0 {
+  height: 110px;
+
+  border: 1px solid black;
+}
+
+/* =========================================================
+   TIPS
+========================================================= */
 
 .tips_content img {
-    height: 30px;
-    width: auto;
-    margin-top: 10px;
+  height: 30px;
+
+  width: auto;
+
+  margin-top: 10px;
 }
 
-.image-container{
-    position: absolute;
-    right: 260px;
-    bottom: 50px;
-    
+/* =========================================================
+   IMAGE CONTAINER
+========================================================= */
+
+.image-container {
+  position: absolute;
+
+  right: 260px;
+
+  bottom: 50px;
 }
 
-.image-container img{
-    width: 300px;
-    height: 210px;
-    margin: 0px 70px;
-    object-fit: cover;
-    border-radius: 15px;
-    border: 2px solid #36a0c7;
+.image-container img {
+  width: 300px;
+
+  height: 210px;
+
+  margin: 0 70px;
+
+  object-fit: cover;
+
+  border-radius: 15px;
+
+  border: 2px solid #36a0c7;
 }
 
-/* ************************************************* */
-/* ************************************************* */
+/* =========================================================
+   TABLET
+========================================================= */
+
 @media (max-width: 991.98px) {
-    .fill_in .que {
-        width: 160px;
-    }
+  .screen_elements {
+    width: 94%;
+  }
+
+  .group_elm {
+    width: 96%;
+  }
+
+  .ques {
+    width: 70%;
+  }
+
+  .fill_in .que,
+  .img_fillin_gr {
+    width: 45%;
+  }
+
+  .word_opt_sticky {
+    width: 94%;
+
+    min-height: 105px;
+  }
+
+  .word_options {
+    min-height: 105px;
+  }
+
+  .clue_word {
+    font-size: 18px;
+  }
+
+  .word_option_item {
+    height: 32px;
+  }
+
+  .img_space img {
+    height: 250px;
+  }
 }
+
+/* =========================================================
+   SMALL
+========================================================= */
 
 @media (max-width: 575.98px) {
-    .fill_in .que {
-        width: 200px;
-    }
+  .screen_elements {
+    width: 96%;
+  }
+
+  .group_elm {
+    height: auto;
+
+    flex-direction: column;
+  }
+
+  .ques {
+    width: 100%;
+  }
+
+  .fill_in .que,
+  .img_fillin_gr {
+    width: 45%;
+  }
+
+  .word_opt_sticky {
+    width: 96%;
+
+    min-height: 150px;
+  }
+
+  .word_options {
+    min-height: 150px;
+
+    padding: 8px;
+  }
+
+  .word_option_item {
+    width: 20% !important;
+
+    height: 32px;
+  }
+
+  .clue_word {
+    font-size: 16px;
+  }
+
+  .img_space img {
+    height: 200px;
+  }
 }
 
+/* =========================================================
+   EXTRA SMALL
+========================================================= */
+
 @media (max-width: 475.98px) {
-    /* .fill_in .que {
-        width: 200px;
-    } */
+  .word_option_item {
+    width: 25% !important;
+  }
+
+  .clue_word {
+    font-size: 15px;
+  }
+
+  .fill_in .que,
+  .img_fillin_gr {
+    width: 90%;
+  }
 }
