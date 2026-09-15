@@ -20,7 +20,7 @@ var stereo_data = {
 };
 var fillin_data = {
   layout: 1,
-  numinrow: [[1], [1], [1], [1], [1]],
+  numinrow: [[1], [1], [1], [1], [1], [1], [1], [1], [1]],
   mainTitle: "../images/pages/sb-icons/grammer_main_title.png",
   mainTitleIcon: "",
   mainTitleIconPos: { right: "-18px" },
@@ -38,6 +38,62 @@ var fillin_data = {
   numberstartfrom: 5,
   options: [],
   questions: [
+    {
+      singleword: false,
+      text: "Elaine told her friends that she was going to study today. [_]",
+      textaudios: ["../audios/P71/under.mp3"],
+      audio: "",
+      audioenable: "default", // correct (or) default
+      image: "",
+      answer: ["Elaine said I am going to study today"],
+      alternateanswer: [[]],
+      strictcase: "no", // yes (or) no
+      strictorder: "yes", // yes (or) no
+      maxlength: 200,
+      type: "", // text (or) number
+    },
+    {
+      singleword: false,
+      text: "‘We’re going to go to the mall now,’ said Mike and Rick. [_]",
+      textaudios: ["../audios/P71/under.mp3", "../audios/P71/under.mp3"],
+      audio: "",
+      audioenable: "default", // correct (or) default
+      image: "",
+      answer: ["Mike and Rick said that they are going to the mall now"],
+      alternateanswer: [[]],
+      strictcase: "no", // yes (or) no
+      strictorder: "yes", // yes (or) no
+      maxlength: 200,
+      type: "", // text (or) number
+    },
+    {
+      singleword: false,
+      text: "‘Is Kevin finished with the mystery book?’ asked Kay. [_]",
+      textaudios: ["../audios/P71/under.mp3", "../audios/P71/under.mp3"],
+      audio: "",
+      audioenable: "default", // correct (or) default
+      image: "",
+      answer: ["Kay asked if Kevin was finished with the mystery book"],
+      alternateanswer: [[]],
+      strictcase: "no", // yes (or) no
+      strictorder: "yes", // yes (or) no
+      maxlength: 200,
+      type: "", // text (or) number
+    },
+    {
+      singleword: false,
+      text: "Our club president said that the meeting will be at 4:00. [_]",
+      textaudios: ["../audios/P71/under.mp3", "../audios/P71/under.mp3"],
+      audio: "",
+      audioenable: "default", // correct (or) default
+      image: "",
+      answer: ["Our club president said The meeting will be at 4:00"],
+      alternateanswer: [[]],
+      strictcase: "no", // yes (or) no
+      strictorder: "yes", // yes (or) no
+      maxlength: 200,
+      type: "", // text (or) number
+    },
     {
       singleword: false,
       text: " ‘You have got a large extended family,’ said Paul. [_]",

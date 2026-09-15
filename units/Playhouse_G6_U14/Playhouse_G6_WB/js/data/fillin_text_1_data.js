@@ -38,6 +38,79 @@ var fillin_data = {
   numberstartfrom: 1,
   options: [],
   optionsAudios: [],
+  helpPopup: {
+    title: "",
+
+    image: "",
+
+    paragraphs: [
+      `
+      <b>Brad:</b>
+      Hey, Uncle Eric and Aunt Sharon are coming today!
+      <br><br>
+
+      <b>Liz:</b>
+      Yes! That means I can play with Sarah and Lindsay!
+      <br><br>
+
+      <b>Brad:</b>
+      Yes, and Michael, Jason and I are going to go fishing.
+      They told me that they want to go fishing today.
+      <br><br>
+
+      <b>Liz:</b>
+      Mum will be happy to see her sister again.
+      Mum said that she misses her so much.
+      I love it when our extended family gets together.
+      <br><br>
+
+      <b>Brad:</b>
+      Especially when our cousins come over.
+      It’s fun to play with kids our age.
+      Even Michael said, ‘I think that I have the best family because there are great kids my age.’
+    `,
+
+      `
+      <b>Liz:</b>
+      Is Mum cooking a special dinner?
+      <br><br>
+
+      <b>Brad:</b>
+      Yes, tacos! Plus we’ll have apple pie for dessert.
+      Dad asked Mum to make apple pie.
+      <br><br>
+
+      <b>Liz:</b>
+      It sure sounds delicious.
+      Maybe we can get teams together after dinner and play football.
+      <br><br>
+
+      <b>Brad:</b>
+      Yeah, if we had our other siblings Matt and Janet, our cousins and some children from the neighbourhood, we could have two good teams.
+      <br><br>
+
+      <b>Liz:</b>
+      My team will beat your team!
+      <br><br>
+
+      <b>Brad:</b>
+      That we’ll have to wait and see about.
+      Who do you want on your team?
+      Matt explained to me that he likes playing on my team.
+    `,
+
+      `
+      <b>Liz:</b>
+      The whole group decides how we pick teams.
+      Maybe we can have the neighbourhood versus everyone who is related to us.
+      <br><br>
+
+      <b>Brad:</b>
+      I’m sure glad we have such a close-knit family.
+      It’s fun to be able to do lots of things together.
+    `,
+    ],
+  },
   questions: [
     {
       singleword: false,

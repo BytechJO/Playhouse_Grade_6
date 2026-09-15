@@ -1,5 +1,4 @@
 .all_cont{
-    height: 100%;
     text-align: center;
     align-items: center;
     display: flex;
@@ -86,7 +85,7 @@
     color: black;
     padding-left: 20px;
     border: none;
-    font-size: 21px;
+    font-size: 25px;
     border-bottom: 2px solid #36a0c7;
 }
 

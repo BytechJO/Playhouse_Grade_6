@@ -1,0 +1,535 @@
+.grid_columns_container {
+  position: relative;
+  width: 100%;
+}
+
+/* =========================================================
+   MAIN PAGE LAYOUT
+========================================================= */
+
+.all_cont {
+  width: 100%;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: flex-start !important;
+  align-items: center !important;
+}
+
+.col_grid_container {
+  width: 92%;
+}
+
+/* =========================================================
+   GENERAL GRID
+========================================================= */
+
+.snap_group_all {
+  position: relative;
+  width: 100%;
+  text-align: left;
+  border-radius: 20px;
+  padding: 0;
+  margin-bottom: 0;
+}
+
+.grid_with_border .snap_group_all {
+  width: 100%;
+  position: relative;
+  text-align: left;
+  border-radius: 24px;
+  padding: 0;
+}
+
+.snap_group_all .row {
+  text-align: left;
+  min-height: 36px;
+  margin: 0 !important;
+}
+
+.col_card {
+  display: flex;
+  align-items: center;
+  padding: 0;
+}
+
+.snap_card {
+  width: 100%;
+}
+
+.ss_word {
+  width: 100%;
+}
+
+.ss_text {
+  font-size: 24px;
+  line-height: 1.2;
+}
+
+/* =========================================================
+   LETTERS
+========================================================= */
+
+.first_letter {
+  display: inline-block;
+  min-width: 32px;
+
+  font-weight: 700;
+  font-size: 31px;
+
+  padding: 0 6px 0 0;
+
+  color: #111;
+}
+
+.dark_text {
+  color: #111;
+}
+
+.black_text {
+  color: #000;
+  font-weight: bolder;
+}
+
+.blue_text {
+  color: #08b0ef;
+}
+
+.red_text {
+  color: red;
+}
+
+/* =========================================================
+   FRIENDSHIP SECTION - TOP
+========================================================= */
+
+.friendship_section {
+  width: 80%;
+  position: relative;
+
+  margin-top: 0;
+  margin-bottom: 28px;
+}
+
+/* container */
+.friendship_section .col_grid_container {
+  width: 92%;
+}
+
+/* group */
+.friendship_section .snap_group_all {
+  position: relative;
+
+  width: 90%;
+
+  min-height: 320px;
+
+  padding: 0;
+
+  line-height: normal !important;
+}
+
+/* Text width */
+.friendship_section .snap_group_all .row {
+  width: 68%;
+
+  min-height: 31px;
+
+  margin: 0 !important;
+}
+
+/* Friendship text */
+.friendship_section .ss_text {
+  font-size: 20px;
+  line-height: 1.3;
+  white-space: nowrap;
+}
+
+/* Friendship letters */
+.friendship_section .first_letter {
+  width: 32px;
+
+  font-size: 31px;
+
+  padding-right: 7px;
+}
+
+/* Friendship image */
+.friendship_section .top_right_image {
+  position: absolute;
+
+  width: auto;
+  height: 185px;
+
+  right: -5px;
+  top: 58px;
+
+  left: auto;
+
+  z-index: -1;
+
+  object-fit: contain;
+}
+
+/* =========================================================
+   FAMILY SECTION - BOTTOM
+========================================================= */
+
+.family_section {
+  width: 80%;
+
+  position: relative;
+
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* container */
+.family_section .col_grid_container {
+  width: 92%;
+}
+
+/* main holder */
+.family_section .snap_group_all {
+  position: relative;
+
+  width: 100%;
+
+  min-height: 290px;
+
+  padding: 0;
+
+  line-height: normal !important;
+}
+
+/* Each family row */
+.family_section .snap_group_all .row {
+  width: 100%;
+
+  min-height: 45px;
+
+  margin: 0 !important;
+}
+
+/* right text column */
+.family_section .snap_group_all .row .col-md-6:nth-child(2) {
+  padding-left: 12px;
+}
+
+/* Family text */
+.family_section .ss_text {
+  font-size: 21px;
+
+  line-height: 1.3;
+
+  white-space: nowrap;
+}
+
+/* Family first letters */
+.family_section .first_letter {
+  width: 34px;
+
+  font-size: 31px;
+
+  padding-right: 8px;
+}
+
+/* Family image on left */
+.family_section .top_right_image {
+  position: absolute;
+
+  width: auto;
+  height: 230px;
+
+  left: -5px;
+  right: auto;
+
+  top: 26px;
+
+  z-index: -1;
+
+  object-fit: contain;
+}
+
+/* =========================================================
+   TITLE
+========================================================= */
+
+.grid_main_title_container {
+  position: absolute;
+  top: -17px;
+  left: -5px;
+}
+
+.grid_main_title_img {
+  height: 40px;
+}
+
+.grid_main_title_text {
+  position: absolute;
+  top: 0;
+  left: 74px;
+}
+
+/* =========================================================
+   TOP IMAGE
+========================================================= */
+
+.top_right_image {
+  position: absolute;
+  object-fit: contain;
+}
+
+/* =========================================================
+   AUDIO
+========================================================= */
+
+.audioIcon:hover {
+  transform: scale(1.05);
+}
+
+/* =========================================================
+   OTHER EXISTING CLASSES
+========================================================= */
+
+.remember .grid_main_title_img {
+  height: 90px;
+}
+
+.remember .snap_group_all {
+  position: relative;
+
+  text-align: left;
+
+  line-height: 45px;
+
+  border: 2px solid #08b0ef;
+
+  border-radius: 20px;
+
+  padding: 34px;
+
+  background-color: #e1f4fd;
+
+  margin-bottom: 80px;
+}
+
+.remember .col_card {
+  display: flex;
+}
+
+.remember2 {
+  color: #08b0ef;
+  margin-top: 35px;
+}
+
+.remember2 .col_card {
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  align-content: center;
+}
+
+.remember2 .snap_group_6 .ss_text,
+.remember2 .snap_group_7 .ss_text,
+.remember2 .snap_group_8 .ss_text {
+  font-size: 22px;
+}
+
+.remember2 .ss_text {
+  font-size: 26px;
+}
+
+/* =========================================================
+   GRAMMAR
+========================================================= */
+
+.read_grammer {
+  margin-bottom: 300px;
+}
+
+.read_grammer .grammer_container {
+  transform: scale(0.8);
+
+  display: inline-block;
+
+  align-self: center;
+
+  position: relative;
+}
+
+.read_grammer .grammer_container img {
+  width: 100%;
+}
+
+/* =========================================================
+   IMAGES
+========================================================= */
+
+.image_audio {
+  position: absolute;
+  transform: scale(0.5);
+}
+
+.main_image {
+  height: 600px;
+}
+
+.main_image img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.img_card {
+  max-height: 150px;
+  display: block;
+}
+
+.img_card_text {
+  max-height: 50px;
+}
+
+/* =========================================================
+   SONG
+========================================================= */
+
+.song_text {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+/* =========================================================
+   WORDS CONTAINER
+========================================================= */
+
+.words_container {
+  position: absolute;
+
+  font-weight: bold;
+
+  width: 100%;
+
+  left: 20%;
+
+  top: 40%;
+
+  transform: translate(-20%, -50%);
+
+  color: red;
+
+  font-size: 40px;
+}
+
+/* =========================================================
+   GRID WITHOUT BORDER
+========================================================= */
+
+.grid_without_border .snap_group_all {
+  background-color: transparent;
+  border: none;
+}
+
+/* =========================================================
+   CENTER IMAGES GRID
+========================================================= */
+
+.grid_with_center_images {
+  width: 80%;
+
+  background-color: rgb(251, 244, 175);
+
+  border-radius: 25px;
+
+  position: absolute;
+
+  top: 179px;
+
+  padding: 30px;
+}
+
+.grid_with_center_images .snap_group_all {
+  width: auto;
+  position: static;
+}
+
+.grid_with_center_images .audioIcon {
+  margin: auto;
+}
+
+.grid_with_center_images .row {
+  min-height: 200px !important;
+}
+
+.grid_with_center_images .col_grid_container {
+  width: 100%;
+}
+
+/* =========================================================
+   TOP IMAGE TEXT
+========================================================= */
+
+.top_image_text {
+  margin-bottom: 30px;
+}
+
+.top_image {
+  height: 90px;
+  margin-right: 25px;
+}
+
+/* =========================================================
+   MISC
+========================================================= */
+
+.display-block {
+  display: block !important;
+}
+
+.back_bottom_image {
+  width: 100%;
+
+  position: absolute;
+
+  top: -25px;
+
+  left: 0;
+}
+
+.middle_image {
+  width: 250px;
+
+  position: absolute;
+
+  top: 250px;
+
+  left: 590px;
+}
+
+.snap_group_bottom {
+  height: 141px;
+
+  position: relative;
+
+  padding: 30px;
+
+  width: 100%;
+}
+
+/* =========================================================
+   OTHER SLIDES
+========================================================= */
+
+.slide_2 .snap_group_all {
+  padding: 50px 25px;
+}
+
+.slide_3 .snap_group_all {
+  border: none;
+  margin-top: 50px;
+}
+
+.slide_3 .snap_group_6 {
+  height: 50px;
+}

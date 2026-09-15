@@ -13,11 +13,11 @@ window.FillIn = function(obj, dataObj){
     }    
     this.init(this.settings);
 }
-FillIn.prototype = {
+FillIn.prototype = { 
     init:function(ob){       
         this.ob = ob;
         // this.reset();
-        this.listen(ob);
+        this.listen(ob); 
     },
     listen:function(ob){
         var e = (ob.activity_area); 

@@ -6,7 +6,7 @@ var wordpuzzle_data = {
   mainTitleIconPos: { right: "-18px" },
   mainTitleAudio: "../audios/Page_12/PHONICS_AND_SPELLING.mp3",
   subTitleTextLeft:
-    "<span class='green_text'>1</span> Solve it! Solve the crossword puzzle using the Word Power words.",
+    "<span class='green_text'>1</span> Solve it! <span class='blue_text'>Solve the crossword puzzle using the Word Power words.</span>",
   subTitleTextRight: "",
   subTitleIcons: [],
   subTitleAudio:
@@ -52,7 +52,7 @@ var wordpuzzle_data = {
           row: 7,
           column: 1,
           wordnum: 6,
-          word: "devorced",
+          word: "divorced",
         },
         {
           row: 7,
