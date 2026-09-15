@@ -42,7 +42,7 @@ var fillin_data = {
   numberstartfrom: "a",
   options: [],
   images: [
-    { img: "../images/pages/activities/P7_1.png", top: "240px", left: "150px" },
+    { img: "../images/pages/activities/p7_1.png", top: "240px", left: "150px" },
   ],
   questions: [
     {

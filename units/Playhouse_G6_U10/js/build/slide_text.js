@@ -108,7 +108,7 @@ function buildReadingHTML(aObj) {
   // ACTIVITY CONTENT
   // =========================================================
 
-  slideHtml += "<div class='options cont_ht_sf mx-auto'>";
+  slideHtml += "<div class='options mx-auto'>";
 
   slideHtml +=
     "<div class='all_cont d-flex justify-content-center align-items-center'>";

@@ -19,7 +19,7 @@ var stereo_data = {
   ],
 };
 var reading_data = {
-  mainTitle: "../images/pages/sb-icons/writing.jpg",
+  mainTitle: "../images/pages/sb-icons/WRITING.jpg",
   mainTitleIcon: "",
   mainTitleIconPos: { right: "90px" },
   mainTitleAudio: "../audios/P13/WRITING.mp3",
@@ -54,10 +54,10 @@ var reading_data = {
       ],
 
       word: [
-        "<img src='../images/pages/activities/img1.png' class='s_img'/>",
-        "<img src='../images/pages/activities/img2.png' class='s_img'/>",
-        "<img src='../images/pages/activities/img3.png' class='s_img'/>",
-        "<img src='../images/pages/activities/img4.png' class='s_img'/>",
+        "<img src='../images/pages/activities/img1.PNG' class='s_img'/>",
+        "<img src='../images/pages/activities/img2.PNG' class='s_img'/>",
+        "<img src='../images/pages/activities/img3.PNG' class='s_img'/>",
+        "<img src='../images/pages/activities/img4.PNG' class='s_img'/>",
       ],
 
       imagePlacePos: [

@@ -49,40 +49,40 @@ var reading_data = {
       ],
       word: [
         "<span class='blue_text'>Lilly</span>: ",
-        "Did you hear they want to film a documentary here in our town?",
+        "Did you hear they want to <span class='blue_text'>film</span> a <span class='blue_text'>documentary</span> here in our town?",
 
         "<span class='blue_text'>Max</span>: ",
-        "No way! That’s amazing! What do they want to film about? <br> Will there be any famous actors in it?",
+        "No way! That’s amazing! What do they want to <span class='blue_text'>film</span> about? <br> Will there be any famous actors in it?",
 
         "<span class='blue_text'>Lilly</span>: ",
-        "The producer of the famous film ‘What’s Up, Joe?’ would like", //3
-        "to make a documentary about Benny Green. You know, he’s the",
+        "The <span class='blue_text'>producer</span> of the famous film ‘What’s Up, Joe?’ would like", //3
+        "to make a <span class='blue_text'>documentary</span> about Benny Green. You know, he’s the",
         "man who worked at a restaurant when he was a kid and now owns over a hundred restaurants",
 
         "<span class='blue_text'>Max</span>: ",
         "Of course! He’s so famous. He’s also the one who donated all the money needed to open Miracle", //
-        "Park. I want to meet him. Is he coming to film the documentary?",
+        "Park. I want to meet him. Is he coming to <span class='blue_text'>film</span> the <span class='blue_text'>documentary</span>?",
 
         "<span class='blue_text'>Lilly</span>: ",
-        "Yes, and the producer of the film is one of the people who worked to get the money for the park.",
-        "She will also be the director.",
+        "Yes, and the <span class='blue_text'>producer</span> of the film is one of the people who worked to get the money for the park.",
+        "She will also be the <span class='blue_text'>director</span>.",
 
         "<span class='blue_text'>Max</span>: ",
-        "Do you know who the screenwriter is?",
+        "Do you know who the <span class='blue_text'>screenwriter</span> is?",
 
         "<span class='blue_text'>Lilly</span>:",
         "I’m not sure.",
         "<span class='blue_text'>Max</span>:",
-        "Maybe I could hang out at the park and be in one of the scenes!",
+        "Maybe I could hang out at the park and be in one of the <span class='blue_text'>scenes</span>!",
 
         "<span class='blue_text'>Lilly</span>:",
-        "It’s a documentary! Not a comedy film!",
+        "It’s a <span class='blue_text'>documentary</span>! Not a comedy <span class='blue_text'>film</span>!",
 
         "<span class='blue_text'>Max</span>:",
-        "Ha ha! You’re so funny ... not! I think I would look good on the big screen.",
+        "Ha ha! You’re so funny ... not! I think I would look good on the big <span class='blue_text'>screen</span>.",
 
         "<span class='blue_text'>Lilly</span>:",
-        "They’re actually going to film it in a studio, but the set will look like Miracle Park.",
+        "They’re actually going to <span class='blue_text'>film</span> it in a studio, but the set will look like Miracle Park.",
 
         "<span class='blue_text'>Max</span>:",
         "That’s a shame. I guess I can’t become a film star yet. Maybe next week!",

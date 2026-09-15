@@ -304,7 +304,7 @@ var reading_data = {
 
         "Put them in several places in your story.",
 
-        "<img src='../images/pages/activities/img1.png' class='s_img'/>",
+        "<img src='../images/pages/activities/img1.PNG' class='s_img'/>",
       ],
 
       imagePlacePos: [
