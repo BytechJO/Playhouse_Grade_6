@@ -17,7 +17,9 @@ ol.no-style {
     color: black;
     margin-bottom: 38px;
 }
-
+.func_ctrls {
+  display: none !important;
+}
 ol li span {
     text-align: left;
     width: 80%;

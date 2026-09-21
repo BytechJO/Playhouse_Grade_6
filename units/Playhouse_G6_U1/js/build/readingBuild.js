@@ -637,6 +637,161 @@ function buildReadingHTML(aObj) {
           slideHtml += "</div>";
         }
         slideHtml += "</div>";
+      } else if (slide.layout == "writing_process") {
+        var processWords = slide.word || [];
+        var processImages = slide.mainImage || [];
+        var processTitles = slide.boxTitle || [];
+        var processTitleAudio = slide.boxTitleAudio || [];
+        var processArrows = slide.arrowsImages || [];
+
+        slideHtml +=
+          "<div class='writing_process_layout " +
+          (slide.parent_class_name || "") +
+          "'>";
+
+        /* =========================================
+     TOP TITLE
+  ========================================= */
+
+        if (slide.mainTextTitle != undefined && slide.mainTextTitle != "") {
+          slideHtml +=
+            "<div class='writing_process_main_title'>" +
+            slide.mainTextTitle +
+            "</div>";
+        }
+
+        /* =========================================
+     INTRO TEXT
+  ========================================= */
+
+        if (slide.mainText != undefined && slide.mainText.length > 0) {
+          slideHtml +=
+            "<div class='writing_process_intro snap_card audioTile audioIcon' " +
+            "data-slideNum='" +
+            Number(slideIndex + 1) +
+            "' data-audio='" +
+            (slide.mainTextAudio || "") +
+            "' data-onaudioplay=''>";
+
+          slideHtml +=
+            "<div class='writing_process_intro_text'>" +
+            slide.mainText[0] +
+            "</div>";
+
+          slideHtml += "</div>";
+        }
+
+        /* =========================================
+     PROCESS ROW
+  ========================================= */
+
+        slideHtml += "<div class='writing_process_row'>";
+
+        for (var box = 0; box < processWords.length; box++) {
+          /* =========================================
+       CARD
+    ========================================= */
+
+          slideHtml +=
+            "<div class='writing_process_card writing_process_card_" +
+            Number(box + 1) +
+            "'>";
+
+          /* background image */
+
+          if (processImages[box] != undefined && processImages[box] != "") {
+            slideHtml +=
+              "<img src='" +
+              processImages[box] +
+              "' class='writing_process_card_bg'/>";
+          }
+
+          /* =========================================
+       CARD TITLE
+    ========================================= */
+
+          if (processTitles[box] != undefined && processTitles[box] != "") {
+            slideHtml +=
+              "<div class='writing_process_card_title snap_card audioTile audioIcon' " +
+              "data-slideNum='" +
+              Number(slideIndex + 1) +
+              "' data-audio='" +
+              (processTitleAudio[box] || "") +
+              "' data-onaudioplay=''>";
+
+            slideHtml += "<span>" + processTitles[box] + "</span>";
+
+            slideHtml += "</div>";
+          }
+
+          /* =========================================
+       WORDS
+    ========================================= */
+
+          slideHtml += "<div class='writing_process_words'>";
+
+          for (
+            var wordIndex = 0;
+            wordIndex < processWords[box].length;
+            wordIndex++
+          ) {
+            var currentAudio = "";
+
+            /*
+        لو audio عندك array داخل array
+        رح ياخذ الصوت الصحيح.
+        وإذا ما في صوت رح يضل فارغ.
+      */
+
+            if (
+              slide.audio &&
+              slide.audio[box] &&
+              slide.audio[box][wordIndex]
+            ) {
+              currentAudio = slide.audio[box][wordIndex];
+            }
+
+            slideHtml +=
+              "<div class='writing_process_word snap_card audioTile audioIcon' " +
+              "data-slideNum='" +
+              Number(slideIndex + 1) +
+              "' data-audio='" +
+              currentAudio +
+              "' data-onaudioplay=''>";
+
+            slideHtml +=
+              "<div class='writing_process_word_text'>" +
+              processWords[box][wordIndex] +
+              "</div>";
+
+            slideHtml += "</div>";
+          }
+
+          slideHtml += "</div>";
+
+          /* end card */
+
+          slideHtml += "</div>";
+
+          /* =========================================
+       ARROW BETWEEN CARDS
+    ========================================= */
+
+          if (box < processWords.length - 1 && processArrows[box]) {
+            slideHtml += "<div class='writing_process_arrow_holder'>";
+
+            slideHtml +=
+              "<img src='" +
+              processArrows[box] +
+              "' class='writing_process_arrow'/>";
+
+            slideHtml += "</div>";
+          }
+        }
+
+        slideHtml += "</div>"; // writing_process_row
+
+        slideHtml += "</div>"; // writing_process_layout
       }
     }
     slideHtml += "</div></div></div>";

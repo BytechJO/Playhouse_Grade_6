@@ -36,10 +36,8 @@ var reading_data = {
       subTitleTextRight: "Listen and read. Then act it out.",
       subTitleIcons: ["../images/pages/page-2/1-title-icon.png"],
       subTitleAudio: "../audios/P10/under.mp3",
-
-      layout: "multiple_grid_containers",
-      parent_class_name:
-        "multiple_boxes_under_text multiple_boxes_under_text_process",
+      layout: "writing_process",
+      parent_class_name: "writing_process_layout",
 
       mainImage: [
         "../images/pages/page-6/1-background-1.png",

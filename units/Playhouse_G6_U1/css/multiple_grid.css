@@ -1,115 +1,517 @@
 .boxes_container {
-    gap: 150px;
+  gap: 150px;
 }
-.main_text { 
-    width: 1128px;
-    margin: auto;
-    margin-bottom: 100px;
-    text-align: left;
-    font-weight: bold;
-    color: deepskyblue;
+.main_text {
+  width: 1128px;
+  margin: auto;
+  margin-bottom: 100px;
+  text-align: left;
+  font-weight: bold;
+  color: deepskyblue;
 }
 .box_with_text {
-    position: relative;
-    top: 0;
-    left: 0;
+  position: relative;
+  top: 0;
+  left: 0;
 }
 .grammer_background {
-    height: 325px;
-    width: 300px;
-    /* margin-top: 115px; */
+  height: 325px;
+  width: 300px;
+  /* margin-top: 115px; */
 }
 .snap_group_single {
-    position: absolute;
-    top: 70px;
-    left: 25px;
-    width: 85%;
-    text-align: left;
-    line-height: 50px;
+  position: absolute;
+  top: 70px;
+  left: 25px;
+  width: 85%;
+  text-align: left;
+  line-height: 50px;
 }
 .snap_group_single_images {
-    gap: 112px;
-    display: flex;
-    flex-direction: column;
+  gap: 112px;
+  display: flex;
+  flex-direction: column;
 }
 
 .box_title {
-    position: absolute;
-    top: 5px;
-    left: 95px;
+  position: absolute;
+  top: 5px;
+  left: 95px;
 }
 
 .ss_image {
-    height: 75px;
+  height: 75px;
 }
 
 /* Slide 9 ============================================================= */
 .multiple_boxes_under_text_process .snap_card {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .multiple_boxes_under_text_process .main_text {
-    margin: 0px !important;
-    margin-bottom: 100px !important;
-    font-size: 24px;
+  margin: 0px !important;
+  margin-bottom: 100px !important;
+  font-size: 24px;
 }
 
 /* Slid 10 ============================================================= */
 .multiple_boxes_under_text .arrows_images_1_0 {
-    position: absolute;
-    height: 50px;
-    top: 375px;
-    left: 390px;
+  position: absolute;
+  height: 50px;
+  top: 375px;
+  left: 390px;
 }
 
 .multiple_boxes_under_text .arrows_images_1_1 {
-    position: absolute;
-    height: 50px;
-    top: 375px;
-    left: 840px;
+  position: absolute;
+  height: 50px;
+  top: 375px;
+  left: 840px;
 }
-
 
 /* Slid 11 ============================================================= */
 .boxes_beside_main_box .snap_group_single {
-    width: 95%;
+  width: 95%;
 }
 
 .boxes_beside_main_box .grammer_background {
-    height: auto;
-    width: 820px;
+  height: auto;
+  width: 820px;
 }
 
 .boxes_beside_main_box .box_title {
-    top: 15px;
-    left: 350px;
+  top: 15px;
+  left: 350px;
 }
 
 .boxes_beside_main_box .boxes_container {
-    gap: 30px;
-    position: relative;
+  gap: 30px;
+  position: relative;
 }
 
-.boxes_beside_main_box .arrows_images_1_0 { 
-    position: absolute;
-    height: 110px;
-    top: 85px;
-    left: 980px;
+.boxes_beside_main_box .arrows_images_1_0 {
+  position: absolute;
+  height: 110px;
+  top: 85px;
+  left: 980px;
 }
 
 .boxes_beside_main_box .arrows_images_1_1 {
-    position: absolute;
-    height: 110px;
-    top: 270px;
-    left: 980px;
+  position: absolute;
+  height: 110px;
+  top: 270px;
+  left: 980px;
 }
 .multiple_boxes_under_text_process .main_text_title {
-    width: 100%;
-    text-align: center;
-    font-size: 28px;
-    font-weight: bold;
-    color: #000;
-    margin-bottom: 10px;
+  width: 100%;
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 10px;
 }
 
+/* =========================================================
+   WRITING PROCESS LAYOUT
+========================================================= */
+
+.writing_process_layout {
+  width: 100%;
+  max-width: 1500px;
+
+  margin: 0 auto;
+  padding: 0 30px;
+
+  box-sizing: border-box;
+}
+
+/* =========================================================
+   MAIN TITLE
+========================================================= */
+
+.writing_process_layout .writing_process_main_title {
+  width: 100%;
+
+  margin: 0 auto 12px auto;
+
+  text-align: center;
+
+  font-size: 28px;
+  font-weight: bold;
+
+  line-height: 1.3;
+
+  color: #000;
+}
+
+/* =========================================================
+   INTRO TEXT
+========================================================= */
+
+.writing_process_layout .writing_process_intro {
+  width: 100%;
+
+  margin: 0 auto 85px auto;
+
+  padding: 0;
+
+  text-align: left;
+}
+
+.writing_process_layout .writing_process_intro_text {
+  width: 100%;
+
+  font-size: 24px;
+  font-weight: bold;
+
+  line-height: 1.9;
+
+  color: deepskyblue;
+
+  text-align: left;
+}
+
+/* =========================================================
+   PROCESS ROW
+========================================================= */
+
+.writing_process_layout .writing_process_row {
+  width: 100%;
+
+  display: flex;
+
+  justify-content: center;
+  align-items: flex-start;
+
+  gap: 0;
+}
+
+/* =========================================================
+   EACH CARD
+========================================================= */
+
+.writing_process_layout .writing_process_card {
+  position: relative;
+
+  width: 300px;
+  min-width: 300px;
+
+  height: 330px;
+
+  flex: 0 0 300px;
+}
+
+/* =========================================================
+   CARD BACKGROUND
+========================================================= */
+
+.writing_process_layout .writing_process_card_bg {
+  position: absolute;
+
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
+
+  object-fit: fill;
+
+  z-index: 1;
+
+  pointer-events: none;
+}
+
+/* =========================================================
+   CARD TITLE
+========================================================= */
+
+.writing_process_layout .writing_process_card_title {
+  position: absolute;
+
+  top: -1px;
+  left: 50%;
+
+  transform: translateX(-50%);
+
+  width: 88%;
+  height: 72px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 0;
+
+  z-index: 3;
+
+  text-align: center;
+
+  background: transparent;
+}
+
+.writing_process_layout .writing_process_card_title span {
+  width: 100%;
+
+  text-align: center;
+
+  font-size: 27px;
+  font-weight: 400;
+
+  line-height: 1;
+
+  color: #111;
+}
+
+/* =========================================================
+   WORDS CONTAINER
+========================================================= */
+
+.writing_process_layout .writing_process_words {
+  position: absolute;
+
+  top: 88px;
+  left: 0;
+
+  width: 100%;
+
+  padding: 0 28px;
+
+  box-sizing: border-box;
+
+  z-index: 3;
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: stretch;
+
+  gap: 13px;
+}
+
+/* =========================================================
+   WORD
+========================================================= */
+
+.writing_process_layout .writing_process_word {
+  width: 100%;
+
+  margin: 0;
+  padding: 0;
+
+  background: transparent;
+
+  text-align: left;
+}
+
+.writing_process_layout .writing_process_word_text {
+  width: 100%;
+
+  font-size: 24px;
+  font-weight: 400;
+
+  line-height: 1.6;
+
+  color: #111;
+
+  text-align: left;
+}
+
+/* =========================================================
+   ARROWS
+========================================================= */
+
+.writing_process_layout .writing_process_arrow_holder {
+  width: 145px;
+  min-width: 145px;
+
+  height: 405px;
+
+  display: flex;
+
+  justify-content: center;
+
+  /*
+       السهم بالقرب من أعلى الصندوق
+       مثل الصورة الأصلية
+    */
+  align-items: flex-start;
+
+  padding-top: 0;
+
+  box-sizing: border-box;
+
+  flex: 0 0 145px;
+}
+
+.writing_process_layout .writing_process_arrow {
+  width: 145px;
+  height: auto;
+
+  margin-top: 0;
+
+  object-fit: contain;
+
+  flex-shrink: 0;
+}
+
+/* =========================================================
+   REMOVE GENERAL SNAP CARD SIDE EFFECTS
+========================================================= */
+
+.writing_process_layout .snap_card {
+  box-shadow: none;
+  border: none;
+  background: transparent;
+}
+
+/* =========================================================
+   1400 AND SMALLER
+========================================================= */
+
+@media screen and (max-width: 1400px) {
+  .writing_process_layout {
+    max-width: 1250px;
+    padding: 0 20px;
+  }
+
+  .writing_process_layout .writing_process_card {
+    width: 270px;
+    min-width: 270px;
+
+    flex-basis: 270px;
+  }
+
+  .writing_process_layout .writing_process_arrow_holder {
+    width: 100px;
+    min-width: 100px;
+
+    flex-basis: 100px;
+  }
+
+  .writing_process_layout .writing_process_arrow {
+    width: 100px;
+  }
+
+  .writing_process_layout .writing_process_word_text {
+    font-size: 22px;
+  }
+
+  .writing_process_layout .writing_process_card_title span {
+    font-size: 25px;
+  }
+}
+
+/* =========================================================
+   1100 AND SMALLER
+========================================================= */
+
+@media screen and (max-width: 1100px) {
+  .writing_process_layout .writing_process_card {
+    width: 240px;
+    min-width: 240px;
+
+    flex-basis: 240px;
+  }
+
+  .writing_process_layout .writing_process_arrow_holder {
+    width: 70px;
+    min-width: 70px;
+
+    flex-basis: 70px;
+  }
+
+  .writing_process_layout .writing_process_arrow {
+    width: 70px;
+  }
+
+  .writing_process_layout .writing_process_word_text {
+    font-size: 19px;
+  }
+
+  .writing_process_layout .writing_process_card_title span {
+    font-size: 22px;
+  }
+
+  .writing_process_layout .writing_process_intro_text {
+    font-size: 21px;
+  }
+}
+
+/* =========================================================
+   MOBILE / TABLET
+========================================================= */
+
+@media screen and (max-width: 850px) {
+  .writing_process_layout .writing_process_row {
+    flex-direction: column;
+
+    align-items: center;
+
+    gap: 20px;
+  }
+
+  .writing_process_layout .writing_process_card {
+    width: 300px;
+    min-width: 300px;
+
+    flex: 0 0 405px;
+  }
+
+  .writing_process_layout .writing_process_arrow_holder {
+    width: 100px;
+    min-width: 100px;
+
+    height: 65px;
+
+    flex: 0 0 65px;
+
+    align-items: center;
+
+    padding: 0;
+
+    /*
+          يحول السهم للأسفل
+        */
+    transform: rotate(90deg);
+  }
+
+  .writing_process_layout .writing_process_arrow {
+    width: 90px;
+    margin: 0;
+  }
+
+  .writing_process_layout .writing_process_intro {
+    margin-bottom: 45px;
+  }
+
+  .writing_process_layout .writing_process_intro_text {
+    font-size: 20px;
+    line-height: 1.6;
+  }
+
+  .writing_process_layout .writing_process_word_text {
+    font-size: 22px;
+  }
+}
+.writing_process_layout {
+  width: 80% !important;
+}
+.writing_process_layout .writing_process_word {
+    position: relative;
+    padding-left: 18px;
+}
+
+.writing_process_layout .writing_process_word::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 14px;
+
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+
+    background-color: currentColor;
+}
