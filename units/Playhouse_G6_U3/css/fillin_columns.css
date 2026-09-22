@@ -70,7 +70,7 @@
 ========================================================= */
 
 .ques {
-  width: 100% !important;
+  width: 80% !important;
 
   padding: 10px;
 
@@ -81,7 +81,9 @@
 
   box-sizing: border-box;
 }
-
+.func_ctrls {
+  display: none !important;
+}
 /* =========================================================
    QUESTION BOX
 ========================================================= */
@@ -90,7 +92,7 @@
   position: relative;
 
   width: 100% !important;
-  min-height: 130px;
+  min-height: 100px;
 
   display: flex;
 

@@ -34,6 +34,7 @@ var fillin_data = {
   imageposition: "front", // "front" (or) "back"
   numbering: "none", // "alphabet" (or) "number"
   numberstartfrom: 1,
+  centerImage: "../images/pages/activities/7.jpg",
   options: [
     "<b>a</b> if he doesn’t study enough.",
     "<b>c</b> if it's heated to 100 C.",

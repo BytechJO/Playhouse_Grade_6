@@ -23,7 +23,9 @@
 .word , .txt-audioIcon{
     color: #3f3d3d;
 }
-
+.func_ctrls {
+  display: none !important;
+}
 .image_space {
     width: 170px;
     float: left;
@@ -49,7 +51,6 @@
 
 .q_box {
     width: 100%;
-    height: 130px;
     text-align: left;
 }
 

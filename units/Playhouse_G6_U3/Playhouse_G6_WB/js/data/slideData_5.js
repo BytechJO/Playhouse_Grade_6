@@ -5,7 +5,7 @@ var stereo_data = {
   type: "toggle_slide",
   playListData: [
     {
-      audiourl: "../audios/P18/Remember!.mp3",
+      audiourl: "../audios/P17/Remember!.mp3",
     },
     {
       url: "",
@@ -22,11 +22,11 @@ var reading_data = {
   mainTitle: "../images/pages/sb-icons/LANGUAGE_BUILDING.jpg",
   mainTitleIcon: "../images/pages/sb-icons/readwrite_main_title_icon.png",
   mainTitleIconPos: { right: "-43px" },
-  mainTitleAudio: "../audios/P18/LANGUAGE_BUILDING.mp3",
+  mainTitleAudio: "../audios/P17/LANGUAGE_BUILDING.mp3",
   subTitleTextLeft: "",
   subTitleTextRight: "",
   subTitleIcons: [],
-  subTitleAudio: "../audios/P18/under.mp3",
+  subTitleAudio: "../audios/P17/under.mp3",
   slides: [
     {
       layout: "grid_columns",
@@ -34,17 +34,17 @@ var reading_data = {
       grid_main_title: ["../images/pages/sb-icons/remember.png"],
       parent_class_name: "grid_with_background_image remember",
       grid_main_title_text: "",
-      grid_main_title_text_audio: "../audios/P18/under.mp3",
+      grid_main_title_text_audio: "../audios/P17/under.mp3",
       group_styles: "",
       audio: [
-        "../audios/P18/Pg6_2.1_Stella.mp3",
-        "../audios/P18/dough.mp3",
-        "../audios/P18/sauce.mp3",
-        "../audios/P18/sprinkle.mp3",
-        "../audios/P18/cheese.mp3",
-        "../audios/P18/add.mp3",
-        "../audios/P18/pepperoni.mp3",
-        "../audios/P18/slice.mp3",
+        "../audios/P17/Pg6_2.1_Stella.mp3",
+        "../audios/P17/dough.mp3",
+        "../audios/P17/sauce.mp3",
+        "../audios/P17/sprinkle.mp3",
+        "../audios/P17/cheese.mp3",
+        "../audios/P17/add.mp3",
+        "../audios/P17/pepperoni.mp3",
+        "../audios/P17/slice.mp3",
       ],
       word: [
         "<span class='bold_text'>Prepositional Phrases</span>",

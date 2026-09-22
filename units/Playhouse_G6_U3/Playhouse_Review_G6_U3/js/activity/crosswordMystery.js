@@ -17,7 +17,7 @@ CrosswordMystery.prototype = {
   // INIT
   // =====================================================
 
-  init: function (ob) { 
+  init: function (ob) {
     this.ob = ob;
 
     this.listen();
@@ -39,23 +39,16 @@ CrosswordMystery.prototype = {
     $(e).on("input", ".cwm_input:not([readonly])", function () {
       var input = $(this);
 
-      var value = input
-        .val()
-        .toUpperCase()
-        .replace(/[^A-Z]/g, "");
+      var value = input.val();
 
+      // خذ أول حرف فقط بدون ما تمنع العربي
       input.val(value.slice(0, 1));
 
-      // =================================================
-      // AUTO NEXT
-      // =================================================
-
-      if (value != "") {
+      if (value !== "") {
         self.moveNext(this);
       }
 
       self.clearWordFeedback(input.attr("data-word"));
-
       self.enableControls();
     });
 
@@ -90,13 +83,6 @@ CrosswordMystery.prototype = {
     // =================================================
 
     $(e).on("input", ".cwm_mystery_input", function () {
-      $(this).val(
-        $(this)
-          .val()
-          .toUpperCase()
-          .replace(/[^A-Z ]/g, ""),
-      );
-
       $(e)
         .find(".cwm_mystery_feedback .tick, .cwm_mystery_feedback .cross")
         .hide();

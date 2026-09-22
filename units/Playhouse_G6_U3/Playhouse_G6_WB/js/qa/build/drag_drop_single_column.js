@@ -3,19 +3,51 @@ function initActivity(activity) {
   drag_drop_options = '<div class="drag_drop_options sticky-top center_item">';
   jQuery.each(activity.options, function (key, value) {
     drag_drop_options +=
-      '<div class="draggable_div" data-value="' +
+      '<div class="draggable_div" ' +
+      'data-value="' +
       value +
-      '" style="background-color: transparent;">' +
+      '" ' +
+      'data-index="' +
+      key +
+      '" ' +
+      'style="background-color: transparent;">' +
       value +
       "</div>";
-
-    // بعد 6 كلمات انزل سطر جديد
-    if (key === 5) {
-      drag_drop_options += "<br>";
-    }
   });
   drag_drop_options += "</div>";
+  function returnOptionToOriginalPlace(value, originalIndex) {
+    var $option = jQuery(
+      '<div class="draggable_div" ' +
+        'data-value="' +
+        value +
+        '" ' +
+        'data-index="' +
+        originalIndex +
+        '" ' +
+        'style="background-color: transparent;">' +
+        value +
+        "</div>",
+    );
 
+    var inserted = false;
+
+    jQuery(".drag_drop_options .draggable_div").each(function () {
+      var currentIndex = parseInt(jQuery(this).attr("data-index"));
+
+      if (currentIndex > originalIndex) {
+        jQuery(this).before($option);
+        inserted = true;
+        return false;
+      }
+    });
+
+    // إذا ما في عنصر بعده، حطه بالنهاية
+    if (!inserted) {
+      jQuery(".drag_drop_options").append($option);
+    }
+
+    makeDraggable($option);
+  }
   //Questions
   drag_drop_questions = '<div class="drag_drop_questions center_item"><ul>';
   jQuery.each(activity.questions, function (key, values) {
@@ -100,30 +132,23 @@ function initActivity(activity) {
 
         var newValue = jQuery(this).data("value") || evt.target.innerText;
 
+        var newIndex = parseInt(jQuery(this).attr("data-index"));
+
         var oldValue = $target.val();
+        var oldIndex = parseInt($target.attr("data-option-index"));
 
-        // إذا في كلمة قديمة، رجعها للخيارات
+        // إذا كان في كلمة قديمة داخل الـ input
+        // رجعها لمكانها الأصلي
         if (oldValue && oldValue.trim() !== "") {
-          var $oldOption = jQuery(
-            '<div class="draggable_div" ' +
-              'data-value="' +
-              oldValue +
-              '" ' +
-              'style="background-color: transparent;">' +
-              oldValue +
-              "</div>",
-          );
-
-          jQuery(".drag_drop_options").append($oldOption);
-
-          // فعّل السحب عليها
-          makeDraggable($oldOption);
+          returnOptionToOriginalPlace(oldValue, oldIndex);
         }
 
         // حط الكلمة الجديدة
         $target.val(newValue);
 
-        // خلي المكان droppable دائمًا
+        // خزّن index الكلمة
+        $target.attr("data-option-index", newIndex);
+
         $target.addClass("droppable_div");
 
         // احذف الكلمة من الخيارات
@@ -144,31 +169,21 @@ function initActivity(activity) {
       var $input = jQuery(this);
 
       var value = $input.val();
+      var originalIndex = parseInt($input.attr("data-option-index"));
 
       if (!value || value.trim() === "") {
         return;
       }
 
-      var $option = jQuery(
-        '<div class="draggable_div" ' +
-          'data-value="' +
-          value +
-          '" ' +
-          'style="background-color: transparent;">' +
-          value +
-          "</div>",
-      );
-
-      // رجعها فوق
-      jQuery(".drag_drop_options").append($option);
-
-      // خليها draggable
-      makeDraggable($option);
+      // رجّع الكلمة لمكانها الأصلي
+      returnOptionToOriginalPlace(value, originalIndex);
 
       // فضّي الفراغ
       $input.val("");
 
-      // خلي الفراغ يستقبل كلمات مرة ثانية
+      // امسح الـ index المخزّن
+      $input.removeAttr("data-option-index");
+
       $input.addClass("droppable_div");
 
       detectDragend();

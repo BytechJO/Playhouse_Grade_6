@@ -17,7 +17,9 @@
 :root {
   --temp: #a8ddf7;
 }
-
+.func_ctrls{
+  display: none !important;
+}
 .image_gap {
   height: 100%;
   width: intrinsic;

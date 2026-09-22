@@ -5,7 +5,7 @@ var stereo_data = {
   type: "text",
   playListData: [
     {
-      audiourl: "../audios/P18/1.mp3",
+      audiourl: "../audios/P17/1.mp3",
     },
     {
       url: "",
@@ -24,13 +24,13 @@ var prep_circle_underline_data = {
   mainTitle: "../images/pages/sb-icons/LANGUAGE_BUILDING.jpg",
   mainTitleIcon: "../images/pages/sb-icons/readwrite_main_title_icon.png",
   mainTitleIconPos: { right: "-43px" },
-  mainTitleAudio: "../audios/P18/LANGUAGE_BUILDING.mp3",
+  mainTitleAudio: "../audios/P17/LANGUAGE_BUILDING.mp3",
   subTitleTextLeft:
     "<span class='title-order'>1</span> Complete it! Circle the preposition in each sentence and underline the object of the prepositional phrase.",
   subTitleTextRight: "",
   subTitleIcons: [],
   subTitleAudio:
-    "../audios/P18/1_Complete_it!_Circle_the_preposition_in_each_sentence_and_underline_the_object_of_the_prepositional.mp3",
+    "../audios/P17/1_Complete_it!_Circle_the_preposition_in_each_sentence_and_underline_the_object_of_the_prepositional.mp3",
 
   // =====================================================
   // IMPORTANT

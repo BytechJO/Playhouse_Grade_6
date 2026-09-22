@@ -16,7 +16,12 @@
 .mainTitle {
     height: 100%;
 }
-
+.text_input_area:focus {
+    outline: none;
+    box-shadow: none;
+    border: none;
+    border-bottom: 2px solid black;
+}
 .mainTitleIcon {
     right: -18px;
     position: absolute;

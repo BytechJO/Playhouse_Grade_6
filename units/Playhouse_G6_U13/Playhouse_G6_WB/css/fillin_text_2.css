@@ -32,7 +32,7 @@
 .img_space img{
     position: absolute;
     left: 80px;
-    top: 400px;
+    top: 51%;
     width: fit-content !important;
     height: 175px;
     object-fit: contain;

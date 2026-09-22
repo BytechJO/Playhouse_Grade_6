@@ -20,7 +20,10 @@
     border-bottom: 1px solid #5e5e5e;
     height: 160px;
 }
-
+input:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
 .q_Box:last-child {
     border-bottom: none;
 }

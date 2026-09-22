@@ -88,7 +88,7 @@ ol li span {
     background-color: white;
     border-radius: 10px;
     width: 200px; */
-    /* height: 56px; */
+    height: 90px;
 }
 
 .txtBox {
@@ -132,7 +132,6 @@ ol li span {
 }
 
 .fillin_set {
-    padding: 10px;
     display: flex;
     width: 100%;
 }

@@ -5,7 +5,7 @@ var stereo_data = {
   type: "text",
   playListData: [
     {
-      audiourl: "../audios/P18/2.mp3",
+      audiourl: "../audios/P17/2.mp3",
     },
     {
       url: "",
@@ -24,18 +24,18 @@ var fillin_data = {
   mainTitle: "../images/pages/sb-icons/LANGUAGE_BUILDING.jpg",
   mainTitleIcon: "../images/pages/sb-icons/readwrite_main_title_icon.png",
   mainTitleIconPos: { right: "-43px" },
-  mainTitleAudio: "../audios/P18/LANGUAGE_BUILDING.mp3",
+  mainTitleAudio: "../audios/P17/LANGUAGE_BUILDING.mp3",
   subTitleTextLeft:
     "<span class='blue_text'>2</span> Write it! <span class='light_text'>Write sentences using the prepositional phrases given.</span>",
   subTitleTextRight: "",
   subTitleIcons: [],
   subTitleAudio:
-    "../audios/P18/2_Write_it!_Write_sentences_using_the_prepositional_phrases_given.mp3",
+    "../audios/P17/2_Write_it!_Write_sentences_using_the_prepositional_phrases_given.mp3",
   activityheading:
     "Practise it! Complete the conversation using the Word Power words",
-  activityheading_audio: "../audios/P18/under.mp3",
+  activityheading_audio: "../audios/P17/under.mp3",
   main_activityheading: "../images/pages/activities/conversation.jpg",
-  main_activityheading_audio: "../audios/P18/under.mp3",
+  main_activityheading_audio: "../audios/P17/under.mp3",
   activitysubheading: "",
   activityicon: "../images/icons/key_icon.png",
   image: "",
@@ -47,7 +47,7 @@ var fillin_data = {
     {
       singleword: false,
       text: "[_](<span class='blue_text'>from the house</span>)",
-      textaudios: ["../audios/P18/under.mp3"],
+      textaudios: ["../audios/P17/under.mp3"],
       audio: "",
       audioenable: "default", // correct (or) default
       image: "",
@@ -61,7 +61,7 @@ var fillin_data = {
     {
       singleword: false,
       text: "[_](<span class='blue_text'>next to the school</span>)",
-      textaudios: ["../audios/P18/under.mp3", "../audios/P18/under.mp3"],
+      textaudios: ["../audios/P17/under.mp3", "../audios/P17/under.mp3"],
       audio: "",
       audioenable: "default", // correct (or) default
       image: "",
@@ -75,7 +75,7 @@ var fillin_data = {
     {
       singleword: false,
       text: "[_](<span class='blue_text'>over the sea</span>)",
-      textaudios: ["../audios/P18/under.mp3", "../audios/P18/under.mp3"],
+      textaudios: ["../audios/P17/under.mp3", "../audios/P17/under.mp3"],
       audio: "",
       audioenable: "default", // correct (or) default
       image: "",
@@ -89,7 +89,7 @@ var fillin_data = {
     {
       singleword: false,
       text: "[_](<span class='blue_text'>at the cinema</span>)",
-      textaudios: ["../audios/P18/under.mp3", "../audios/P18/under.mp3"],
+      textaudios: ["../audios/P17/under.mp3", "../audios/P17/under.mp3"],
       audio: "",
       audioenable: "default", // correct (or) default
       image: "",
@@ -103,7 +103,7 @@ var fillin_data = {
     {
       singleword: false,
       text: "[_](<span class='blue_text'>through the picnic area</span>)",
-      textaudios: ["../audios/P18/under.mp3", "../audios/P18/under.mp3"],
+      textaudios: ["../audios/P17/under.mp3", "../audios/P17/under.mp3"],
       audio: "",
       audioenable: "default", // correct (or) default
       image: "",
@@ -117,7 +117,7 @@ var fillin_data = {
     {
       singleword: false,
       text: "[_](<span class='blue_text'>by the doctor’s surgery</span>)",
-      textaudios: ["../audios/P18/under.mp3", "../audios/P18/under.mp3"],
+      textaudios: ["../audios/P17/under.mp3", "../audios/P17/under.mp3"],
       audio: "",
       audioenable: "default", // correct (or) default
       image: "",
@@ -131,7 +131,7 @@ var fillin_data = {
     {
       singleword: false,
       text: "[_](<span class='blue_text'>after the main street</span>)",
-      textaudios: ["../audios/P18/under.mp3", "../audios/P18/under.mp3"],
+      textaudios: ["../audios/P17/under.mp3", "../audios/P17/under.mp3"],
       audio: "",
       audioenable: "default", // correct (or) default
       image: "",
@@ -145,7 +145,7 @@ var fillin_data = {
     {
       singleword: false,
       text: "[_](<span class='blue_text'>around the city</span>)",
-      textaudios: ["../audios/P18/under.mp3", "../audios/P18/under.mp3"],
+      textaudios: ["../audios/P17/under.mp3", "../audios/P17/under.mp3"],
       audio: "",
       audioenable: "default", // correct (or) default
       image: "",

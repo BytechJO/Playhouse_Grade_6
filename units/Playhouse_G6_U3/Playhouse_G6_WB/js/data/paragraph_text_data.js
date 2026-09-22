@@ -5,7 +5,7 @@ var stereo_data = {
   type: "text",
   playListData: [
     {
-      audiourl: "../audios/P16/1.mp3",
+      audiourl: "../audios/P15/1.mp3",
     },
     {
       url: "",
@@ -24,11 +24,11 @@ var fillin_data = {
   mainTitle: "../images/pages/sb-icons/CONVERSATION.jpg",
   mainTitleIcon: "",
   mainTitleIconPos: { right: "-18px" },
-  mainTitleAudio: "../audios/P16/CONVERSATION.mp3",
+  mainTitleAudio: "../audios/P15/CONVERSATION.mp3",
   subTitleTextLeft: "<span class='blue_text'>1</span> Read it and say it!",
   subTitleTextRight: "",
   subTitleIcons: [],
-  subTitleAudio: "../audios/P16/1_Read_it_and_say_it!.mp3",
+  subTitleAudio: "../audios/P15/1_Read_it_and_say_it!.mp3",
   activityheading: "",
   activityheading_audio: "../audios/P16/under.mp3",
   activityicon: "../images/icons/key_icon.png",

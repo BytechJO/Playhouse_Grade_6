@@ -1,231 +1,524 @@
-.all_cont{
-    height: 100%;
-    text-align: center;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-}
-.screen_elements{
-    width: 90%;
-    height: 100%;
-    flex-direction: column;
-    justify-content: space-around;
+/* =========================================================
+   MAIN
+========================================================= */
+
+.all_cont {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
 }
 
-.group_elm{
-    width: 95%;
-    height: 50%;
-    display: flex;
-    flex-direction: unset;
-    flex-wrap: wrap;
-    /* justify-content: center; */
-    align-items: center;
-    justify-content: space-around;
+.screen_elements {
+  width: 80%;
+  height: 100%;
+
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+
+  justify-content: flex-start;
+}
+/* =========================================================
+   OPTIONS AREA
+========================================================= */
+
+.word_opt_sticky {
+  width: 100%;
+
+  margin: 0 auto 15px;
+
+  position: relative;
+  margin-top: 30px;
+  z-index: 5;
 }
 
-.activityHeading b {
-    color: #000;
+.word_options {
+  width: 100%;
+
+  display: grid;
+
+  grid-template-columns: repeat(3, 1fr);
+
+  gap: 8px 12px;
+
+  border-radius: 10px;
 }
 
-.q_num_space{
-    width: 20px;
-    font-weight: bold;
+/* =========================================================
+   OPTION
+========================================================= */
+
+.word_options .textEnd {
+  width: 100%;
+  height: 58px;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: flex-start;
+
+  background-image: url("../images/pages/activities/1-img-1.png");
+
+  background-size: 100% 100%;
+
+  background-repeat: no-repeat;
+
+  box-sizing: border-box;
+
+  margin: 0;
 }
 
-.image_space {
-    width: 75%;
-    height: 342px;
-    margin: 0px auto;
-}
-  
-.image_space img {
-    height: 100%;
-    width: 100%;
-    object-fit: contain;
+.clue_word {
+  width: 100%;
+
+  padding: 0 18px;
+
+  box-sizing: border-box;
+
+  font-family: Arcon;
+  font-size: 20px;
+
+  text-align: left;
+
+  color: #3d3939;
 }
 
-.q_order{
-    width: 50px;
-    font-weight: bolder;
+.clue_word b {
+  display: inline-block;
+
+  margin-right: 10px;
+
+  font-size: 21px;
 }
 
-.txt-audioIcon{
-    /* width: 95px; */
+/* =========================================================
+   QUESTIONS MAIN LAYOUT
+========================================================= */
+
+.questions_layout {
+  width: 100%;
+
+  margin-top: 8px;
+
+  display: grid;
+
+  grid-template-columns:
+    minmax(0, 1fr)
+    130px
+    minmax(0, 1fr);
+
+  grid-template-rows: repeat(3, 44px);
+
+  column-gap: 18px;
+  row-gap: 1px;
+
+  align-items: center;
+
+  position: relative;
 }
 
-.ques{
-    width: 100%;
-    align-items: center;
-    padding: 10px;
-    text-align: center;
-}
-
-.q_box{
-    width:  100%;
-    height: 70px;
-}
+/* =========================================================
+   QUESTION GENERAL
+========================================================= */
 
 .fill_in .que {
-    width: 425px;
-    /* height: 121px; */
-    text-align: left;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: unset !important;
+  width: 100% !important;
+  height: 44px;
 
+  margin: 0;
+  padding: 0;
+
+  display: flex !important;
+
+  flex-direction: row !important;
+
+  align-items: center;
+
+  text-align: left;
+
+  box-sizing: border-box;
 }
-.textFront{
-    width: 550px;
 
+/* =========================================================
+   POSITION QUESTIONS
+   Order in data:
+   1, 4, 2, 5, 3, 6
+========================================================= */
+
+/* 1 */
+.question_1 {
+  grid-column: 1;
+  grid-row: 1;
 }
-.fillin_gr{
-    /* width: 550px;
-    padding: 7px;
-    border-radius: 20px; */
 
+/* 4 */
+.question_2 {
+  grid-column: 3;
+  grid-row: 1;
+}
+
+/* 2 */
+.question_3 {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+/* 5 */
+.question_4 {
+  grid-column: 3;
+  grid-row: 2;
+}
+
+/* 3 */
+.question_5 {
+  grid-column: 1;
+  grid-row: 3;
+}
+
+/* 6 */
+.question_6 {
+  grid-column: 3;
+  grid-row: 3;
+}
+
+/* =========================================================
+   CENTER IMAGE
+========================================================= */
+
+.center_question_image {
+  grid-column: 2;
+  grid-row: 1 / 4;
+
+  width: 120px;
+  height: 135px;
+
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+
+  justify-self: center;
+  align-self: center;
+}
+
+.center_question_image img {
+  width: 100%;
+  height: 100%;
+  margin-right: 200px;
+  object-fit: contain;
+}
+
+/* =========================================================
+   QUESTION CONTENT
+========================================================= */
+
+.fillin_gr {
+  width: 100%;
+
+  display: flex;
+
+  align-items: center;
 }
 
 .fillin_gr .q_space {
-    width: 100%;
+  width: 100%;
+
+  display: flex;
+
+  align-items: center;
 }
+
+/* =========================================================
+   SENTENCE
+========================================================= */
 
 .fillin_set {
-    font-family: Arcon;
-    font-size: 25px;
-    color: black;
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
+
+  display: flex;
+
+  align-items: center;
+
+  flex-wrap: nowrap;
+
+  font-family: Arcon;
+  font-size: 21px;
+
+  color: #3b3737;
+
+  white-space: nowrap;
 }
 
-.fillin_set input:focus{
-    outline: none;
+/* =========================================================
+   GENERATED TEXT PART
+========================================================= */
+
+.fillin_set .txt-audioIcon {
+  width: auto !important;
+
+  display: inline-flex !important;
+
+  align-items: center;
+
+  flex: 0 0 auto;
+
+  color: #3b3737;
+
+  font-family: Arcon;
+  font-size: 21px;
+
+  white-space: nowrap;
 }
 
-.fillin_set input {
-    /* flex: 2 2 10px; */
-    width: 50px;
-    height: 35px;
-    color: black;
-    /* padding-left: 20px; */
-    text-align: center;
-    margin: 0px 15px;
-    border: none;
-    font-size: 23px;
-    border-bottom: 2px solid #3c3c3c;
+/* =========================================================
+   QUESTION NUMBER
+========================================================= */
+
+.fillin_set b {
+  display: inline-block;
+
+  min-width: 16px;
+
+  margin-right: 5px;
+
+  font-size: 21px;
+  font-weight: bold;
+
+  color: #222;
 }
 
+/* =========================================================
+   INPUT
+========================================================= */
 
+.fillin_set input.text_input_area {
+  width: 42px !important;
+  min-width: 42px !important;
+  max-width: 42px !important;
+
+  height: 27px;
+
+  flex: 0 0 42px;
+
+  margin: 0 8px 0 4px;
+
+  padding: 0;
+
+  box-sizing: border-box;
+
+  font-family: Arcon;
+  font-size: 19px;
+
+  text-align: center;
+
+  color: #222;
+
+  background: transparent;
+
+  border: none;
+
+  border-bottom: 1.5px solid #444;
+
+  border-radius: 0;
+
+  outline: none;
+}
+
+.fillin_set input.text_input_area:focus {
+  outline: none;
+
+  border-bottom: 2px solid #00b7ce;
+}
+
+/* =========================================================
+   ICONS
+========================================================= */
+
+.icon_wrap_holder {
+  width: 30px;
+
+  min-width: 30px;
+
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
 
 .icon_wrap {
-    /* position: absolute;
-    margin-top: -35px; 
-    right: 100px; */
-    
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
 }
 
 .tick,
 .cross {
-    width: 35px;
+  width: 25px;
 }
 
 .tick img,
 .cross img {
-    width: 100%;
+  width: 100%;
+  height: auto;
 }
+
+/* =========================================================
+   HIDE UNUSED IMAGE AREA
+========================================================= */
 
 .image_wrap {
-    display: none;
+  display: none;
 }
 
-.clue_word {
-    padding: 2px 27px;
-    font-size: 22px;
-   
+/* =========================================================
+   RESPONSIVE
+========================================================= */
+
+@media (max-width: 1200px) {
+  .screen_elements {
+    width: 95%;
+  }
+
+  .questions_layout {
+    grid-template-columns:
+      minmax(0, 1fr)
+      100px
+      minmax(0, 1fr);
+
+    column-gap: 12px;
+  }
+
+  .center_question_image {
+    width: 95px;
+    height: 125px;
+  }
+
+  .fillin_set,
+  .fillin_set .txt-audioIcon {
+    font-size: 18px;
+  }
+
+  .fillin_set b {
+    font-size: 18px;
+  }
+
+  .word_options .textEnd {
+    height: 53px;
+  }
+
+  .clue_word {
+    font-size: 18px;
+  }
 }
 
-.word_options .textEnd{
-    background-image: url(../images/pages/activities/1-img-1.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 71px;
-    width: 350px;
-    align-items: center;
-    justify-content: center;
-    margin: 5px 0px;
-}
+/* =========================================================
+   TABLET
+========================================================= */
 
-.word_options {
-    width: 100%;
-    border-radius: 10px;
-    /* background-color: #c3f4ff8c; */
-}
+@media (max-width: 900px) {
+  .word_options {
+    grid-template-columns: repeat(2, 1fr);
+  }
 
-.word_opt_sticky {
-    width: 100%;
-    margin: 0px auto;
-    position: -webkit-sticky;
-    position: sticky;
-    position: -webkit-sticky;
-    top: 0;
-    z-index: 5;
-    border: 2px solid var(--temp);
-    border-radius: 10px;
-}
+  .questions_layout {
+    grid-template-columns:
+      minmax(0, 1fr)
+      80px
+      minmax(0, 1fr);
 
-.words-list li{
+    column-gap: 8px;
+  }
+
+  .center_question_image {
+    width: 75px;
     height: 110px;
-    font-weight: bolder;
-    color: black;
-    border: 1px solid black;
-    align-items: center;
+  }
+
+  .fillin_set,
+  .fillin_set .txt-audioIcon {
+    font-size: 16px;
+  }
+
+  .fillin_set b {
+    font-size: 16px;
+  }
+
+  .fillin_set input.text_input_area {
+    width: 35px !important;
+    min-width: 35px !important;
+    max-width: 35px !important;
+
+    flex: 0 0 35px;
+
+    margin: 0 4px;
+  }
+}
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 650px) {
+  .word_options {
+    grid-template-columns: 1fr;
+  }
+
+  .questions_layout {
     display: flex;
-    justify-content: center;
-}
 
-.right-content .p-0{
-    height: 110px;
-    border: 1px solid black;
-}
+    flex-direction: column;
 
-.tips_content img {
-    height: 30px;
-    width: auto;
-    margin-top: 10px;
-}
+    gap: 8px;
+  }
 
-.image-container{
-    position: absolute;
-    right: 260px;
-    bottom: 50px;
-    
-}
+  .fill_in .que {
+    width: 100% !important;
+    height: auto;
+    min-height: 40px;
+  }
 
-.image-container img{
-    width: 300px;
-    height: 210px;
-    margin: 0px 70px;
-    object-fit: cover;
-    border-radius: 15px;
-    border: 2px solid #36a0c7;
-}
+  .center_question_image {
+    order: 3;
 
-/* ************************************************* */
-/* ************************************************* */
-@media (max-width: 991.98px) {
-    .fill_in .que {
-        width: 160px;
-    }
-}
+    width: 100px;
+    height: 120px;
 
-@media (max-width: 575.98px) {
-    .fill_in .que {
-        width: 200px;
-    }
-}
+    margin: 5px auto;
+  }
 
-@media (max-width: 475.98px) {
-    /* .fill_in .que {
-        width: 200px;
-    } */
+  .question_1 {
+    order: 1;
+  }
+
+  .question_3 {
+    order: 2;
+  }
+
+  .question_5 {
+    order: 4;
+  }
+
+  .question_2 {
+    order: 5;
+  }
+
+  .question_4 {
+    order: 6;
+  }
+
+  .question_6 {
+    order: 7;
+  }
+
+  .fillin_set,
+  .fillin_set .txt-audioIcon {
+    font-size: 17px;
+  }
 }

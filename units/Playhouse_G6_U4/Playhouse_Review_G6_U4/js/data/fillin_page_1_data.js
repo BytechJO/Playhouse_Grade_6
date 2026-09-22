@@ -29,6 +29,34 @@ var fillin_data = {
     "flight",
     "check-in",
   ],
+  flexibleGroups: [
+    {
+      inputs: [
+        {
+          questionIndex: 1,
+          inputIndex: 1,
+          allowed: ["passport", "boarding card", "e-ticket"],
+        },
+
+        {
+          questionIndex: 2,
+          inputIndex: 0,
+          allowed: ["passport", "boarding card", "e-ticket"],
+        },
+
+        {
+          questionIndex: 4,
+          inputIndex: 1,
+
+          // هون passport ممنوعة
+          // لأنها موجودة أصلًا بعد and
+          allowed: ["boarding card", "e-ticket"],
+        },
+      ],
+
+      answers: ["passport", "boarding card", "e-ticket"],
+    },
+  ],
   optionsAudios: ["", "", "", "", "", "", "", "", "", "", "", "", "", ""],
   questions: [
     {

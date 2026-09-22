@@ -57,7 +57,7 @@ var reading_data = {
         "<span class='blue_text'>Max:</span>",
         "I hope it's not going to be another <span class='blue_text'>heatwave</span> like last month.",
         "<span class='blue_text'>Jenny:</span>",
-        "That was no joke! The <span class='blue_text'>thermometer</span> at my house said 38�</br> <span class='blue_text'>Celsius</span>. It was too hot to handle.",
+        "That was no joke! The <span class='blue_text'>thermometer</span> at my house said 38&deg;</br> <span class='blue_text'>Celsius</span>. It was too hot to handle.",
         "<span class='blue_text'>Max:</span>",
         "Yoshi said that there's a <span class='blue_text'>hurricane</span> in the Atlantic Ocean. If it comes our way, things won't be fine and dandy!",
         "<span class='blue_text'>Jenny:</span>",

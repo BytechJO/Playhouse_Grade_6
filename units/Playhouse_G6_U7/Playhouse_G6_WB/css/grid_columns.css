@@ -292,8 +292,6 @@ input:focus {
 
 .reading_container .all_cont {
   width: 80%;
-  height: 100%;
-  margin-bottom: 50px !important;
   margin: 0 auto;
 
   display: flex !important;
@@ -316,6 +314,7 @@ input:focus {
   display: flex;
   justify-content: center;
   align-items: stretch;
+  margin-bottom: 50px !important;
 
   position: relative;
 }
@@ -356,7 +355,6 @@ input:focus {
 /* ====================================================== */
 
 .autobiography_box .snap_group_all .row {
-  min-height: 27px !important;
   margin: 0 !important;
 
   align-items: center;
